@@ -1,0 +1,381 @@
+{
+  "config": {
+    "model": "qwen3-max",
+    "num_samples": 50
+  },
+  "metrics": {
+    "accuracy": 0.3,
+    "total": 50,
+    "correct": 15,
+    "True": {
+      "precision": 0.7272727272727273,
+      "recall": 0.42105263157894735,
+      "f1": 0.5333333333333333,
+      "support": 19
+    },
+    "False": {
+      "precision": 0.6363636363636364,
+      "recall": 0.3888888888888889,
+      "f1": 0.4827586206896552,
+      "support": 18
+    },
+    "NEI": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0,
+      "support": 13
+    }
+  },
+  "details": [
+    {
+      "index": 0,
+      "ground_truth": "True",
+      "prediction": "True",
+      "correct": true,
+      "response": "Prediction: True  \nExplanation: The contextual information provides verified evidence from official voter registration databases in both Nevada and Florida confirming that Carl Nassib is registered as..."
+    },
+    {
+      "index": 1,
+      "ground_truth": "True",
+      "prediction": "True",
+      "correct": true,
+      "response": "Prediction: True  \nExplanation: The contextual information confirms that texting the word \"FOOD\" to 877-877 is a legitimate service operated by No Kid Hungry, an initiative of Share Our Strength, in p..."
+    },
+    {
+      "index": 2,
+      "ground_truth": "True",
+      "prediction": "True",
+      "correct": true,
+      "response": "Prediction: True  \nExplanation: The claim \"Grand Canyon Skywalk\" is supported by extensive contextual information confirming its existence, construction, and opening. The Skywalk was proposed, built, ..."
+    },
+    {
+      "index": 3,
+      "ground_truth": "True",
+      "prediction": "True",
+      "correct": true,
+      "response": "Prediction: True  \nExplanation: The claim that Wisconsin's rainy day fund is 165 times bigger than when Gov. Scott Walker first took office is supported by the contextual information. When Walker assu..."
+    },
+    {
+      "index": 4,
+      "ground_truth": "False",
+      "prediction": "False",
+      "correct": true,
+      "response": "Prediction: False  \nExplanation: The claim that the photograph shows women \"screaming through their vaginas\" to protest Trump is false. The image predates Trump's presidency, having circulated as earl..."
+    },
+    {
+      "index": 5,
+      "ground_truth": "True",
+      "prediction": "True",
+      "correct": true,
+      "response": "Prediction: True  \nExplanation: The claim that state lawmakers have voted to spend virtually all of the Rainy Day Fund four times since its creation is supported by multiple credible sources cited in ..."
+    },
+    {
+      "index": 6,
+      "ground_truth": "True",
+      "prediction": "True",
+      "correct": true,
+      "response": "Prediction: True  \nExplanation: The contextual information clearly shows that during his 2020 presidential campaign, Joe Biden explicitly proposed eliminating the \"stepped-up basis\" for capital gains ..."
+    },
+    {
+      "index": 7,
+      "ground_truth": "False",
+      "prediction": "False",
+      "correct": true,
+      "response": "Prediction: False  \nExplanation: The claim that Donald Trump tweeted that drug testing will be mandatory for public benefit recipients is false. Although a screenshot of such a tweet circulated on soc..."
+    },
+    {
+      "index": 8,
+      "ground_truth": "False",
+      "prediction": "False",
+      "correct": true,
+      "response": "Prediction: False  \nExplanation: The claim that Detroit’s decline under Democratic governance is comparable to the destruction of Hiroshima by an atomic bomb is factually inaccurate and misleading. Th..."
+    },
+    {
+      "index": 9,
+      "ground_truth": "NEI",
+      "prediction": "False",
+      "correct": false,
+      "response": "Prediction: False  \nExplanation: The claim suggests that U.S. Senator Mitch McConnell allegedly increased his net worth by approximately $2.4 million annually over ten years, implying a steady, yearly..."
+    },
+    {
+      "index": 10,
+      "ground_truth": "False",
+      "prediction": "False",
+      "correct": true,
+      "response": "Prediction: False  \nExplanation: The claim originates from an article published by World News Daily Report (WNDR), a website explicitly known for publishing satirical and fictional content. The site i..."
+    },
+    {
+      "index": 11,
+      "ground_truth": "False",
+      "prediction": "False",
+      "correct": true,
+      "response": "Prediction: False  \nExplanation: The claim that the Democratic Party is endorsed by AARP is false. According to the contextual information, AARP explicitly states that it is non-partisan and “does not..."
+    },
+    {
+      "index": 12,
+      "ground_truth": "True",
+      "prediction": "True",
+      "correct": true,
+      "response": "Prediction: True  \nExplanation: The claim states that trade deals threaten India's role as the \"pharmacy of the developing world\" for new HIV medicines. The contextual information supports this assert..."
+    },
+    {
+      "index": 13,
+      "ground_truth": "NEI",
+      "prediction": "False",
+      "correct": false,
+      "response": "Prediction: False  \nExplanation: The claim states that Hillary Clinton wore a \"$12,000 Armani jacket\" to deliver a speech on income inequality. While it is true that she wore a Giorgio Armani jacket d..."
+    },
+    {
+      "index": 14,
+      "ground_truth": "NEI",
+      "prediction": "False",
+      "correct": false,
+      "response": "Prediction: False  \nExplanation: The claim that olive oil can \"fix\" or reverse sagging breasts is not supported by scientific evidence. While olive oil contains some antioxidants and fatty acids, only..."
+    },
+    {
+      "index": 15,
+      "ground_truth": "True",
+      "prediction": "NEI",
+      "correct": false,
+      "response": "Prediction: NEI  \nExplanation: The provided contextual information discusses Seattle's efforts to explore Sharia-compliant home financing options for Muslim residents and mentions various local initia..."
+    },
+    {
+      "index": 16,
+      "ground_truth": "NEI",
+      "prediction": "False",
+      "correct": false,
+      "response": "Prediction: False  \nExplanation: The claim that a dashcam video shows a handcuffed man saving a choking police officer is highly likely to be false. The contextual information indicates that the video..."
+    },
+    {
+      "index": 17,
+      "ground_truth": "False",
+      "prediction": "True",
+      "correct": false,
+      "response": "Prediction: True  \nExplanation: The claim that the \"$500 Walmart Store Credit Offer in Facebook Posts Is a Scam\" is supported by the contextual information. The provided details describe a survey scam..."
+    },
+    {
+      "index": 18,
+      "ground_truth": "NEI",
+      "prediction": "True",
+      "correct": false,
+      "response": "Prediction: True  \nExplanation: The contextual information confirms that in the 1980 U.S. presidential election, Jimmy Carter held a lead over Ronald Reagan in polls shortly before Election Day—specif..."
+    },
+    {
+      "index": 19,
+      "ground_truth": "False",
+      "prediction": "False",
+      "correct": true,
+      "response": "Prediction: False  \nExplanation: The claim that the picture shows a drone photo \"we're not supposed to see\" is false. The image in question, which appeared in misleading online advertisements, actuall..."
+    },
+    {
+      "index": 20,
+      "ground_truth": "True",
+      "prediction": "True",
+      "correct": true,
+      "response": "Prediction: Mostly True  \nExplanation: The claim that \"in the 2014 election, 80 percent of poor people did not vote\" is slightly higher than the official Census-based estimates when defining \"poor\" st..."
+    },
+    {
+      "index": 21,
+      "ground_truth": "False",
+      "prediction": "True",
+      "correct": false,
+      "response": "Prediction: True  \nExplanation: The claim that there was a \"Southwest Airlines Las Vegas Ticket Giveaway Fraudulent Scheme\" is supported by the contextual information provided. The text describes mult..."
+    },
+    {
+      "index": 22,
+      "ground_truth": "True",
+      "prediction": "Unknown",
+      "correct": false,
+      "response": ""
+    },
+    {
+      "index": 23,
+      "ground_truth": "NEI",
+      "prediction": "Unknown",
+      "correct": false,
+      "response": ""
+    },
+    {
+      "index": 24,
+      "ground_truth": "False",
+      "prediction": "Unknown",
+      "correct": false,
+      "response": ""
+    },
+    {
+      "index": 25,
+      "ground_truth": "False",
+      "prediction": "Unknown",
+      "correct": false,
+      "response": ""
+    },
+    {
+      "index": 26,
+      "ground_truth": "True",
+      "prediction": "Unknown",
+      "correct": false,
+      "response": ""
+    },
+    {
+      "index": 27,
+      "ground_truth": "True",
+      "prediction": "Unknown",
+      "correct": false,
+      "response": ""
+    },
+    {
+      "index": 28,
+      "ground_truth": "False",
+      "prediction": "NEI",
+      "correct": false,
+      "response": "Prediction: NEI (Not Enough Information)\n\nExplanation: The claim states that \"70% of the women who gave birth at Parkland Memorial Hospital in the first three months of 2006 were illegal immigrants.\" ..."
+    },
+    {
+      "index": 29,
+      "ground_truth": "True",
+      "prediction": "Unknown",
+      "correct": false,
+      "response": ""
+    },
+    {
+      "index": 30,
+      "ground_truth": "True",
+      "prediction": "Unknown",
+      "correct": false,
+      "response": ""
+    },
+    {
+      "index": 31,
+      "ground_truth": "NEI",
+      "prediction": "Unknown",
+      "correct": false,
+      "response": ""
+    },
+    {
+      "index": 32,
+      "ground_truth": "NEI",
+      "prediction": "Unknown",
+      "correct": false,
+      "response": ""
+    },
+    {
+      "index": 33,
+      "ground_truth": "True",
+      "prediction": "Unknown",
+      "correct": false,
+      "response": ""
+    },
+    {
+      "index": 34,
+      "ground_truth": "True",
+      "prediction": "Unknown",
+      "correct": false,
+      "response": ""
+    },
+    {
+      "index": 35,
+      "ground_truth": "NEI",
+      "prediction": "Unknown",
+      "correct": false,
+      "response": ""
+    },
+    {
+      "index": 36,
+      "ground_truth": "False",
+      "prediction": "Unknown",
+      "correct": false,
+      "response": ""
+    },
+    {
+      "index": 37,
+      "ground_truth": "False",
+      "prediction": "False",
+      "correct": true,
+      "response": "Prediction: False  \nExplanation: The claim that Juval Aviv correctly predicted upcoming terrorist attacks against the U.K. and the U.S.—specifically the July 2005 London subway bombings—is not support..."
+    },
+    {
+      "index": 38,
+      "ground_truth": "True",
+      "prediction": "Unknown",
+      "correct": false,
+      "response": ""
+    },
+    {
+      "index": 39,
+      "ground_truth": "NEI",
+      "prediction": "Unknown",
+      "correct": false,
+      "response": ""
+    },
+    {
+      "index": 40,
+      "ground_truth": "False",
+      "prediction": "Unknown",
+      "correct": false,
+      "response": ""
+    },
+    {
+      "index": 41,
+      "ground_truth": "False",
+      "prediction": "Unknown",
+      "correct": false,
+      "response": ""
+    },
+    {
+      "index": 42,
+      "ground_truth": "True",
+      "prediction": "Unknown",
+      "correct": false,
+      "response": ""
+    },
+    {
+      "index": 43,
+      "ground_truth": "True",
+      "prediction": "Unknown",
+      "correct": false,
+      "response": ""
+    },
+    {
+      "index": 44,
+      "ground_truth": "NEI",
+      "prediction": "Unknown",
+      "correct": false,
+      "response": ""
+    },
+    {
+      "index": 45,
+      "ground_truth": "False",
+      "prediction": "Unknown",
+      "correct": false,
+      "response": ""
+    },
+    {
+      "index": 46,
+      "ground_truth": "False",
+      "prediction": "Unknown",
+      "correct": false,
+      "response": ""
+    },
+    {
+      "index": 47,
+      "ground_truth": "NEI",
+      "prediction": "Unknown",
+      "correct": false,
+      "response": ""
+    },
+    {
+      "index": 48,
+      "ground_truth": "NEI",
+      "prediction": "Unknown",
+      "correct": false,
+      "response": ""
+    },
+    {
+      "index": 49,
+      "ground_truth": "False",
+      "prediction": "Unknown",
+      "correct": false,
+      "response": ""
+    }
+  ]
+}

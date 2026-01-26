@@ -1,0 +1,36 @@
+# Financial Truth Guard 核心依赖
+# 精简版 - 只包含项目运行必需的包
+
+# Django Web框架
+Django==5.0.4
+asgiref==3.8.1
+sqlparse==0.4.4
+
+# 机器学习核心库
+numpy==1.26.0
+pandas==2.1.1
+scikit-learn==1.3.2
+scipy==1.11.3
+joblib==1.3.2
+
+# 深度学习 (TensorFlow/Keras)
+tensorflow==2.14.0
+keras==2.14.0
+h5py==3.10.0
+
+# 自然语言处理
+nltk==3.8.1
+
+# 数据可视化
+matplotlib==3.8.0
+seaborn==0.13.2
+
+# Web爬取和解析
+beautifulsoup4==4.12.2
+requests==2.31.0
+
+# 工具库
+python-dateutil==2.8.2
+pytz==2023.3.post1
+tqdm==4.66.1
+regex==2023.12.25

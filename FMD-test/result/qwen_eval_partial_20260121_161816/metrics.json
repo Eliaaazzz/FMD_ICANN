@@ -1,0 +1,49 @@
+{
+  "overall_metrics": {
+    "accuracy": 0.8585858585858586,
+    "macro_precision": 0.8591722023505366,
+    "macro_recall": 0.8585858585858586,
+    "macro_f1": 0.8585281208533224
+  },
+  "per_class": {
+    "1_true": {
+      "precision": 0.8446601941747572,
+      "recall": 0.8787878787878788,
+      "f1": 0.8613861386138614,
+      "support": 99
+    },
+    "0_fake": {
+      "precision": 0.8736842105263158,
+      "recall": 0.8383838383838383,
+      "f1": 0.8556701030927836,
+      "support": 99
+    }
+  },
+  "confusion_matrix": {
+    "tp": 87,
+    "tn": 83,
+    "fp": 16,
+    "fn": 12
+  },
+  "errors": 2,
+  "total_evaluated": 198,
+  "model": "qwen3-max",
+  "label_distribution": {
+    "true_labels": {
+      "0": 100,
+      "1": 100
+    },
+    "pred_labels": {
+      "0": 95,
+      "1": 103,
+      "unknown": 2
+    }
+  },
+  "token_estimate": {
+    "prompt_prefix_chars": 108,
+    "total_prompt_chars": 915642,
+    "estimated_tokens": 228911,
+    "items": 200,
+    "sample_size_each": 100
+  }
+}

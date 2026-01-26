@@ -1,0 +1,130 @@
+{
+  "config": {
+    "model": "qwen3-max",
+    "num_samples": 10,
+    "random_seed": 42,
+    "true_data_path": "data/FinGuard/Finance_TRUE.csv",
+    "fake_data_path": "data/FinGuard/Finance_FAKE.csv"
+  },
+  "metrics": {
+    "accuracy": 0.7,
+    "total": 10,
+    "correct": 7,
+    "unknown_count": 0,
+    "True": {
+      "precision": 0.6666666666666666,
+      "recall": 0.8,
+      "f1": 0.7272727272727272,
+      "support": 5
+    },
+    "False": {
+      "precision": 0.75,
+      "recall": 0.6,
+      "f1": 0.6666666666666665,
+      "support": 5
+    },
+    "macro_f1": 0.6969696969696968
+  },
+  "details": [
+    {
+      "index": 0,
+      "text_preview": "After the announcement of his nomination to the US Supreme Court on Tuesday, Judge Neil Gorsuch praised former Justice Antonin Scalia as a â€œlion of the law. â€ And stated, â€œit is for Congress and",
+      "source_file": "TRUE",
+      "original_index": 8024,
+      "ground_truth": "True",
+      "prediction": "True",
+      "correct": true,
+      "response": "Prediction: True\n\nExplanation:  \n该新闻内容高度符合历史事实和公开记录，具备真实性。核心判定理由如下：\n\n1. **内容与历史事实一致**：尼尔·戈萨奇（Neil Gorsuch）于2017年1月31日被时任总统唐纳德·特朗普提名为美国最高法院大法官，以接替已故大法官安东宁·斯卡利亚（Antonin Scalia）。新闻中引用的言论——包括称斯卡利亚为“法律之狮”（lion of the law）、强调法官应适用而非修改法律、提及曾为其担任书记员的拜伦·怀特（Byron White）和安东尼·肯尼迪（Anthony Kennedy）等——均与戈萨奇在提名宣布当晚发表的公开讲话内容高度吻合。这些讲话被多家主流媒体（如《纽约时报》、CNN、NPR等）广泛报道。\n\n2. **语言风格专业规范**：引述内容使用正式、克制的法律语言，符合司法提名人公开表态的惯例，强调司法克制（judicial restraint）、宪法忠诚、司法独立与中立等原则，无夸张、煽情或情绪化措辞。\n\n3. **无明显误导或虚构信息**：文中提到的人物关系（如戈萨奇曾为怀特和肯尼迪担任书记..."
+    },
+    {
+      "index": 1,
+      "text_preview": "Four months after a heavy electoral defeat, France s National Front is on the verge of a split between its leader and her chief deputy that could open the way to a policy change on the euro as the far",
+      "source_file": "TRUE",
+      "original_index": 9012,
+      "ground_truth": "True",
+      "prediction": "True",
+      "correct": true,
+      "response": "Prediction: True\n\nExplanation:  \n该新闻内容具有高度的可信度，理由如下：\n\n1. **符合历史事实与常识逻辑**：  \n   新闻描述的是2017年法国总统大选后，国民阵线（National Front，现更名为“国民联盟”Rassemblement National）内部围绕欧元政策和领导权出现的紧张关系。这一事件在现实中确实发生。玛丽娜·勒庞（Marine Le Pen）在2017年总统选举第二轮中败给埃马纽埃尔·马克龙（Emmanuel Macron），随后其核心幕僚弗洛里安·菲利波（Florian Philippot）因坚持激进的“退出欧元区”立场而遭到党内越来越多批评。勒庞为重塑政党形象、争取更广泛选民支持，开始淡化反欧元立场，转而强调移民和身份认同议题，这与新闻所述完全一致。\n\n2. **人物与事件细节准确**：  \n   - 菲利波确实是勒庞长期的亲密顾问，负责战略与通讯，并主导了反欧元政策。\n   - 他于2017年创立名为“爱国者”（Les Patriotes）的政治团体，主张法国退出欧元区。\n   - 勒庞确实在2017年9月宣布解除..."
+    },
+    {
+      "index": 2,
+      "text_preview": "WASHINGTON  â€”   President Trump, inspired by TV images of faraway suffering to launch missile strikes against Syria, may be about to discover a lesson that has confounded presidents for 25 years: Am",
+      "source_file": "TRUE",
+      "original_index": 7314,
+      "ground_truth": "True",
+      "prediction": "True",
+      "correct": true,
+      "response": "Prediction: True\n\nExplanation:\n该新闻文本具有高度的可信度，理由如下：\n\n1. **内容符合历史事实与常识**：  \n   文章提到特朗普政府对叙利亚发动导弹打击，这与2017年4月和2018年4月美国对叙利亚的两次实际军事行动相符（分别针对沙伊拉特空军基地和杜马化武袭击事件）。同时，文中提及尼日利亚东北部由“博科圣地”（Boko Haram）引发的人道主义危机、造成数万人死亡和约300万人流离失所，这一数据与联合国、国际红十字会及多家主流媒体（如BBC、路透社、纽约时报）在2016–2018年间的报道一致。\n\n2. **语言表达专业规范**：  \n   文本采用典型的《纽约时报》式分析性新闻语体，结构严谨，逻辑清晰，使用了比较分析框架（叙利亚 vs. 尼日利亚），并探讨了美国外交政策中的战略差异、地缘政治考量与干预局限性。措辞客观，未见煽情或情绪化语言，符合高质量新闻报道的标准。\n\n3. **无明显夸大或误导**：  \n   文中并未声称美国“解决了”任何危机，反而强调“美国力量的局限性”和“干预成效有限”，这与学术界和政策界对后冷战时代人道干预的普遍反..."
+    },
+    {
+      "index": 3,
+      "text_preview": "0 419 \nSocial Security is the lifeline of many people who are either too elderly or disabled to support themselves or their loved ones financially. However, to Republicans and conservatives alike, it ",
+      "source_file": "FAKE",
+      "original_index": 12135,
+      "ground_truth": "False",
+      "prediction": "False",
+      "correct": true,
+      "response": "Prediction: False\n\nExplanation:  \n该文本并非一篇客观、可信的新闻报道，而是一篇带有强烈政治倾向和情绪化语言的评论性文章，甚至包含误导性陈述和未经证实的指控，因此其作为“新闻”的真实性应被判定为不可信（False）。以下是关键分析：\n\n1. **不符合新闻专业规范**：  \n   真实新闻应秉持客观、中立、事实核查的原则，但本文通篇使用煽动性语言（如“mindless followers”、“steal people’s hard-earned benefits”、“Trump won’t be happy until our grandparents are living in squalor”），明显属于观点表达而非事实报道。此类语言常见于政治宣传或讽刺评论，而非严肃新闻。\n\n2. **引用内容断章取义或缺乏可靠来源**：  \n   文中声称特朗普曾对保罗·瑞安（Paul Ryan）表示“would love to cut Social Security if he didn’t think it would be political suicide..."
+    },
+    {
+      "index": 4,
+      "text_preview": "After former Secretary of State Hillary Clinton unloaded on Republican presidential nominee Donald Trump in a major foreign policy speech on Thursday, the candidate responded not with substance or fac",
+      "source_file": "FAKE",
+      "original_index": 2286,
+      "ground_truth": "False",
+      "prediction": "True",
+      "correct": false,
+      "response": "Prediction: True\n\nExplanation:  \n该新闻内容描述的是2016年美国总统大选期间希拉里·克林顿与唐纳德·特朗普之间的一次公开交锋，具体围绕希拉里于2016年6月2日在加州发表的外交政策演讲以及特朗普随后在圣何塞集会上的回应。经核查历史事实：\n\n1. **事件真实性**：希拉里确实在2016年6月2日于加州发表了题为“Donald Trump is Unfit to Be President”的重要外交政策演讲，严厉批评特朗普缺乏担任总统所需的判断力、稳定性和知识储备，并明确指出他不应掌握核武器发射权。这一演讲被多家主流媒体（如《纽约时报》、CNN、BBC）广泛报道，普遍评价为其竞选期间最具力度的外交政策演说之一。\n\n2. **特朗普回应内容**：特朗普当天在圣何塞的集会上确实以人身攻击方式回应，称希拉里“不看起来像总统”（\"She doesn't look presidential\"），并重复使用其标志性贬义绰号“Crooked Hillary”（“骗子希拉里”），还将其与“Lyin’ Ted”（指泰德·克鲁兹）类比。这些言论均有视频记录和媒体报道佐证（如..."
+    },
+    {
+      "index": 5,
+      "text_preview": "Democratic presidential candidate Hillary Clinton has wasted no time using the New York Times  bombshell that was dropped on Saturday. The revelation was that Republican presidential candidate Donald ",
+      "source_file": "FAKE",
+      "original_index": 1679,
+      "ground_truth": "False",
+      "prediction": "True",
+      "correct": false,
+      "response": "Prediction: True\n\nExplanation:  \n该新闻内容整体属实，符合已知的历史事实和公开报道。核心事件围绕2016年美国总统大选期间，《纽约时报》于2016年10月1日披露的一份1985–1994年的特朗普税务信息，其中最关键的是1995年特朗普申报了高达9.16亿美元的净经营亏损（NOL），这一亏损可在未来18年内用于抵消应税收入，从而可能使其多年无需缴纳联邦所得税。这一报道被广泛验证并引发公众关注。\n\n关键特征分析如下：\n\n1. **事实准确性**：  \n   - 《纽约时报》确实在2016年10月1日发布独家报道，称特朗普在1995年申报了9.16亿美元的亏损，理论上可使他在随后18年免缴联邦所得税。  \n   - 希拉里·克林顿竞选团队确实在其官网推出了一款“特朗普税计算器”（Trump Tax Calculator），用户输入收入后显示应缴税款为$0，并附有讽刺性文案：“Donald Trump says it’s because he’s smart. The New York Times says it’s because he lost almos..."
+    },
+    {
+      "index": 6,
+      "text_preview": "WASHINGTON  â€”   She has been here before. After the 2012 attack on an American diplomatic outpost in Benghazi, Libya, Susan E. Rice was at the center of conflict, her statements scrutinized and crit",
+      "source_file": "TRUE",
+      "original_index": 3648,
+      "ground_truth": "True",
+      "prediction": "True",
+      "correct": true,
+      "response": "Prediction: True\n\nExplanation:  \n该新闻内容整体属实，具有较高的可信度，理由如下：\n\n1. **符合历史事实与常识逻辑**：  \n   新闻所述事件围绕苏珊·赖斯（Susan E. Rice）在2017年因“通俄门”调查期间被指控不当请求解密特朗普团队成员身份一事展开。这确实是当时美国政治中的真实争议。赖斯作为奥巴马政府末期的国家安全顾问，在例行情报简报中曾请求“去匿名化”（unmasking）某些被监控外国通信中涉及的美国人身份——这是合法程序，且多位官员（包括共和党人）都曾行使过类似权限。新闻准确描述了她公开否认出于政治动机、强调程序正当性的立场。\n\n2. **语言表达专业规范**：  \n   文本采用典型的《纽约时报》式新闻写作风格（事实上，该段落几乎直接引自2017年4月5日《纽约时报》对赖斯的报道），语言客观、平衡，既呈现共和党人的指控（如Rand Paul称“smoking gun”），也引用赖斯本人的辩护，并指出争议背景（如班加西事件）。没有使用煽动性语言或明显偏见，符合主流媒体的专业标准。\n\n3. **信息来源可靠**：  \n   虽然用..."
+    },
+    {
+      "index": 7,
+      "text_preview": "Alexandre Douguine \n« Le Marais » c’est le nouveau nom de la secte globaliste, des adeptes de la société ouverte, des pervers LGBT, de l'armée de Soros, des post-humanistes et ainsi de suite. Il est a",
+      "source_file": "FAKE",
+      "original_index": 12066,
+      "ground_truth": "False",
+      "prediction": "False",
+      "correct": true,
+      "response": "Prediction: False\n\nExplanation:  \n该文本并非真实新闻，而是一段具有强烈意识形态色彩的政治宣传或虚构言论，其真实性极低，理由如下：\n\n1. **内容不符合常识与逻辑**：  \n   文本将“Le Marais”（字面意为“沼泽”，在法语中也指巴黎著名的LGBTQ+社区）荒谬地重构为一个全球性阴谋集团的代号，涵盖“索罗斯军队”“后人类主义者”“LGBT群体”“全球主义者”等多元且不相关的群体，并将其描绘成一种无处不在、去领土化的“邪恶力量”。这种将复杂社会现象简化为单一敌对实体的叙事，是典型的阴谋论修辞，缺乏事实依据和逻辑连贯性。\n\n2. **语言风格极端煽动、非专业**：  \n   文本使用大量情绪化、妖魔化词汇（如“pervers LGBT”、“bande corrompue, pervertie, avare de banksters”），并呼吁“净化社会”“对自由主义进行纽伦堡审判”等，具有明显的极端民族主义和反自由主义倾向。此类语言常见于网络极端言论或讽刺/虚构文本，而非正规新闻报道或可信政治人物的公开声明。\n\n3. **归因对象可疑**：  \n..."
+    },
+    {
+      "index": 8,
+      "text_preview": "There are two ways to analyze Donald Trumpâ€™s decisive win in New Yorkâ€™s presidential primary.\n\nFirst, itâ€™s the acknowledgment of a big run for Trump this week and next during which the GOP front",
+      "source_file": "TRUE",
+      "original_index": 819,
+      "ground_truth": "True",
+      "prediction": "False",
+      "correct": false,
+      "response": "Prediction: False\n\nExplanation:\n该新闻文本在内容、时间线和事实细节上存在明显错误，不符合历史事实，因此判定为虚假。\n\n核心判定理由：\n1. **时间线与历史事实不符**：文中提到“Donald Trump’s decisive win in New York’s presidential primary”并讨论其后续在康涅狄格、特拉华、马里兰、宾夕法尼亚和罗德岛的初选（即“超级星期二”之后的东北五州初选），这实际上发生在**2016年4月19日**。然而，文中还提到“July’s national convention in Cleveland”，这确实是指2016年共和党全国代表大会。但关键问题在于，**特朗普在2016年并未“赢得纽约初选后距离1237名代表仅差三分之一”**——实际情况是，他在赢得纽约州（95名代表）后，累计代表数约为850左右，距离1237仍有较大差距。更重要的是，**特朗普最终并未通过初选直接获得1237名代表，而是依靠后续协商和部分未绑定代表才在大会上锁定提名**。文中声称“after New York, he’s two-t..."
+    },
+    {
+      "index": 9,
+      "text_preview": "Financial Markets , Gold , Market Manipulation , Precious Metals , U.S. Economy admin \nAnd the Devil lost. \nThe “Deplorables” came out and voted against HRC. They didn’t vote for Trump. They voted aga",
+      "source_file": "FAKE",
+      "original_index": 11087,
+      "ground_truth": "False",
+      "prediction": "False",
+      "correct": true,
+      "response": "Prediction: False\n\nExplanation:  \n该文本并非一篇客观、事实导向的新闻报道，而是一篇带有强烈主观立场和煽动性语言的政治评论或观点文章，且包含多处不符合事实、逻辑混乱及夸张误导的内容，因此判定为不可信（False）。具体分析如下：\n\n1. **不符合新闻规范与专业表达**：  \n   正规新闻应以中立、客观、可验证的事实为基础，而本文通篇使用情绪化、攻击性语言（如称希拉里·克林顿为“Al Capone的转世”、称民主党为“犯罪企业”），缺乏事实依据，属于典型的阴谋论和政治宣传风格，不符合新闻专业标准。\n\n2. **存在明显夸大与误导性内容**：  \n   - 将美国经济体系描述为“几十年来的庞氏骗局”，并断言其“系统性崩溃不可避免”，这是极端化的经济末日论调，缺乏严谨经济数据支持，也与主流经济学界共识不符。  \n   - 声称特朗普赢得威斯康星州等“铁锈地带”完全是因为选民反对希拉里而非支持特朗普，虽有一定社会背景（如对全球化不满），但将复杂选举结果简化为单一动机，属于过度解读。  \n   - “Loch Ness Monster defeated the..."
+    }
+  ]
+}

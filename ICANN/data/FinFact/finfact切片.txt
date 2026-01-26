@@ -1,0 +1,1114 @@
+[
+  {
+    "url": "https://www.snopes.com/fact-check/biden-shareholder-capitalism/",
+    "claim": "Did Biden Call for an 'End to Shareholder Capitalism'?",
+    "author": "Dan MacGuill",
+    "posted": "08/06/2020",
+    "sci_digest": [
+      "Fear-mongering Facebook memes misrepresented the position articulated by the presumptive Democratic presidential nominee in a speech in July 2020."
+    ],
+    "justification": "In the summer of 2020, multiple readers asked Snopes to investigate claims that former U.S. Vice President and presumptive Democratic presidential nominee Joe Biden had called for an end to \"shareholder capitalism.\" In July and August, Facebook users shared posts that contained the following text: \"Biden wants to end Shareholder Capitalism...that's your 401[k]...your pensions...your retirement...are you voting for that?\" Another social media meme suggested that Biden's proposals would result in the destruction or liquidation of 401(k) pension savings. Those memes did not accurately reflect remarks made by Biden in July 2020 on the subject of \"shareholder capitalism.\" At a July 9 event in Dunmore, Pennsylvania, Biden delivered a relatively conventional stump speech, touching on several familiar themes: his working-class upbringing in nearby Scranton, the values he inherited from his family, and his vision for an American economy that, according to him, places less emphasis on corporate profit and greater emphasis on rewarding hard work and smaller-scale entrepreneurship, especially in the context of the COVID-19 pandemic, which devastated some smaller businesses and left millions unemployed. As part of this broader \"Wall Street versus Main Street\" theme, Biden said the following (emphasis added): \"Enough is enough, it's time to reverse the priorities in this country. It's time to help small businesses, middle-class folks, manage their way through a pandemic, and let's help millions of would-be entrepreneurs get out from under their debts so they can start businesses. And it's time corporate America paid their fair share of taxes...The days of Amazon paying nothing in federal income tax will be over. Let's make sure that workers have power and a voice. It's way past time to put an end to the era of shareholder capitalism\u2014the idea that the only responsibility a corporation has is to its shareholders. That's simply not true; it's an absolute farce. They have a responsibility to their workers, their community, and their country. That isn't a new or radical notion. These are basic values and principles that helped build this nation in the first instance. Now the challenge is to take these fundamental values and apply them to the new economy we have to build in the years ahead...\" Biden did not propose dissolving the stock market, prohibiting the public trading of companies, or shareholder investment and dividends. In saying, \"It's way past time to put an end to the era of shareholder capitalism,\" Biden was taking a position in a long-running ethical debate between \"shareholder\" and \"stakeholder\" theories. One academic has helpfully summed up that philosophical conflict as follows: Shareholder theory asserts that shareholders advance capital to a company's managers, who are supposed to spend corporate funds only in ways that have been authorized by the shareholders. As Milton Friedman wrote, \"There is one and only one social responsibility of business\u2014to use its resources and engage in activities designed to increase its profits so long as it engages in open and free competition, without deception or fraud.\" On the other hand, stakeholder theory asserts that managers have a duty to both the corporation's shareholders and \"individuals and constituencies that contribute, either voluntarily or involuntarily, to [a company's] wealth-creating capacity and activities, and who are therefore its potential beneficiaries and/or risk bearers.\" Although there is some debate regarding which stakeholders deserve consideration, a widely accepted interpretation refers to shareholders, customers, employees, suppliers, and the local community. In the short video below, philosopher and professor of business administration R. Edward Freeman\u2014arguably the primary advocate for stakeholder theory\u2014outlines the approach: Biden characterized the era of shareholder capitalism as one in which the following idea holds sway: \"[that] the only responsibility a corporation has is to its shareholders.\" His rejection of that principle was classic stakeholder theory: \"That's simply not true; it's an absolute farce. They [companies] have a responsibility to their workers, their community, and their country.\" We asked the Biden campaign for details on any specific proposals the former vice president had or how exactly he envisioned an end to \"the era of shareholder capitalism,\" but we did not receive a response in time for publication. Although those details were not available, it's clear that Biden was not calling for the abolition of shareholding itself. Rather, he proposed bringing an end to the era of shareholder capitalism, meaning an end to the predominance of that particular ethical approach and a new gravitation towards the stakeholder-driven approach\u2014a position that, whether or not one agrees with its tenets, has in recent years become orthodox among progressives, within the Democratic Party, and even among business leaders themselves. In 2019, for example, the Business Roundtable\u2014an influential group of chief executive officers of some of the largest companies in the United States\u2014executed a high-profile shift in its approach, writing: \"Since 1978, Business Roundtable has periodically issued Principles of Corporate Governance that include language on the purpose of a corporation. Each version of that document issued since 1997 has stated that corporations exist principally to serve their shareholders. It has become clear that this language on corporate purpose does not accurately describe the ways in which we and our fellow CEOs endeavor every day to create value for all our stakeholders, whose long-term interests are inseparable.\" What Biden called for in his Dunmore speech was therefore, as he rightly said, not a \"new or radical notion.\" It was not an end to the stock market nor the ability of individuals to buy and sell shares, and therefore it was not a proposal that would cause pensions to evaporate, as several Facebook memes falsely claimed.",
+    "issues": [
+      "debt"
+    ],
+    "image_data": [
+      {
+        "image_src": "https://drive.google.com/uc?export=view&id=156UvNegYgQzYdqSO7gsuCQFlD6kmGXdD",
+        "image_caption": null
+      },
+      {
+        "image_src": "https://drive.google.com/uc?export=view&id=1UTniyHzAB8jSVpyZirsWpnAQMU6cA_dl",
+        "image_caption": null
+      }
+    ],
+    "evidence": [
+      {
+        "sentence": "In July and August, Facebook users shared posts that contained the following text:",
+        "hrefs": [
+          "https://archive.is/eqnFJ",
+          "https://archive.is/vBHE0",
+          "https://archive.is/Js1Sn"
+        ]
+      },
+      {
+        "sentence": "As part of this broader \"Wall Street versus Main Street\" theme, Biden said the following (emphasis added):",
+        "hrefs": [
+          "https://archive.is/J1kmz"
+        ]
+      },
+      {
+        "sentence": "One academic has helpfully summed up that philosophical conflict as follows:",
+        "hrefs": [
+          "https://archive.is/fEJCd"
+        ]
+      },
+      {
+        "sentence": "Shareholder theory asserts that shareholders advance capital to a companys managers, who are supposed to spend corporate funds only in ways that have been authorized by the shareholders. As Milton Friedman wrote, \"There is one and only one social responsibility of business  to use its resources and engage in activities designed to increase its profits so long as it  engages in open and free competition, without deception or fraud.\"",
+        "hrefs": [
+          "https://archive.is/Tq6Pi"
+        ]
+      },
+      {
+        "sentence": "In 2019, for example, the Business Roundtable  an influential group of chief executive officers of some of the largest companies in the United States  executed a high-profile shift in its approach, writing:",
+        "hrefs": [
+          "https://archive.is/Zwr5N"
+        ]
+      }
+    ],
+    "label": "false"
+  },
+  {
+    "url": "https://www.snopes.com/fact-check/kushner-oscar-covid/",
+    "claim": "Does Jared Kushner's brother own a business associated with COVID-19 testing?",
+    "author": "Alex Kasprak",
+    "posted": "03/16/2020",
+    "sci_digest": [
+      "Oscar, a digital health-insurance startup that recently set up a service for users to find COVID-19 testing centers, was co-founded by Joshua Kushner. "
+    ],
+    "justification": "Snopes is still fighting an infodemic of rumors and misinformation surrounding the COVID-19 pandemic, and you can help. Find out what we've learned and how to inoculate yourself against COVID-19 misinformation. Read the latest fact checks about the vaccines. Submit any questionable rumors and advice you encounter. Become a Founding Member to help us hire more fact-checkers. And please, follow the CDC or WHO for guidance on protecting your community from the disease. Compared to the output of most other developed countries, the United States' ability to test for COVID-19, the disease caused by the novel coronavirus, has been extremely limited. This reality has led to rumors that President Donald Trump's administration, or some of its members, have a financial interest in promoting specific tests over others that would be more widely available or more easily distributed. One claim that has emerged in this vein came from a report by Raw Story that asserted, \"the Kushner family is trying to cash in on the pandemic that could kill millions of us.\" The basis for this claim concerns the health insurance startup Oscar, co-founded by Jared Kushner's brother, Joshua Kushner. Jared Kushner is the son-in-law of and special adviser to Trump. On March 13, 2020, Oscar announced that it would be launching a testing-center locator for COVID-19. Today, Oscar, a tech-driven health insurance company, launched the first testing center locator for COVID-19 in the U.S., featuring more than 100 centers. It is accessible to the general public, and more testing centers are being added every day. However, the details of Oscar's testing locator have been described incorrectly in several viral social media posts alleging profiteering from the Kushners during the coronavirus pandemic. A well-shared post by a user named \"Boston Judy,\" for example, asserted that \"we didn't have testing because the Trump family circle wanted to wait till they could make a profit.\" Even if this assertion had merit, the actions Oscar took merely help locate unaffiliated testing centers. As an insurance company, Oscar does not manufacture, perform, analyze, or sell any actual COVID-19 tests. Further, the test-center locator that Oscar developed is open to the general public and is not limited to people who get insurance through Oscar. Once a user has taken a short survey, the locator will provide the closest locations for testing in areas in which they operate. While the service also acts as a promotion for the company, it can serve as a testing center locator for any interested party. \"Boston Judy\" later clarified that Oscar was not producing tests, but that the company would get to \"bill the feds for evaluating people for COVID and referring them to a testing center if they meet the criteria [for testing].\" While the legislation that would allow for such reimbursement likely will include a fund for covering the cost of these tests, the legislation has not yet been finalized, and it's unclear that it would really be a windfall for Oscar, either. On March 13, 2020, U.S. House Democrats and the White House reached a deal on a package of legislation that included a requirement that insurance companies cover the full cost of COVID-19 testing with no cost sharing. As described by the Brookings Institute, this legislation, if and when it is passed by the Senate and signed by the president, would offer financial support to state governments by temporarily increasing the share of Medicaid spending financed by the federal government, require almost all forms of health insurance to cover COVID-19 testing without cost-sharing, and create mechanisms to pay for COVID-19 testing for uninsured people. In other words, while the government will likely be subsidizing insurance companies like Oscar, they are doing so to cover losses incurred by the requirement for full reimbursement to members. These laws, and the federal reimbursement they would authorize, would apply to any health insurance company in America, not only Oscar. Joshua Kushner co-founded Oscar in 2012. His venture capital firm, Thrive Capital, holds a significant ownership share. According to financial-disclosure forms released by Jared Kushner and his wife, Ivanka Trump, covering the year 2018, the couple owned and received profit from shares of Thrive. This document also appears to assert that the couple divested from Thrive during the 2018 financial year. Under federal law, executive branch employees are eligible to defer paying capital gains taxes on investments sold to comply with conflict of interest requirements. To take advantage of this benefit, the employees must obtain a Certificate of Divestiture from the Office of Government Ethics prior to selling the asset. Jared Kushner received a certificate of divestiture for, among other things, four Thrive-associated funds in February 2017. In a narrow legal sense, this removed the conflict of interest associated with his financial ownership in his brother's companies, according to Virginia Canter, who serves as chief ethics counsel for the nonpartisan Center for Responsibility and Ethics in Washington (CREW), which also provided us with Kushner's Certificate of Divestiture. But, she told us, his divestment does little to alter the appearance of a conflict of interest or reduce the risk of potential corruption, especially if he is using his public office to promote the private interests of his brother or giving him preferential access. The similarities between the Trump Administration's announcement of a website designed to locate COVID-19 testing centers and the website released by Oscar have been a source of speculation about undue access on Joshua Kushner's part. That being said, the assertion that the Kushners as a family are involved in the business of COVID-19 testing is not entirely accurate. The company's coronavirus response so far is limited to an online form that allows users to find a testing location if their symptoms call for it. Health insurance companies are likely to be reimbursed for covering the cost of COVID-19 testing once legislation is passed, but this would apply to all insurance providers, not just Oscar. For these reasons, we rank the truth of this claim as a \"Mixture.\"",
+    "issues": [
+      "finance"
+    ],
+    "image_data": [],
+    "evidence": [
+      {
+        "sentence": "Snopes is still fighting an infodemic of rumors and misinformation surrounding the COVID-19 pandemic, and you can help. Find out what we've learned and how to inoculate yourself against COVID-19 misinformation. Read the latest fact checks about the vaccines. Submit any questionable rumors and advice you encounter. Become a Founding Member to help us hire more fact-checkers. And, please, follow the CDC or WHO for guidance on protecting your community from the disease. ",
+        "hrefs": [
+          "https://www.snopes.com/2020/03/20/snopes-on-covid-19-fact-checking/",
+          "https://www.snopes.com/news/2021/03/11/one-year-covid-infodemic/",
+          "https://www.snopes.com/tag/covid-19-vaccines/",
+          "https://www.snopes.com/contact/",
+          "https://www.snopes.com/projects/founding-members/",
+          "https://www.cdc.gov/coronavirus/2019-ncov/index.html",
+          "https://www.who.int/emergencies/diseases/novel-coronavirus-2019"
+        ]
+      },
+      {
+        "sentence": "Compared to the output of most other developed countries, the United States' ability to test for COVID-19, the disease caused by the novel coronavirus, has been extremely limited. This reality has led to rumors that President Donald Trump's administration, or some of its members, have a financial interest in promoting specific tests as opposed to others that would be more widely available or more easily distributed.",
+        "hrefs": [
+          "https://www.politico.com/news/2020/03/06/coronavirus-testing-failure-123166"
+        ]
+      },
+      {
+        "sentence": "One claim that has emerged in this vein came from a report by Raw Story that asserted \"the Kushner family is trying to cash in on the pandemic that could kill millions of us.\" The basis for this claim concerns the health insurance startup Oscar co-founded by Jared Kushners brother, Joshua Kushner. Jared Kushner is the son-in-law of and special adviser to Trump.",
+        "hrefs": [
+          "https://archive.vn/wip/tXZiM"
+        ]
+      },
+      {
+        "sentence": "On March 13, 2020, Oscar announced that it would be launching a testing-center locator for COVID-19:",
+        "hrefs": [
+          "https://www.prnewswire.com/news-releases/oscar-launches-first-testing-center-locator-for-covid-19-301023288.html"
+        ]
+      },
+      {
+        "sentence": "However, the details of Oscar's testing locator have been described incorrectly in several viral social media posts alleging profiteering from the Kushners during the coronavirus pandemic. A well-shared post by a user named \"Boston Judy,\" for example, asserted that \"we didn't have testing because the Trump family circle wanted to wait till they could make a profit.\"",
+        "hrefs": [
+          "https://www.facebook.com/photo.php?fbid=2913246908738427&set=a.167949316601547&type=3&av=241061082705085&eav=AfZYClhd0LQ8wdwzYjDRESbKatdZYWQ4hGaSIdzFzmG7sbB2CEDl2-CPP1GCXK8uMkQ&theater",
+          "https://twitter.com/BostonJudy3/status/1238895920969908230"
+        ]
+      },
+      {
+        "sentence": "Even if this assertion had merit, the actions Oscar took merely help locate unaffiliated testing centers. As an insurance company, Oscar does not manufacture, perform, analyze, or sell any actual COVID-19 test. Further, the test-center locator that Oscar developed is open to the general public and is not limited to people who get insurance through Oscar. Once a user has taken a short survey, the locator will provide the closest locations for testing in areas in which they operate. While the service also acts as a promotion for the company, it can serve as a testing center locator for any interested party.",
+        "hrefs": [
+          "https://www.prnewswire.com/news-releases/oscar-launches-first-testing-center-locator-for-covid-19-301023288.html"
+        ]
+      },
+      {
+        "sentence": "On March 13, 2020, U.S. House Democrats and the White House reached a deal on a package of legislation that included a requirement that insurance companies cover the full cost of COVID-19 with no cost sharing. As described by the Brookings Institute, this legislation, if and when it is passed by the Senate and signed by the president:",
+        "hrefs": [
+          "https://www.brookings.edu/blog/usc-brookings-schaeffer-on-health-policy/2020/03/13/what-are-the-health-coverage-provisions-in-the-house-coronavirus-bill/"
+        ]
+      },
+      {
+        "sentence": "In other words, while the government will likely be subsidizing insurance companies like Oscar, they are doing so to cover losses incurred by the requirement for full reimbursement to members. These laws, and the federal reimbursement they would authorize, would apply to any health insurance company in America, not only Oscar.",
+        "hrefs": [
+          "https://www.brookings.edu/blog/usc-brookings-schaeffer-on-health-policy/2020/03/13/what-are-the-health-coverage-provisions-in-the-house-coronavirus-bill/"
+        ]
+      },
+      {
+        "sentence": "Joshua Kushner co-founded Oscar in 2012. His venture capital firm, Thrive Capital, holds a significant ownership share. According to financial-disclosure forms released by Jared Kushner and his wife, Ivanka Trump, covering the year 2018, the couple owned and received profit from shares of Thrive:",
+        "hrefs": [
+          "https://www.forbes.com/sites/stevenbertoni/2016/02/22/oscar-health-gets-400-million-and-a-2-7-billion-valuation-from-fidelity/#777a4fb55321",
+          "https://www.politico.com/f/?id=0000015b-2713-d4bd-a5df-bfd3e5af0000",
+          "https://s3.amazonaws.com/storage.citizensforethics.org/wp-content/uploads/2019/04/03211930/Ivanka-Trump-2018-278.pdf"
+        ]
+      },
+      {
+        "sentence": "Under federal law, executive branch employees are eligible to defer paying capital gains taxes on investments sold to comply with conflict of interest requirements. To take advantage of this benefit, the employees must obtain a Certificate of Divestiture from the Office of Government Ethics prior to selling the asset. Jared Kushner received a certificate of divestiture for, among other things, four Thrive-associated funds in February 2017.",
+        "hrefs": [
+          "https://www.law.cornell.edu/cfr/text/5/2634.1001",
+          "https://www2.oge.gov/Web/OGE.nsf/0/CB13B398F168EC5E85258026004CE9B3/$FILE/Certificate%20of%20Divestiture%20Fact%20Sheet.pdf",
+          "https://www.snopes.com/uploads/2020/03/KUSHNER-CERTIFICATES-OF-DIVESTITURE.pdf"
+        ]
+      },
+      {
+        "sentence": "In a narrow legal sense, this removed the conflict of interest associated with his financial ownership in his brothers companies, according to Virginia Canter, who serves as chief ethics counsel for the nonpartisan Center for Responsibility and Ethics in Washington (CREW), which also provided us with Kushners Certificate of Divestiture. But, she told us, his divestment does little to alter the appearance of a conflict of interest or reduce the risk of potential corruption, especially if he is using his public office to promote the private interests of his brother or giving him preferential access. The similarities between the Trump Administrations announcement of a website designed to locate COVID-19 testing centers and the website released by Oscar have been a source of speculation about undue access on Joshua Kushners part.",
+        "hrefs": [
+          "https://www.motherjones.com/politics/2020/03/jared-kushner-once-controlled-oscar-now-running-a-coronavirus-testing-site/",
+          "https://www.theverge.com/2020/3/15/21180370/google-testing-website-coronavirus-trump-covid-19-confusion"
+        ]
+      }
+    ],
+    "label": "NEI"
+  },
+  {
+    "url": "https://www.politifact.com/factchecks/2015/mar/05/dan-patrick/dan-patrick-errs-saying-texas-will-end-fiscal-year/",
+    "claim": "Texas this fiscal year will have more money in reserve than the other 49 states combined.",
+    "author": "W. Gardner Selby",
+    "posted": "03/04/2015",
+    "sci_digest": [],
+    "justification": "Texas state government can afford tax cuts and targeted investments while still having billions of dollars left over, Lt. Gov. Dan Patrick told Austin radio station KLBJ AM. In the Feb. 25, 2015 interview, which we caught online, Patrick said: \"We are in the best financial shape of any state in the country. We'll have about $11 billion or so in our rainy day fund by the end of our fiscal year. That's more money in reserve than the other 49 states combined.\" This fiscal year runs through August 2015. We emailed Patrick's office to seek the basis of his statement and to gauge whether he was trying to make an uncheckable prediction rather than a flat factual statement. We also looked for the latest information on each state's expected fiscal-year-end reserves. The Texas state comptroller, Glenn Hegar, issued his two-year state revenue forecast in January 2015. Hegar said the state's rainy day fund will have a balance of nearly $8.5 billion when fiscal 2015 ends on Aug. 31, 2015. Hegar projected the fund to grow to $9.8 billion a year later and to $11 billion through August 2017. Per Patrick's statement, then, all the other states together should be expecting to end their 2015 fiscal years with less than $8.5 billion combined. An online search led us to a fall 2014 report by the National Association of State Budget Officers, initially making us think Patrick was onto something. In the report, The Fiscal Survey of States, a section headlined Year-End Balances stated that generally, states have made progress rebuilding budgetary reserves since revenues plummeted during the Great Recession of 2009-10. State budgets passed into law for the 2015 fiscal year show reserve balances nationally totaling $53.1 billion, the report said. Furthermore, a disproportionate share of state budget reserves is concentrated in Alaska and Texas, which account for $20.6 billion or 38.8 percent of states' reported total balances in fiscal 2015. For more perspective, we sought guidance from the Pew Charitable Trusts, which in July 2014 issued a report on how states might build rainy day funds. By email, spokeswoman Sarah Leiseca passed along analyst Brenna Erford's conclusion\u2014drawing on Fiscal 50, a Pew interactive breaking out the fiscal status of each state\u2014that Patrick got it wrong. At the moment, per Pew, Texas has $10.3 billion in reserve funds (rainy day funds plus ending balances), providing enough for the state government to operate for 79.1 days. The only state with more reserve funds currently is Alaska, with $13.3 billion, providing enough for the state to operate for 181.9 days, Erford said. Going forward, Erford noted, the NASBO fall 2014 report indicates Texas is projecting a reserve balance of about $8 billion through the end of the 2015 fiscal year, which would run second to the projected year-end reserves for Alaska, $11.4 billion. According to these data, the sum total of reserves in California, New York, Ohio, Massachusetts, Florida, and Indiana is greater than Texas reserves, providing clear evidence, Alaska notwithstanding, that Texas reserves are not more than the other 49 states combined, Erford said. With a nudge from Michael Leachman, a state budget expert at the Washington, D.C.-based Center on Budget and Policy Priorities, we spotted charts in the NASBO report indicating the 50 states together in fall 2014 were projecting 2015 fiscal-year-end reserves, meaning regular balances plus rainy day fund set-asides, of about $53 billion\u2014with Texas accounting for $10.7 billion of that and Alaska $10 billion, while other states altogether projected nearly $32 billion in ending reserves. An adjoining chart indicates Texas ending fiscal 2015 with $8 billion in its rainy day fund alone compared to other states together winding up with about $34 billion in such funds. Texas appears to have bigger balances than many states, but its predicted totals don't dwarf all other states' projected savings combined. After we looked over the charts, Patrick's office told us he made an unintentional error in the radio interview. By email, spokesman Alejandro Garcia said Patrick takes pride in the state stockpiling reserves, but he meant to talk about jobs created in Texas versus jobs created in all other states combined as he ad-libbed the comment. Our ruling: Patrick said Texas this year will have more money in reserve than the other 49 states combined. On our inquiry, Patrick acknowledged this was a misstatement. Indeed, what he celebrated turned out to be incorrect.",
+    "issues": [
+      "State Budget",
+      "States",
+      "Texas"
+    ],
+    "image_data": [
+      {
+        "image_src": "https://drive.google.com/uc?export=view&id=1i2zpKGuZJvZlAeVEti5b5FZjX0YYloQQ",
+        "image_caption": "The Fiscal Survey of States"
+      }
+    ],
+    "evidence": [
+      {
+        "sentence": "In the Feb. 25, 2015 interview,which we caught online, Patrick said: We are in the best financial shape of any state in the country. Well have about $11 billion or so in our rainy day fund by the end of our fiscal year. Thats more money in reserve than the other 49 states combined.",
+        "hrefs": [
+          "http://www.newsradioklbj.com/blogs/texas-news/listen-lt-gov-dan-patrick-pushes-big-tax-cuts-texas"
+        ]
+      },
+      {
+        "sentence": "The Texas state comptroller, Glenn Hegar, issued his two-yearstate revenue forecastin January 2015. Hegar said the states rainy day fund will have a balance of nearly $8.5 billion when fiscal 2015 ends Aug. 31, 2015. Hegar projected the fund to grow to $9.8 billion a year later and to $11 billion through August 2017.",
+        "hrefs": [
+          "http://www.texastransparency.org/State_Finance/Budget_Finance/Reports/Biennial_Revenue_Estimate/2016_17/pdf/BRE_2016-17.pdf"
+        ]
+      },
+      {
+        "sentence": "An online search led us to afall 2014 reportby the National Association of State Budget Officers initially making us think Patrick was onto something. In the report,The Fiscal Survey of States, a section headlined Year-End Balances said that generally, states have made progress rebuilding budgetary reserves since revenues plummeted during the Great Recession of 2009-10. State budgets passed into law for the 2015 fiscal year show reserve balances nationally totaling $53.1 billion, the report said. And, the report said, a disproportionate share of state budget reserves are concentrated in Alaska and Texas, which account for $20.6 billion or 38.8 percent of states reported total balances in fiscal 2015.",
+        "hrefs": [
+          "http://www.nasbo.org/sites/default/files/NASBO%20Fall%202014%20Fiscal%20Survey%20of%20States.pdf"
+        ]
+      },
+      {
+        "sentence": "For more perspective, we sought guidance from the Pew Charitable Trusts, which in July 2014 issued areporton how states might build rainy day funds. By email, spokeswoman Sarah Leiseca passed along analyst Brenna Erfords conclusion--drawing onFiscal 50, a Pew interactive breaking out the fiscal status of each state--that Patrick got it wrong.",
+        "hrefs": [
+          "http://www.pewtrusts.org/~/media/Assets/2014/07/SFH_Rainy-Day-Fund-Deposit-Rules-Report_ARTREADY_v9.pdf"
+        ]
+      },
+      {
+        "sentence": "SOURCE: Online interactive,Fiscal 50, Pew Charitable Trusts (chart received in an email from Sarah Leiseca, communications officer, Pew Charitable Trusts, attributing information to research by Brenna Erford, manager, state budget policy team, Pew Charitable Trusts, Feb. 26, 2015).",
+        "hrefs": [
+          "http://www.pewtrusts.org/en/multimedia/data-visualizations/2014/fiscal-50#ind0"
+        ]
+      },
+      {
+        "sentence": "With a nudge fromMichael Leachman, a state budget expert at the Washington, D.C.-based Center on Budget and Policy Priorities, we spotted charts in the NASBO report indicating the 50 states together in fall 2014 were projecting 2015 fiscal-year-end reserves, meaning regular balances plus rainy day fund set-asides, of about $53 billion--with Texas accounting for $10.7 billion of that and Alaska $10 billion and other states all together projecting nearly $32 billion in ending reserves. An adjoining chart indicates Texas ending fiscal 2015 with $8 billion in its rainy day fund alone compared to other states together winding up with about $34 billion in such funds.",
+        "hrefs": [
+          "http://www.cbpp.org/experts/?fa=view&id=161"
+        ]
+      },
+      {
+        "sentence": "Click here formoreon the six PolitiFact ratings and how we select facts to check.",
+        "hrefs": [
+          "https://www.politifact.com/truth-o-meter/article/2011/feb/21/principles-truth-o-meter/"
+        ]
+      }
+    ],
+    "label": "false"
+  },
+  {
+    "url": "https://www.politifact.com/factchecks/2015/apr/30/steve-crisafulli/crisafulli-says-257000-would-be-forced-medicaid-un/",
+    "claim": "If we choose Obamacare expansion, 600,000 will lose eligibility for their subsidies, of which 257,000 would be forced into Medicaid.",
+    "author": "Joshua Gillin",
+    "posted": "04/30/2015",
+    "sci_digest": [],
+    "justification": "Even before the Florida House adjourned early, Speaker Steve Crisafulli clearly laid the blame for the session's budget impasse on Medicaid expansion. In an essay printed by the Tampa Bay Times, Crisafulli wrote that the Senate had partnered with the Obama administration to demand the expansion. However, the House believed that this move would drag people into a costly system that didn't work. Under federal law, other low-income Floridians have access to health care subsidies to buy private insurance for less than the average cost of a wireless phone bill, said Crisafulli, R-Merritt Island. In fact, if we choose Obamacare expansion, 600,000 will lose eligibility for their subsidies, of which 257,000 would be forced into Medicaid. Estimates say the expansion would cover more than 800,000 people, many of whom are currently uninsured. We wondered where Crisafulli was getting his numbers. \n\nThis subject can make heads spin pretty easily, so before we begin, let's review a few basics about the Affordable Care Act. The law's intent was to expand coverage to the uninsured through two different methods. The first was to provide subsidies to people who needed help buying insurance through HealthCare.gov or a new state marketplace. The second method was to expand Medicaid, a state-federal insurance program for the very poor. Medicaid expansion ended up being optional for the states, thanks to a 2012 Supreme Court ruling. This is what the Florida House and Senate are arguing about. The Senate wants to expand Medicaid so that recipients end up buying heavily subsidized insurance. The House doesn't want to expand Medicaid at all. Crisafulli's numbers are based on how many Floridians would qualify for the expansion, which would be extended to all adults up to 138 percent of the federal poverty level (100 percent is currently $11,770 for an individual and $24,250 for a family of four). Technically, the calculation is actually 133 percent under the law, but a 5 percent deduction is added on top of that. If a state doesn't expand Medicaid, people who make between 100 and 400 percent of the poverty level can receive subsidies to buy insurance in a marketplace. These are the subsidies Crisafulli is referring to. However, if you qualify for Medicaid, you're not eligible for help paying premiums. His argument is that if the state extends the program, the people between 100 and 133 percent of the federal poverty level (he's not citing the full 138, you'll note) will lose their subsidies to buy policies, and the House simply won't let that happen. \n\nCrisafulli is using estimates from the 2015-16 fiscal year by the Florida Office of Economic and Demographic Research, which we examined ourselves. That projection indicates there are about 609,000 people in the 100 to 133 percent of the poverty level range, and a little more than 351,000 of them have some form of insurance. They obtain it through employers, Medicare, or some other form of government assistance program, or they buy insurance on their own (subsidized or not). Those people could enroll in Medicaid if they wanted to. More than 257,000 have no insurance at all, and these are the individuals Crisafulli claims will be forced into Medicaid. His office confirmed he meant they would be left without subsidies and would not earn enough to buy policies, making Medicaid their only option. \n\nThe Centers for Medicare and Medicaid Services and health policy experts largely agreed that the numbers were plausible, but there are some points they said Crisafulli is sidestepping. Foremost is the idea that 257,000 people would be forced to join the program. There is no law that mandates you must use Medicaid if you qualify, and not everyone who is currently eligible enrolls. Ben Sommers, a health policy and economics professor at Harvard, stated that it's pretty tough for Crisafulli to imply that those quarter-million people would be upset by suddenly qualifying for Medicaid. \"Giving uninsured people Medicaid is pretty popular among uninsured people,\" Sommers said. There aren't any public opinion surveys I've seen in which low-income adults don't generally support the Medicaid expansion. Crisafulli neglects to mention that there are many Floridians who currently don't qualify for either Medicaid or federal subsidies, an estimated 669,000 people whose income is below 100 percent of the federal poverty level. Those uninsured Floridians account for 18 percent of all Americans in the so-called coverage gap\u2014second only to Texas. They would all benefit from Medicaid expansion by gaining coverage. Finally, Crisafulli argues that expanding Medicaid under Obamacare would unfairly take away subsidies that Floridians need to buy their own insurance. Those subsidies are a feature of the very same Affordable Care Act he criticizes. \n\nCrisafulli stated, \"If we choose Obamacare expansion, 600,000 will lose eligibility for their subsidies, of which 257,000 would be forced into Medicaid.\" Crisafulli is using incendiary language to describe state projections about Medicaid expansion. The state estimates that about 609,000 Floridians would lose access to subsidies to buy insurance under an expansion. About 257,000 of those people would be uninsured, likely because they're too poor to buy their own. The rest could enroll in Medicaid if they wanted to. Therefore, his numbers can be considered accurate. However, experts tell us that saying those people would be forced into the program isn't accurate. Many of the very poor would likely see becoming eligible for Medicaid as a benefit. We rate the statement Mostly True.",
+    "issues": [
+      "Health Care",
+      "Medicaid",
+      "State Budget",
+      "Florida"
+    ],
+    "image_data": [],
+    "evidence": [
+      {
+        "sentence": "In an essayprinted by theTampa Bay Times, Crisafulli wrote the Senate had partnered with the Obama administration to demand the expansion. But the House believed the move would drag people into a costly system that didnt work.",
+        "hrefs": [
+          "http://www.tampabay.com/opinion/columns/crisafulli-why-the-florida-house-opposes-medicaid-expansion/2227220"
+        ]
+      },
+      {
+        "sentence": "Crisafullis numbers are based on how many Floridians would qualify for the expansion, which would be extended to all adults up to 138 percent of the federal poverty level (100 percent is currently$11,770 for an individual and $24,250 for a family of four). Technically the calculation is actually 133 percent under the law, but a 5 percent deduction is added on top of that.",
+        "hrefs": [
+          "https://aspe.hhs.gov/poverty/15poverty.cfm#thresholds"
+        ]
+      },
+      {
+        "sentence": "Crisafulli neglects to mention there are many Floridians who right nowdont qualify for either Medicaid or federal subsidies, an estimated 669,000 people whose income is below 100 percent of federal poverty level. Those uninsured Floridians account for 18 percent of all Americans in the so-called coverage gap -- second only to Texas. They would all benefit from Medicaid expansion by gaining coverage.",
+        "hrefs": [
+          "http://kff.org/health-reform/issue-brief/the-coverage-gap-uninsured-poor-adults-in-states-that-do-not-expand-medicaid-an-update/"
+        ]
+      }
+    ],
+    "label": "true"
+  },
+  {
+    "url": "https://www.snopes.com/fact-check/freedom-convoy-guinness/",
+    "claim": "Did 50,000 'Freedom Convoy' Trucks Set Guinness World Record?",
+    "author": "Dan Evon",
+    "posted": "01/27/2022",
+    "sci_digest": [
+      "The vast majority of truck drivers in Canada are vaccinated. "
+    ],
+    "justification": "In January 2022, a number of trucks participated in a convoy across Canada to protest the country's requirement for cross-border truckers to be vaccinated for COVID-19. As videos of the so-called \"freedom convoy\" spread on social media, various claims emerged regarding the number of trucks involved in this event. These claims ranged from a few hundred to more than 50,000. Some even asserted that the freedom convoy had set a Guinness World Record for the largest truck convoy. As of this writing, the freedom convoy has not earned a place in the Guinness World Records book. Furthermore, the claim that this convoy involved 50,000 trucks appears to be a gross exaggeration that contradicts all available evidence. The largest truck convoy on record was set in November 2020 in Cairo, Egypt. That convoy involved 480 trucks and stretched 7.5 km (4.6 miles). Guinness states: \"The largest parade of trucks consisted of 480 trucks and was achieved by Tahya Misr Fund (Egypt), in Cairo, Egypt, on 20 November 2020. With a length of 7.5 km, Tahya Misr Fund was able to organize a parade of 480 trucks amid harsh weather and heavy rain, breaking the Guinness World Records title for the largest parade of trucks, which was achieved 16 years ago in the Netherlands with a parade size of 416 trucks; thus, the Tahya Misr Fund became the new record holder.\" This Guinness World Records entry provides a data point that makes us skeptical of the 50,000 truck claim. If a 480 truck convoy stretched 7.5 km, a 50,000 truck convoy would stretch 750 km (about 460 miles). We have seen no evidence to support the idea that the freedom convoy is anywhere near 460 miles long. So just how many trucks participated in this freedom convoy? There's no official count for the number of trucks involved. Estimates are also difficult because this big rig convoy includes a number of cars and other smaller vehicles. Furthermore, the \"freedom convoy\" has been a multi-day event, and some trucks may only participate for a portion of the journey. These variables make it challenging to estimate the number of trucks involved. We reached out to the Canadian Trucking Alliance for more information and will update this article if more information becomes available. Many Canadian news outlets have used the word \"hundreds\" to quantify the number of trucks in this convoy. The CBC, for example, reported: \"Hundreds of truckers set off from British Columbia to Ottawa on Sunday to protest a federal vaccine mandate despite the urging of the country's largest trucking federation to comply.\" Adrian Ghobrial, a reporter for the Toronto news outlet City News, stated that while thousands of people have come out to watch and support the truckers as they drive by, he was skeptical that the convoy consisted of more than 100 trucks. David Akin, the chief global correspondent with Global News, cited a report from the Ontario Provincial Police that recorded 113 trucks (as well as 276 personal vehicles) coming into Thunder Bay from Winnipeg. On social media, the estimate of trucks involved in this convoy has grown with each tweet. A post from Fox News host Sean Hannity, for example, claimed that the freedom convoy consisted of 10,000 trucks. Others claimed that this number exceeded 50,000 trucks. The claim that 50,000 trucks are participating in this convoy appears to have originated with one of the protest's organizers. However, the organizers may not be the most reliable source for this figure, as they have reason to inflate these numbers. The number also seems implausible given what we know about the trucking industry in Canada. According to the Canadian Trucking Alliance, the cross-border vaccine mandate would impact about 15% (or about 16,000) of the country's truckers. If the 50,000 truck claim is to be believed, that would mean that not only would every one of those 16,000 truckers have to participate in the event, but they would also need to be joined by 34,000 additional trucks who weren't impacted by the mandate. The Canadian Trucking Alliance stated that \"the vast majority of the Canadian trucking industry is vaccinated, with the overall industry vaccination rate among truck drivers closely mirroring that of the general public. Accordingly, most of our nation's hard-working truck drivers are continuing to move cross-border and domestic freight to ensure our economy continues to function.\"",
+    "issues": [
+      "economy"
+    ],
+    "image_data": [
+      {
+        "image_src": "https://drive.google.com/uc?export=view&id=1OoX29kUFGDzt7Xqlm0acWdEbDFJqkduc",
+        "image_caption": null
+      },
+      {
+        "image_src": "https://drive.google.com/uc?export=view&id=1mVmMVbIrW82X1wFtdG_83X_jYjWSslPm",
+        "image_caption": null
+      }
+    ],
+    "evidence": [
+      {
+        "sentence": "In January 2022, a number of trucks participated in a convoy across Canada in protest of the country's requirement for cross-border truckers to be vaccinated for COVID-19. As videos of the so-called \"freedom convoy\" spread on social media, so did a number of claims concerning just how many trucks were participating in this event. These claims ranged from a few hundred to more than 50,000. Some even claimed that the freedom convoy had set a Guinness World Record for the world's largest truck convoy. ",
+        "hrefs": [
+          "https://abcnews.go.com/International/wireStory/canada-police-fear-violence-trucker-vaccine-protest-82497084"
+        ]
+      },
+      {
+        "sentence": "The largest truck convoy on record was set in November 2020 in Cairo, Egypt. That convoy involved 480 trucks and stretched 7.5 km (4.6 miles). Guinness writes:",
+        "hrefs": [
+          "https://www.guinnessworldrecords.com/world-records/largest-truck-convoy"
+        ]
+      },
+      {
+        "sentence": "Many Canadian news outlets have used the word \"hundreds\" to quantify the number of trucks in this convoy. The CBC, for example, reported: \"Hundreds of truckers set off from British Columbia to Ottawa on Sunday to protest a federal vaccine mandate despite the urging of the country's largest trucking federation to comply.\"",
+        "hrefs": [
+          "https://www.cbc.ca/news/canada/british-columbia/freedom-rally-bc-jan-23-1.6324942"
+        ]
+      },
+      {
+        "sentence": "On social media, the estimate of trucks involved in this convoy has grown by the tweet. A post from Fox News host Sean Hannity, for example, claimed that the freedom convoy consisted of 10,000 trucks. Others claimed that this number was in excess of 50,000 trucks. ",
+        "hrefs": [
+          "https://twitter.com/seanhannity/status/1486738916191395855"
+        ]
+      },
+      {
+        "sentence": "The claim that 50,000 trucks are participating in this convoy appears to have originated with one of the protest's organizers. The organizers may not be the most reliable source for this figure, however, as they have reason to inflate these numbers. ",
+        "hrefs": [
+          "https://www.facebook.com/permalink.php?story_fbid=110053964919379&id=100286905896085"
+        ]
+      },
+      {
+        "sentence": "According to the Canadian Trucking Alliance, the cross-border vaccine mandate would impact about 15% (or about 16,000) of the country's truckers. If the 50,000 truck claim is to be believed, that would mean that not only would every one of those 16,000 truckers have to participate in the event, but they'd also need to be joined by 34,000 additional trucks who weren't impacted by the mandate. ",
+        "hrefs": [
+          "https://abcnews.go.com/International/wireStory/canada-police-fear-violence-trucker-vaccine-protest-82497084"
+        ]
+      },
+      {
+        "sentence": "The Canadian Trucking Alliance said in a statement that the \"the vast majority of the Canadian trucking industry is vaccinated with the overall industry vaccination rate among truck drivers closely mirroring that of the general public. Accordingly, most of our nations hard-working truck drivers are continuing to move cross-border and domestic freight to ensure our economy continues to function.\"",
+        "hrefs": [
+          "https://cantruck.ca/canadian-trucking-alliance-statement-to-those-engaged-in-road-border-protests/"
+        ]
+      }
+    ],
+    "label": "false"
+  },
+  {
+    "url": "https://www.politifact.com/factchecks/2017/sep/26/andrew-koenig/first-cut-missouri-income-tax-over-100-years/",
+    "claim": "The bill that I carried cutting MOs income tax for 1st time in over 100 years will start its 1st phase in jan 1 2018. #moleg @Eric_Schmitt",
+    "author": "Katelyn Brown",
+    "posted": "09/26/2017",
+    "sci_digest": [],
+    "justification": "Taxes have been a hot topic in the political world lately. President Donald Trump has been calling for a reduction in corporate taxes, something he discussed during his visit to Missouri in August. However, income tax is also a contentious issue in Missouri. State Sen. Andrew Koenig, R-Manchester, boasted on Twitter that a law he helped pass would be the first cut to Missouri income tax in over a century. \"The bill that I carried cutting Missouri's income tax for the first time in over 100 years will start its first phase on Jan. 1, 2018,\" the senator tweeted on Aug. 30, 2017, with the hashtag #moleg and tagging Missouri State Treasurer Eric Schmitt. Over a century? This seemed a little far-fetched. When Koenig's office did not respond to our inquiry, we began digging for ourselves. Koenig was referring to Senate Bill 509 from 2014, for which he was the House handler as a state representative at the time. What does the new law actually do to income tax, though? Simply put, income tax rates will decrease by a tenth of a percent every year until the top tax rate is half a percent lower, or 5.5 percent instead of the current 6 percent. There will also be an increase in income tax deductions for business income until it reaches 25 percent. To trigger the start of the law, the state's gross income had to exceed income in one of the three previous years by $150 million. That happened in the last fiscal year, so now the bill will go into effect on Jan. 1, 2018. The prospect of decreasing income tax is appealing for taxpayers, but is this really the first time it is happening in over a century? We spoke to Anne Rottman, the library administrator at the Missouri Legislative Library, about the last time Missouri saw a reduction in income taxes. \"I don't think there ever has been a cut,\" she said. It turns out she is correct. Missouri income tax was established in 1917, levying a half percent annually on individuals' income. Income tax has seen revisions throughout the years. Graduated tax brackets were created in 1939 and have not changed since 1972. The limit for deductions for federal income taxes was established in 1993. There have been various other revisions and adjustments as well. However, none of these were decreases in the tax levied. For a century, tax law has evolved into what income tax looks like today. Why has there always been an increase and never a decrease? \"No idea why this approach took so long,\" said Joseph Haslag, an economics professor at MU. Others seem to be stumped as well. The half-percentage reduction of the tax rate per year gives the state legislature some time to adjust to having less revenue for the budget. Meanwhile, there is a more immediate impact for individuals: Tax brackets will now be adjusted annually based on the percentage increase in inflation. However, when it comes to the overall economy, it isn't as exciting as it sounds, Haslag said. For a revenue-test state like Missouri, the tax cut reduction will have a small, very small, positive effect on Missouri's economic growth, Haslag noted. While Koenig is correct that the state's income rate has never decreased, it is important to note that the legislature has enacted many income tax deductions that have the same effect as lowering someone's state income tax bill. Beginning in 2016, for example, 100 percent of military pension income became exempt from Missouri state tax. The state also created a new deduction for people from Missouri who relocated a business to the state. Koenig stated that Senate Bill 509 would cut Missouri income tax for the first time in over 100 years. The truth is that Missouri income tax has never been cut. Income tax laws were established in 1917, exactly 100 years ago. It's not over 100 years, but Koenig was pretty close. It's worth noting, however, that Missouri has created a long list of deductions that could reduce a person's state income tax bill without having to decrease the overall tax rate. Koenig's statement is accurate but requires that clarifying information. That meets our definition of \"Mostly True.\"",
+    "issues": [
+      "Taxes",
+      "Missouri"
+    ],
+    "image_data": [],
+    "evidence": [],
+    "label": "true"
+  },
+  {
+    "url": "https://www.snopes.com/fact-check/ice-arrest-los-angeles-mayor/",
+    "claim": "Did Immigration Enforcement Agents Arrest the Mayor of Los Angeles?",
+    "author": "Snopes Staff",
+    "posted": "12/26/2019",
+    "sci_digest": [
+      "A routine review of content labeled satire."
+    ],
+    "justification": "On Nov. 26, Taters Gonna Tate published an article positing that the federal Immigration and Customs Enforcement agency (ICE) had arrested the mayor of Los Angeles, titled \"ICE Arrests LA Mayor for Harboring Fugitives Through Sanctuary City.\" We've all been wondering when this would happen and why it wasn't done from the start. But we shouldn't dwell; justice is finally being served. Josiah Barron, the celebrated mayor of Los Angeles County, was led away from his office in handcuffs today by ICE agents and charged with harboring fugitives from the law due to his decision to provide undocumented immigrants with refuge under his Sanctuary City designation. The arrest followed Barron's order to the city's police to not cooperate with ICE by reporting illegal aliens in their custody. ICE demanded that the criminals be handed over, but they were denied. This item was not a factual recounting of real-life events. The article originated from a website that describes its output as humorous or satirical in nature, stating: \"Tatersgonnatate.com is a subsidiary of the Americas Last Line of Defense network of parody, satire, and tomfoolery ... Everything on this website is fiction. It is not a lie and it is not fake news because it is not real. If you believe that it is real, you should have your head examined. Any similarities between this site's pure fantasy and actual people, places, and events are purely coincidental, and all images should be considered altered and satirical.\" The fake story was widely shared in late December after America's Last Line of Defense (ALLOD) re-promoted it on Facebook on Dec. 24. Although the article bore disclaimers labeling it \"satire,\" many readers mistook it for serious news, as demonstrated by a series of earnest comments on the ALLOD Facebook page. For background, here is why we sometimes write about satire and humor.",
+    "issues": [
+      "lien"
+    ],
+    "image_data": [
+      {
+        "image_src": "https://drive.google.com/uc?export=view&id=17nkGsZ6eBsFofN-JxqLqqugeHxtTv-iT",
+        "image_caption": null
+      }
+    ],
+    "evidence": [
+      {
+        "sentence": "On Nov. 26, Taters Gonna Tate published an article positing that the federal Immigration and Customs Enforcement agency (ICE) had arrested the mayor of Los Angeles. ",
+        "hrefs": [
+          "https://archive.is/WeO5V"
+        ]
+      },
+      {
+        "sentence": "This item was not a factual recounting of real-life events. The article originated with a website that describes its output as being humorous or satirical in nature, as follows:",
+        "hrefs": [
+          "https://archive.is/pZgBR"
+        ]
+      },
+      {
+        "sentence": "For background, here is why we sometimes write about satire and humor.",
+        "hrefs": [
+          "https://www.snopes.com/notes/why-we-include-humor-and-satire-in-snopes-com/"
+        ]
+      }
+    ],
+    "label": "false"
+  },
+  {
+    "url": "https://www.snopes.com/fact-check/channing-tatum-rumor/",
+    "claim": "Did Channing Tatum Come Out as Gay?",
+    "author": "David Mikkelson",
+    "posted": "05/28/2015",
+    "sci_digest": [
+      "Fake news of no redeeming value is often generated by prank news sites and formatted for social media impact."
+    ],
+    "justification": "On 28 May 2015, a news-like link began to circulate on Facebook claiming that popular actor Channing Tatum had come out as gay. The link's headline stated, \"Channing Tatum comes out as Gay,\" and the preview text read, \"Channing Tatum comes out as Gay following a number of rumours.\" While the rumor briefly gained popularity on sites like Twitter and Facebook among Tatum's fans, it was generated by the site Feednewz.com. Feednewz.com is not a news site; rather, its primary purpose is the generation of user-submitted links that appear to be news stories. Similar to a viral hoax involving EastEnders actor Danny Dyer, the Channing Tatum hoax spread unusually far for a Feednewz.com link due to user interest in the fabricated claim. Claims like the one about Tatum often spread due to a compelling headline alone. Readers who clicked through to the appended link were greeted with an image revealing the prank: Channing Tatum did not disclose any new information about his sexuality and remained married to actress Jenna Dewan until they separated in March 2018.",
+    "issues": [
+      "interest"
+    ],
+    "image_data": [
+      {
+        "image_src": "https://drive.google.com/uc?export=view&id=1GUcqNG2R9ko_BlkxDNmvzYg42BMfBbYL",
+        "image_caption": null
+      }
+    ],
+    "evidence": [
+      {
+        "sentence": "While the rumor was briefly popular on sites like Twitter and Facebook among Tatum's fans, it was generated by the site Feednewz.com. Feednewz.com is not a news site; rather, its primary purpose is the generation of user-submitted links that appear to be news stories. As with a similar viral hoax involving EastEnders actor Danny Dyer, the Channing Tatum hoax spread atypically far for a FeedNewz.com link due to user interest in the fabricated claim.",
+        "hrefs": [
+          "dyer.asp"
+        ]
+      },
+      {
+        "sentence": "Channing Tatum did not reveal any new information about his sexuality, and he remained married to actress Jenna Dewan until they separated in March 2018. ",
+        "hrefs": [
+          "https://people.com/movies/jenna-dewan-feels-a-sense-of-joy-and-freedom-after-split-from-channing-tatum/"
+        ]
+      }
+    ],
+    "label": "false"
+  },
+  {
+    "url": "https://www.snopes.com/fact-check/scam-amazon-free-airpods-raffle/",
+    "claim": "Is Amazon Giving Away Free AirPods in a Raffle?",
+    "author": "Nur Ibrahim",
+    "posted": "04/24/2021",
+    "sci_digest": [
+      "If you receive this congratulatory text message from \"Amazon\" on your phone, don't click that link!"
+    ],
+    "justification": "If you received a text message purportedly from Amazon, chances are you are one of many recipients, and it is a scam. During March and April 2021, many Snopes readers reported receiving messages on their phones claiming they had won an AirPod or another device in a raffle. One of our editors also received a message that said: \"Amazon: Congratulations Bond, you came second in this week's Amazon pods raffle! Follow this link to [...]\" She did not follow that link, however, as it immediately appeared to be a scam. Indeed, the link did not connect to an official Amazon webpage. According to Amazon, all of its web pages typically follow the same format, ending in amazon.com, for example: pay.amazon.com or aws.amazon.com. Any link that is an IP address or a random string of numbers should be viewed with suspicion. The Better Business Bureau (BBB) alerted users to this scam back in March, warning that if you receive a text message from a range of unknown numbers with a suspicious link for collecting your item, you should not click! The text message is not from Amazon and is the latest in a long list of impersonation scams that have emerged since the start of the pandemic, often using Amazon's brand. The bogus raffle and suspicious link are part of a con designed to trick people into visiting a phishing website, where they unwittingly share account credentials as well as personal and financial information with fraudsters. According to Amazon, any customer who receives a questionable email, text, or call from someone impersonating Amazon or an Amazon employee should report it to Amazon customer service. Amazon investigates these complaints and will take action if warranted. You can submit suspicious information to stop-spoofing@amazon.com. Amazon also offers a page to help identify whether an email, text, or phone call is genuinely from Amazon. The BBB also included a screenshot of a message similar to the one received by our editor, except the recipient was informed that they came third in the raffle. When our editor reported the number that texted her to the Federal Trade Commission (FTC), it recommended several tips to block spam messages. Given that the link to collecting the so-called prize does not direct users to an official Amazon website and could potentially compromise private information, we rate this claim a scam.",
+    "issues": [
+      "share"
+    ],
+    "image_data": [
+      {
+        "image_src": "https://drive.google.com/uc?export=view&id=1mg0CKYyqW6Jb39mXYlEdktBhnokdPgKl",
+        "image_caption": null
+      }
+    ],
+    "evidence": [
+      {
+        "sentence": "Indeed, the link did not connect to an official Amazon webpage. According to Amazon, all of its web pages normally follow the same format, ending in amazon.com, for example: pay.amazon.com or aws.amazon.com. Any link that is an IP address or a random string of numbers should be automatically suspicious.",
+        "hrefs": [
+          "https://www.amazon.com/gp/help/customer/display.html?nodeId=G4YFYCCNUSENA23B"
+        ]
+      },
+      {
+        "sentence": "The Better Business Bureau (BBB) alerted users to this scam back in March. It warned that if you get a text message from a range of unknown numbers and with a suspicious link for collecting your item:",
+        "hrefs": [
+          "https://www.bbb.org/article/news-releases/23914-bbb-warning-you-won-raffle-from-amazon-watch-out-its-another-scam"
+        ]
+      },
+      {
+        "sentence": "BBB also included a screenshot of a message similar to the one received by our editor, except the recipient was told that they came third in the raffle. When our editor reported the number that texted her to the Federal Trade Commission (FTC), it recommended a number of tips to block spam messages. The tips can be read here. ",
+        "hrefs": [
+          "https://reportfraud.ftc.gov/#/assistant?pid=A",
+          "https://www.consumer.ftc.gov/articles/how-recognize-and-report-spam-text-messages#what_to_do"
+        ]
+      }
+    ],
+    "label": "false"
+  },
+  {
+    "url": "https://www.snopes.com/fact-check/education-oregon/",
+    "claim": "Did Oregon Officials Say 'Showing Work' in Math Class Is White Supremacism?",
+    "author": "Jessica Lee",
+    "posted": "02/22/2021",
+    "sci_digest": [
+      "We reached out to the Oregon Department of Education about a newsletter it sent to math teachers statewide."
+    ],
+    "justification": "In early 2021, Snopes became aware of online reports alleging that the Oregon Department of Education (ODE) stated that the practice of students documenting how they solve math problems perpetuated white supremacism. Among the web pages circulating this claim was a February 15 article on conservative commentator Ben Shapiro's media website, The Daily Wire. It read: \"A mathematics guide sent out to Oregon schools tells educators that asking students to show their work in math class is a form of white supremacy.\" Examples of classroom actions that allegedly perpetuate white supremacy include asking students to show their work, focusing on getting the right answer, tracking student success, and grading students. A separate web page by Fox News titled \"Oregon promotes teacher program that seeks to undo 'racism in mathematics'\" also made this assertion, while users of social media sites, including Twitter and Reddit, debated the accuracy of such reports or circulated their allegations about the state department's instructions to educators as fact. We learned that the rumor's source was a February 5 newsletter from ODE to math teachers across the state that included links to additional teaching resources. See the below-displayed screenshot of a portion of the public bulletin, which Snopes confirmed the authenticity of via ODE's Director of Communications, Mark Siegel. In other words, a portion of the ODE-sponsored newsletter promoted a virtual learning seminar designed by an outside entity, Pathway to Equitable Math Instruction, which aimed to equip middle school math teachers with ideas to address documented performance gaps between white and English-speaking students and all other students, according to the bulletin and our correspondence with Siegel. The Oregon newsletter included links to the home page of the so-called \"Pathway to Equitable Math Instruction\" project, as well as to register for the course. Siegel stated in an email to Snopes, \"The materials contained in the [newsletter] are drawn from both internal and external sources, and the inclusion of external materials does not necessarily indicate Oregon Department of Education endorsement.\" More than 30 people from agencies across California and other states, such as San Diego State University, the Los Angeles County of Education, and UnboundEd (a hub of training resources for teachers), designed the ODE-advertised project \"Pathway to Equitable Math Instruction,\" according to an online pamphlet listing collaborators. In addition to the online teaching classes featured in the ODE newsletter, the initiative's website hosts several PDFs to which middle school teachers anywhere can refer if they are interested in working toward the project's goal: dismantling racism in math classes. One such report, totaling 82 pages, stated more than halfway through: In other words, a resource on the website for \"Pathway to Equitable Math Instruction,\" which ODE called a partner in the newsletter, indeed stated that \"white supremacy culture shows up in math classrooms\" when educators require students to show their work because the mandate does not necessarily help students process information. Instead, the PDF encouraged teachers to offer a variety of ways for students to demonstrate their question-answering process, including through verbal discussions or multimedia projects that do not use written words or numbers. We reached out to several of the project's collaborators for their comments on The Daily Wire and Fox News' framing of the above-described advice for middle school math teachers, and we heard back from Joanne Rossi Becker, a math and statistics professor at San Jose State University. Becker said that while she did not author the report\u2014she served as a reviewer of its materials\u2014the recommendation aimed to encourage educators to allow students to explain their thinking in ways other than writing, such as through conversations, graphs, or videos. \"Overall, the document is well done and has cogent recommendations for teachers and other educators to ameliorate implicit bias and racism,\" Becker wrote in an email to Snopes. To be clear, while the ODE newsletter promoted a course designed by the project to eliminate racial and language gaps in teaching, as well as a link to a homepage, it did not include a link to or mention the above-displayed PDF specifically. Siegel told Snopes that ODE did not directly instruct educators in terms of specific instructional practices; rather, an optional resource was shared to support teacher conversations to examine their actions, beliefs, and values around teaching mathematics. The department is supportive of conversations in the larger context of identifying beliefs and practices that perpetuate educational harm on Black, Latinx, and multilingual students, denying them full access to the world of mathematics. The authors of this resource described this larger idea using the term white supremacy. The term \"showing the work\" in this resource refers to a single approach identified by the teacher. Although a single answer may be expected, students could arrive at correct answers using a variety of approaches, such as grouping physical objects (Legos, blocks), diagrams of problems, writing it out, video explanations, and spreadsheets. Put another way, the department said it supports the project's goal to help students of color and multilingual students perform better in math class, as well as its recommendation to allow classes a variety of ways to explain how they solve problems. \"Neither ODE nor the course has made claims that math content itself is racist,\" Siegel wrote. \"The system of mathematics education, including policy, graduation requirements, standards, instruction, course sequences, and assessments, must be evaluated through an equity stance to disrupt inequitable outcomes we currently experience.\" In sum, it is true that a project designed by dozens of school administrators and scholars stated that expanding options for math students to explain their processes for answering questions could help close racial and language gaps in teaching, addressing existing \"white supremacy culture.\" However, it was false to frame that recommendation as a mandatory directive from ODE to teachers or to suggest that the department itself claimed the standard idea of \"showing work\" is a form of white supremacy. For those reasons, we rate this claim a \"Mixture\" of truth and misleading information.",
+    "issues": [
+      "equity"
+    ],
+    "image_data": [
+      {
+        "image_src": "https://drive.google.com/uc?export=view&id=1eGahmgmbKRmDyPFDW3DzZ23NewoQkdq6",
+        "image_caption": null
+      },
+      {
+        "image_src": "https://drive.google.com/uc?export=view&id=1HXWY81icJNvdeJVrK3X1cIlwWVueu7oJ",
+        "image_caption": null
+      },
+      {
+        "image_src": "https://drive.google.com/uc?export=view&id=1mjXIvkrI-CuTp_MVX9-p3cjkR_HtWvcS",
+        "image_caption": null
+      },
+      {
+        "image_src": "https://drive.google.com/uc?export=view&id=1q5YEhHnfo8fMpXBrTGS7YR4hN7tublh_",
+        "image_caption": null
+      }
+    ],
+    "evidence": [
+      {
+        "sentence": "Among web pages circulating the claim was a Feb. 15 article on conservative commentator Ben Shapiro's media website, The Daily Wire. It read:",
+        "hrefs": [
+          "https://www.dailywire.com/news/asking-students-to-show-their-work-in-math-class-is-a-form-of-white-supremacy?utm_source=facebo"
+        ]
+      },
+      {
+        "sentence": "A separate web page by Fox News titled, \"Oregon promotes teacher program that seeks to undo 'racism in mathematics',\" also made the assertion, while users of social media sites including Twitter and Reddit debated the accuracy of such reports, or circulated their allegations about the state department's instructions to educators as fact.",
+        "hrefs": [
+          "https://www.foxnews.com/us/oregon-education-math-white-supremacy",
+          "https://www.reddit.com/r/matheducation/comments/llpnsn/oregon_dept_of_education_asking_students_to_show/"
+        ]
+      },
+      {
+        "sentence": "We learned the rumor's source was a Feb. 5 newsletter from ODE to math teachers across the state that included links to additional teaching resources. See the below-displayed screenshot of a portion of the public bulletin, of which Snopes confirmed the authenticity via ODE's Director of Communications Mark Siegel.",
+        "hrefs": [
+          "https://content.govdelivery.com/accounts/ORED/bulletins/2bfbb9b?fbclid=IwAR3U8iS7fCD-g0NArQh74qlRa5IVFiTXoithZA89kMvmD0DETmzcV9DuQdg"
+        ]
+      },
+      {
+        "sentence": "In other words, a portion of the ODE-sponsored newsletter promoted a virtual learning seminar designed by an outside entity  Pathway to Equitable Math Instruction  that aimed to equip middle school math teachers with ideas to curb documented performance gaps between white and English-speaking students and all other students, according to the bulletin and our correspondence with Siegel.",
+        "hrefs": [
+          "https://equitablemath.org/?utm_medium=email&utm_source=govdelivery",
+          "https://www.oregon.gov/ode/educator-resources/assessment/Pages/Assessment-Group-Reports.aspx"
+        ]
+      },
+      {
+        "sentence": "The Oregon newsletter included links to the home page of the so-called \"Pathway to Equitable Math Instruction\" project (on which we elaborate below), as well as to register for the course. Siegel said in an email to Snopes:",
+        "hrefs": [
+          "https://equitablemath.org/?utm_medium=email&utm_source=govdelivery"
+        ]
+      },
+      {
+        "sentence": "More than 30 people from agencies across California and other states  such as San Diego State University, the Los Angeles County of Education and UnboundEd (a hub of training resources for teachers)  designed the ODE-advertised project \"Pathway to Equitable Math Instruction,\" according to an online pamphlet listing collaborators.",
+        "hrefs": [
+          "https://www.unbounded.org/",
+          "https://equitablemath.org/wp-content/uploads/sites/2/2020/09/Math-Equity-Collaborators-Bios.pdf"
+        ]
+      },
+      {
+        "sentence": "In addition to the online teaching classes featured in the ODE newsletter, the initiative's website hosts several PDFs to which middle school teachers anywhere can refer if they are interested in working toward the project's goal: dismantling racism in math classes. One such report, totaling 82 pages, stated more than halfway through:",
+        "hrefs": [
+          "https://equitablemath.org/?utm_medium=email&utm_source=govdelivery"
+        ]
+      }
+    ],
+    "label": "NEI"
+  },
+  {
+    "url": "https://www.snopes.com/fact-check/trump-china-virus-atlanta-shooting/",
+    "claim": "Did Trump Refer to 'China Virus' on Fox the Night Asian Women Were Killed in Atlanta?",
+    "author": "Jessica Lee",
+    "posted": "03/17/2021",
+    "sci_digest": [
+      "The former president had called into Fox on March 16 to talk about issues unrelated to the Atlanta-area mass shooting."
+    ],
+    "justification": "Around 5 p.m. EDT on March 16, 2021, a 21-year-old white man allegedly shot and killed eight people\u2014six of whom were Asian women\u2014at three Atlanta-area spas. As of this report, the investigation into the mass shooting remains ongoing. As word of the tragedy spread online, people flooded social media with messages of sympathy for the deceased. Many posts classified them as unknowing victims of the country's increasing xenophobia, given a surge of attacks against Asian Americans that coincided with the COVID-19 outbreak in the U.S., as well as pervasive violence against women. Among those posting was Aaron Rupar, a journalist at Vox. A couple of hours after the incident, for instance, he blamed former U.S. President Donald Trump's characterization of the coronavirus for the growing hate crimes against Asian Americans and tweeted: \"[I] don't think it's a coincidence that Trump spent the better part of a year using a virus as a slur against Chinese people while hate crimes against Asian Americans spiked by 150 percent.\" Rupar was referring to Trump's repeated insistence on calling the coronavirus the \"Chinese virus,\" which goes against widely accepted public health guidelines that warn against titling disease outbreaks after nations or regions to eliminate stigmatization, as well as 2020 hate crime statistics in 16 U.S. cities compiled by the Center for the Study of Hate and Extremism at California State University. About 20 minutes later, Rupar added: As authorities in the Atlanta area embarked on a manhunt to catch the suspect on the evening of March 16, Trump referred to the coronavirus as the \"China virus\" on Fox News. But let this be clear: No evidence explicitly connected the former president's use of the term on national television with the tragedy unfolding simultaneously in Georgia. Furthermore, it was unclear whether he was even aware of the mass shooting when he said \"China virus\" while discussing unrelated matters\u2014specifically, his presidential administration's approach to the American economy. The interviewer did not ask him about the Atlanta-area shooting. Here's what happened: Between roughly 6 p.m. and 8:30 p.m. EDT, according to The Associated Press, the victims' bodies were reported inside massage parlors, and authorities arrested the suspected gunman\u2014Robert Aaron Long, of Woodstock, Georgia\u2014as he was driving on the interstate. Meanwhile, at 7 p.m. EDT, Trump called in for a phone interview with Fox News' Maria Bartiromo, a recording of which Snopes obtained via the media outlet's website and is displayed below. Throughout much of the interview, the former president lambasted his successor's approach to immigration, criticized election security, and took credit for the ongoing efforts to provide COVID-19 vaccinations to every American willing to get one. Then, at approximately the 5-minute mark, he said: \"[The economy] was recovering under my administration\u2014twice. We got it to a level that the world has never seen before. We were the envy of the world, and then when we got hit by the, as I call it, 'the China virus'\u2014COVID\u2014it obviously went down along with every other economy. And then we were the first to get it back up.\"",
+    "issues": [
+      "economy"
+    ],
+    "image_data": [
+      {
+        "image_src": "https://drive.google.com/uc?export=view&id=1o9mWmOoHfo223MTwItcqNBKDj203hvgT",
+        "image_caption": null
+      }
+    ],
+    "evidence": [
+      {
+        "sentence": "Around 5 p.m. EDT on March 16, 2021, a 21-year-old white man allegedly shot and killed eight people -- six of whom were Asian women -- at three Atlanta-area spas. The investigation into the mass shooting remained ongoing, as of this report.",
+        "hrefs": [
+          "https://www.snopes.com/ap/2021/03/16/7-killed-in-shootings-at-3-atlanta-area-massage-parlors/",
+          "https://www.bbc.com/news/world-us-canada-56424616"
+        ]
+      },
+      {
+        "sentence": "As word of the tragedy spread online, however, people flooded social media with messages of sympathy for the deceased. Many posts classified them as unknowing victims of the country's increasing xenophobia, given a surge of attacks against Asian Americans that coincided with the COVID-19 outbreak in the U.S, or pervasive violence against women.",
+        "hrefs": [
+          "https://apnews.com/article/victims-anti-asian-attacks-reflect-0632beaa1726f17dcabb672c224ad86a"
+        ]
+      },
+      {
+        "sentence": "Among such posters was Aaron Rupar, a journalist at Vox. A couple of hours after the incident, for instance, he blamed former U.S. President Donald Trump's characterization of the coronavirus as a reason for growing hate crimes against Asian Americans, and tweeted:",
+        "hrefs": [
+          "https://www.vox.com/authors/aaron-rupar",
+          "https://twitter.com/atrupar/status/1372000278166274049"
+        ]
+      },
+      {
+        "sentence": "Rupar was referring to Trump's repeated insistence on calling the coronavirus the \"Chinese virus\" -- going against widely accepted public health guidelines that warn against titling disease outbreaks after nations or regions of the world to eliminate stigmatization -- and 2020 hate crime statistics in 16 U.S. cities compiled by the Center for the Study of Hate and Extremism at California State University.",
+        "hrefs": [
+          "https://www.snopes.com/fact-check/trump-chinese-virus-notes/",
+          "https://archive.is/pDMKO",
+          "https://www.csusb.edu/sites/default/files/FACT%20SHEET-%20Anti-Asian%20Hate%202020%203.2.21.pdf"
+        ]
+      },
+      {
+        "sentence": "The underlying claim was true  as authorities in the Atlanta area embarked on a manhunt to catch the suspect on the evening of March 16, Trump referred to the coronavirus as the \"China virus\" on Fox News.",
+        "hrefs": [
+          "https://www.snopes.com/tag/robert-aaron-long/"
+        ]
+      },
+      {
+        "sentence": "Meanwhile, at 7 p.m. EDT, Trump called in for a phone interview with Fox News' Maria Bartiromo, a recording of which Snopes obtained via the media outlet's website and is displayed below.",
+        "hrefs": [
+          "https://www.snopes.com/ap/2021/02/12/fox-hosts-dobbs-bartiromo-strike-back-in-voting-fraud-suit/"
+        ]
+      },
+      {
+        "sentence": "Throughout much of the interview, the former president lambasted his successor's approach to immigration, criticized election security, and took credit for the ongoing efforts to provide COVID-19 vaccinations to every American willing to get one. Then, at approximately the 5-minute mark, he said:",
+        "hrefs": [
+          "https://www.snopes.com/fact-check/immigrants-biden-shirts-let-us-in/",
+          "https://www.snopes.com/collections/new-coronavirus-collection/"
+        ]
+      }
+    ],
+    "label": "true"
+  },
+  {
+    "url": "https://www.snopes.com/fact-check/largest-stock-drops-trump/",
+    "claim": "Did the 8 Largest Single-Day Stock Drops Occur Under Trump?",
+    "author": "David Mikkelson",
+    "posted": "02/28/2020",
+    "sci_digest": [
+      "As is often the case with statistics, which ones you choose to consider makes a significant difference."
+    ],
+    "justification": "In February 2020, as fears surrounding the outbreak of a new coronavirus and a potential pandemic triggered the worst one-day drop in U.S. stocks since 2011, a chart began circulating via social media that purported to show the \"8 Largest Dow Jones Drops in American History.\" What was notable about the chart was that all of the listed stock market drops had supposedly occurred during the administration of U.S. President Donald Trump. The chart was accurate as far as it went, replicating information from the Wikipedia page \"List of Largest Daily Changes in the Dow Jones Industrial Average\" about the greatest single-day drops in the Dow. However, this chart only displayed net (or absolute) losses in the Dow, and obviously, a drop of 1,000 points when the average stands at 25,000 is far less severe than a drop of 1,000 points when the average stands at only 5,000. As we detailed in another article, a chart of the largest single-day percentage (or relative) changes in the Dow shows that none of the top 10 single-day percentage drops in that stock index has occurred during the Trump administration. The largest single-day percentage drop in the Dow took place on Oct. 19, 1987\u2014a day commonly known as Black Monday\u2014when the Dow fell 508 points for a loss of 22.6% of its value.",
+    "issues": [
+      "loss"
+    ],
+    "image_data": [
+      {
+        "image_src": "https://drive.google.com/uc?export=view&id=1Gz7NnkbaU0fp848aqfF2ujA7yhJHZiRJ",
+        "image_caption": null
+      },
+      {
+        "image_src": "https://drive.google.com/uc?export=view&id=1fAkO2-NQJ-giKNghqpYJB41-9NWfgp_l",
+        "image_caption": null
+      }
+    ],
+    "evidence": [
+      {
+        "sentence": "In February 2020, as fears surrounding the outbreak of a new coronavirus and a potential pandemic triggered the worst one-day drop in U.S. stocks since 2011, a chart began circulating via social media purportedly showing the \"8 Largest Dow Jones Drops in American History.\"",
+        "hrefs": [
+          "https://www.snopes.com/ap/2020/02/27/virus-anxiety-triggers-biggest-1-day-market-drop-since-2011/"
+        ]
+      },
+      {
+        "sentence": "The chart was accurate as far as it went, replicating information from the Wikipedia \"List of largest daily changes in the Dow Jones Industrial Average\" page about the greatest single-day drops in the Dow:",
+        "hrefs": [
+          "https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_Dow_Jones_Industrial_Average"
+        ]
+      },
+      {
+        "sentence": "As we detailed in another article, a chart of the largest single-day percentage (or relative) changes in the Dow shows that none of the top 10 single-day percentage drops in that stock index has occurred during the Trump administration:",
+        "hrefs": [
+          "https://www.snopes.com/fact-check/dow-jones-losses-republicans/"
+        ]
+      },
+      {
+        "sentence": " (Sources: The Wall Street Journal's Market Data and Yahoo! Finance's downloadable Dow Jones data)",
+        "hrefs": [
+          "https://www.wsj.com/mdc/public/page/2_3047-djia_alltime.html",
+          "https://finance.yahoo.com/quote/%5EDJI/history?period1=1325566800&period2=1517979600&interval=1d&filter=history&frequency=1d"
+        ]
+      },
+      {
+        "sentence": "The largest single-day percentage drop in the Dow took place on Oct. 19, 1987  a day commonly known as Black Monday  when the Dow fell 508 points for a loss of 22.6% of its value.",
+        "hrefs": [
+          "https://en.wikipedia.org/wiki/Black_Monday_(1987)"
+        ]
+      }
+    ],
+    "label": "NEI"
+  },
+  {
+    "url": "https://www.snopes.com/fact-check/us-millionaires-stimulus-checks/",
+    "claim": "Can American millionaires receive $1.7 million in COVID-19 stimulus funds?",
+    "author": "Jessica Lee",
+    "posted": "04/21/2020",
+    "sci_digest": [
+      "That would be about 1,400 times the amount a low-income worker would receive from the federal government's COVID-19 economic relief package."
+    ],
+    "justification": "Snopes is still fighting an infodemic of rumors and misinformation surrounding the COVID-19 pandemic, and you can help. Find out what we've learned and how to inoculate yourself against COVID-19 misinformation. Read the latest fact checks about the vaccines. Submit any questionable rumors and advice you encounter. Become a Founding Member to help us hire more fact-checkers. And please, follow the CDC or WHO for guidance on protecting your community from the disease. \n\nResponding to an unprecedented disruption to the U.S. economy caused by the COVID-19 coronavirus pandemic, U.S. President Donald Trump on March 27, 2020, approved a $2.2 trillion stimulus package called the Coronavirus Aid, Relief, and Economic Security (CARES) Act. Aiming to provide direct payments to Americans, the relief package authorized the U.S. Treasury Department and the Internal Revenue Service (IRS) to send $1,200 checks to low- and middle-class workers. The legislation also boosted funding for unemployment benefits, set aside billions of dollars for loans to help small businesses, and increased health care spending by $100 billion, among other provisions. \n\nHowever, the bill included an additional benefit for wealthy Americans, as reported by national media in mid-April: \"Over 43,000 U.S. millionaires will get stimulus averaging $1.6 million each\" (New York Post) and \"How Some Rich Americans Are Getting Checks Averaging $1.7 million\" (Forbes). Snopes received numerous reader inquiries about the veracity of those reports. \n\nThe claim is multi-pronged: that millionaires and other Americans received the same type of stimulus checks, termed \"Economic Impact Payments\"; that those payments were higher for millionaires than for other workers; and that the economic benefits for the country's wealthiest residents averaged $1.7 million each under the CARES Act. \n\nThe coronavirus relief package authorized the federal government to send payments to single tax filers with adjusted gross income up to $75,000, and for married couples filing jointly, the threshold is $150,000. For those with higher annual salaries, the federal government reduces the stimulus checks by $5 for each $100 above the $75,000 threshold (similar calculations apply for payments to families). Yet, evidence from the IRS indicates that \"Tax filers with adjusted gross income up to $75,000 for individuals and up to $150,000 for married couples filing joint returns will receive the full payment,\" which does not exceed the amounts of $1,200 for individuals, $2,400 for joint claims, and $500 per qualifying child. This means that only in a hypothetical situation where a family had 3,400 qualifying children could an American receive a stimulus check of $1.7 million. \n\nThe latter part of the claim\u2014that millionaires could reap an average of $1.7 million in financial gains under the CARES Act\u2014is less definite. The answer begins with understanding the pre-CARES Act tax code. In 2017, the federal government established new limitations on how much money owners of so-called \"pass-through\" businesses can deduct as losses against their \"nonbusiness\" income to minimize their tax liability. Under the Tax Cuts and Jobs Act, owners of such businesses\u2014entities where profits flow through to owners and are not subject to corporate income taxes\u2014could deduct a maximum of $250,000 in losses individually ($500,000 for couples) to offset taxable income from other sources, such as capital gains. \n\nTwo Democratic Congressmen, Sen. Sheldon Whitehouse of Rhode Island and Rep. Lloyd Doggett of Texas, have explained the rule like this: If one spouse owns a company that had a $5 million loss in 2018 and the other spouse made $5 million from stock market investments, this limitation meant that the couple's taxable income was $4.5 million (not zero, if the loss were allowed to fully cancel out the income). The other $4.5 million in losses, however, could be carried forward to use in future years. Provisions in the CARES Act temporarily suspended that limitation until the start of 2021, according to an analysis of legislative records by Snopes. In other words, the IRS is legally obligated to count excess losses from businesses that it otherwise wouldn't have and provide them with \"the same treatment as if the Tax Cuts and Jobs Act had not been enacted,\" according to attorneys with the international law firm Foley and Lardner. \n\nAdditionally, the provisions change the timeline of the 2017 law and allow for the new standard to retroactively apply, enabling businesses to report losses in 2018 and 2019 against the past five years. Those taxpayers, however, would likely need to amend their 2018 and 2019 tax returns if they have already been filed to see any changes, according to the tax consulting firm Calvetti Ferguson. Since the modification under the CARES Act only applies until December 31, 2020, the 2017 law will take effect the following year. \n\nHere's how that change to the tax code is relevant to the claim: Americans who earn $1 million or more will benefit the most from the temporary suspension of the deduction limit, according to an analysis by the nonpartisan congressional body, the Joint Committee on Taxation (JCT). In early April 2020, Whitehouse and Doggett requested the committee to research \"the distributional effects\" of the provision within the CARES Act. Later, the committee's chief of staff, Thomas Barthold, shared its findings in a letter to the congressmen, including the caveat: \"There is, of course, a great deal of uncertainty about the economic effects of the COVID-19 pandemic, and how those economic effects will translate into business losses for individuals. The revenue estimate represents our best effort to give Congress useful information about the potential scale of revenue changes associated with this provision.\" \n\nThe letter included a table showing what class of Americans will receive what percentage of benefits from the amendment to the 2017 tax law. The table shows that almost 82% of the provision's benefits will go toward about 43,000 Americans who earn $1 million or more annually. Put another way, hedge-fund investors and owners of real estate businesses are \"far and away\" the two prime beneficiaries of the change to the 2017 tax law, Steve Rosenthal, a tax expert at the nonpartisan Urban-Brookings Tax Policy Center, told The Washington Post. The JCT also found that suspending the limitation for \"pass-through\" businesses will cost taxpayers about $90 billion in 2020 alone, the Post reported. \n\nUsing those numbers, you can do back-of-the-napkin math to estimate the amount of money the country's wealthiest population could reduce from their tax burden as a result of the change (82% of $90 billion): about $73.8 billion. Then, if you divide that total by the estimated number of impacted Americans who earn $1 million or more (43,000), you end up with an average of $1,716,279\u2014or about $1.7 million\u2014each. \"If you take the reports' calculations at face value, that means that, on average, each of the eligible taxpayers would get a windfall of ~$1.7 million!\" Forbes contributor Shahar Ziv wrote. Clearly, not all of those earning only $1 million will receive a $1.7 million tax cut; however, just as some may receive less than the $1.7 million, some may benefit much more. \n\nIn sum, given that U.S. millionaires won't receive stimulus payments based on their income under the CARES Act but rather that the Act's provisions enable those Americans to take advantage of a temporary tax relief\u2014potentially to the tune of $1.7 million on average\u2014we rate this claim as a \"Mixture\" of true and false information.",
+    "issues": [
+      "taxes"
+    ],
+    "image_data": [
+      {
+        "image_src": "https://drive.google.com/uc?export=view&id=1TK6LUOWqn59c8UoqqXZxIRTUh0M9kQFe"
+      },
+      {
+        "image_src": "https://drive.google.com/uc?export=view&id=1xWmkrsuI7aU-jQ2f9Zp6lc-HAoYY1z6I"
+      }
+    ],
+    "evidence": [
+      {
+        "sentence": "Snopes is still fighting an infodemic of rumors and misinformation surrounding the COVID-19 pandemic, and you can help. Find out what we've learned and how to inoculate yourself against COVID-19 misinformation. Read the latest fact checks about the vaccines. Submit any questionable rumors and advice you encounter. Become a Founding Member to help us hire more fact-checkers. And, please, follow the CDC or WHO for guidance on protecting your community from the disease. ",
+        "hrefs": [
+          "https://www.snopes.com/2020/03/20/snopes-on-covid-19-fact-checking/",
+          "https://www.snopes.com/news/2021/03/11/one-year-covid-infodemic/",
+          "https://www.snopes.com/tag/covid-19-vaccines/",
+          "https://www.snopes.com/contact/",
+          "https://www.snopes.com/projects/founding-members/",
+          "https://www.cdc.gov/coronavirus/2019-ncov/index.html",
+          "https://www.who.int/emergencies/diseases/novel-coronavirus-2019"
+        ]
+      },
+      {
+        "sentence": "Responding to an unprecedented disruption to the U.S. economy caused by the COVID-19 coronavirus pandemic, U.S. President Donald Trump on March 27, 2020, approved a $2.2 trillion stimulus package called the Coronavirus Aid, Relief, and Economic Security (CARES) Act. ",
+        "hrefs": [
+          "https://www.whitehouse.gov/briefings-statements/remarks-president-trump-signing-h-r-748-cares-act/",
+          "https://www.congress.gov/bill/116th-congress/house-bill/748/text?fbclid=IwAR02m0Wa0g0InSzH5o1LkqrmEyCR1l2ljF-j293rulP1p7NaKcdtaYXfHRg#toc-H25CA409D9D2844399CF965A38F83F6C6"
+        ]
+      },
+      {
+        "sentence": "Aiming to provide direct payments to Americans, the relief package authorized the U.S. Treasury Department and the Internal Revenue Service (IRS) to send $1,200 checks to low- and middle-class workers. The legislation also boosted funding for unemployment benefits, set aside billions of dollars for loans to help small businesses, and increased health care spending by $100 billion, among other provisions.",
+        "hrefs": [
+          "https://www.snopes.com/fact-check/covid-stimulus-check/"
+        ]
+      },
+      {
+        "sentence": "But the bill included an additional benefit for wealthy Americans, per national media headlines in mid-April: Over 43,000 U.S. Millionaires will get stimulus averaging $1.6 million each\" (New York Post) and \"How Some Rich Americans Are Getting Checks Averaging $1.7 million\" (Forbes). Snopes received numerous reader inquiries about the veracity of those reports. ",
+        "hrefs": [
+          "https://nypost.com/2020/04/16/43k-us-millionaires-will-get-stimulus-averaging-1-6m-each/",
+          "https://www.forbes.com/sites/shaharziv/2020/04/14/why-are-rich-americans-getting-17-million-stimulus-checks/#13702e11665b"
+        ]
+      },
+      {
+        "sentence": "The claim is multi-pronged: that millionaires and other Americans received the same type of stimulus checks, termed \"Economic Impact Payments\"; that those payments were higher for millionaires than for other workers; and that the economic benefits for the country's wealthiest residents averaged $1.7 million each under the CARES Act.",
+        "hrefs": [
+          "https://www.snopes.com/fact-check/covid-stimulus-check/"
+        ]
+      },
+      {
+        "sentence": "The answer begins with understanding pre-CARES Act tax code. In 2017, the federal government established new limitations on how much money owners of so-called \"pass-through\" businesses can deduct as losses against their \"nonbusiness\" income to minimize their tax liability. Under the Tax Cuts and Jobs Act, owners of such businesses  entities where profits flow through to owners and are not subject to corporate income taxes  could deduct a maximum of $250,000 in losses individually ($500,000 for couples) to offset taxable income from other sources, such as capital gains. Two Democratic Congressmen  Sen. Sheldon Whitehouse of Rhode Island and Rep. Llloyd Doggett of Texas  have explained the rule like this:",
+        "hrefs": [
+          "https://www.taxpolicycenter.org/briefing-book/what-are-pass-through-businesses",
+          "https://www.congress.gov/115/bills/hr1/BILLS-115hr1enr.pdf",
+          "https://doggett.house.gov/sites/doggett.house.gov/files/NOL%20Ltr.pdf"
+        ]
+      },
+      {
+        "sentence": "Provisions in the CARES Act temporarily suspended that limitation until the start of 2021, according to an analysis of legislative records by Snopes. In other words, the IRS is legally obligated to count excess losses from businesses that it otherwise wouldnt have and provide them with \"the same treatment as if the Tax Cuts and Jobs Act had not been enacted,\" according to attorneys with the international law firm Foley and Lardner. ",
+        "hrefs": [
+          "https://www.foley.com/en/insights/publications/2020/03/cares-act-summary-of-tax-provision"
+        ]
+      },
+      {
+        "sentence": "Additionally, the provisions change the timeline of the 2017 law and allow for the new standard to retroactively apply, enabling businesses to report losses in 2018 and 2019 against the past five years. Those taxpayers, however, would likely need to amend their 2018 and 2019 tax returns if they have already been filed to see any changes, according to the tax consulting firm Calvetti Ferguson. ",
+        "hrefs": [
+          "https://calvettiferguson.com/coronavirus-income-tax-implications/"
+        ]
+      },
+      {
+        "sentence": "Here's how that change to tax code is relevant to the claim: Americans who earn $1 million or more will benefit the most from the temporary suspension on the deduction limit, according to an analysis by the nonpartisan congressional body the Joint Committee on Taxation (JCT). In early April 2020, Whitehouse and Doggett requested the committee to research \"the distributional effects\" of the provision within the CARES Act. Later, the commissions chief of staff, Thomas Barthold, shared its findings in a letter to the congressmen, including the caveat:",
+        "hrefs": [
+          "https://www.jct.gov/about-us/role-of-jct.html",
+          "https://www.whitehouse.senate.gov/imo/media/doc/116-0849.pdf"
+        ]
+      },
+      {
+        "sentence": "The table shows almost 82% of the provision's benefits will go toward about 43,000 Americans who earn $1 million or more annually. Put another way, hedge-fund investors and owners of real estate businesses are \"far and away\" the two prime beneficiaries of the change to the 2017 tax law, Steve Rosenthal, a tax expert at the nonpartisan Urban-Brookings Tax Policy Center, told The Washington Post. The JCT also found that suspending the limitation for \"pass-through\" businesses will cost taxpayers about $90 billion in 2020 alone, the Post reported.",
+        "hrefs": [
+          "https://www.taxpolicycenter.org/about",
+          "https://www.washingtonpost.com/business/2020/04/14/coronavirus-law-congress-tax-change/"
+        ]
+      }
+    ],
+    "label": "NEI"
+  },
+  {
+    "url": "https://www.snopes.com/fact-check/jimmy-carter-eye-injury/",
+    "claim": "Did Jimmy Carter participate in the building of low-cost housing despite encountering difficulties from an eye injury?",
+    "author": "Jessica Lee",
+    "posted": "04/14/2022",
+    "sci_digest": [
+      "For more than two years, fans of the president have circulated images and memes of the alleged incident."
+    ],
+    "justification": "For years, liberal social media users have shared photographs or videos supposedly depicting former U.S. President Jimmy Carter doing woodworking with what appears to be an eye injury, apparently to emphasize that his age and medical history hadn't stopped him from volunteering. One Twitter user, for example, posted a meme about the 39th president in April 2022. A reverse-image search of the meme revealed numerous instances in which internet users promoted the underlying claim: that Carter, at age 95, fell, received stitches, and then the following day helped build houses for Habitat for Humanity, a Christian nonprofit that assists low-income families in building homes and paying their mortgages. The claim was true, though the incident had occurred more than two years prior, as of this writing. On Oct. 7, 2019, The Associated Press published the photographs featured in the meme, writing: \"NASHVILLE, Tenn. (AP) \u2014 With a bandage above his left eye and a large, red welt below it, former President Jimmy Carter was greeted by a cheering crowd Monday morning as he prepared to help build a home with Habitat for Humanity in Nashville. Carter fell at home on Sunday, requiring 14 stitches, but he did not let his injuries keep him from participating in his 36th building project with the nonprofit Christian housing organization. He turned 95 last Tuesday, becoming the first U.S. president to reach that milestone.\" The newspaper reported that he and his wife, former First Lady Rosalynn Carter, worked that day on building corbels, a type of support bracket, for a home. CNN also reported on the public appearance, including the following quote from the former president in its Oct. 8, 2019, story: \"I fell down and hit my forehead on a sharp edge and had to go to the hospital. They took 14 stitches in my forehead, and my eye is black, as you've noticed,\" he said. \"But I had a No. 1 priority, and that was to come to Nashville and build houses.\" According to the nonprofit's website, the couple formed a partnership with Habitat for Humanity in the 1980s and have rallied \"thousands of volunteers and even celebrities\" to join the organization's cause since then. However, due to the COVID-19 pandemic in 2020 and 2021, Habitat for Humanity paused its so-called \"Jimmy and Rosalynn Carter Work Project,\" a recurring event during which the couple fundraises to build a grouping of homes. Interested in presidential trivia? We recently combed our archives to compile exclusive stories regarding presidents' pets, drinking, alleged extramarital affairs, purported after-death hauntings of the White House, and more. They are listed in order of presidential term and include the following nuggets of information about Carter: Yes, Carter once helped contain a potentially dangerous accident at a nuclear reactor in Canada. He and his wife, Rosalynn, are the longest-married couple in presidential history. Carter indeed published an open letter entitled \"Losing My Religion for Equality.\"",
+    "issues": [
+      "mortgage"
+    ],
+    "image_data": [
+      {
+        "image_src": "https://drive.google.com/uc?export=view&id=1oAHztfHERoUsAYrQmlN8zYsEAOEBxT4J"
+      }
+    ],
+    "evidence": [
+      {
+        "sentence": "For years, liberal social media users have shared photographs or videos supposedly depicting former U.S. President Jimmy Carter doing woodworking with what appears to be an eye injury, apparently to emphasize that his alleged age and medical history hadn't stopped him from volunteering. One Twitter user, for example, posted the below-displayed meme about the 39th president in April 2022:",
+        "hrefs": [
+          "https://www.facebook.com/watch/?v=2422094131446700",
+          "https://twitter.com/liberalheatfan/status/1513218613007851539"
+        ]
+      },
+      {
+        "sentence": "A reverse-image search of the meme revealed numerous instances in which internet users promoted this underlying claim: that Carter, at age 95, fell, received stitches and then the following day helped build houses for Habitat for Humanity  a Christian nonprofit that helps low-income families build homes and pay their mortgages.",
+        "hrefs": [
+          "https://www.google.com/search?hl=en&tbs=simg:CAESiwIJ4VHSMf0ro0Ma_1wELELCMpwgaOwo5CAQSFMIivBG-IYI2vSnoF4s27z7xA_141GhvRMmDaitY3frA1EVKpXQGEvL_1cJyNCSL-P7pAgBTAEDAsQjq7-CBoKCggIARIEt3joggwLEJ3twQkangEKHAoJY2FycGVudHJ52qWI9gMLCgkvbS8wMTl4NGYKGwoIaGFuZHltYW7apYj2AwsKCS9tLzA5MV85eAocCgh3b3Jrd2VhctqliPYDDAoKL20vMDI2bGM3dwolChJibHVlLWNvbGxhciB3b3JrZXLapYj2AwsKCS9tLzAxa3EzZgocCgpwb3dlciB0b29s2qWI9gMKCggvbS8wX2tzaww&q=jimmy+carter+meme&tbm=isch&source=iu&ictx=1&vet=1&fir=bbDtpTaMrG8b9M%252C4i9MtfH3QC8eQM%252C_%253Bbjw_rKYpp5RRLM%252C9vQxXg3W3GoXFM%252C_%253BR9pHuOmDnLV0VM%252C7_efEt6fLb6CxM%252C_%253BYjZh_QfYTHRJZM%252Cj4zyDZJak-B9OM%252C_%253B9zqRTNILRT3wQM%252CGDQKEuNvvQZNTM%252C_%253BzPx_HDmCfJv3-M%252CXvTIs74i8arYzM%252C_%253BTnGa23zjJAmNQM%252CtyrdtYgUaG2L5M%252C_%253Bu3QeZL2lzdHUZM%252ClBGraNrWqFJM_M%252C_%253BItKZwgodznh-dM%252Cc6ONJUIOIO6dZM%252C_%253B27_sd1ex_iufUM%252CuTkel6Yykp6SAM%252C_%253BpE0fRmNlRqSfyM%252CtSPUTRahFDli9M%252C_%253BJp9DdV14_l_HzM%252C5Lou2UDQQWzK3M%252C_%253BUqdsCRsP9THRkM%252CgMdGApgALYxySM%252C_%253BWDHEfCtpHtuo_M%252CKK9yvAmK3mmM8M%252C_%253B1wiBmW0gDDk2iM%252Csb-8JKPlofsOhM%252C_%253BXJ6n1Zfkoo_PIM%252Cl0SvdTCn9lT_wM%252C_%253BbuLKgmpkHfnS_M%252CNU2n0PDxtAbXaM%252C_%253BpSr72YQ8b6-0YM%252CL7Bky8dq5HNpYM%252C_%253B7lEoXJXhu2TpiM%252CXj_MNrGxdGhW0M%252C_%253B-IkhOXy_uL0csM%252Ch_jWvl6b7EfimM%252C_%253BOPdCA8C6UmjpJM%252Ctz3egVVXtE2JpM%252C_%253BOW7XU3Yk9SJsOM%252CwIk2ab4rActIAM%252C_%253Bh7cnON6IT08wSM%252CewYajzOgvLjvkM%252C_%253BMnyujBU7jkQGjM%252Cmhs7MH5x9Ikq0M%252C_%253BxXy8WQMy_p-FiM%252CkTzZChwtUZYEjM%252C_%253BaIvld-bCuNjS5M%252CpLf-WGS8DD8zbM%252C_%253BkgrdomJKq9SHNM%252CLHqxtg1fLxO-gM%252C_%253BLMoaeQgfrviRVM%252C4ahovSY5CuKkzM%252C_%253BMRb-ji0ti_loTM%252CtUvt3ShxaBMZ9M%252C_%253B83BaAjpWfNLu9M%252CroxLRsOqlcCyoM%252C_&usg=AI4_-kS5cKfwhaQwOWQp5hYna3W_BU7d6A&sa=X&ved=2ahUKEwiFuMmcgZT3AhV0Ap0JHTUtCjwQ9QF6BAg2EAE&biw=1330&bih=918&dpr=1#imgrc=bjw_rKYpp5RRLM",
+          "https://www.habitat.org/about"
+        ]
+      },
+      {
+        "sentence": "[See also: Why Do the Bidens Look Giant in Photo With Carters?]",
+        "hrefs": [
+          "https://www.snopes.com/fact-check/bidens-photo-carters/"
+        ]
+      },
+      {
+        "sentence": "The claim was true  though the incident had occurred more than two years ago, as of this writing. On Oct. 7, 2019, The Associated Press published the photographs featured in the meme, writing:",
+        "hrefs": [
+          "https://apnews.com/article/9ef214c0b3c748b6b32fa40a70ff6624/gallery/6956dbdb3b3e4ea7b476c8be493f8ba4"
+        ]
+      },
+      {
+        "sentence": "NASHVILLE, Tenn. (AP)  With a bandage above his left eye and a large, red welt below it, former President Jimmy Carter was greeted by a cheering crowd Monday morning as he prepared to help build a home with Habitat for Humanity in Nashville.",
+        "hrefs": [
+          "https://www.habitat.org/"
+        ]
+      },
+      {
+        "sentence": "CNN also reported on the public appearance, including the following quote from the former president in its Oct. 8, 2019, story: I fell down and hit my forehead on a sharp edge and had to go to the hospital. And they took 14 stitches in my forehead and my eye is black, as youve noticed, he said. But I had a No. 1 priority and that was to come to Nashville and build houses.",
+        "hrefs": [
+          "https://www.cnn.com/2019/10/08/us/carter-building-houses-after-stitches-falling-trnd/index.html"
+        ]
+      },
+      {
+        "sentence": "According to the nonprofit's website, the couple formed a partnership with Habitat for Humanity in the 1980s, and they have rallied \"thousands of volunteers and even celebrities\" to join the organization's cause since then. However, due to the COVID-19 pandemic in 2020 and 2021, Habitat for Humanity paused its so-called \"Jimmy and Rosalynn Carter Work Project,\" a reoccurring event during which the couple fundraises to build a grouping of homes somewhere.",
+        "hrefs": [
+          "https://www.habitat.org/volunteer/build-events/carter-work-project",
+          "https://www.habitat.org/stories/glimpse-what-inspires-president-carter"
+        ]
+      },
+      {
+        "sentence": "Interested in presidential trivia? We recently combed our archives to compile exclusive stories regarding presidents pets, drinking, alleged extramarital affairs, purported after-death hauntings of the White House  and more. They are listed in order of presidential term here, and include the following nuggets of information about Carter:",
+        "hrefs": [
+          "https://www.snopes.com/fact-check/trump-president-dog-100-years/",
+          "https://www.snopes.com/fact-check/north-korea-richard-nixon-nuclear/",
+          "https://www.snopes.com/fact-check/nancy-pelosi-with-jfk/",
+          "https://www.snopes.com/articles/378130/white-house-abraham-lincoln-ghost/",
+          "https://www.snopes.com/news/2022/02/16/stories-about-u-s-presidents/"
+        ]
+      }
+    ],
+    "label": "true"
+  },
+  {
+    "url": "https://www.politifact.com/factchecks/2007/aug/01/hillary-clinton/an-accurate-summary-of-economic-stats/",
+    "claim": "Corporate profits are up, CEO pay is up, but average wages of Americans are flat.",
+    "author": "Bill Adair",
+    "posted": "08/01/2007",
+    "sci_digest": [],
+    "justification": "Corporate profits have been rising. The Commerce Department reported that corporate profits from current production increased by 21.4 percent in 2006 and were up by 12.5 percent in 2005. CEO pay has also risen. A Forbes report in May 2007 stated that chief executives of the nation's 500 largest companies received a 38 percent raise in 2006, following a 6 percent increase in 2005 and a 54 percent raise in 2004. Additionally, Clinton is correct that average wages have remained flat. Adjusted for inflation, median family income has stagnated since 2001, hovering around $54,000, according to government statistics.",
+    "issues": [
+      "National",
+      "Economy"
+    ],
+    "image_data": [],
+    "evidence": [],
+    "label": "true"
+  },
+  {
+    "url": "https://www.snopes.com/fact-check/collapsing-currency/",
+    "claim": "Has there been a suggestion that H.R. 2847 contains a provision indicating the downfall of the U.S. dollar on July 1, 2014?",
+    "author": "David Mikkelson",
+    "posted": "04/14/2014",
+    "sci_digest": [
+      "Rumor: The U.S. dollar will officially collapse after 1 July 2014 due to the implementation of H.R. 2847."
+    ],
+    "justification": "The U.S. dollar will officially collapse after July 1, 2014, due to the implementation of H.R. 2847. On this date, U.S. House of Representatives Bill \"H.R. 2847\" goes into effect. It will usher in the true collapse of the U.S. dollar and make millions of Americans poorer overnight. You now have just several months to prepare. This claim about the passage of H.R. 2847 causing the U.S. dollar to collapse as of July 1, 2014, is another example of financial scare lore put out in conjunction with an investment come-on, in this case, an ominous sales pitch from Stansberry & Associates Investment Research LLC. This latest panic piece is featured in a Stansberry & Associates presentation that includes a number of alarming statements about how we in the U.S. are soon to experience a \"near-complete shutdown of the American economy,\" will see \"the savings of millions wiped out,\" will be living under the imposition of martial law by the federal government, and will be struggling in the aftermath of various apocalyptic financial scenarios. According to Stansberry & Associates, this remarkable, radical collapse of the United States monetary system and \"our normal way of life\" is set to occur in just a matter of months, similar to a recent conspiracy scare about the federal government's plan to eliminate 16 states from the U.S. in the near future. \n\nBut wait... all one needs to avoid suffering from this devastating national calamity, which will collapse our entire monetary system and spell doom for the American way of life, is a little information. Information that can be yours if you just shell out $149 for a one-year subscription to Stansberry's Investment Advisory newsletter. As one wry commentator put it: in other words, if a financial company spews a bunch of alarming information and then promotes its product as something that will help protect people against this frightening scenario, it might lure gullible individuals into believing that a \"fairly easy and inexpensive way to protect themselves\" against losing their money is to send their money to that company instead. Unfortunately, such schemes work often enough to keep these types of schemers in business. \n\nSo what is this all really about? H.R. 2847, also known as the Hiring Incentives to Restore Employment Act (or HIRE), was a Congressional bill passed into law in March 2010 that sought to provide payroll tax breaks and incentives for businesses to hire unemployed workers. A section of that bill, the Foreign Account Tax Compliance Act (known as FATCA), aimed to eliminate the non-compliance of U.S. taxpayers who hold foreign accounts by requiring those taxpayers (including those living outside the U.S.) to report certain foreign accounts and offshore assets to the government, and by requiring foreign financial institutions to report information about the ownership of overseas assets held by U.S. taxpayers to the government. \n\nThe problem originates from U.S. government efforts to prevent future offshore-banking tax scams like the UBS one in 2009. To keep better track of the flow of assets owned by U.S. citizens, FATCA requires bankers in other countries to send the IRS information about transactions by any of their customers who are Americans. Similarly, U.S. banks must report to the IRS information on their non-U.S.-citizen customers, so the IRS can send it on to their home countries. \n\nYou can understand the motivation behind the rule. It's a big, interconnected world economy; huge sums can be transferred anywhere in an instant. Just as INTERPOL or the World Health Organization have a legitimate interest in sharing data, so too might taxing authorities. In principle, everyone should pay his or her fair share somewhere. As noted on the American Citizens Abroad website, starting July 1, 2014, FATCA will require foreign financial institutions (FFIs) to provide annual reports to the Internal Revenue Service (IRS) on the name and address of each U.S. client, as well as the largest account balance in the year and total debits and credits of any account owned by a U.S. person. \n\nIf an institution does not comply, the U.S. will impose a 30% withholding tax on all its transactions concerning U.S. securities, including the proceeds from the sale of securities. Additionally, FATCA requires any foreign company not listed on a stock exchange or any foreign partnership with 10% U.S. ownership to report to the IRS the names and tax identification numbers (TIN) of any U.S. owner. FATCA also requires U.S. citizens and green card holders who have foreign financial assets in excess of $50,000 (higher for those who are bona fide residents abroad) to complete a new Form 8938 to be filed with the 1040 tax return, starting with the fiscal year 2011. \n\nFATCA has faced criticism on several fronts, which the Treasury Department has attempted to counter in its own \"Myth vs. FACTA\" write-up. Critics argue that the costs of implementing it may outstrip the additional revenues it will generate, that it may prompt \"capital flight\" in the form of foreign financial institutions divesting themselves of U.S. assets, that foreign relations may be strained by the U.S. requiring foreign governments to gather and report (at their own expense) information on U.S. citizens, and that the law may make it difficult or impossible for U.S. citizens living and/or working abroad to open accounts in foreign banks. \n\nHowever, casting such a wide net is producing unintended consequences for some Americans who faithfully pay their taxes from afar. Banks around the world are suddenly rejecting Americans as clients or customers because they don't want the reporting and bureaucratic hassles, plus the potential exposure to severe penalties. Non-Americans are pulling their assets out of U.S. banks. I receive emails every day from American expats who say they are facing various problems bringing their long-standing foreign-based banking lives into compliance with this new law. Some of them say they're considering renouncing their citizenship. Over the years, I've had accounts with banks in England, Japan, Malaysia, China, and now Australia while living or working in those places, and I'm wondering what I need to worry about to ensure the remaining ones \"comply.\" \n\n\"I have always filed my U.S. taxes just as I am supposed to,\" says Brian Dublin, 47, an American businessman now based in Zug, Switzerland, who has lived overseas for many years, including stints in Russia. \"However, as a result of FATCA, in the past year I have been kicked out of a Swiss bank that said, 'Hey, we love you, but we won't work with Americans.' I have also been kicked out of a Swiss pension fund. They told me they don't want any Americans in the fund. They don't want to work on behalf of the IRS,\" he says. \n\n\"And on top of that, I spend many hours and many dollars each year filing U.S. taxes when I sometimes turn out to have zero liability for that year because I have paid a lot of tax somewhere else,\" Dublin adds. Dublin, a New York City native, says he will be eligible for Swiss nationality in the next few years and that if the situation has not dramatically changed, he will seriously consider renouncing his U.S. citizenship. Writing in the New American, Alex Newman argued the more dire side of FATCA, speculating that it could potentially result in a large-scale movement by foreign investors to pull out of U.S. assets and markets. \n\nEstimates suggest there is currently more than $21 trillion of foreign capital invested in American assets and markets, with about $10 trillion of that in the stock market. However, that could change as FATCA enforcement begins, possibly quickly. The Japanese Bankers Association, the European Banking Federation, the Institute of International Bankers, and others have all openly warned in recent years that some of their members could decide to divest from U.S. assets and markets in response to FATCA. \n\nLuxembourg Bankers' Association CEO Jean-Jacques Rommes, speaking to Democrats Abroad, warned that the best way for banks to lower compliance risks was simply to reduce the amount of American assets they hold. \"In other words, divest from the U.S. market in general,\" he explained, as summarized by the Luxembourg Bankers' Association. \n\nMultiple reports have suggested that small and medium-sized firms, unable to bear the compliance costs or the crippling withholding taxes, would be especially likely to divest from American markets. \"On the institutional side, the cost of becoming FATCA compliant may be prohibitive for some foreign institutions, and therefore they will divest from their American holdings,\" explained Douglas Goldstein, author of The Expatriate's Guide to Handling Money and Taxes and director of Profile Investment Services Ltd. Indeed, compliance costs borne by the private sector are expected to dwarf the amount of additional U.S. tax revenue\u2014perhaps by hundreds of times. \n\nGoldstein explained: \"Faced with the choice between paying to implement the new rules or divesting from U.S.-based assets, smaller foreign banks that can't afford to shoulder these costs may choose the latter. After all, there are plenty of promising new markets in which to invest.\" \n\nNeedless to say, if foreign institutions started fleeing U.S. markets, the economic damage would be massive\u2014potentially apocalyptic\u2014especially considering U.S. trade deficits and America's outsized reliance on foreign investment and outside credit just to function. The full implementation of FATCA may, as some critics have maintained, ultimately prove more harmful to U.S. business interests and U.S. citizens living and working abroad than its benefits will merit. However, no credible source that isn't an investment firm trying to scare potential customers into forking over money for a newsletter subscription is seriously maintaining that a law passed five years ago will collapse the entire U.S. economic system, destroy the American way of life, and lead to the imposition of martial law.",
+    "issues": [
+      "asset"
+    ],
+    "image_data": [
+      {
+        "image_src": "https://drive.google.com/uc?export=view&id=1b-9GC-4lOiFccEXr3U3jytpSA1jPgoM6"
+      }
+    ],
+    "evidence": [
+      {
+        "sentence": "Origins:  This item about the passage of H.R. 2847 causing the U.S. dollar to collapse as of 1 July 2014 is another example financial scarelore put out in conjunction with an investment come-on, in this case an ominous sales pitch put out by the folks at Stansberry & Associates Investment Research LLC.",
+        "hrefs": [
+          "https://www.dailypaul.com/312861/obama-s-new-july-1st-2014-law-will-shock-most-americans"
+        ]
+      },
+      {
+        "sentence": "is offered in a Stansberry & Associates presentation featuring a number of scary-sounding statements about how we in the U.S. are soon to experience a \"near-complete shutdown of the American economy,\" will see \"the savings of millions wiped out,\" will be living under the imposition of martial law by the federal government, and will be struggling in the aftermath of a number of other apocalyptic financial scenarios.",
+        "hrefs": [
+          "https://pro.stansberryresearch.com/1310PSIEANEW/LPSIQ295/"
+        ]
+      },
+      {
+        "sentence": "And according to Stansberry & Associates, this remarkable, radical collapse of the United States monetary system and \"our normal way of life\" is going into effect in a mere matter of months (just like a similar recent conspiracy scare about the federal government's plan to eliminate 16 states from the U.S. in the very near future).",
+        "hrefs": [
+          "16states.asp"
+        ]
+      },
+      {
+        "sentence": "But wait ... all one needs in order to avoid suffering from this devastating national calamity, one that will collapse our entire monetary system and spell doom for the American way of life, is a little information. Information that can be yours if you'll just shell out $149 for a one-year subscription to Stansberry's Investment Advisory newsletter. Or, as one wry commentator put it:",
+        "hrefs": [
+          "https://order.stansberryresearch.com/1310PSIEANEW/LPSIQ295/index.htm?pageNumber=2"
+        ]
+      },
+      {
+        "sentence": "H.R. 2847, also known as the Hiring Incentives to Restore Employment Act (or HIRE), was a Congressional bill passed into law in March 2010 that sought to provide payroll tax breaks and incentives for businesses to hire unemployed workers. A section of that bill, the Foreign Account Tax Compliance Act (known as FATCA), sought to eliminate the non-compliance of U.S. taxpayers who hold foreign accounts by requiring those taxpayers (including those living outside the U.S.) to report certain foreign accounts and offshore assets to the government, and by requiring foreign financial institutions to report information about the ownership of overseas assets held by U.S. taxpayers to the government:",
+        "hrefs": [
+          "https://www.govtrack.us/congress/bills/111/hr2847/text",
+          "https://www.irs.gov/Businesses/Corporations/Foreign-Account-Tax-Compliance-Act-FATCA"
+        ]
+      },
+      {
+        "sentence": "As noted on the American Citizens Abroad web site:",
+        "hrefs": [
+          "https://americansabroad.org/issues/fatca/fatca-bad-america-why-it-should-be-repealed/"
+        ]
+      },
+      {
+        "sentence": "FATCA has been the subject of criticisms on a number of fronts (which the Treasury Department has attempted to counter in its own \"Myth vs. FACTA\" write-up), among them that the costs of implementing it may outstrip the additional revenues it will bring in, that it may prompt \"capital flight\" in the form of foreign financial institutions divesting themselves of U.S. assets, that foreign relations may be strained by the U.S. requiring foreign governments to gather and report (at their own expense) information on U.S. citizens, and that the law may make it difficult or impossible for U.S. citizens living and/or working abroad to open accounts in foreign banks:",
+        "hrefs": [
+          "https://americansabroad.org/issues/fatca/fatca-bad-america-why-it-should-be-repealed/",
+          "https://www.treasury.gov/connect/blog/Pages/Myth-vs-FATCA.aspx"
+        ]
+      }
+    ],
+    "label": "false"
+  },
+  {
+    "url": "https://www.snopes.com/fact-check/when-a-writer-falls-in-love-with-you/",
+    "claim": "When a Writer Falls in Love with You",
+    "author": "David Mikkelson",
+    "posted": "02/10/2015",
+    "sci_digest": [
+      "Rumor: Canadian rapper Drake penned a viral quote about falling in love with a writer."
+    ],
+    "justification": "Claim: The viral quote \"If a writer falls in love with you, you can never die\" was written by Canadian rapper Drake. Example: [Collected via Twitter, January 2015] If a Writer Falls in Love with you, You shall Never Die #ReadSomewhere #ReadSomewhere Gaonka6hhora (@Gaonka6hhora) February 9, 2015 February 9, 2015 Origins: In January 2015, Canadian musician Aubrey Drake Graham, better known as the rapper Drake, incorrectly attributed a viral Tumblr quote about a writer's falling in love to Mustafa the Poet when he posted the meme to his Instagram page: @mustafathepoet A photo posted by champagnepapi (@champagnepapi) on Jan 14, 2015, at 9:11 PM PST. Hundreds of thousands of viewers liked the photo, and many who saw the above-displayed Instagram post believed it was written by Drake, while others noticed the musician's attempt to credit the original author and praised Mustafa the Poet for penning the viral phrase. However, the phrase \"If a writer falls in love with you, you can never die\" was written neither by Drake nor by Mustafa the Poet. The true author is Mik Everett, who first published the quote back in 2011 on her blog: Mik Everett blog. Lots of things might happen. That's the thing about writers. They're unpredictable. They might bring you eggs in bed for breakfast, or they might all but ignore you for days. They might bring you eggs in bed at three in the morning, or they might wake you up for sex at three in the morning, or make love at four in the afternoon. They might not sleep at all, or they might sleep right through the alarm and forget to get you up for work, or call you home from work to kill a spider, or refuse to speak to you after finding out you've never seen To Kill a Mockingbird, or spend the last of the rent money on five kinds of soap, or sell your textbooks for cash halfway through the semester, or leave you love notes in your pockets, or wash your pants with Post-It notes in the pockets so your laundry comes out covered in bits of wet paper. They might cry if the Post-It notes are unread all over your pants. It's an unpredictable life. But what happens if a writer falls in love with you? This is a little more predictable. You will find your hemp necklace with the glass mushroom pendant around the neck of someone at a bus stop in a short story. Your favorite shoes will mysteriously disappear and show up in a poem. The watch you always wear, the watch you own but never wear, the fact that you've never worn a watch: they suddenly belong to characters you've never known. And yet they're you. They're not you; they're someone else entirely, but they toss their hair like you. They use the same colloquialisms as you. They scratch their nose when they lie like you. Sometimes they will be narrators; sometimes protagonists, sometimes villains. Sometimes they will be nobodies, an unimportant, static prop. This might amuse you at first or confuse you. You might be bewildered when books turn into mirrors. You might try to see yourself as your beloved writer sees you when you read a poem about someone who has your middle name or prose about someone who has never seen To Kill a Mockingbird. These poems and novels and short stories will scatter into the wind. You will wonder if you're wandering through the pages of some story you've never even read. There's no way to know and no way to erase it. Even if you leave, a part of you will always be left behind. If a writer falls in love with you, you can never die. Vibe NY Mag On 23 January 2015, Mik Everett took to her website to express her frustrations with being a virally famous yet unknown author. A portion of Everett's article is republished below: website Last Monday, I woke up to something weirder than I could possibly imagine. I woke up to find that Drake had posted a quote by me on Instagram and that he'd credited the quote to another author. There is no Thought Catalog article entitled What to Do If a Famous Rapper Steals Your Quote. There is no Buzzfeed article on how to cope with the rabid fans of a rockstar insisting that you've stolen from him. To the best of my knowledge, this isn't a very common problem to have. Sure, I've heard of academic and artistic plagiarism before, usually involving two high-profile entertainment news celebrities. But I'm not a celebrity. I've sold, like, two hundred copies of each of my books. I live well below the poverty line. I'm a regular person who said something kinda catchy once on the internet, and lots of people liked it. And Drake liked it. I am so disconnected from that quote and the people who use it; I am simultaneously on the outside looking in on the very idea of fame and in the very middle of it. To be clear here, nobody broke any laws. Drake did not take credit for the quote. He attempted to cite the quote, like we all learned how to do in middle school. He just cited the wrong poet. That poet (he goes by Mustafa) did give me appropriate credit for the quote eventually. After Drake had reposted the quote and attributed it to Mustafa, I think it kinda blew up in his face, and people started hounding him to give me credit. And he did add my name in. But on the internet, that doesn't matter. Everyone else is still attributing the quote to Mustafa. And there's no way to fix it. Just try messaging Drake on Instagram. On one hand, it's not that big of a deal. The quote has been used several million times on the internet and is rarely credited to me. On the other hand, I would really, really, really like to make a living as an author. And in our day and age, there are no more camera-shy Thomas Pynchons. To be a financially successful author is inextricable from being a famous author. We hope this helps Mik Everett garner some of the recognition she deserves. Last updated: 10 February 2015.",
+    "issues": [
+      "credit"
+    ],
+    "image_data": [
+      {
+        "image_src": "https://drive.google.com/uc?export=view&id=1-kMlYnNbZXx5ygU6I08PlVAe-XiABVi3",
+        "image_caption": null
+      }
+    ],
+    "evidence": [
+      {
+        "sentence": "If a Writer Falls in Love with you, You shall Never Die #ReadSomewhere",
+        "hrefs": [
+          "https://twitter.com/hashtag/ReadSomewhere?src=hash"
+        ]
+      },
+      {
+        "sentence": " Gaonka6hhora (@Gaonka6hhora) February 9, 2015",
+        "hrefs": [
+          "https://twitter.com/Gaonka6hhora/status/564680456394645505"
+        ]
+      },
+      {
+        "sentence": " @mustafathepoet",
+        "hrefs": [
+          "https://instagram.com/p/x3MUMIjQDH/"
+        ]
+      },
+      {
+        "sentence": "But the phrase \"If a writer falls in love with you, you can never die\" was written neither by Drake nor by Mustafa the Poet. The true author is Mik Everett, who first published the quote back in 2011 on her blog: ",
+        "hrefs": [
+          "https://www.facebook.com/authormikeverett",
+          "https://karenfelloutofbedagain.tumblr.com/post/14327141634/what-happens-if-you-fall-in-love-with-a-writer"
+        ]
+      },
+      {
+        "sentence": "On 23 January 2015, Mik Everett took to her website to express her frustrations with being a virally famous, yet unknown, author. A portion of Everett's article is republished below:",
+        "hrefs": [
+          "https://mikeverett.com/what-happens-if-a-famous-rapper-falls-in-love-with-your-quote/"
+        ]
+      }
+    ],
+    "label": "false"
+  },
+  {
+    "url": "https://www.snopes.com/fact-check/covid-relief-funds-us-uk/",
+    "claim": "Is the meme offering a precise comparison of COVID relief funds between the United States and other nations?",
+    "author": "Nur Ibrahim",
+    "posted": "12/11/2020",
+    "sci_digest": [
+      "Comparing apples to oranges is ironically a fruitless method of argument."
+    ],
+    "justification": "Snopes is still fighting an infodemic of rumors and misinformation surrounding the COVID-19 pandemic, and you can help. Find out what we've learned and how to inoculate yourself against COVID-19 misinformation. Read the latest fact checks about the vaccines. Submit any questionable rumors and advice you encounter. Become a Founding Member to help us hire more fact-checkers. And please, follow the CDC or WHO for guidance on protecting your community from the disease. \n\nAs the COVID-19 pandemic ravaged the global economy in 2020, resulting in growing unemployment, governments scrambled to support people and businesses to varying degrees, announcing a range of stimulus relief funds meant to help struggling businesses and furloughed employees. By December 2020, lawmakers in the U.S. were also running out of time to pass another major coronavirus relief package. \n\nA meme began circulating in late 2020 that compared the U.S. government's stimulus checks\u2014given to a significant portion of the U.S. population\u2014to coronavirus relief funds deployed around the world. The meme effectively argued that the U.S. was not giving enough money to support workers compared with other countries. We broke down the numbers below and learned that, while the figures are largely accurate, the meme was comparing apples to oranges. \n\nBelow are the respective stimulus relief funds being provided to populations around the world, particularly across Europe, Australia, and the U.K. In March 2020, the Australian government outlined a plan to subsidize the wages of 6 million people in order to keep them in their jobs. The plan would pay employees at any company that saw a 30% reduction in revenue around $1,500 Australian dollars (the equivalent of $928 U.S. dollars according to Reuters) every two weeks. This calculation would amount to $1,856 U.S. dollars per month. But according to conversion rates calculated by Newsweek in April, the relief check amounted to around $1,993 per month. Based on current conversion rates calculated on Google Finance, this same amount would now be more than $2,200 every four weeks. Australia also had a number of other social security measures, including one-off Economic Support Payments of AU$750 in April and July 2020 to qualifying recipients. \n\nThe Canadian government provides $500 Canadian dollars per week for up to 26 weeks for workers who stopped working or had their income reduced by at least 50% due to COVID-19. Based on current conversion rates on Google, this amounts to around $1,565 U.S. dollars per month. The meme presumably pulled its data from Newsweek's April 2020 story, which calculated the amount as being $1,433 U.S. dollars per month at that time. Overall, the Canadian government aims to spend up to $75 billion U.S. dollars in emergency aid and economic stimulus to assist members of their population who are struggling financially. Measures include boosting child benefit payments, wage subsidies for small businesses, and tax relief measures. \n\nThe Danish government will cover up to 75% of employee salaries in private companies as long as those companies agree not to fire people. According to Flemming Larsen, a professor at the Center for Labor Market Research at Denmark's Aalborg University, this would amount to up to $3,288 per month (roughly based on the conversion rate at the time of the interview), which aligns with the number in the meme. For hourly workers who qualify, the government would cover 90% of their wages. The deal, which was struck between the government and trade unions, covers companies that have to lay off at least 30% of their staff or 50 staff or more. However, this particular form of coverage does not support the self-employed and other vulnerable groups. \n\nAccording to The Guardian, more than 12 million people in France are covered by a partial unemployment scheme that covers 70% of salaries when companies are forced to reduce or suspend work, which is up to 6,927 euros per month (which, according to Newsweek's calculations in April, was $7,575 U.S. dollars, but around $8,400 today). Employees previously on minimum wage receive 100% coverage of their salaries. The French government is also providing paid leave to parents who cannot work from home and who are responsible for children younger than 16. \n\nThe German scheme covers 10 million workers, according to The Guardian, paying up to 67% of net wages lost due to shorter hours, to a maximum of 6,700 euros per month (again, $7,326.78 U.S. dollars in April according to Newsweek, but $8,125 today) for employees with children and 60% for those without children. The budget also includes a 50 billion euro program to help the self-employed and small businesses threatened with bankruptcy, giving them direct payments of up to 15,000 euros (more than $18,000). Ireland's temporary wage subsidy scheme allows affected companies to recoup up to 70% of their net income up to 21,400 euros until May. After May 4, 2020, the scheme became more generous, paying an 85% subsidy up to the same amount. \n\nAfter May 4, employees would be given a maximum of 350 euros per week if they earned less than or equal to 412 euros per week, and they would receive a maximum of 410 euros per week if they earned between 500 and 586 euros per week. 410 euros amounted to $448.36 U.S. dollars per week according to Newsweek in April, which matches up with the meme's calculation of $1,793.44. Today that amounts to around $1,987. \n\nThe Coronavirus Job Retention Scheme reimburses companies for 80% of their gross salaries up to 2,500 pounds per month (which amounts to around $3,300 U.S. dollars today, and according to Newsweek was $3,084 in April). As of August, some workers were able to return to their jobs part-time, and in November the government extended the scheme until March 31, 2021. \n\nThe U.S. government did indeed give many qualifying people a one-time stimulus relief check of $1,200, which on the surface appears to be a small fraction of what these other countries seem to be giving workers who are unemployed or in danger of being furloughed. This check was given to individual taxpayers who made less than $75,000 in adjusted gross income in 2018. They would receive between $600 and $1,200, with the highest earners getting the maximum payment. \n\nHowever, this meme did not account for the overall stimulus package, including unemployment benefits and additional funds granted for dependents. The data from other countries showcased relief funds for helping the unemployed or preventing layoffs, so the numbers were comparing two totally different items. The CARES Act, a $2 trillion relief bill that was passed in March 2020, increased unemployment benefits and added $600 per week from the federal government on top of whatever base amount workers received from their state. The legislation also added 13 weeks of unemployment insurance. However, many of the provisions from this expired in July. The Families First Coronavirus Response Act also expanded paid family and medical leave options for some workers. A new relief bill is being debated by Congress, with Republicans and Democrats disagreeing over how much stimulus the U.S. economy needs. \n\nGiven that the numbers cited in the meme compare very different stimulus packages around the world, with a range of complex provisions, to a one-time payment in the U.S. that does not reflect the full stimulus relief package, we rate this claim a Mixture.",
+    "issues": [
+      "income"
+    ],
+    "image_data": [
+      {
+        "image_src": "https://drive.google.com/uc?export=view&id=14_hRvI8UNwAxo8FjjMmeN7hGK1F6kfk3"
+      }
+    ],
+    "evidence": [
+      {
+        "sentence": "Snopes is still fighting an infodemic of rumors and misinformation surrounding the COVID-19 pandemic, and you can help. Find out what we've learned and how to inoculate yourself against COVID-19 misinformation. Read the latest fact checks about the vaccines. Submit any questionable rumors and advice you encounter. Become a Founding Member to help us hire more fact-checkers. And, please, follow the CDC or WHO for guidance on protecting your community from the disease. ",
+        "hrefs": [
+          "https://www.snopes.com/2020/03/20/snopes-on-covid-19-fact-checking/",
+          "https://www.snopes.com/news/2021/03/11/one-year-covid-infodemic/",
+          "https://www.snopes.com/tag/covid-19-vaccines/",
+          "https://www.snopes.com/contact/",
+          "https://www.snopes.com/projects/founding-members/",
+          "https://www.cdc.gov/coronavirus/2019-ncov/index.html",
+          "https://www.who.int/emergencies/diseases/novel-coronavirus-2019"
+        ]
+      },
+      {
+        "sentence": "As the COVID-19 pandemic ravaged the global economy in 2020, resulting in growing unemployment, governments scrambled to support people and businesses to varying degrees, announcing a range of stimulus relief funds meant to help struggling businesses and furloughed employees. By December 2020, lawmakers in the U.S. were also running out of time to pass another major coronavirus relief package.",
+        "hrefs": [
+          "https://qz.com/1819776/here-are-the-coronavirus-bailouts-being-prepared-around-the-world/",
+          "https://www.cbsnews.com/news/stimulus-check-covid-relief-bill-update-2020-12-09/"
+        ]
+      },
+      {
+        "sentence": "In March 2020, the Australian government outlined a plan to subsidize the wages of 6 million people in order to keep them in their jobs. The plan would pay employees at any company that saw a 30% reduction in revenue around $1,500 Australian dollars (the equivalent of $928 U.S. dollars according to Reuters) every two weeks.",
+        "hrefs": [
+          "https://www.legislation.gov.au/Details/F2020L00419/Explanatory%20Statement/Text",
+          "https://www.reuters.com/article/us-health-coronavirus-australia-idUSKBN21P3JD",
+          "https://www.bloomberg.com/news/articles/2020-03-30/australia-pledges-a-130-billion-over-six-months-to-support-jobs",
+          "https://www.reuters.com/article/us-health-coronavirus-australia-idUSKBN21P3JD"
+        ]
+      },
+      {
+        "sentence": "This calculation would amount to $1,856 U.S. dollars per month. But according to conversion rates calculated by Newsweek in April, the relief check amounted to around $1,993 per month. Based on current conversion rates calculated on Google Finance, this same amount would now be more than $2,200 every four weeks.",
+        "hrefs": [
+          "https://www.newsweek.com/heres-how-us-coronavirus-stimulus-package-compares-other-countries-around-world-1497360"
+        ]
+      },
+      {
+        "sentence": "Australia also had a number of other social security measures including one-off Economic Support Payments of AU$750 in April and July 2020 to qualifying recipients. ",
+        "hrefs": [
+          "https://www.servicesaustralia.gov.au/individuals/services/centrelink/economic-support-payment/how-much-you-can-get"
+        ]
+      },
+      {
+        "sentence": "The Canadian government provides $500 Canadian dollars per week for up to 26 weeks for workers who stopped working or had their income reduced by at least 50% due to COVID-19. Based on current conversion rates on Google, this amounts to around $1,565 U.S. dollars per month. The meme presumably pulled their data from Newsweek's April 2020 story, which calculated the amount as being $1,433 U.S. dollars per month at that time.",
+        "hrefs": [
+          "https://www.canada.ca/en/revenue-agency/news/2020/10/the-government-of-canada-launches-applications-for-the-canada-recovery-benefit.html",
+          "https://www.newsweek.com/heres-how-us-coronavirus-stimulus-package-compares-other-countries-around-world-1497360"
+        ]
+      },
+      {
+        "sentence": "Overall, the Canadian government aims to spend up to $75 billion U.S. dollars in emergency aid and economic stimulus to assist members of their population who are struggling financially. Measures include boosting child benefit payments, wage subsidies for small businesses, and tax relief measures.",
+        "hrefs": [
+          "https://www.bbc.com/news/world-us-canada-52022506"
+        ]
+      },
+      {
+        "sentence": "The Danish government will cover up to 75% of employee salaries in private companies as long as those companies agree to not fire people. According to Flemming Larsen, a professor at the Center for Labor Market Research at Denmarks Aalborg University, this would amount to up to $3,288 per month (roughly based on the conversion rate at the time of the interview), which lines up with the number in the meme. For hourly workers who qualify, the government would cover 90% of their wages.",
+        "hrefs": [
+          "https://www.theatlantic.com/ideas/archive/2020/03/denmark-freezing-its-economy-should-us/608533/",
+          "https://www.theguardian.com/commentisfree/2020/mar/18/denmark-coronavirus-uk-government-workers-employees"
+        ]
+      },
+      {
+        "sentence": "The deal, which was struck between the government and trade unions, covers companies who have to lay off at least 30% of their staff, or 50 staff or more. But this particular form of coverage does not support the self-employed and other vulnerable groups.",
+        "hrefs": [
+          "https://tribunemag.co.uk/2020/03/denmarks-answer-to-the-coronavirus-recession",
+          "https://tribunemag.co.uk/2020/03/denmarks-answer-to-the-coronavirus-recession"
+        ]
+      },
+      {
+        "sentence": "According to The Guardian, more than 12 million people in France are covered by a partial unemployment scheme that covers 70% of salaries when companies are forced to reduce or suspend work, which is up to 6,927 euros per month (which according to Newsweeks calculations in April were $7,575 U.S. dollars, but around $8,400 today). Employees previously on minimum wage receive 100% coverage of their salaries.",
+        "hrefs": [
+          "https://www.theguardian.com/world/2020/may/12/furlough-qa-all-you-need-to-know-about-the-coronavirus-job-retention-scheme#:~:text=The%20German%20scheme%2C%20called%20Kurzarbeit,60%25%20for%20those%20without%20children",
+          "https://www.newsweek.com/heres-how-us-coronavirus-stimulus-package-compares-other-countries-around-world-1497360"
+        ]
+      },
+      {
+        "sentence": "The French government is also giving paid leave to parents who cannot work from home and who are responsible for children younger than 16.",
+        "hrefs": [
+          "https://www.france24.com/en/20200325-the-race-to-save-jobs-european-governments-step-in-to-pay-wages"
+        ]
+      },
+      {
+        "sentence": "The German scheme covers 10 million workers according to The Guardian, paying up to 67% of net wages lost due to shorter hours, to a maximum of 6,700 euros per month (again, $7,326.78 U.S. dollars in April according to Newsweek, but $8,125 today) for employees with children and 60% for those without children.",
+        "hrefs": [
+          "https://www.theguardian.com/world/2020/may/12/furlough-qa-all-you-need-to-know-about-the-coronavirus-job-retention-scheme#:~:text=The%20German%20scheme%2C%20called%20Kurzarbeit,60%25%20for%20those%20without%20children",
+          "https://www.newsweek.com/heres-how-us-coronavirus-stimulus-package-compares-other-countries-around-world-1497360"
+        ]
+      },
+      {
+        "sentence": "Irelands temporary wage subsidy scheme allows affected companies to recoup up to 70% of their net income up to 21,400 euros until May. After May 4, 2020, the scheme became more generous, paying an 85% subsidy up to the same amount.",
+        "hrefs": [
+          "https://www.theguardian.com/world/2020/may/12/furlough-qa-all-you-need-to-know-about-the-coronavirus-job-retention-scheme#:~:text=The%20German%20scheme%2C%20called%20Kurzarbeit,60%25%20for%20those%20without%20children"
+        ]
+      },
+      {
+        "sentence": "After May 4, employees would be given a maximum of 350 euros per week if they earned less than or equal to 412 euros per week, and they would receive a maximum of 410 euros per week if they earned between 500 and 586 euros per week. 410 euros amounted to $448.36 U.S. dollars per week according to Newsweek in April, which matches up with the memes calculation of $1793.44. Today that amounts to around $1,987.",
+        "hrefs": [
+          "https://www.gov.ie/en/service/578596-covid-19-wage-subsidy/",
+          "https://www.newsweek.com/heres-how-us-coronavirus-stimulus-package-compares-other-countries-around-world-1497360"
+        ]
+      },
+      {
+        "sentence": "The Coronavirus Job Retention Scheme reimburses companies for 80% of their gross salaries up to 2,500 pounds per month (which amounts to around $3,300 U.S. dollars today, and according to Newsweek was $3,084 in April). As of August, some workers were able to return to their jobs part-time, and in November the government extended the scheme until March 31, 2021.",
+        "hrefs": [
+          "https://www.theguardian.com/money/2020/may/12/how-the-uk-furlough-scheme-compares-with-other-countries",
+          "https://www.newsweek.com/heres-how-us-coronavirus-stimulus-package-compares-other-countries-around-world-1497360",
+          "https://www.natlawreview.com/article/uk-government-extends-furlough-scheme"
+        ]
+      },
+      {
+        "sentence": "The U.S. government did indeed give many qualifying people a one-time stimulus relief check of $1,200, which on the surface appears to be to a small fraction of what these other countries appear to be giving workers who are unemployed or in danger of being furloughed. This check was given to individual taxpayers who made less than $75,000 in adjusted gross income in 2018. They would receive between $600 and $1,200 with the highest earners getting the maximum payment.",
+        "hrefs": [
+          "https://www.nytimes.com/2020/03/19/us/politics/1200-dollar-stimulus-check-coronavirus.html",
+          "https://archive.li/qVUDX#selection-657.1-657.185"
+        ]
+      },
+      {
+        "sentence": "The CARES Act, a $2 trillion dollar relief bill that was passed in March 2020, increased unemployment benefits and added $600 dollars per week from the federal government on top of whatever base amount workers received from their state. The legislation also added 13 weeks of unemployment insurance. However, many of the provisions from this expired in July. The Families First Coronavirus Response Act also expanded paid family and medical leave options for some workers. A new relief bill is being debated by congress, with Republicans and Democrats disagreeing over how much stimulus the U.S. economy needs.",
+        "hrefs": [
+          "https://www.npr.org/2020/03/26/821457551/whats-inside-the-senate-s-2-trillion-coronavirus-aid-package",
+          "https://www.dol.gov/agencies/whd/pandemic/ffcra-employee-paid-leave#:~:text=Up%20to%20an%20additional%2010,care%20provider%20is%20closed%20or",
+          "https://www.aljazeera.com/economy/2020/12/9/us-stimulus-saga-what-could-end-up-in-new-virus-relief-bill"
+        ]
+      }
+    ],
+    "label": "NEI"
+  },
+  {
+    "url": "https://www.snopes.com/fact-check/biden-biggest-tax-increase/",
+    "claim": "Is Biden implying that there might be the biggest tax hike ever in the United States?",
+    "author": "Jessica Lee",
+    "posted": "10/15/2020",
+    "sci_digest": [
+      "The Trump campaign repeatedly made the claim to try to convince average Americans they would pay more in taxes under Biden."
+    ],

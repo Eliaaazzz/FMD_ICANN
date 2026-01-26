@@ -1,0 +1,63 @@
+{
+  "config": {
+    "model": "qwen3-max",
+    "num_samples": 3,
+    "data_path": "D:\\Programming\\Project\\FMD\\FMD-test\\data\\FinFact\\finfact.json"
+  },
+  "metrics": {
+    "accuracy": 0.6666666666666666,
+    "total": 3,
+    "correct": 2,
+    "unknown_count": 0,
+    "True": {
+      "precision": 0.0,
+      "recall": 0,
+      "f1": 0,
+      "support": 0
+    },
+    "False": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 2
+    },
+    "NEI": {
+      "precision": 0,
+      "recall": 0.0,
+      "f1": 0,
+      "support": 1
+    },
+    "macro_f1": 0.5,
+    "macro_precision": 0.5,
+    "macro_recall": 0.5
+  },
+  "details": [
+    {
+      "index": 0,
+      "claim": "Did Biden Call for an 'End to Shareholder Capitalism'?",
+      "url": "https://www.snopes.com/fact-check/biden-shareholder-capitalism/",
+      "ground_truth": "False",
+      "prediction": "False",
+      "correct": true,
+      "response": "Prediction: 0. False  \nExplanation: The claim that \"Biden called for an 'End to Shareholder Capitalism'\" is misleading when taken out of context. While Biden did say, “It’s way past time to put an end to the era of shareholder capitalism,” he was not advocating for the abolition of stock ownership, the stock market, or 401(k) retirement accounts—as fear-mongering social media posts falsely suggested. Instead, Biden was critiquing the narrow interpretation of corporate responsibility that priorit..."
+    },
+    {
+      "index": 1,
+      "claim": "Does Jared Kushner's brother own a business associated with COVID-19 testing?",
+      "url": "https://www.snopes.com/fact-check/kushner-oscar-covid/",
+      "ground_truth": "NEI",
+      "prediction": "True",
+      "correct": false,
+      "response": "Prediction: 1. True  \nExplanation: The claim states that \"Jared Kushner's brother owns a business associated with COVID-19 testing.\" The contextual information confirms that Joshua Kushner, Jared Kushner’s brother, co-founded Oscar, a digital health-insurance startup. In March 2020, Oscar launched a publicly accessible COVID-19 testing-center locator service to help users find testing sites based on symptom screening. While Oscar does not manufacture, administer, or sell tests, the company’s ser..."
+    },
+    {
+      "index": 2,
+      "claim": "Texas this fiscal year will have more money in reserve than the other 49 states combined.",
+      "url": "https://www.politifact.com/factchecks/2015/mar/05/dan-patrick/dan-patrick-errs-saying-texas-will-end-fiscal-year/",
+      "ground_truth": "False",
+      "prediction": "False",
+      "correct": true,
+      "response": "Prediction: 0. False  \nExplanation: The claim that Texas this fiscal year (ending August 2015) will have more money in reserve than the other 49 states combined is demonstrably false based on multiple credible sources. Lt. Gov. Dan Patrick initially made this assertion, estimating Texas would have about $11 billion in its rainy day fund—more than all other states combined. However, data from the Texas Comptroller Glenn Hegar showed the actual projected balance for Texas’s rainy day fund at the e..."
+    }
+  ]
+}

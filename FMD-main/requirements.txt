@@ -1,0 +1,12 @@
+transformers
+torch
+peft
+datasets
+gradio_client
+flash-attn
+sentencepiece
+deepspeed
+wandb
+rouge_score
+bert-score
+textblob

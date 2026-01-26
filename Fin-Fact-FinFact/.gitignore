@@ -1,0 +1,17 @@
+html/
+json/
+practise/
+json_new/
+.DS_Store
+scripts_old/
+downloaded_data/
+clear.py
+filtered_dataset.json
+leaderboard/
+openai_api.py
+filtered_jsons/
+snopes/
+FinFact_images.zip
+gdrive/
+.env
+Output/

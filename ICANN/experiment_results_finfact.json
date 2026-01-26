@@ -1,0 +1,63 @@
+{
+  "config": {
+    "model": "qwen3-max",
+    "num_samples": 3,
+    "data_path": "data/FinFact/finfact.json"
+  },
+  "metrics": {
+    "accuracy": 0.6666666666666666,
+    "total": 3,
+    "correct": 2,
+    "unknown_count": 0,
+    "True": {
+      "precision": 0.0,
+      "recall": 0,
+      "f1": 0,
+      "support": 0
+    },
+    "False": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 2
+    },
+    "NEI": {
+      "precision": 0,
+      "recall": 0.0,
+      "f1": 0,
+      "support": 1
+    },
+    "macro_f1": 0.5,
+    "macro_precision": 0.5,
+    "macro_recall": 0.5
+  },
+  "details": [
+    {
+      "index": 0,
+      "claim": "Did Biden Call for an 'End to Shareholder Capitalism'?",
+      "url": "https://www.snopes.com/fact-check/biden-shareholder-capitalism/",
+      "ground_truth": "False",
+      "prediction": "False",
+      "correct": true,
+      "response": "Prediction: False\n\nExplanation:  \n该声明“Did Biden Call for an 'End to Shareholder Capitalism'?”在字面上看似有依据，但其在公共传播中（尤其是社交媒体）被严重曲解，因此整体上属于**虚假陈述**。核心判定理由如下：\n\n1. **关键证据指向拜登原话的准确语境**：  \n   根据事实核查提供的直接引述（证据2），拜登在2020年7月9日的演讲中确实说：“It's way past time to put an end to the era of shareholder capitalism—the idea that the only responsibility a corporation has is to its shareholders.” 然而，他紧接着明确解释，企业还应对“工人、社区和国家”负责。这并非主张废除股票市场、禁止股东投资或取消401(k)养老金制度——这些正是社交媒体谣言（证据1）所渲染的恐慌内容。\n\n2. **概念澄清：结束“股东资本主义时代” ≠ 废除股东制度**：  \n..."
+    },
+    {
+      "index": 1,
+      "claim": "Does Jared Kushner's brother own a business associated with COVID-19 testing?",
+      "url": "https://www.snopes.com/fact-check/kushner-oscar-covid/",
+      "ground_truth": "NEI",
+      "prediction": "True",
+      "correct": false,
+      "response": "Prediction: True\n\nExplanation:  \n该声明“Does Jared Kushner's brother own a business associated with COVID-19 testing?”（贾里德·库什纳的兄弟是否拥有一家与新冠检测相关的企业？）在事实层面是属实的。\n\n核心判定理由在于：**Joshua Kushner（贾里德·库什纳的弟弟）确实是健康保险初创公司Oscar Health的联合创始人**，而该公司在2020年3月13日公开推出了一项面向公众的**新冠检测中心定位服务**。尽管Oscar本身并不生产、执行或销售新冠检测试剂，但其业务确实与新冠检测流程直接关联——通过在线问卷评估用户症状，并引导其前往附近的检测点。这种服务构成了对新冠检测生态系统的参与，因此可合理视为“与新冠检测相关”。\n\n关键证据包括：\n- 证据3和证据9明确指出，Joshua Kushner是Oscar的联合创始人，且其风险投资公司Thrive Capital持有该公司大量股份。\n- 证据4和证据6证实，Oscar于2020年3月13日推出了全美首个公开可用的新..."
+    },
+    {
+      "index": 2,
+      "claim": "Texas this fiscal year will have more money in reserve than the other 49 states combined.",
+      "url": "https://www.politifact.com/factchecks/2015/mar/05/dan-patrick/dan-patrick-errs-saying-texas-will-end-fiscal-year/",
+      "ground_truth": "False",
+      "prediction": "False",
+      "correct": true,
+      "response": "Prediction: False\n\nExplanation:\n该声明“Texas this fiscal year will have more money in reserve than the other 49 states combined”被明确证伪。核心判定理由如下：\n\n首先，声明源自2015年2月德州副州长Dan Patrick在广播采访中的说法，他声称德州将在2015财年末拥有约110亿美元的“雨天基金”（rainy day fund），并称这一数额“超过其他49个州储备资金的总和”。然而，多方权威数据均与此说法矛盾。\n\n关键证据包括：\n- 德州财政部长Glenn Hegar在2015年1月的官方预测显示，德州2015财年末的雨天基金余额约为85亿美元，远低于Patrick所说的110亿，且该数字仅为单州数据。\n- 国家州预算官员协会（NASBO）2014年秋季发布的《各州财政调查》指出，全美50州2015财年预计总储备余额为531亿美元，其中德州占107亿美元，阿拉斯加占100亿美元，其余48州合计约324亿美元。仅加州、纽约、佛罗里达等几个大州的储备总和就已超过德州..."
+    }
+  ]
+}
