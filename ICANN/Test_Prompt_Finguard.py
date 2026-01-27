@@ -13,8 +13,8 @@ import os
 NUM_SAMPLES = -1  # 【可调】每类测试样本数，设为 -1 表示全部测试
 MODEL_NAME = "qwen3-max"
 API_KEY = "sk-6234f2144f4946fa81cbfaf6e382c3a0"
-TRUE_DATA_PATH = "data/FinGuard/Finance_TRUE_50.csv"
-FAKE_DATA_PATH = "data/FinGuard/Finance_FAKE_50.csv"
+TRUE_DATA_PATH = "data/FinGuard/Finance_TRUE_150.csv"
+FAKE_DATA_PATH = "data/FinGuard/Finance_FAKE_150.csv"
 OUTPUT_DIR = "FinGuard"
 SLEEP_INTERVAL = 0.1  # API 调用间隔（秒）
 CHECKPOINT_FILE = "FinGuard/checkpoint_finguard.json"  # 断点续跑进度文件

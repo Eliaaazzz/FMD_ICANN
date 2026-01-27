@@ -57,9 +57,9 @@ multi_perspective        33.33%      0.00%      0.00%      0.00%
 ##### 【最终性能比较】
 ##### Prompt名称               Accuracy  Precision     Recall         F1
 
-binary_classifier_en     86.00%     87.50%     84.00%     85.71%
-multi_perspective        85.51%     87.88%     82.86%     85.29%
-cot_stepwise             84.69%     84.31%     86.00%     85.15%
+**binary_classifier_en**     86.00%     87.50%     84.00%     85.71%
+**multi_perspective**        85.51%     87.88%     82.86%     85.29%
+**cot_stepwise**             84.69%     84.31%     86.00%     85.15%
 
 simple                   82%	  80.77%	84%	82.35%
 
@@ -136,10 +136,10 @@ multi_perspective             50.00%     50.00%     50.00%     50.00%
 
 ##### 【最终性能比较】
 ##### Prompt名称                    Accuracy  Precision     Recall         F1
-cot_stepwise                  66.67%     62.50%     71.43%     66.67%
-multi_perspective             63.83%     60.71%     73.91%     66.67%
+**cot_stepwise**                  66.67%     62.50%     71.43%     66.67%
+**multi_perspective**             63.83%     60.71%     73.91%     66.67%
 detailed_criteria             62.00%     61.54%     64.00%     62.75%
-binary_classifier_en          66.00%     70.00%     56.00%     62.22%
+**binary_classifier_en**          66.00%     70.00%     56.00%     62.22%
 concise                       62.00%     62.50%     60.00%     61.22%
 simple                        60.00%     60.00%     60.00%     60.00%
 financial_expert              54.00%     53.57%     60.00%     56.60%
@@ -151,3 +151,10 @@ skeptical_investigator        43.48%     40.00%     36.36%     38.10%
 
 ---
 
+
+
+现在只使用 **cot_stepwise**     **multi_perspective**          **binary_classifier_en**          以及变形,进行测试
+
+
+
+​               

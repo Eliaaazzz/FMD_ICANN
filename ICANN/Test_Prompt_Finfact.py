@@ -13,7 +13,7 @@ import os
 NUM_SAMPLES = -1  # 【可调】每类测试样本数，设为 -1 表示全部测试
 MODEL_NAME = "qwen3-max"
 API_KEY = "sk-6234f2144f4946fa81cbfaf6e382c3a0"
-DATA_PATH = "data/FinFact/finfact_50.json"
+DATA_PATH = "data/FinFact/finfact_100.json"
 OUTPUT_DIR = "FinFact"
 SLEEP_INTERVAL = 0.1  # API 调用间隔（秒）
 
