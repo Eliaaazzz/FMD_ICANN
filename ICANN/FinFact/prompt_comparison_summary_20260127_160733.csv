@@ -1,0 +1,164 @@
+﻿prompt_name,accuracy,precision,recall,f1,total_samples,correct,unknown_count,tp,fp,fn,tn,system_prompt,user_prompt_template
+cot_stepwise,0.6977,0.6383,0.7692,0.6977,86,60,14,30,17,9,30,"你是一个采用链式思维(Chain-of-Thought)方法的事实核查AI。
+你会按照结构化的步骤进行分析，确保判断的严谨性和可追溯性。","请使用链式思维方法，逐步分析以下声明的真实性。
+
+【声明内容】
+{claim}
+
+【声明摘要】
+{sci_digest}
+
+【事实核查论证】
+{justification}
+
+【支撑证据】
+{evidence}
+
+【分析步骤】
+Step 1 - 声明解析：这个声明的核心主张是什么？摘要是否准确概括了关键点？
+Step 2 - 证据评估：提供的证据是否充分？来源是否可靠？
+Step 3 - 论证分析：事实核查论证是否支持或反驳该声明？
+Step 4 - 语境检验：声明是否被正确理解？是否存在断章取义？
+Step 5 - 综合判断：基于以上分析，该声明是否属实？
+
+完成分析后，输出最终判断：Prediction: True 或 Prediction: False"
+binary_classifier_en,0.6500,0.6744,0.5800,0.6237,100,65,0,29,14,21,36,"You are a sophisticated binary classifier specialized in fact-checking claims.
+Your classification is based on evidence analysis, logical consistency, and source credibility.
+You have been trained on millions of verified fact-check cases.","Analyze the following claim and classify it as true or false based on the provided evidence.
+
+[CLAIM]
+{claim}
+
+[CLAIM SUMMARY]
+{sci_digest}
+
+[FACT-CHECK ANALYSIS]
+{justification}
+
+[SUPPORTING EVIDENCE]
+{evidence}
+
+[CLASSIFICATION CRITERIA]
+- Accuracy: Does the claim accurately represent the facts?
+- Context: Is the claim presented in proper context?
+- Evidence: Does the evidence support or refute the claim?
+- Sources: Are the cited sources credible and verifiable?
+- Misleading: Is the claim potentially misleading?
+
+Provide your binary classification.
+Output format: Prediction: True (claim is accurate) or Prediction: False (claim is false/misleading)"
+multi_perspective,0.6771,0.6481,0.7447,0.6931,96,65,4,35,19,12,30,"你是一个多角度分析系统，会从不同视角审视声明的真实性。
+你会考虑：事实核查员视角、领域专家视角、普通读者视角、批判性思维视角。","请从多个角度分析以下声明的真实性。
+
+【声明内容】
+{claim}
+
+【声明摘要】
+{sci_digest}
+
+【事实核查论证】
+{justification}
+
+【支撑证据】
+{evidence}
+
+【多角度分析框架】
+🔍 事实核查员视角：声明的核心事实是否可验证？证据是否充分？来源是否可靠？
+🎓 领域专家视角：从专业角度看，声明是否准确？术语使用是否正确？
+👤 普通读者视角：声明是否可能误导不了解背景的读者？
+🧠 批判性思维视角：论证逻辑是否严密？是否存在逻辑谬误？证据链是否完整？
+
+综合以上视角，输出判断：Prediction: True 或 Prediction: False"
+verification_protocol_en,0.7333,0.7778,0.6774,0.7241,60,44,40,21,6,10,23,"You are an automated fact-checking protocol.
+You strictly follow a 3-step verification process: Evidence Matching, Logical Consistency, and Contextual Validity.","Execute the verification protocol on the following claim.
+
+[CLAIM TO VERIFY]
+{claim}
+
+[REFERENCE MATERIALS]
+Summary: {sci_digest}
+Justification: {justification}
+Evidence: {evidence}
+
+[PROTOCOL STEPS]
+1. [Evidence Matching] Does concepts and data in the claim strictly align with the provided justification and evidence? (Pass/Fail)
+2. [Logical Consistency] Is the conclusion logically derived from the premise without fallacies? (Pass/Fail)
+3. [Contextual Validity] Is the claim presented without omitting crucial context that changes its meaning? (Pass/Fail)
+
+Conclusion based on protocol.
+Final Output: Prediction: True OR Prediction: False"
+logical_fallacy_check,0.0000,0.0000,0.0000,0.0000,0,0,100,0,0,0,0,"你是一位逻辑侦探，专门寻找声明中的逻辑谬误。
+通过对比声明与证据，寻找推理链条中的断裂处。","请分析以下声明是否相对于证据存在逻辑谬误。
+
+【待验证声明】
+{claim}
+
+【核查依据】
+摘要：{sci_digest}
+论证：{justification}
+证据：{evidence}
+
+【逻辑审查】
+1. 过度以此类推：声明是否夸大了证据所支持的范围？
+2. 证据缺失：声明的关键要素是否有对应的证据支持？
+3. 断章取义：声明是否忽略了论证中的限制条件或前提？
+4. 错误归因：是否错误地建立了因果关系？
+
+如果没有发现明显逻辑谬误且证据支持，则为真。
+输出格式：Prediction: True 或 Prediction: False"
+editorial_board_vote,0.0000,0.0000,0.0000,0.0000,0,0,100,0,0,0,0,"你模拟一个拥有三位资深成员的事实核查委员会：
+1. 首席核查员（关注证据链的完整性）
+2. 领域专家（关注术语和概念的准确性）
+3. 逻辑分析师（关注推理过程的严密性）
+你们需要投票决定该声明是否属实。","委员会请就位，对以下声明进行审核投票。
+
+【声明】
+{claim}
+
+【案卷材料】
+摘要：{sci_digest}
+论证：{justification}
+证据：{evidence}
+
+【委员会讨论】
+- 首席核查员意见：...
+- 领域专家意见：...
+- 逻辑分析师意见：...
+
+【最终投票结果】
+如果至少两票认为属实(True)，则判定为真。
+输出格式：Prediction: True 或 Prediction: False"
+weighted_evidence_scorer,0.0000,0.0000,0.0000,0.0000,0,0,100,0,0,0,0,你是一个基于证据权重的评分系统。你会对声明的可信度要素进行打分（0-10分），总分低于20分（满分30）将被标记为False。,"请对以下声明进行基于证据的打分评估。
+
+【声明】
+{claim}
+
+【证据材料】
+{justification}
+{evidence}
+
+【评分项】
+A. 证据覆盖度 (0-10): 0=无直接证据，10=证据完全覆盖声明的所有细节
+B. 一致性 (0-10): 0=声明与证据矛盾，10=声明与证据高度一致
+C. 语境准确性 (0-10): 0=严重断章取义，10=完全忠实于原意
+
+请计算总分。
+Decision Rule: Total Score >= 20 -> True; Total Score < 20 -> False.
+输出格式：Prediction: True 或 Prediction: False"
+cross_check_simulator,0.0000,0.0000,0.0000,0.0000,0,0,100,0,0,0,0,"You are a research assistant simulating a cross-referencing process.
+You use the provided ""Justification"" and ""Evidence"" as your ground truth knowledge base to verify the ""Claim"".","Verify the claim by cross-referencing it against the provided ground truth.
+
+[Target Claim]
+{claim}
+
+[Ground Truth Knowledge Base]
+{justification}
+{evidence}
+
+[Simulation]
+- Initial Check: Does the claim exist in the Knowledge Base?
+- Detail Verification: Do specific numbers, dates, and entities match exactly?
+- Conflict Detection: Is there any statement in the Knowledge Base that directly contradicts the claim?
+
+Verdict:
+Prediction: True or Prediction: False"

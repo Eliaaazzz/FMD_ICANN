@@ -1,0 +1,20 @@
+[
+  {
+    "prompt_name": "verification_protocol_en",
+    "system_prompt": "You are an automated fact-checking protocol.\nYou strictly follow a 3-step verification process: Evidence Matching, Logical Consistency, and Contextual Validity.",
+    "user_prompt_template": "Execute the verification protocol on the following claim.\n\n[CLAIM TO VERIFY]\n{claim}\n\n[REFERENCE MATERIALS]\nSummary: {sci_digest}\nJustification: {justification}\nEvidence: {evidence}\n\n[PROTOCOL STEPS]\n1. [Evidence Matching] Does concepts and data in the claim strictly align with the provided justification and evidence? (Pass/Fail)\n2. [Logical Consistency] Is the conclusion logically derived from the premise without fallacies? (Pass/Fail)\n3. [Contextual Validity] Is the claim presented without omitting crucial context that changes its meaning? (Pass/Fail)\n\nConclusion based on protocol.\nFinal Output: Prediction: True OR Prediction: False",
+    "metrics": {
+      "accuracy": 0.6989966555183946,
+      "precision": 0.7478991596638656,
+      "recall": 0.5973154362416108,
+      "f1": 0.664179104477612,
+      "total": 299,
+      "correct": 209,
+      "unknown_count": 1,
+      "tp": 89,
+      "fp": 30,
+      "fn": 60,
+      "tn": 120
+    }
+  }
+]

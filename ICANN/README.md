@@ -151,10 +151,61 @@ skeptical_investigator        43.48%     40.00%     36.36%     38.10%
 
 ---
 
-
+### Finguard: 300条
 
 现在只使用 **cot_stepwise**     **multi_perspective**          **binary_classifier_en**          以及变形,进行测试
 
 
 
+共:
+
+- `cot_stepwise` (链式思维)
+- `binary_classifier_en` (二分类器-英文)
+- `multi_perspective` (多视角分析)
+- **`verification_protocol_en`** (英文): 模仿 `binary_classifier_en` 的结构化风格，设定了严格的“验证协议”（Verification Protocol），分三步验证来源、内容和逻辑。
+- **`logical_fallacy_check`** (中文): 针对性更强的逻辑分析器，专门寻找偷换概念、循环论证等谬误，这通常是假新闻的硬伤。
+- **`editorial_board_vote`** (中文): 扩展了 `multi_perspective` (多视角) 的概念，模拟一个“编辑委员会”投票，引入了合规官和数据分析师的角色。
+- **`weighted_evidence_scorer`** (中文): 将定性分析转化为定量打分，设定明确的阈值（20/30分），试图通过量化减少模糊判断。
+- **`cross_check_simulator`** (英文): 模拟研究助手进行“交叉验证”，虽然不能联网，但迫使模型调用内部知识库进行一致性检查。
+
 ​               
+
+
+
+##### Prompt名称               Accuracy  Precision     Recall         F1
+binary_classifier_en     80.56%    100.00%     80.56%     89.23%  **有问题 重新跑**
+cot_stepwise             85.57%     83.65%     89.26%     86.36%
+
+
+
+
+
+### Finfact: 100条
+
+- 保留了最佳的 3 个 Prompt：`cot_stepwise`, `binary_classifier_en`, `multi_perspective`.
+- **新增了 5 个针对 FinFact 任务设计的 Prompt**：
+  - **`verification_protocol_en`**: 严格的三步验证协议（证据匹配、逻辑一致性、语境有效性）。
+  - **`logical_fallacy_check`**: 逻辑谬误检测，专门分析声明与证据之间的逻辑断裂。
+  - **`editorial_board_vote`**: 模拟三人核查委员会（首席核查员、领域专家、逻辑分析师）进行投票。
+  - **`weighted_evidence_scorer`**: 证据权重打分系统，量化证据的覆盖度和一致性。
+  - **`cross_check_simulator`**: 模拟交叉验证过程，将提供的 Jusitification/Evidence 视为真理库进行比对。
+
+
+
+##### Prompt名称                    Accuracy  Precision     Recall         F1
+**verification_protocol_en**      73.33%     77.78%     67.74%     72.41% 
+cot_stepwise                  69.77%     63.83%     76.92%     69.77%
+multi_perspective             67.71%     64.81%     74.47%     69.31%
+binary_classifier_en          65.00%     67.44%     58.00%     62.37%
+
+**weighted_evidence_scorer**      76.00%     78.26%     72.00%     75.00%
+**editorial_board_vote**          74.00%     75.00%     72.00%     73.47%
+**cross_check_simulator**         73.00%     73.47%     72.00%     72.73%
+logical_fallacy_check         59.00%     64.52%     40.00%     49.38%
+
+
+
+
+
+##### Prompt名称                    Accuracy  Precision     Recall         F1
+verification_protocol_en      69.90%     74.79%     59.73%     66.42%		**Finfact 300条**

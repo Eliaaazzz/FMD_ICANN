@@ -23,8 +23,8 @@ API_KEY = "sk-6234f2144f4946fa81cbfaf6e382c3a0"
 
 # 获取脚本所在目录，确保路径正确
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_PATH = os.path.join(BASE_DIR, "data/FinFact/finfact_100.json")
-OUTPUT_DIR = os.path.join(BASE_DIR, "FinFact")
+DATA_PATH = os.path.join(BASE_DIR, "data/FinFact/finfact_300.json")
+OUTPUT_DIR = os.path.join(BASE_DIR, "FinFact/verification_protocol_en_300")
 
 SLEEP_INTERVAL = 0.1  # API 调用间隔（秒）
 
@@ -135,118 +135,118 @@ PROMPT_TEMPLATES = {
     # 🆕 新增 Prompts (基于最佳实践设计)
     # ============================================================
 
-#     "verification_protocol_en": {
-#         "system": """You are an automated fact-checking protocol.
-# You strictly follow a 3-step verification process: Evidence Matching, Logical Consistency, and Contextual Validity.""",
-#         "user": """Execute the verification protocol on the following claim.
+    "verification_protocol_en": {
+        "system": """You are an automated fact-checking protocol.
+You strictly follow a 3-step verification process: Evidence Matching, Logical Consistency, and Contextual Validity.""",
+        "user": """Execute the verification protocol on the following claim.
 
-# [CLAIM TO VERIFY]
+[CLAIM TO VERIFY]
+{claim}
+
+[REFERENCE MATERIALS]
+Summary: {sci_digest}
+Justification: {justification}
+Evidence: {evidence}
+
+[PROTOCOL STEPS]
+1. [Evidence Matching] Does concepts and data in the claim strictly align with the provided justification and evidence? (Pass/Fail)
+2. [Logical Consistency] Is the conclusion logically derived from the premise without fallacies? (Pass/Fail)
+3. [Contextual Validity] Is the claim presented without omitting crucial context that changes its meaning? (Pass/Fail)
+
+Conclusion based on protocol.
+Final Output: Prediction: True OR Prediction: False"""
+    },
+
+#     "logical_fallacy_check": {
+#         "system": """你是一位逻辑侦探，专门寻找声明中的逻辑谬误。
+# 通过对比声明与证据，寻找推理链条中的断裂处。""",
+#         "user": """请分析以下声明是否相对于证据存在逻辑谬误。
+
+# 【待验证声明】
 # {claim}
 
-# [REFERENCE MATERIALS]
-# Summary: {sci_digest}
-# Justification: {justification}
-# Evidence: {evidence}
+# 【核查依据】
+# 摘要：{sci_digest}
+# 论证：{justification}
+# 证据：{evidence}
 
-# [PROTOCOL STEPS]
-# 1. [Evidence Matching] Does concepts and data in the claim strictly align with the provided justification and evidence? (Pass/Fail)
-# 2. [Logical Consistency] Is the conclusion logically derived from the premise without fallacies? (Pass/Fail)
-# 3. [Contextual Validity] Is the claim presented without omitting crucial context that changes its meaning? (Pass/Fail)
+# 【逻辑审查】
+# 1. 过度以此类推：声明是否夸大了证据所支持的范围？
+# 2. 证据缺失：声明的关键要素是否有对应的证据支持？
+# 3. 断章取义：声明是否忽略了论证中的限制条件或前提？
+# 4. 错误归因：是否错误地建立了因果关系？
 
-# Conclusion based on protocol.
-# Final Output: Prediction: True OR Prediction: False"""
+# 如果没有发现明显逻辑谬误且证据支持，则为真。
+# 输出格式：Prediction: True 或 Prediction: False"""
 #     },
 
-    "logical_fallacy_check": {
-        "system": """你是一位逻辑侦探，专门寻找声明中的逻辑谬误。
-通过对比声明与证据，寻找推理链条中的断裂处。""",
-        "user": """请分析以下声明是否相对于证据存在逻辑谬误。
+#     "editorial_board_vote": {
+#         "system": """你模拟一个拥有三位资深成员的事实核查委员会：
+# 1. 首席核查员（关注证据链的完整性）
+# 2. 领域专家（关注术语和概念的准确性）
+# 3. 逻辑分析师（关注推理过程的严密性）
+# 你们需要投票决定该声明是否属实。""",
+#         "user": """委员会请就位，对以下声明进行审核投票。
 
-【待验证声明】
-{claim}
+# 【声明】
+# {claim}
 
-【核查依据】
-摘要：{sci_digest}
-论证：{justification}
-证据：{evidence}
+# 【案卷材料】
+# 摘要：{sci_digest}
+# 论证：{justification}
+# 证据：{evidence}
 
-【逻辑审查】
-1. 过度以此类推：声明是否夸大了证据所支持的范围？
-2. 证据缺失：声明的关键要素是否有对应的证据支持？
-3. 断章取义：声明是否忽略了论证中的限制条件或前提？
-4. 错误归因：是否错误地建立了因果关系？
+# 【委员会讨论】
+# - 首席核查员意见：...
+# - 领域专家意见：...
+# - 逻辑分析师意见：...
 
-如果没有发现明显逻辑谬误且证据支持，则为真。
-输出格式：Prediction: True 或 Prediction: False"""
-    },
+# 【最终投票结果】
+# 如果至少两票认为属实(True)，则判定为真。
+# 输出格式：Prediction: True 或 Prediction: False"""
+#     },
 
-    "editorial_board_vote": {
-        "system": """你模拟一个拥有三位资深成员的事实核查委员会：
-1. 首席核查员（关注证据链的完整性）
-2. 领域专家（关注术语和概念的准确性）
-3. 逻辑分析师（关注推理过程的严密性）
-你们需要投票决定该声明是否属实。""",
-        "user": """委员会请就位，对以下声明进行审核投票。
+#     "weighted_evidence_scorer": {
+#         "system": """你是一个基于证据权重的评分系统。你会对声明的可信度要素进行打分（0-10分），总分低于20分（满分30）将被标记为False。""",
+#         "user": """请对以下声明进行基于证据的打分评估。
 
-【声明】
-{claim}
+# 【声明】
+# {claim}
 
-【案卷材料】
-摘要：{sci_digest}
-论证：{justification}
-证据：{evidence}
+# 【证据材料】
+# {justification}
+# {evidence}
 
-【委员会讨论】
-- 首席核查员意见：...
-- 领域专家意见：...
-- 逻辑分析师意见：...
+# 【评分项】
+# A. 证据覆盖度 (0-10): 0=无直接证据，10=证据完全覆盖声明的所有细节
+# B. 一致性 (0-10): 0=声明与证据矛盾，10=声明与证据高度一致
+# C. 语境准确性 (0-10): 0=严重断章取义，10=完全忠实于原意
 
-【最终投票结果】
-如果至少两票认为属实(True)，则判定为真。
-输出格式：Prediction: True 或 Prediction: False"""
-    },
+# 请计算总分。
+# Decision Rule: Total Score >= 20 -> True; Total Score < 20 -> False.
+# 输出格式：Prediction: True 或 Prediction: False"""
+#     },
 
-    "weighted_evidence_scorer": {
-        "system": """你是一个基于证据权重的评分系统。你会对声明的可信度要素进行打分（0-10分），总分低于20分（满分30）将被标记为False。""",
-        "user": """请对以下声明进行基于证据的打分评估。
+#     "cross_check_simulator": {
+#         "system": """You are a research assistant simulating a cross-referencing process.
+# You use the provided "Justification" and "Evidence" as your ground truth knowledge base to verify the "Claim".""",
+#         "user": """Verify the claim by cross-referencing it against the provided ground truth.
 
-【声明】
-{claim}
+# [Target Claim]
+# {claim}
 
-【证据材料】
-{justification}
-{evidence}
+# [Ground Truth Knowledge Base]
+# {justification}
+# {evidence}
 
-【评分项】
-A. 证据覆盖度 (0-10): 0=无直接证据，10=证据完全覆盖声明的所有细节
-B. 一致性 (0-10): 0=声明与证据矛盾，10=声明与证据高度一致
-C. 语境准确性 (0-10): 0=严重断章取义，10=完全忠实于原意
+# [Simulation]
+# - Initial Check: Does the claim exist in the Knowledge Base?
+# - Detail Verification: Do specific numbers, dates, and entities match exactly?
+# - Conflict Detection: Is there any statement in the Knowledge Base that directly contradicts the claim?
 
-请计算总分。
-Decision Rule: Total Score >= 20 -> True; Total Score < 20 -> False.
-输出格式：Prediction: True 或 Prediction: False"""
-    },
-
-    "cross_check_simulator": {
-        "system": """You are a research assistant simulating a cross-referencing process.
-You use the provided "Justification" and "Evidence" as your ground truth knowledge base to verify the "Claim".""",
-        "user": """Verify the claim by cross-referencing it against the provided ground truth.
-
-[Target Claim]
-{claim}
-
-[Ground Truth Knowledge Base]
-{justification}
-{evidence}
-
-[Simulation]
-- Initial Check: Does the claim exist in the Knowledge Base?
-- Detail Verification: Do specific numbers, dates, and entities match exactly?
-- Conflict Detection: Is there any statement in the Knowledge Base that directly contradicts the claim?
-
-Verdict:
-Prediction: True or Prediction: False"""
-    },
+# Verdict:
+# Prediction: True or Prediction: False"""
+#     },
 
     # ============================================================
     # ⏸️ 已停用 Prompts (待归档)

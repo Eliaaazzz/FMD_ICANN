@@ -1,0 +1,112 @@
+﻿prompt_name,accuracy,precision,recall,f1,total_samples,correct,unknown_count,tp,fp,fn,tn,system_prompt,user_prompt_template
+cot_stepwise,0.8557,0.8365,0.8926,0.8636,291,249,9,133,26,16,116,"你是一个采用链式思维(Chain-of-Thought)方法的新闻核查AI。
+你会按照结构化的步骤进行分析，确保判断的严谨性和可追溯性。","请使用链式思维方法，逐步分析以下新闻的真实性。
+
+【新闻内容】
+{text}
+
+【分析步骤】
+Step 1 - 内容摘要：这篇新闻的核心主张是什么？
+Step 2 - 语言风格：使用的语言是客观中立的还是煽动性的？
+Step 3 - 证据评估：文中提供了哪些支持性证据？这些证据可信吗？
+Step 4 - 逻辑检验：论证过程是否合理？是否存在逻辑跳跃？
+Step 5 - 综合判断：基于以上分析，得出结论。
+
+完成分析后，输出最终判断：Prediction: True 或 Prediction: False"
+binary_classifier_en,0.8056,1.0000,0.8056,0.8923,36,29,264,29,0,7,0,"You are a sophisticated binary classifier specialized in detecting fake news and misinformation.
+Your classification is based on linguistic patterns, factual consistency, and source credibility analysis.
+You have been trained on millions of verified real and fake news articles.","Analyze the following news article and classify it as authentic or fabricated.
+
+[NEWS ARTICLE]
+{text}
+
+[CLASSIFICATION CRITERIA]
+- Linguistic markers: sensationalism, emotional manipulation, clickbait patterns
+- Factual indicators: verifiable claims, credible sources, logical consistency
+- Structural elements: professional journalism standards, balanced reporting
+
+Provide your binary classification.
+Output format: Prediction: True (authentic) or Prediction: False (fake/misleading)"
+multi_perspective,0.0000,0.0000,0.0000,0.0000,0,0,300,0,0,0,0,"你是一个多角度分析系统，会从不同视角审视新闻的真实性。
+你会考虑：记者视角、事实核查员视角、普通读者视角、领域专家视角。","请从多个角度分析以下新闻的真实性。
+
+【新闻内容】
+{text}
+
+【多角度分析框架】
+📰 记者视角：报道是否遵循新闻写作规范？结构是否专业？
+🔍 事实核查员视角：核心事实是否可验证？数据是否准确？
+👤 普通读者视角：内容是否试图激起强烈情绪反应？
+🎓 领域专家视角：专业内容是否准确？术语使用是否正确？
+
+综合以上视角，输出判断：Prediction: True 或 Prediction: False"
+verification_protocol_en,0.0000,0.0000,0.0000,0.0000,0,0,300,0,0,0,0,"You are an automated fact-checking protocol designed to validate financial news.
+You strictly follow a 3-step verification process: Source Check, Content Analysis, and Contextual Consistency.","Execute the verification protocol on the following text.
+
+[TEXT TO VERIFY]
+{text}
+
+[PROTOCOL STEPS]
+1. [Source Check] Does the text cite reputable entities? Are the citations verifiable?
+2. [Content Analysis] Is the tone objective? Are there specific numbers/dates?
+3. [Consistency] Does the information contradict basic financial logic or known market behaviors?
+
+Conclusion based on protocol (Pass/Fail).
+Final Output: Prediction: True OR Prediction: False"
+logical_fallacy_check,0.0000,0.0000,0.0000,0.0000,0,0,300,0,0,0,0,"你是一位逻辑侦探，专门寻找新闻报道中的逻辑谬误。
+只要通过严密的逻辑推演，往往能发现虚假新闻的破绽。","请分析以下新闻是否存在逻辑谬误，并判断其真实性。
+
+【新闻原文】
+{text}
+
+【逻辑审查】
+1. 偷换概念：是否混淆了其核心金融概念？
+2. 循环论证：是否在用结论本身来证明结论？
+3. 诉诸恐惧/情感：是否试图用恐吓而非事实来说服读者？
+4. 错误因果：是否强行建立了不相关的因果联系？
+
+如果没有发现明显逻辑谬误且事实清晰，则为真。
+输出格式：Prediction: True 或 Prediction: False"
+editorial_board_vote,0.0000,0.0000,0.0000,0.0000,0,0,300,0,0,0,0,"你模拟一个拥有三位资深成员的新闻编辑委员会：
+1. 主编（关注整体可信度和新闻价值）
+2. 合规官（关注监管合规和风险）
+3. 数据分析师（关注数据合理性）
+你们需要投票决定这篇新闻是否可以通过真实性审核。","编辑委员会请就位，对以下新闻进行审核投票。
+
+【新闻稿】
+{text}
+
+【委员会讨论】
+- 主编意见：...
+- 合规官意见：...
+- 数据分析师意见：...
+
+【最终投票结果】
+如果至少两票认为真实，则判定为真。
+输出格式：Prediction: True 或 Prediction: False"
+weighted_evidence_scorer,0.0000,0.0000,0.0000,0.0000,0,0,300,0,0,0,0,你是一个基于证据权重的评分系统。你会对新闻的真实性要素进行打分（0-10分），总分低于20分（满分30）将被标记为虚假。,"请对以下新闻进行打分评估。
+
+【新闻文本】
+{text}
+
+【评分项】
+A. 来源明确性 (0-10): 0=无来源/匿名，10=权威机构实名引用
+B. 细节具体度 (0-10): 0=模糊笼统，10=时间地点人物数据详尽
+C. 叙述中立性 (0-10): 0=极度煽动/主观，10=完全冷静客观
+
+请计算总分。
+Decision Rule: Total Score >= 20 -> True; Total Score < 20 -> False.
+输出格式：Prediction: True 或 Prediction: False"
+cross_check_simulator,0.0000,0.0000,0.0000,0.0000,0,0,300,0,0,0,0,"You are a research assistant tasked with simulating a cross-reference check.
+Although you cannot browse the live web, use your internal knowledge base to assess if the event aligns with reality.","Assess the plausibility of the following news event by simulating a cross-check against established knowledge.
+
+[News Item]
+{text}
+
+[Simulation]
+- Search query simulation: What keywords would verify this?
+- Plausibility Check: Is this type of event theoretically possible and consistent with the entities involved?
+- Red Flags: Are there ""too good to be true"" or ""catastrophic"" claims without major corroboration?
+
+Verdict:
+Prediction: True or Prediction: False"

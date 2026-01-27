@@ -1,3 +1,10 @@
+# /// script
+# requires-python = ">=3.8"
+# dependencies = [
+#     "pandas",
+#     "openai",
+# ]
+# ///
 import json
 import re
 import time
@@ -13,11 +20,15 @@ import os
 NUM_SAMPLES = -1  # 【可调】每类测试样本数，设为 -1 表示全部测试
 MODEL_NAME = "qwen3-max"
 API_KEY = "sk-6234f2144f4946fa81cbfaf6e382c3a0"
-TRUE_DATA_PATH = "data/FinGuard/Finance_TRUE_150.csv"
-FAKE_DATA_PATH = "data/FinGuard/Finance_FAKE_150.csv"
-OUTPUT_DIR = "FinGuard"
+
+# 获取脚本所在目录，确保路径正确
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+TRUE_DATA_PATH = os.path.join(BASE_DIR, "data/FinGuard/Finance_TRUE_150.csv")
+FAKE_DATA_PATH = os.path.join(BASE_DIR, "data/FinGuard/Finance_FAKE_150.csv")
+OUTPUT_DIR = os.path.join(BASE_DIR, "FinGuard")
+
 SLEEP_INTERVAL = 0.1  # API 调用间隔（秒）
-CHECKPOINT_FILE = "FinGuard/checkpoint_finguard.json"  # 断点续跑进度文件
+CHECKPOINT_FILE = os.path.join(OUTPUT_DIR, "checkpoint_finguard.json")  # 断点续跑进度文件
 
 # ============================================================
 # 初始化 Qwen 客户端
@@ -31,6 +42,161 @@ client = OpenAI(
 # 定义多个不同的 Prompt 模板
 # ============================================================
 PROMPT_TEMPLATES = {
+    # ============================================================
+    # 🏆 表现最佳的 Prompts (保留)
+    # ============================================================
+    
+#     "cot_stepwise": {
+#         "system": """你是一个采用链式思维(Chain-of-Thought)方法的新闻核查AI。
+# 你会按照结构化的步骤进行分析，确保判断的严谨性和可追溯性。""",
+#         "user": """请使用链式思维方法，逐步分析以下新闻的真实性。
+
+# 【新闻内容】
+# {text}
+
+# 【分析步骤】
+# Step 1 - 内容摘要：这篇新闻的核心主张是什么？
+# Step 2 - 语言风格：使用的语言是客观中立的还是煽动性的？
+# Step 3 - 证据评估：文中提供了哪些支持性证据？这些证据可信吗？
+# Step 4 - 逻辑检验：论证过程是否合理？是否存在逻辑跳跃？
+# Step 5 - 综合判断：基于以上分析，得出结论。
+
+# 完成分析后，输出最终判断：Prediction: True 或 Prediction: False"""
+#     },
+
+#     "binary_classifier_en": {
+#         "system": """You are a sophisticated binary classifier specialized in detecting fake news and misinformation.
+# Your classification is based on linguistic patterns, factual consistency, and source credibility analysis.
+# You have been trained on millions of verified real and fake news articles.""",
+#         "user": """Analyze the following news article and classify it as authentic or fabricated.
+
+# [NEWS ARTICLE]
+# {text}
+
+# [CLASSIFICATION CRITERIA]
+# - Linguistic markers: sensationalism, emotional manipulation, clickbait patterns
+# - Factual indicators: verifiable claims, credible sources, logical consistency
+# - Structural elements: professional journalism standards, balanced reporting
+
+# Provide your binary classification.
+# Output format: Prediction: True (authentic) or Prediction: False (fake/misleading)"""
+#     },
+    
+    "multi_perspective": {
+        "system": """你是一个多角度分析系统，会从不同视角审视新闻的真实性。
+你会考虑：记者视角、事实核查员视角、普通读者视角、领域专家视角。""",
+        "user": """请从多个角度分析以下新闻的真实性。
+
+【新闻内容】
+{text}
+
+【多角度分析框架】
+📰 记者视角：报道是否遵循新闻写作规范？结构是否专业？
+🔍 事实核查员视角：核心事实是否可验证？数据是否准确？
+👤 普通读者视角：内容是否试图激起强烈情绪反应？
+🎓 领域专家视角：专业内容是否准确？术语使用是否正确？
+
+综合以上视角，输出判断：Prediction: True 或 Prediction: False"""
+    },
+
+    # ============================================================
+    # 🆕 新增 Prompts (基于最佳实践设计)
+    # ============================================================
+
+    "verification_protocol_en": {
+        "system": """You are an automated fact-checking protocol designed to validate financial news.
+You strictly follow a 3-step verification process: Source Check, Content Analysis, and Contextual Consistency.""",
+        "user": """Execute the verification protocol on the following text.
+
+[TEXT TO VERIFY]
+{text}
+
+[PROTOCOL STEPS]
+1. [Source Check] Does the text cite reputable entities? Are the citations verifiable?
+2. [Content Analysis] Is the tone objective? Are there specific numbers/dates?
+3. [Consistency] Does the information contradict basic financial logic or known market behaviors?
+
+Conclusion based on protocol (Pass/Fail).
+Final Output: Prediction: True OR Prediction: False"""
+    },
+
+    "logical_fallacy_check": {
+        "system": """你是一位逻辑侦探，专门寻找新闻报道中的逻辑谬误。
+只要通过严密的逻辑推演，往往能发现虚假新闻的破绽。""",
+        "user": """请分析以下新闻是否存在逻辑谬误，并判断其真实性。
+
+【新闻原文】
+{text}
+
+【逻辑审查】
+1. 偷换概念：是否混淆了其核心金融概念？
+2. 循环论证：是否在用结论本身来证明结论？
+3. 诉诸恐惧/情感：是否试图用恐吓而非事实来说服读者？
+4. 错误因果：是否强行建立了不相关的因果联系？
+
+如果没有发现明显逻辑谬误且事实清晰，则为真。
+输出格式：Prediction: True 或 Prediction: False"""
+    },
+
+    "editorial_board_vote": {
+        "system": """你模拟一个拥有三位资深成员的新闻编辑委员会：
+1. 主编（关注整体可信度和新闻价值）
+2. 合规官（关注监管合规和风险）
+3. 数据分析师（关注数据合理性）
+你们需要投票决定这篇新闻是否可以通过真实性审核。""",
+        "user": """编辑委员会请就位，对以下新闻进行审核投票。
+
+【新闻稿】
+{text}
+
+【委员会讨论】
+- 主编意见：...
+- 合规官意见：...
+- 数据分析师意见：...
+
+【最终投票结果】
+如果至少两票认为真实，则判定为真。
+输出格式：Prediction: True 或 Prediction: False"""
+    },
+
+    "weighted_evidence_scorer": {
+        "system": """你是一个基于证据权重的评分系统。你会对新闻的真实性要素进行打分（0-10分），总分低于20分（满分30）将被标记为虚假。""",
+        "user": """请对以下新闻进行打分评估。
+
+【新闻文本】
+{text}
+
+【评分项】
+A. 来源明确性 (0-10): 0=无来源/匿名，10=权威机构实名引用
+B. 细节具体度 (0-10): 0=模糊笼统，10=时间地点人物数据详尽
+C. 叙述中立性 (0-10): 0=极度煽动/主观，10=完全冷静客观
+
+请计算总分。
+Decision Rule: Total Score >= 20 -> True; Total Score < 20 -> False.
+输出格式：Prediction: True 或 Prediction: False"""
+    },
+
+    "cross_check_simulator": {
+        "system": """You are a research assistant tasked with simulating a cross-reference check.
+Although you cannot browse the live web, use your internal knowledge base to assess if the event aligns with reality.""",
+        "user": """Assess the plausibility of the following news event by simulating a cross-check against established knowledge.
+
+[News Item]
+{text}
+
+[Simulation]
+- Search query simulation: What keywords would verify this?
+- Plausibility Check: Is this type of event theoretically possible and consistent with the entities involved?
+- Red Flags: Are there "too good to be true" or "catastrophic" claims without major corroboration?
+
+Verdict:
+Prediction: True or Prediction: False"""
+    },
+
+    # ============================================================
+    # ⏸️ 已停用 Prompts (待归档)
+    # ============================================================
+    
 #     "simple": {
 #         "system": "你是一个新闻真实性判断助手。只输出判断结果，不需要解释。",
 #         "user": """请判断以下新闻的真实性。
@@ -63,105 +229,52 @@ PROMPT_TEMPLATES = {
 # 基于以上维度的综合分析，给出最终判断。
 # 输出格式：Prediction: True 或 Prediction: False"""
 #     },
+
+#     "financial_expert": {
+#         "system": """你是一位拥有20年经验的资深金融分析师和新闻核查专家。
+# 你曾在华尔街日报、彭博社等权威金融媒体工作，对金融新闻的真实性判断有敏锐的洞察力。
+# 你特别擅长识别：市场操纵性假新闻、投资诈骗宣传、夸大的财务数据、虚假的专家背书。""",
+#         "user": """作为资深金融新闻核查专家，请对以下新闻进行专业评估。
+
+# 【待评估新闻】
+# {text}
+
+# 【专业核查要点】
+# 1. 金融数据准确性：涉及的股价、市值、财务数据是否合理？
+# 2. 市场影响分析：该新闻是否有操纵市场情绪的意图？
+# 3. 来源权威性：消息来源是否为公认的金融机构或监管部门？
+# 4. 专业术语使用：金融术语的使用是否正确？是否存在误导性表述？
+# 5. 时效性检查：新闻涉及的时间点和事件是否匹配？
+
+# 请给出你的专业判断：Prediction: True 或 Prediction: False"""
+#     },
+
+#     "skeptical_investigator": {
+#         "system": """你是一位极度怀疑的调查记者，在揭露虚假新闻方面有着丰富的经验。
+# 你的座右铭是："非经验证，皆为可疑"。
+# 你会从最严格的标准审视每一条新闻，寻找任何可能的漏洞和不实之处。""",
+#         "user": """以调查记者的严格标准，审查以下新闻的真实性。
+
+# 【待审查新闻】
+# {text}
+
+# 【调查审查清单】
+# □ 事实依据：报道中的每个事实陈述是否都有可验证的来源？
+# □ 语言中立性：是否使用了中立客观的报道语言？有无情绪煽动？
+# □ 逻辑完整性：论证链条是否完整？是否存在逻辑跳跃或隐藏假设？
+# □ 利益关联：报道是否可能服务于特定利益群体的议程？
+# □ 时间线验证：事件的时间顺序是否合理？是否与已知事实相符？
+# □ 专家引用：引用的专家是否真实存在？其言论是否被正确引用？
+
+# 基于严格审查，给出判断：Prediction: True 或 Prediction: False"""
+#     },
     
-    "cot_stepwise": {
-        "system": """你是一个采用链式思维(Chain-of-Thought)方法的新闻核查AI。
-你会按照结构化的步骤进行分析，确保判断的严谨性和可追溯性。""",
-        "user": """请使用链式思维方法，逐步分析以下新闻的真实性。
+#     "concise": {
+#         "system": "新闻真假二分类器。直接输出分类结果。",
+#         "user": """新闻：{text}
 
-【新闻内容】
-{text}
-
-【分析步骤】
-Step 1 - 内容摘要：这篇新闻的核心主张是什么？
-Step 2 - 语言风格：使用的语言是客观中立的还是煽动性的？
-Step 3 - 证据评估：文中提供了哪些支持性证据？这些证据可信吗？
-Step 4 - 逻辑检验：论证过程是否合理？是否存在逻辑跳跃？
-Step 5 - 综合判断：基于以上分析，得出结论。
-
-完成分析后，输出最终判断：Prediction: True 或 Prediction: False"""
-    },
-    
-    "financial_expert": {
-        "system": """你是一位拥有20年经验的资深金融分析师和新闻核查专家。
-你曾在华尔街日报、彭博社等权威金融媒体工作，对金融新闻的真实性判断有敏锐的洞察力。
-你特别擅长识别：市场操纵性假新闻、投资诈骗宣传、夸大的财务数据、虚假的专家背书。""",
-        "user": """作为资深金融新闻核查专家，请对以下新闻进行专业评估。
-
-【待评估新闻】
-{text}
-
-【专业核查要点】
-1. 金融数据准确性：涉及的股价、市值、财务数据是否合理？
-2. 市场影响分析：该新闻是否有操纵市场情绪的意图？
-3. 来源权威性：消息来源是否为公认的金融机构或监管部门？
-4. 专业术语使用：金融术语的使用是否正确？是否存在误导性表述？
-5. 时效性检查：新闻涉及的时间点和事件是否匹配？
-
-请给出你的专业判断：Prediction: True 或 Prediction: False"""
-    },
-    
-    "binary_classifier_en": {
-        "system": """You are a sophisticated binary classifier specialized in detecting fake news and misinformation.
-Your classification is based on linguistic patterns, factual consistency, and source credibility analysis.
-You have been trained on millions of verified real and fake news articles.""",
-        "user": """Analyze the following news article and classify it as authentic or fabricated.
-
-[NEWS ARTICLE]
-{text}
-
-[CLASSIFICATION CRITERIA]
-- Linguistic markers: sensationalism, emotional manipulation, clickbait patterns
-- Factual indicators: verifiable claims, credible sources, logical consistency
-- Structural elements: professional journalism standards, balanced reporting
-
-Provide your binary classification.
-Output format: Prediction: True (authentic) or Prediction: False (fake/misleading)"""
-    },
-    
-    "skeptical_investigator": {
-        "system": """你是一位极度怀疑的调查记者，在揭露虚假新闻方面有着丰富的经验。
-你的座右铭是："非经验证，皆为可疑"。
-你会从最严格的标准审视每一条新闻，寻找任何可能的漏洞和不实之处。""",
-        "user": """以调查记者的严格标准，审查以下新闻的真实性。
-
-【待审查新闻】
-{text}
-
-【调查审查清单】
-□ 事实依据：报道中的每个事实陈述是否都有可验证的来源？
-□ 语言中立性：是否使用了中立客观的报道语言？有无情绪煽动？
-□ 逻辑完整性：论证链条是否完整？是否存在逻辑跳跃或隐藏假设？
-□ 利益关联：报道是否可能服务于特定利益群体的议程？
-□ 时间线验证：事件的时间顺序是否合理？是否与已知事实相符？
-□ 专家引用：引用的专家是否真实存在？其言论是否被正确引用？
-
-基于严格审查，给出判断：Prediction: True 或 Prediction: False"""
-    },
-    
-    "concise": {
-        "system": "新闻真假二分类器。直接输出分类结果。",
-        "user": """新闻：{text}
-
-分类结果：Prediction: True 或 Prediction: False"""
-    },
-    
-    "multi_perspective": {
-        "system": """你是一个多角度分析系统，会从不同视角审视新闻的真实性。
-你会考虑：记者视角、事实核查员视角、普通读者视角、领域专家视角。""",
-        "user": """请从多个角度分析以下新闻的真实性。
-
-【新闻内容】
-{text}
-
-【多角度分析框架】
-📰 记者视角：报道是否遵循新闻写作规范？结构是否专业？
-🔍 事实核查员视角：核心事实是否可验证？数据是否准确？
-👤 普通读者视角：内容是否试图激起强烈情绪反应？
-🎓 领域专家视角：专业内容是否准确？术语使用是否正确？
-
-综合以上视角，输出判断：Prediction: True 或 Prediction: False"""
-    }
+# 分类结果：Prediction: True 或 Prediction: False"""
+#     },
 }
 
 

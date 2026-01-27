@@ -7,7 +7,7 @@ random.seed(42)
 
 # 读取原始数据
 data_path = Path("d:/Programming/Project/FMD/ICANN/data/FinFact/finfact.json")
-output_path = Path("d:/Programming/Project/FMD/ICANN/data/FinFact/finfact_50.json")
+output_path = Path("d:/Programming/Project/FMD/ICANN/data/FinFact/finfact_300.json")
 
 with open(data_path, "r", encoding="utf-8") as f:
     raw_data = json.load(f)
@@ -28,8 +28,8 @@ false_samples = [d for d in valid_data if d["label"].lower() == "false"]
 print(f"True 样本数: {len(true_samples)}")
 print(f"False 样本数: {len(false_samples)}")
 
-# 平衡采样：各取50条
-num_each = 25
+# 平衡采样：各取150条
+num_each = 150
 sampled_true = random.sample(true_samples, min(num_each, len(true_samples)))
 sampled_false = random.sample(false_samples, min(num_each, len(false_samples)))
 

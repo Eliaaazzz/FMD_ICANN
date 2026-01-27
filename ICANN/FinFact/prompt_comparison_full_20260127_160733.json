@@ -1,0 +1,130 @@
+[
+  {
+    "prompt_name": "cot_stepwise",
+    "system_prompt": "你是一个采用链式思维(Chain-of-Thought)方法的事实核查AI。\n你会按照结构化的步骤进行分析，确保判断的严谨性和可追溯性。",
+    "user_prompt_template": "请使用链式思维方法，逐步分析以下声明的真实性。\n\n【声明内容】\n{claim}\n\n【声明摘要】\n{sci_digest}\n\n【事实核查论证】\n{justification}\n\n【支撑证据】\n{evidence}\n\n【分析步骤】\nStep 1 - 声明解析：这个声明的核心主张是什么？摘要是否准确概括了关键点？\nStep 2 - 证据评估：提供的证据是否充分？来源是否可靠？\nStep 3 - 论证分析：事实核查论证是否支持或反驳该声明？\nStep 4 - 语境检验：声明是否被正确理解？是否存在断章取义？\nStep 5 - 综合判断：基于以上分析，该声明是否属实？\n\n完成分析后，输出最终判断：Prediction: True 或 Prediction: False",
+    "metrics": {
+      "accuracy": 0.6976744186046512,
+      "precision": 0.6382978723404256,
+      "recall": 0.7692307692307693,
+      "f1": 0.6976744186046512,
+      "total": 86,
+      "correct": 60,
+      "unknown_count": 14,
+      "tp": 30,
+      "fp": 17,
+      "fn": 9,
+      "tn": 30
+    }
+  },
+  {
+    "prompt_name": "binary_classifier_en",
+    "system_prompt": "You are a sophisticated binary classifier specialized in fact-checking claims.\nYour classification is based on evidence analysis, logical consistency, and source credibility.\nYou have been trained on millions of verified fact-check cases.",
+    "user_prompt_template": "Analyze the following claim and classify it as true or false based on the provided evidence.\n\n[CLAIM]\n{claim}\n\n[CLAIM SUMMARY]\n{sci_digest}\n\n[FACT-CHECK ANALYSIS]\n{justification}\n\n[SUPPORTING EVIDENCE]\n{evidence}\n\n[CLASSIFICATION CRITERIA]\n- Accuracy: Does the claim accurately represent the facts?\n- Context: Is the claim presented in proper context?\n- Evidence: Does the evidence support or refute the claim?\n- Sources: Are the cited sources credible and verifiable?\n- Misleading: Is the claim potentially misleading?\n\nProvide your binary classification.\nOutput format: Prediction: True (claim is accurate) or Prediction: False (claim is false/misleading)",
+    "metrics": {
+      "accuracy": 0.65,
+      "precision": 0.6744186046511628,
+      "recall": 0.58,
+      "f1": 0.6236559139784946,
+      "total": 100,
+      "correct": 65,
+      "unknown_count": 0,
+      "tp": 29,
+      "fp": 14,
+      "fn": 21,
+      "tn": 36
+    }
+  },
+  {
+    "prompt_name": "multi_perspective",
+    "system_prompt": "你是一个多角度分析系统，会从不同视角审视声明的真实性。\n你会考虑：事实核查员视角、领域专家视角、普通读者视角、批判性思维视角。",
+    "user_prompt_template": "请从多个角度分析以下声明的真实性。\n\n【声明内容】\n{claim}\n\n【声明摘要】\n{sci_digest}\n\n【事实核查论证】\n{justification}\n\n【支撑证据】\n{evidence}\n\n【多角度分析框架】\n🔍 事实核查员视角：声明的核心事实是否可验证？证据是否充分？来源是否可靠？\n🎓 领域专家视角：从专业角度看，声明是否准确？术语使用是否正确？\n👤 普通读者视角：声明是否可能误导不了解背景的读者？\n🧠 批判性思维视角：论证逻辑是否严密？是否存在逻辑谬误？证据链是否完整？\n\n综合以上视角，输出判断：Prediction: True 或 Prediction: False",
+    "metrics": {
+      "accuracy": 0.6770833333333334,
+      "precision": 0.6481481481481481,
+      "recall": 0.7446808510638298,
+      "f1": 0.6930693069306931,
+      "total": 96,
+      "correct": 65,
+      "unknown_count": 4,
+      "tp": 35,
+      "fp": 19,
+      "fn": 12,
+      "tn": 30
+    }
+  },
+  {
+    "prompt_name": "verification_protocol_en",
+    "system_prompt": "You are an automated fact-checking protocol.\nYou strictly follow a 3-step verification process: Evidence Matching, Logical Consistency, and Contextual Validity.",
+    "user_prompt_template": "Execute the verification protocol on the following claim.\n\n[CLAIM TO VERIFY]\n{claim}\n\n[REFERENCE MATERIALS]\nSummary: {sci_digest}\nJustification: {justification}\nEvidence: {evidence}\n\n[PROTOCOL STEPS]\n1. [Evidence Matching] Does concepts and data in the claim strictly align with the provided justification and evidence? (Pass/Fail)\n2. [Logical Consistency] Is the conclusion logically derived from the premise without fallacies? (Pass/Fail)\n3. [Contextual Validity] Is the claim presented without omitting crucial context that changes its meaning? (Pass/Fail)\n\nConclusion based on protocol.\nFinal Output: Prediction: True OR Prediction: False",
+    "metrics": {
+      "accuracy": 0.7333333333333333,
+      "precision": 0.7777777777777778,
+      "recall": 0.6774193548387096,
+      "f1": 0.7241379310344828,
+      "total": 60,
+      "correct": 44,
+      "unknown_count": 40,
+      "tp": 21,
+      "fp": 6,
+      "fn": 10,
+      "tn": 23
+    }
+  },
+  {
+    "prompt_name": "logical_fallacy_check",
+    "system_prompt": "你是一位逻辑侦探，专门寻找声明中的逻辑谬误。\n通过对比声明与证据，寻找推理链条中的断裂处。",
+    "user_prompt_template": "请分析以下声明是否相对于证据存在逻辑谬误。\n\n【待验证声明】\n{claim}\n\n【核查依据】\n摘要：{sci_digest}\n论证：{justification}\n证据：{evidence}\n\n【逻辑审查】\n1. 过度以此类推：声明是否夸大了证据所支持的范围？\n2. 证据缺失：声明的关键要素是否有对应的证据支持？\n3. 断章取义：声明是否忽略了论证中的限制条件或前提？\n4. 错误归因：是否错误地建立了因果关系？\n\n如果没有发现明显逻辑谬误且证据支持，则为真。\n输出格式：Prediction: True 或 Prediction: False",
+    "metrics": {
+      "accuracy": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "total": 0,
+      "correct": 0,
+      "unknown_count": 100
+    }
+  },
+  {
+    "prompt_name": "editorial_board_vote",
+    "system_prompt": "你模拟一个拥有三位资深成员的事实核查委员会：\n1. 首席核查员（关注证据链的完整性）\n2. 领域专家（关注术语和概念的准确性）\n3. 逻辑分析师（关注推理过程的严密性）\n你们需要投票决定该声明是否属实。",
+    "user_prompt_template": "委员会请就位，对以下声明进行审核投票。\n\n【声明】\n{claim}\n\n【案卷材料】\n摘要：{sci_digest}\n论证：{justification}\n证据：{evidence}\n\n【委员会讨论】\n- 首席核查员意见：...\n- 领域专家意见：...\n- 逻辑分析师意见：...\n\n【最终投票结果】\n如果至少两票认为属实(True)，则判定为真。\n输出格式：Prediction: True 或 Prediction: False",
+    "metrics": {
+      "accuracy": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "total": 0,
+      "correct": 0,
+      "unknown_count": 100
+    }
+  },
+  {
+    "prompt_name": "weighted_evidence_scorer",
+    "system_prompt": "你是一个基于证据权重的评分系统。你会对声明的可信度要素进行打分（0-10分），总分低于20分（满分30）将被标记为False。",
+    "user_prompt_template": "请对以下声明进行基于证据的打分评估。\n\n【声明】\n{claim}\n\n【证据材料】\n{justification}\n{evidence}\n\n【评分项】\nA. 证据覆盖度 (0-10): 0=无直接证据，10=证据完全覆盖声明的所有细节\nB. 一致性 (0-10): 0=声明与证据矛盾，10=声明与证据高度一致\nC. 语境准确性 (0-10): 0=严重断章取义，10=完全忠实于原意\n\n请计算总分。\nDecision Rule: Total Score >= 20 -> True; Total Score < 20 -> False.\n输出格式：Prediction: True 或 Prediction: False",
+    "metrics": {
+      "accuracy": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "total": 0,
+      "correct": 0,
+      "unknown_count": 100
+    }
+  },
+  {
+    "prompt_name": "cross_check_simulator",
+    "system_prompt": "You are a research assistant simulating a cross-referencing process.\nYou use the provided \"Justification\" and \"Evidence\" as your ground truth knowledge base to verify the \"Claim\".",
+    "user_prompt_template": "Verify the claim by cross-referencing it against the provided ground truth.\n\n[Target Claim]\n{claim}\n\n[Ground Truth Knowledge Base]\n{justification}\n{evidence}\n\n[Simulation]\n- Initial Check: Does the claim exist in the Knowledge Base?\n- Detail Verification: Do specific numbers, dates, and entities match exactly?\n- Conflict Detection: Is there any statement in the Knowledge Base that directly contradicts the claim?\n\nVerdict:\nPrediction: True or Prediction: False",
+    "metrics": {
+      "accuracy": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "total": 0,
+      "correct": 0,
+      "unknown_count": 100
+    }
+  }
+]

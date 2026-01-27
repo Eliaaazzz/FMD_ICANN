@@ -1,0 +1,33 @@
+﻿prompt_name,index,claim,url,ground_truth,prediction,correct
+cot_stepwise,0,Are the majority of cruise ships registered under foreign flags?,https://www.snopes.com/fact-check/cruise-ships-foreign-flags/,True,True,True
+cot_stepwise,1,"Is Stacey Abrams responsible for a debt exceeding $50,000 in overdue taxes?",https://www.snopes.com/fact-check/stacey-abrams-back-taxes/,True,False,False
+cot_stepwise,2,Video Does Not Show Electric Scooter Bikes Abandoned in a 'Graveyard' Due to High Cost of Batteries,https://www.snopes.com/fact-check/electric-scooter-bike-abandoned-graveyard/,False,True,False
+cot_stepwise,3,Cautionary notice regarding the Affordable Care Act,https://www.snopes.com/fact-check/penalty-shot/,False,False,True
+binary_classifier_en,0,Are the majority of cruise ships registered under foreign flags?,https://www.snopes.com/fact-check/cruise-ships-foreign-flags/,True,True,True
+binary_classifier_en,1,"Is Stacey Abrams responsible for a debt exceeding $50,000 in overdue taxes?",https://www.snopes.com/fact-check/stacey-abrams-back-taxes/,True,False,False
+binary_classifier_en,2,Video Does Not Show Electric Scooter Bikes Abandoned in a 'Graveyard' Due to High Cost of Batteries,https://www.snopes.com/fact-check/electric-scooter-bike-abandoned-graveyard/,False,True,False
+binary_classifier_en,3,Cautionary notice regarding the Affordable Care Act,https://www.snopes.com/fact-check/penalty-shot/,False,False,True
+multi_perspective,0,Are the majority of cruise ships registered under foreign flags?,https://www.snopes.com/fact-check/cruise-ships-foreign-flags/,True,True,True
+multi_perspective,1,"Is Stacey Abrams responsible for a debt exceeding $50,000 in overdue taxes?",https://www.snopes.com/fact-check/stacey-abrams-back-taxes/,True,True,True
+multi_perspective,2,Video Does Not Show Electric Scooter Bikes Abandoned in a 'Graveyard' Due to High Cost of Batteries,https://www.snopes.com/fact-check/electric-scooter-bike-abandoned-graveyard/,False,True,False
+multi_perspective,3,Cautionary notice regarding the Affordable Care Act,https://www.snopes.com/fact-check/penalty-shot/,False,False,True
+verification_protocol_en,0,Are the majority of cruise ships registered under foreign flags?,https://www.snopes.com/fact-check/cruise-ships-foreign-flags/,True,True,True
+verification_protocol_en,1,"Is Stacey Abrams responsible for a debt exceeding $50,000 in overdue taxes?",https://www.snopes.com/fact-check/stacey-abrams-back-taxes/,True,False,False
+verification_protocol_en,2,Video Does Not Show Electric Scooter Bikes Abandoned in a 'Graveyard' Due to High Cost of Batteries,https://www.snopes.com/fact-check/electric-scooter-bike-abandoned-graveyard/,False,True,False
+verification_protocol_en,3,Cautionary notice regarding the Affordable Care Act,https://www.snopes.com/fact-check/penalty-shot/,False,False,True
+logical_fallacy_check,0,Are the majority of cruise ships registered under foreign flags?,https://www.snopes.com/fact-check/cruise-ships-foreign-flags/,True,True,True
+logical_fallacy_check,1,"Is Stacey Abrams responsible for a debt exceeding $50,000 in overdue taxes?",https://www.snopes.com/fact-check/stacey-abrams-back-taxes/,True,False,False
+logical_fallacy_check,2,Video Does Not Show Electric Scooter Bikes Abandoned in a 'Graveyard' Due to High Cost of Batteries,https://www.snopes.com/fact-check/electric-scooter-bike-abandoned-graveyard/,False,True,False
+logical_fallacy_check,3,Cautionary notice regarding the Affordable Care Act,https://www.snopes.com/fact-check/penalty-shot/,False,False,True
+editorial_board_vote,0,Are the majority of cruise ships registered under foreign flags?,https://www.snopes.com/fact-check/cruise-ships-foreign-flags/,True,True,True
+editorial_board_vote,1,"Is Stacey Abrams responsible for a debt exceeding $50,000 in overdue taxes?",https://www.snopes.com/fact-check/stacey-abrams-back-taxes/,True,False,False
+editorial_board_vote,2,Video Does Not Show Electric Scooter Bikes Abandoned in a 'Graveyard' Due to High Cost of Batteries,https://www.snopes.com/fact-check/electric-scooter-bike-abandoned-graveyard/,False,True,False
+editorial_board_vote,3,Cautionary notice regarding the Affordable Care Act,https://www.snopes.com/fact-check/penalty-shot/,False,False,True
+weighted_evidence_scorer,0,Are the majority of cruise ships registered under foreign flags?,https://www.snopes.com/fact-check/cruise-ships-foreign-flags/,True,True,True
+weighted_evidence_scorer,1,"Is Stacey Abrams responsible for a debt exceeding $50,000 in overdue taxes?",https://www.snopes.com/fact-check/stacey-abrams-back-taxes/,True,False,False
+weighted_evidence_scorer,2,Video Does Not Show Electric Scooter Bikes Abandoned in a 'Graveyard' Due to High Cost of Batteries,https://www.snopes.com/fact-check/electric-scooter-bike-abandoned-graveyard/,False,True,False
+weighted_evidence_scorer,3,Cautionary notice regarding the Affordable Care Act,https://www.snopes.com/fact-check/penalty-shot/,False,False,True
+cross_check_simulator,0,Are the majority of cruise ships registered under foreign flags?,https://www.snopes.com/fact-check/cruise-ships-foreign-flags/,True,True,True
+cross_check_simulator,1,"Is Stacey Abrams responsible for a debt exceeding $50,000 in overdue taxes?",https://www.snopes.com/fact-check/stacey-abrams-back-taxes/,True,False,False
+cross_check_simulator,2,Video Does Not Show Electric Scooter Bikes Abandoned in a 'Graveyard' Due to High Cost of Batteries,https://www.snopes.com/fact-check/electric-scooter-bike-abandoned-graveyard/,False,True,False
+cross_check_simulator,3,Cautionary notice regarding the Affordable Care Act,https://www.snopes.com/fact-check/penalty-shot/,False,False,True

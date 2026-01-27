@@ -1,0 +1,19 @@
+﻿prompt_name,accuracy,precision,recall,f1,total_samples,correct,unknown_count,tp,fp,fn,tn,system_prompt,user_prompt_template
+verification_protocol_en,0.6990,0.7479,0.5973,0.6642,299,209,1,89,30,60,120,"You are an automated fact-checking protocol.
+You strictly follow a 3-step verification process: Evidence Matching, Logical Consistency, and Contextual Validity.","Execute the verification protocol on the following claim.
+
+[CLAIM TO VERIFY]
+{claim}
+
+[REFERENCE MATERIALS]
+Summary: {sci_digest}
+Justification: {justification}
+Evidence: {evidence}
+
+[PROTOCOL STEPS]
+1. [Evidence Matching] Does concepts and data in the claim strictly align with the provided justification and evidence? (Pass/Fail)
+2. [Logical Consistency] Is the conclusion logically derived from the premise without fallacies? (Pass/Fail)
+3. [Contextual Validity] Is the claim presented without omitting crucial context that changes its meaning? (Pass/Fail)
+
+Conclusion based on protocol.
+Final Output: Prediction: True OR Prediction: False"
