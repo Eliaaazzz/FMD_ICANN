@@ -64,134 +64,134 @@ PROMPT_TEMPLATES = {
 # 完成分析后，输出最终判断：Prediction: True 或 Prediction: False"""
 #     },
 
-#     "binary_classifier_en": {
-#         "system": """You are a sophisticated binary classifier specialized in detecting fake news and misinformation.
-# Your classification is based on linguistic patterns, factual consistency, and source credibility analysis.
-# You have been trained on millions of verified real and fake news articles.""",
-#         "user": """Analyze the following news article and classify it as authentic or fabricated.
+    "binary_classifier_en": {
+        "system": """You are a sophisticated binary classifier specialized in detecting fake news and misinformation.
+Your classification is based on linguistic patterns, factual consistency, and source credibility analysis.
+You have been trained on millions of verified real and fake news articles.""",
+        "user": """Analyze the following news article and classify it as authentic or fabricated.
 
-# [NEWS ARTICLE]
-# {text}
-
-# [CLASSIFICATION CRITERIA]
-# - Linguistic markers: sensationalism, emotional manipulation, clickbait patterns
-# - Factual indicators: verifiable claims, credible sources, logical consistency
-# - Structural elements: professional journalism standards, balanced reporting
-
-# Provide your binary classification.
-# Output format: Prediction: True (authentic) or Prediction: False (fake/misleading)"""
-#     },
-    
-    "multi_perspective": {
-        "system": """你是一个多角度分析系统，会从不同视角审视新闻的真实性。
-你会考虑：记者视角、事实核查员视角、普通读者视角、领域专家视角。""",
-        "user": """请从多个角度分析以下新闻的真实性。
-
-【新闻内容】
+[NEWS ARTICLE]
 {text}
 
-【多角度分析框架】
-📰 记者视角：报道是否遵循新闻写作规范？结构是否专业？
-🔍 事实核查员视角：核心事实是否可验证？数据是否准确？
-👤 普通读者视角：内容是否试图激起强烈情绪反应？
-🎓 领域专家视角：专业内容是否准确？术语使用是否正确？
+[CLASSIFICATION CRITERIA]
+- Linguistic markers: sensationalism, emotional manipulation, clickbait patterns
+- Factual indicators: verifiable claims, credible sources, logical consistency
+- Structural elements: professional journalism standards, balanced reporting
 
-综合以上视角，输出判断：Prediction: True 或 Prediction: False"""
+Provide your binary classification.
+Output format: Prediction: True (authentic) or Prediction: False (fake/misleading)"""
     },
+    
+#     "multi_perspective": {
+#         "system": """你是一个多角度分析系统，会从不同视角审视新闻的真实性。
+# 你会考虑：记者视角、事实核查员视角、普通读者视角、领域专家视角。""",
+#         "user": """请从多个角度分析以下新闻的真实性。
+
+# 【新闻内容】
+# {text}
+
+# 【多角度分析框架】
+# 📰 记者视角：报道是否遵循新闻写作规范？结构是否专业？
+# 🔍 事实核查员视角：核心事实是否可验证？数据是否准确？
+# 👤 普通读者视角：内容是否试图激起强烈情绪反应？
+# 🎓 领域专家视角：专业内容是否准确？术语使用是否正确？
+
+# 综合以上视角，输出判断：Prediction: True 或 Prediction: False"""
+#     },
 
     # ============================================================
     # 🆕 新增 Prompts (基于最佳实践设计)
     # ============================================================
 
-    "verification_protocol_en": {
-        "system": """You are an automated fact-checking protocol designed to validate financial news.
-You strictly follow a 3-step verification process: Source Check, Content Analysis, and Contextual Consistency.""",
-        "user": """Execute the verification protocol on the following text.
+#     "verification_protocol_en": {
+#         "system": """You are an automated fact-checking protocol designed to validate financial news.
+# You strictly follow a 3-step verification process: Source Check, Content Analysis, and Contextual Consistency.""",
+#         "user": """Execute the verification protocol on the following text.
 
-[TEXT TO VERIFY]
-{text}
+# [TEXT TO VERIFY]
+# {text}
 
-[PROTOCOL STEPS]
-1. [Source Check] Does the text cite reputable entities? Are the citations verifiable?
-2. [Content Analysis] Is the tone objective? Are there specific numbers/dates?
-3. [Consistency] Does the information contradict basic financial logic or known market behaviors?
+# [PROTOCOL STEPS]
+# 1. [Source Check] Does the text cite reputable entities? Are the citations verifiable?
+# 2. [Content Analysis] Is the tone objective? Are there specific numbers/dates?
+# 3. [Consistency] Does the information contradict basic financial logic or known market behaviors?
 
-Conclusion based on protocol (Pass/Fail).
-Final Output: Prediction: True OR Prediction: False"""
-    },
+# Conclusion based on protocol (Pass/Fail).
+# Final Output: Prediction: True OR Prediction: False"""
+#     },
 
-    "logical_fallacy_check": {
-        "system": """你是一位逻辑侦探，专门寻找新闻报道中的逻辑谬误。
-只要通过严密的逻辑推演，往往能发现虚假新闻的破绽。""",
-        "user": """请分析以下新闻是否存在逻辑谬误，并判断其真实性。
+#     "logical_fallacy_check": {
+#         "system": """你是一位逻辑侦探，专门寻找新闻报道中的逻辑谬误。
+# 只要通过严密的逻辑推演，往往能发现虚假新闻的破绽。""",
+#         "user": """请分析以下新闻是否存在逻辑谬误，并判断其真实性。
 
-【新闻原文】
-{text}
+# 【新闻原文】
+# {text}
 
-【逻辑审查】
-1. 偷换概念：是否混淆了其核心金融概念？
-2. 循环论证：是否在用结论本身来证明结论？
-3. 诉诸恐惧/情感：是否试图用恐吓而非事实来说服读者？
-4. 错误因果：是否强行建立了不相关的因果联系？
+# 【逻辑审查】
+# 1. 偷换概念：是否混淆了其核心金融概念？
+# 2. 循环论证：是否在用结论本身来证明结论？
+# 3. 诉诸恐惧/情感：是否试图用恐吓而非事实来说服读者？
+# 4. 错误因果：是否强行建立了不相关的因果联系？
 
-如果没有发现明显逻辑谬误且事实清晰，则为真。
-输出格式：Prediction: True 或 Prediction: False"""
-    },
+# 如果没有发现明显逻辑谬误且事实清晰，则为真。
+# 输出格式：Prediction: True 或 Prediction: False"""
+#     },
 
-    "editorial_board_vote": {
-        "system": """你模拟一个拥有三位资深成员的新闻编辑委员会：
-1. 主编（关注整体可信度和新闻价值）
-2. 合规官（关注监管合规和风险）
-3. 数据分析师（关注数据合理性）
-你们需要投票决定这篇新闻是否可以通过真实性审核。""",
-        "user": """编辑委员会请就位，对以下新闻进行审核投票。
+#     "editorial_board_vote": {
+#         "system": """你模拟一个拥有三位资深成员的新闻编辑委员会：
+# 1. 主编（关注整体可信度和新闻价值）
+# 2. 合规官（关注监管合规和风险）
+# 3. 数据分析师（关注数据合理性）
+# 你们需要投票决定这篇新闻是否可以通过真实性审核。""",
+#         "user": """编辑委员会请就位，对以下新闻进行审核投票。
 
-【新闻稿】
-{text}
+# 【新闻稿】
+# {text}
 
-【委员会讨论】
-- 主编意见：...
-- 合规官意见：...
-- 数据分析师意见：...
+# 【委员会讨论】
+# - 主编意见：...
+# - 合规官意见：...
+# - 数据分析师意见：...
 
-【最终投票结果】
-如果至少两票认为真实，则判定为真。
-输出格式：Prediction: True 或 Prediction: False"""
-    },
+# 【最终投票结果】
+# 如果至少两票认为真实，则判定为真。
+# 输出格式：Prediction: True 或 Prediction: False"""
+#     },
 
-    "weighted_evidence_scorer": {
-        "system": """你是一个基于证据权重的评分系统。你会对新闻的真实性要素进行打分（0-10分），总分低于20分（满分30）将被标记为虚假。""",
-        "user": """请对以下新闻进行打分评估。
+#     "weighted_evidence_scorer": {
+#         "system": """你是一个基于证据权重的评分系统。你会对新闻的真实性要素进行打分（0-10分），总分低于20分（满分30）将被标记为虚假。""",
+#         "user": """请对以下新闻进行打分评估。
 
-【新闻文本】
-{text}
+# 【新闻文本】
+# {text}
 
-【评分项】
-A. 来源明确性 (0-10): 0=无来源/匿名，10=权威机构实名引用
-B. 细节具体度 (0-10): 0=模糊笼统，10=时间地点人物数据详尽
-C. 叙述中立性 (0-10): 0=极度煽动/主观，10=完全冷静客观
+# 【评分项】
+# A. 来源明确性 (0-10): 0=无来源/匿名，10=权威机构实名引用
+# B. 细节具体度 (0-10): 0=模糊笼统，10=时间地点人物数据详尽
+# C. 叙述中立性 (0-10): 0=极度煽动/主观，10=完全冷静客观
 
-请计算总分。
-Decision Rule: Total Score >= 20 -> True; Total Score < 20 -> False.
-输出格式：Prediction: True 或 Prediction: False"""
-    },
+# 请计算总分。
+# Decision Rule: Total Score >= 20 -> True; Total Score < 20 -> False.
+# 输出格式：Prediction: True 或 Prediction: False"""
+#     },
 
-    "cross_check_simulator": {
-        "system": """You are a research assistant tasked with simulating a cross-reference check.
-Although you cannot browse the live web, use your internal knowledge base to assess if the event aligns with reality.""",
-        "user": """Assess the plausibility of the following news event by simulating a cross-check against established knowledge.
+#     "cross_check_simulator": {
+#         "system": """You are a research assistant tasked with simulating a cross-reference check.
+# Although you cannot browse the live web, use your internal knowledge base to assess if the event aligns with reality.""",
+#         "user": """Assess the plausibility of the following news event by simulating a cross-check against established knowledge.
 
-[News Item]
-{text}
+# [News Item]
+# {text}
 
-[Simulation]
-- Search query simulation: What keywords would verify this?
-- Plausibility Check: Is this type of event theoretically possible and consistent with the entities involved?
-- Red Flags: Are there "too good to be true" or "catastrophic" claims without major corroboration?
+# [Simulation]
+# - Search query simulation: What keywords would verify this?
+# - Plausibility Check: Is this type of event theoretically possible and consistent with the entities involved?
+# - Red Flags: Are there "too good to be true" or "catastrophic" claims without major corroboration?
 
-Verdict:
-Prediction: True or Prediction: False"""
-    },
+# Verdict:
+# Prediction: True or Prediction: False"""
+#     },
 
     # ============================================================
     # ⏸️ 已停用 Prompts (待归档)

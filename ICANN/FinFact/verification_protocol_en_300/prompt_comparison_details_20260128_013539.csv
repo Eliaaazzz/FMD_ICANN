@@ -1,0 +1,901 @@
+﻿prompt_name,index,claim,url,ground_truth,prediction,correct
+editorial_board_vote,0,"Says with the ongoing economic downturn, child abuse is on the rise.",https://www.politifact.com/factchecks/2010/sep/28/jeff-merkley/jeff-merkley-says-economic-downturn-oregon-seeing-/,True,True,True
+editorial_board_vote,1,"In the last 22 months, businesses have created more than 3 million jobs. Last year, they created the most jobs since 2005.",https://www.politifact.com/factchecks/2012/jan/25/barack-obama/have-private-sector-jobs-grown-22-months-best-annu/,True,True,True
+editorial_board_vote,2,This Facebook Post Offering Free Red Lobster Is a Scam,https://www.snopes.com/fact-check/red-lobster-facebook-post-scam/,False,True,False
+editorial_board_vote,3,"Across the country, $174 billion of the Recovery Act have been committed in its first 130 days.",https://www.politifact.com/factchecks/2009/jul/15/joe-biden/vice-president-biden-correct-174-billion-stimulus-/,True,True,True
+editorial_board_vote,4,Are Most Cruise Ships Registered Under Foreign Flags?,https://www.snopes.com/fact-check/cruise-ships-foreign-flags/,True,True,True
+editorial_board_vote,5,Was 'America First' a Slogan of the Ku Klux Klan?,https://www.snopes.com/fact-check/america-first-ku-klux-klan-slogan/,True,True,True
+editorial_board_vote,6,Today the top 1 percent earn a higher share of our national income than any year since 1928.,https://www.politifact.com/factchecks/2015/jan/30/ted-cruz/ted-cruz-says-top-1-percent-earn-more-national-inc/,True,True,True
+editorial_board_vote,7,We've cut taxes 50 times and look what has happened to our revenues. They've grown.,https://www.politifact.com/factchecks/2016/feb/04/rick-scott/scott-credits-tax-cuts-floridas-growing-tax-revenu/,True,False,False
+editorial_board_vote,8,Did Biden Say Taxpayers Must Fund Health Care for 'Illegal Immigrants'?,https://www.snopes.com/fact-check/biden-undocumented-healthcare/,False,False,True
+editorial_board_vote,9,"Says Joe Manchin strongly supported and voted for Hillary Clinton after she said, Were going to put a lot of coal miners and coal companies out of work.",https://www.politifact.com/factchecks/2018/sep/13/patrick-morrisey/did-joe-manchin-stick-hillary-clinton-after-contro/,True,True,True
+editorial_board_vote,10,Were parents in Missouri schools mandated to sign COVID-19 liability waivers?,https://www.snopes.com/fact-check/missouri-schools-death-waiver/,True,False,False
+editorial_board_vote,11,Was it against the law to make money from healthcare before the introduction of the HMO Act of 1973?,https://www.snopes.com/fact-check/healthcare-profit-1973-hmo-act/,False,False,True
+editorial_board_vote,12,"Is Stacey Abrams responsible for a debt exceeding $50,000 in overdue taxes?",https://www.snopes.com/fact-check/stacey-abrams-back-taxes/,True,False,False
+editorial_board_vote,13,The Tea Party of the United States is a new political movement.,https://www.snopes.com/fact-check/new-american-tea-party/,True,True,True
+editorial_board_vote,14,Should an Empty Toilet Paper Roll or Red Cup Be Placed Under the Toilet Seat at Night?,https://www.snopes.com/fact-check/toilet-paper-roll-seat-night/,False,True,False
+editorial_board_vote,15,Wal-Mart American Flags,https://www.snopes.com/fact-check/flagging-interest/,False,False,True
+editorial_board_vote,16,The New American Way of Life,https://www.snopes.com/fact-check/new-american-way-life/,False,False,True
+editorial_board_vote,17,Hooters Bans Motorcycle Clubs from All Restaurants,https://www.snopes.com/fact-check/no-shoes-no-shirts-no-motorcycles/,False,False,True
+editorial_board_vote,18,Letter to Clinton re Sacrifice,https://www.snopes.com/fact-check/doodie-honor-and-country-2/,False,False,True
+editorial_board_vote,19,Make the Pie Higher!,https://www.snopes.com/fact-check/make-the-pie-higher/,True,False,False
+editorial_board_vote,20,Is This a Trump Tower Billboard in Mumbai?,https://www.snopes.com/fact-check/trump-tower-billboard-in-mumbai/,True,True,True
+editorial_board_vote,21,Are Costco shutting down stores throughout the country?,https://www.snopes.com/fact-check/costco-closing-stores/,False,False,True
+editorial_board_vote,22,"According to Ted Cruz's tax proposal, businesses are required to pay a 16 percent tax on their earnings, as well as on the wages they distribute to their employees.",https://www.politifact.com/factchecks/2016/jan/26/marco-rubio/marco-rubio-says-ted-cruz-flat-tax-charges-16-perc/,True,False,False
+editorial_board_vote,23,Did Shane Patrick Boyle pass away due to his illness following successful fundraising for insulin via a crowdfunding campaign?,https://www.snopes.com/fact-check/shane-patrick-boyle-died-after-starting-a-gofundme-campaign-for-insulin/,True,True,True
+editorial_board_vote,24,Did a governmental shutdown in Australia lead to the dismissal of all Members of Parliament?,https://www.snopes.com/fact-check/australia-government-shutdown/,True,False,False
+editorial_board_vote,25,Does Biden's Climate Plan Include Cutting 90% of Red Meat From Our Diets?,https://www.snopes.com/fact-check/90-percent-red-meat/,False,False,True
+editorial_board_vote,26,The bill that I carried cutting MOs income tax for 1st time in over 100 years will start its 1st phase in jan 1 2018. #moleg @Eric_Schmitt,https://www.politifact.com/factchecks/2017/sep/26/andrew-koenig/first-cut-missouri-income-tax-over-100-years/,True,True,True
+editorial_board_vote,27,"Are These Real Pics of Elderly Women With Giant, Crocheted Cats?",https://www.snopes.com/fact-check/elderly-women-giant-crocheted-cats/,False,False,True
+editorial_board_vote,28,"No, Sean Connery's Net Worth Didn't Leave Family 'in Tears'",https://www.snopes.com/fact-check/sean-connery-net-worth/,False,True,False
+editorial_board_vote,29,Was an image of Patti LaBelle utilized by Fox News in their homage to Aretha Franklin?,https://www.snopes.com/fact-check/fox-patti-labelle-aretha-franklin/,True,True,True
+editorial_board_vote,30,"Says Austin has been ranked repeatedly as one of the most, if not the most, economically segregated cities in the country.",https://www.politifact.com/factchecks/2018/may/31/greg-casar/greg-casar-says-austin-ranked-repeatedly-high-econ/,True,True,True
+editorial_board_vote,31,Fifty-one percent of our taxes are paid by 2% of New Yorkers.,https://www.politifact.com/factchecks/2023/jan/24/eric-adams/claim-about-wealthy-residents-and-taxes-new-york-c/,True,False,False
+editorial_board_vote,32,Alabama Lawmaker Wants Food Stamp 'Hunger Tests'?,https://www.snopes.com/fact-check/food-stamp-hunger-tests/,False,False,True
+editorial_board_vote,33,"In the United States, a college loan stands out as the only type of loan that is not eligible for refinancing when interest rates decrease.",https://www.politifact.com/factchecks/2016/apr/06/bill-clinton/bill-clintons-college-debt-claim-mostly-true/,True,False,False
+editorial_board_vote,34,Elaborate Welfare Housing Project,https://www.snopes.com/fact-check/elaborate-welfare-housing-project/,False,False,True
+editorial_board_vote,35,General Motors Sales,https://www.snopes.com/fact-check/purchasing-agreement/,True,False,False
+editorial_board_vote,36,$100 JCPenney Coupon Scam,https://www.snopes.com/fact-check/jc-penney-coupon/,False,False,True
+editorial_board_vote,37,Was This McDonald's Burned During Floyd Protests?,https://www.snopes.com/fact-check/mcdonalds-burned-floyd-protests/,False,False,True
+editorial_board_vote,38,Costa Rica Sea Turtle Egg Harvesting,https://www.snopes.com/fact-check/poached-eggs/,True,False,False
+editorial_board_vote,39,Deceptive scheme on Facebook involving fraudulent ALDI coupons.,https://www.snopes.com/fact-check/scam-aldi-facebook-coupons/,False,True,False
+editorial_board_vote,40,Probation for Child Rape Vs. Prison for Stealing Ribs?,https://www.snopes.com/fact-check/50-years-ribs-theft/,True,False,False
+editorial_board_vote,41,Justin Trudeau has announced plans to grant pardons to all individuals who have been convicted of a marijuana-related offense.,https://www.snopes.com/fact-check/justin-trudeau-pardon-marijuana/,False,False,True
+editorial_board_vote,42,Donald Trump's 'Quiet Acts of Random Kindness',https://www.snopes.com/fact-check/trump-quiet-acts-kindness/,True,False,False
+editorial_board_vote,43,Our median household income in 2013 was the highest in the nation.,https://www.politifact.com/factchecks/2015/feb/13/maggie-hassan/maggie-hassan-says-nh-had-highest-median-income-us/,True,True,True
+editorial_board_vote,44,"No, Trump Isn't 'Tactically' Implementing Voter Interference Sanctions",https://www.snopes.com/fact-check/trump-voter-interference/,False,True,False
+editorial_board_vote,45,Did Trump Tweet That South Dakota Should Close Its Border with California?,https://www.snopes.com/fact-check/trump-tweet-south-dakota-border/,False,False,True
+editorial_board_vote,46,"Under the compromise tax agreement, 99.7% of American families will not pay 1 nickel in an estate tax.",https://www.politifact.com/factchecks/2010/dec/14/bernie-sanders/sen-bernie-sanders-says-997-american-families-woul/,True,True,True
+editorial_board_vote,47,Did Sheep Walk Through Gate Despite There Being No Fence?,https://www.snopes.com/fact-check/sheep-walking-through-gate/,False,False,True
+editorial_board_vote,48,"When Nancy Nusbaum was Brown County executive, spending went up nearly 50 percent.",https://www.politifact.com/factchecks/2011/aug/05/wisconsin-manufacturers-and-commerce/wisconsin-manufacturers-commerce-says-brown-county/,True,True,True
+editorial_board_vote,49,Facebook scam involving fraudulent ALDI coupons,https://www.snopes.com/fact-check/scam-aldi-facebook-coupons/,False,True,False
+editorial_board_vote,50,Reselling U.S. Postage Stamps,https://www.snopes.com/fact-check/first-class-salesmanship/,False,False,True
+editorial_board_vote,51,"Today, if you were raised poor, youre just as likely to stay poor as you were 50 years ago.",https://www.politifact.com/factchecks/2016/jan/19/paul-ryan/paul-ryan-says-if-you-were-raised-poor-youre-just-/,True,True,True
+editorial_board_vote,52,The video does not depict electric scooter bikes left in a 'graveyard' because of the expensive nature of batteries.,https://www.snopes.com/fact-check/electric-scooter-bike-abandoned-graveyard/,False,True,False
+editorial_board_vote,53,Eric Trump Tweets (Illegal) Ballot Selfie,https://www.snopes.com/fact-check/eric-trump-tweets-illegal-ballot-selfie/,True,True,True
+editorial_board_vote,54,Accountant in a house of ill repute,https://www.snopes.com/fact-check/reading-railroaded/,True,False,False
+editorial_board_vote,55,Giant Sea Creature Washes Ashore Along Santa Monica Coastline,https://www.snopes.com/fact-check/gigantic-squid/,False,False,True
+editorial_board_vote,56,"Says Rick Scott changed his promise from700,000 jobs created on top of what normal growth would be to just 700,000 jobs.",https://www.politifact.com/factchecks/2014/oct/14/charlie-crist/rick-scott-changed-terms-his-promise-create-700000/,True,True,True
+editorial_board_vote,57,Scam involving a fake $150 anniversary coupon from Lowe's.,https://www.snopes.com/fact-check/lowes-coupon-scam/,False,True,False
+editorial_board_vote,58,Walmart Bows Down to Sharia Law?,https://www.snopes.com/fact-check/halal-mart/,True,False,False
+editorial_board_vote,59,Redrawn Map of the United States,https://www.snopes.com/fact-check/altered-states/,False,False,True
+editorial_board_vote,60,Barack Obama and the National Anthem,https://www.snopes.com/fact-check/hand-over-heart/,True,True,True
+editorial_board_vote,61,"Sen. Rubios (tax plan) would cut taxes for households making around $3 million a year by almost $240,000, which is way more than three times the earnings of a typical family.",https://www.politifact.com/factchecks/2015/jul/16/hillary-clinton/would-rubios-tax-plan-mean-big-break-millionaires/,True,True,True
+editorial_board_vote,62,Does This Image Show a Peaceful Meeting of a Lion and a Zebra at a Watering Hole?,https://www.snopes.com/fact-check/zebra-lion-watering-hole/,False,False,True
+editorial_board_vote,63,Did Target End Its 'Shop with a Cop' Program?,https://www.snopes.com/fact-check/target-shop-with-a-cop/,False,False,True
+editorial_board_vote,64,Does Donald Trump Have a Statue of Himself in Mar-a-Lago Office?,https://www.snopes.com/fact-check/trump-maralago-statue/,True,True,True
+editorial_board_vote,65,Did Sen. Cory Booker Put Undocumented People 'Before Seniors and Veterans'?,https://www.snopes.com/fact-check/did-booker-put-dreamers-before-veterans/,False,False,True
+editorial_board_vote,66,IRS Refund Notification,https://www.snopes.com/fact-check/irs-refund-notification-2/,False,False,True
+editorial_board_vote,67,The Lying Game,https://www.snopes.com/fact-check/powerball-lottery-winners-identity/,False,True,False
+editorial_board_vote,68,"No, AOC Didn't Tweet 'Farming Should Be Illegal'",https://www.snopes.com/fact-check/aoc-farming-should-be-illegal/,False,True,False
+editorial_board_vote,69,Is This a Picture of Christine Blasey Ford in 1982?,https://www.snopes.com/fact-check/christine-blasey-ford-1982/,False,False,True
+editorial_board_vote,70,Who Was Michael Myers?,https://www.snopes.com/fact-check/william-shatner-halloween-mask/,True,True,True
+editorial_board_vote,71,"Is Disney Hiring for Remote, Entry-Level Jobs in Data Entry, Customer Service?",https://www.snopes.com/fact-check/disney-data-entry-jobs/,False,False,True
+editorial_board_vote,72,Is the White House Gift Shop Selling a 'Trump Defeats COVID-19' Coin?,https://www.snopes.com/fact-check/trump-defeats-covid19-coin/,False,False,True
+editorial_board_vote,73,Says President Donald Trump took more than a month to allocate Congress emergency funding to tribes  and only did so after tribes sued.,https://www.politifact.com/factchecks/2020/jun/01/joe-biden/fact-checking-joe-bidens-claim-trump-delayed-8-bil/,True,True,True
+editorial_board_vote,74,Was it reported by Fox News that the Mar-a-Lago Club owned by Trump received a foreclosure notice from Deutsche Bank?,https://www.snopes.com/fact-check/mar-a-lago-foreclosure-fox-news/,False,False,True
+editorial_board_vote,75,Are the majority of cruise ships registered under foreign flags?,https://www.snopes.com/fact-check/cruise-ships-foreign-flags/,True,True,True
+editorial_board_vote,76,Ohios lost more jobs in March than any other state in the nation.,https://www.politifact.com/factchecks/2013/may/13/mike-foley/state-rep-mike-foley-says-ohio-led-nation-job-loss/,True,True,True
+editorial_board_vote,77,Is This 'Good News' List About the COVID-19 Pandemic Accurate?,https://www.snopes.com/fact-check/covid-good-news-list-accurate/,True,False,False
+editorial_board_vote,78,Was there a decrease of $102 billion in the National Debt following Donald Trump's inauguration?,https://www.snopes.com/fact-check/national-debt-trump/,True,True,True
+editorial_board_vote,79,Did Dr. Oz Endorse Keto Weight Loss Gummies?,https://www.snopes.com/fact-check/dr-oz-keto-weight-loss-gummies/,False,False,True
+editorial_board_vote,80,Purchasing SpaceX shares ahead of its public offering is a scam.,https://www.snopes.com/fact-check/buy-spacex-stock-public/,False,True,False
+editorial_board_vote,81,Could this image be depicting the Bitterroot Forest Fire?,https://www.snopes.com/fact-check/bitterroot-forest-fire/,True,True,True
+editorial_board_vote,82,Could a woman be considered the primary earner of the household for orchestrating a fraudulent foster care operation?,https://www.snopes.com/fact-check/breadwinner/,False,False,True
+editorial_board_vote,83,Grand Canyon Skywalk,https://www.snopes.com/fact-check/grand-canyon-skywalk/,True,True,True
+editorial_board_vote,84,Canada Gives Polygamist Immigrants Thousands in 'Start-Up Money'?,https://www.snopes.com/fact-check/canada-gives-polygamist-immigrants-thousands-start-money/,False,False,True
+editorial_board_vote,85,"Did Failed Constitutional Amendments Include Ban on Divorce, 'United States of the Earth'?",https://www.snopes.com/fact-check/failed-constitutional-amendments/,True,True,True
+editorial_board_vote,86,Did a TV Station Report Biden-Sanders Primary Results Before the Election?,https://www.snopes.com/fact-check/election-results-before-election/,False,True,False
+editorial_board_vote,87,Are African nations implementing a massive tree barrier to halt the advance of the Sahara Desert?,https://www.snopes.com/fact-check/africa-giant-wall-of-trees-sahara/,True,True,True
+editorial_board_vote,88,'Target PS5' Scam Email Leads to Credit Card Form on Vietnam-Registered Website,https://www.snopes.com/fact-check/target-ps5-scam-email-loyalty-program/,False,True,False
+editorial_board_vote,89,Inheritance of a common family name,https://www.snopes.com/fact-check/windfall-inheritance/,False,False,True
+editorial_board_vote,90,Did Trump Watch 'The Gorilla Channel' in the White House?,https://www.snopes.com/fact-check/donald-trump-watches-gorilla-channel/,False,False,True
+editorial_board_vote,91,The House of Delegates budget bill cuts $50 million from education.,https://www.politifact.com/factchecks/2011/feb/22/virginia-senate-democratic-caucus/virginia-democrats-say-house-delegates-budget-cuts/,True,True,True
+editorial_board_vote,92,Is the 'Pfizer Treatment Survey' Email a Scam or Legit?,https://www.snopes.com/fact-check/pfizer-treatment-survey-scam/,False,True,False
+editorial_board_vote,93,Did Rosie O'Donnell 'Plead Insanity' Over Illegal Campaign Donations?,https://www.snopes.com/fact-check/did-rosie-insanity-campaign-donations/,False,False,True
+editorial_board_vote,94,'The Big Lebowski 2' Announced,https://www.snopes.com/fact-check/false-the-big-lebowski-2-announced/,False,False,True
+editorial_board_vote,95,Does Texting 'USPS' to 50409 Send a Letter to Your Political Representatives?,https://www.snopes.com/fact-check/usps-50409/,True,True,True
+editorial_board_vote,96,Codex Alimentarius,https://www.snopes.com/fact-check/vitamin-see/,False,False,True
+editorial_board_vote,97,Delta Air Lines Scams Promise '$500 Gift Card for $1' and '$100 Reward',https://www.snopes.com/fact-check/delta-air-lines-scams-500-for-1-dollar/,False,True,False
+editorial_board_vote,98,Is This Really Donald Trump's Inauguration Poem?,https://www.snopes.com/fact-check/trumps-inauguration-poem/,False,True,False
+editorial_board_vote,99,Does the American Rescue Plan consist of just 9% of COVID-19 related content?,https://www.snopes.com/fact-check/usa-rescue-plan-9-percent/,False,False,True
+editorial_board_vote,100,Is Daryl Hannah Pregnant at Age 61?,https://www.snopes.com/fact-check/daryl-hannah-pregnant/,False,False,True
+editorial_board_vote,101,L UTA Flight 772 Memorial,https://www.snopes.com/fact-check/uta-flight-772-memorial/,True,True,True
+editorial_board_vote,102,FACT: the special assistant in @johnkasich's office makes over three times more than an average #OH firefighter,https://www.politifact.com/factchecks/2011/feb/24/ohio-democratic-party/ohio-democratic-party-claims-top-kasich-makes-trip/,True,True,True
+editorial_board_vote,103,Tax Hikes for Sturgis Bikes,https://www.snopes.com/fact-check/sturgis-tax-hike/,True,False,False
+editorial_board_vote,104,One Texas school district alone -- Austin ISD -- is expected to lose more than $530 million in local property taxes to Robin Hood this year.,https://www.politifact.com/factchecks/2017/jul/19/joe-straus/joe-straus-says-austin-school-district-expected-lo/,True,True,True
+editorial_board_vote,105,SCAM: Luxury RV Giveaway,https://www.snopes.com/fact-check/luxury-rv-giveaway-scam/,False,True,False
+editorial_board_vote,106,Did President Trump Tweet 'How Are Your 409Ks Doing'?,https://www.snopes.com/fact-check/trump-tweet-409k/,True,True,True
+editorial_board_vote,107,Did Cargo Ship 'Draw' a Penis Before Getting Stuck in Suez Canal?,https://www.snopes.com/fact-check/cargo-ship-ever-given-penis/,True,True,True
+editorial_board_vote,108,How many concerts would Taylor Swift have to perform to pay off one day of interest on our national debt? She would have to perform every day for three years.,https://www.politifact.com/factchecks/2015/nov/06/republican-party-florida/it-would-take-taylor-swift-3-years-pay-one-days-de/,True,True,True
+editorial_board_vote,109,"Under Donald Trump's tax plan, the top 0.1 percent of taxpayers -- people earning multiple millions of dollars a year, on average -- would get more tax relief than the bottom 60 percent of taxpayers combined.",https://www.politifact.com/factchecks/2016/may/20/jennifer-shilling/top-01-would-be-big-winner-under-donald-trumps-tax/,True,True,True
+editorial_board_vote,110,"The state's transportation department is already burdened with a significant amount of debt, and it has made over $700 million in debt payments within the past two years.",https://www.politifact.com/factchecks/2019/may/08/cody-smith/smiths-statement-modots-debt-adds-needs-context/,True,True,True
+editorial_board_vote,111,"Did Dolly Parton Say: 'Trump In One Year Is Already Better Than 16 Years of Bush, Obama Put Together'?",https://www.snopes.com/fact-check/celebrity-trump-obama-together/,False,False,True
+editorial_board_vote,112,What are the consequences of illegally crossing the United States border?,https://www.snopes.com/fact-check/illegal-immigrant-benefits/,False,True,False
+editorial_board_vote,113,Titanic Sister Ship Gigantic,https://www.snopes.com/fact-check/gigantic/,True,False,False
+editorial_board_vote,114,Oprah Ten Percent Tip Advice,https://www.snopes.com/fact-check/the-tipping-point/,False,False,True
+editorial_board_vote,115,"Says that under his tax plan, seniors making less than $50,000 per year won't pay any income taxes.",https://www.politifact.com/factchecks/2008/sep/30/barack-obama/seniors-get-a-special-break/,True,True,True
+editorial_board_vote,116,Are These Photos of Cicada Shell Art Real?,https://www.snopes.com/fact-check/cicada-shell-art/,True,True,True
+editorial_board_vote,117,Says the 2011-13 state budget eliminates the structural deficit for the first time in decades.,https://www.politifact.com/factchecks/2011/jul/03/alberta-darling/state-sen-darling-says-2011-13-state-budget-elimin/,True,True,True
+editorial_board_vote,118,The Love Machine,https://www.snopes.com/fact-check/the-love-machine/,True,False,False
+editorial_board_vote,119,Public education has been permanently cutby $1.6 billion through changes in the Standards of Quality funding formula.,https://www.politifact.com/factchecks/2012/feb/07/kitty-boitnott/kitty-boitnott-says-virginia-has-cut-16-billion-mi/,True,False,False
+editorial_board_vote,120,Did AT&T Have a Contract to Audit Dominion Voting Systems?,https://www.snopes.com/fact-check/att-nashville-dominion-audit/,False,False,True
+editorial_board_vote,121,"Was it Denzel Washington who said, ""Simply because you do not post it on social media does not imply that you are not working on significant goals""?",https://www.snopes.com/fact-check/washington-social-media-quote/,False,False,True
+editorial_board_vote,122,Corporate entities are paying a lot less taxes this year than they have in the past. Part of that is from a loophole in a bill that was passed in 2015.,https://www.politifact.com/factchecks/2017/mar/02/kip-kendrick/kendrick-mostly-right-about-reduced-corporate-tax-/,True,True,True
+editorial_board_vote,123,Says the main Central Texas food bank is delivering 50 percent more food to the poor than three years ago.,https://www.politifact.com/factchecks/2011/nov/01/lloyd-doggett/lloyd-doggett-says-central-texas-food-bank-deliver/,True,True,True
+editorial_board_vote,124,Did Putin Ban 5G in Russia Due to Health Concerns?,https://www.snopes.com/fact-check/putin-ban-5g/,False,False,True
+editorial_board_vote,125,Donald Trump Supporters Seen Wearing Nazi-Style Armbands,https://www.snopes.com/fact-check/trump-armbands/,False,False,True
+editorial_board_vote,126,"'Freedom Concert' Being Planned, But No Details Announced",https://www.snopes.com/fact-check/freedom-concert/,False,True,False
+editorial_board_vote,127,"Since we passed tax cuts, over 3 million workers have gotten tax cut bonuses  many of them thousands and thousands of dollars.",https://www.politifact.com/factchecks/2018/jan/31/donald-trump/trump-says-tax-bill-led-bonuses-three-million-work/,True,False,False
+editorial_board_vote,128,Obama unilaterally announced he was delaying employer mandate through a blog post by a mid-level bureaucrat at the Department of Treasury.,https://www.politifact.com/factchecks/2014/jan/16/ted-cruz/blog-posts-broke-news-administration-was-delaying-/,True,False,False
+editorial_board_vote,129,Fukushima Radiation Causes 100% Infant Mortality Among Orca Whales,https://www.snopes.com/fact-check/fukushima-radiation-causes-100-infant-mortality-among-orca-whales/,False,False,True
+editorial_board_vote,130,Is it possible for birth certificates in the United States to reveal undisclosed financial accounts linked to a 'Strawman'?,https://www.snopes.com/fact-check/birth-certificates-financial-accounts/,False,False,True
+editorial_board_vote,131,"There was an estimated $5.3 million of economic loss just for a few hours of shutting down the border. Youre talking about millions and millions of dollars  billions of dollars  of economic consequence, if we continue with this rhetoric around shutting down the border without considering what that means.",https://www.politifact.com/factchecks/2018/dec/03/gavin-newsom/did-californias-border-closure-cost-53m-economic-l/,True,True,True
+editorial_board_vote,132,The stock market has almost tripled since April of 2009.,https://www.politifact.com/factchecks/2015/mar/17/jim-webb/james-webb-says-stock-market-has-tripled-value-200/,True,True,True
+editorial_board_vote,133,2 Million Bikers to DC,https://www.snopes.com/fact-check/2-million-bikers-to-dc/,True,False,False
+editorial_board_vote,134,Is This a Photo of a Nazi Flag from the 'Million MAGA March'?,https://www.snopes.com/fact-check/million-maga-nazi-banner/,False,False,True
+editorial_board_vote,135,The Tea Party movement in America was a novel political phenomenon that gained momentum.,https://www.snopes.com/fact-check/new-american-tea-party/,False,True,False
+editorial_board_vote,136,Is It Dangerous to Wear a COVID-19 Protective Mask for Too Long?,https://www.snopes.com/fact-check/masks-dangerous-health/,False,False,True
+editorial_board_vote,137,Did 'The Simpsons' Predict the Smartwatch?,https://www.snopes.com/fact-check/simpsons-predict-smartwatch/,False,False,True
+editorial_board_vote,138,FDIC insurance provides payouts for a span exceeding 99 years.,https://www.snopes.com/fact-check/fdic-you/,False,False,True
+editorial_board_vote,139,Legend: Drunk Groom Accidentally Returns Home Alone from His Honeymoon,https://www.snopes.com/fact-check/drunk-groom-honeymoon/,True,False,False
+editorial_board_vote,140,What If Only Taxpayers Voted?,https://www.snopes.com/fact-check/what-if-taxpayers-only-voted-map/,False,True,False
+editorial_board_vote,141,The Real Story on Paul Ryan's Proposed Budget Cuts,https://www.snopes.com/fact-check/budget-cuts/,True,False,False
+editorial_board_vote,142,Scam involving fake Home Depot coupons on Facebook.,https://www.snopes.com/fact-check/home-depot-facebook-coupon-scam/,False,True,False
+editorial_board_vote,143,SCAM ALERT: Walmart Is Not Giving Away Vouchers To Celebrate Going Plastic Bag-Free,https://www.snopes.com/fact-check/walmart-plastic-bag-free-giveaway/,False,True,False
+editorial_board_vote,144,Did a Man Sue Himself After Being Hit by His Boomerang?,https://www.snopes.com/fact-check/goes-around-litigates-around/,False,False,True
+editorial_board_vote,145,We aren't the only state cutting back on public television.,https://www.politifact.com/factchecks/2012/feb/14/richard-licht/rhode-island-director-administration-richard-licht/,True,True,True
+editorial_board_vote,146,Benefits provided to former presidents after they leave office.,https://www.snopes.com/fact-check/pension-plan/,True,True,True
+editorial_board_vote,147,"Buono voted 154 times to raise our taxes -- like the sales tax, the income tax, health care taxes, even small business taxes.",https://www.politifact.com/factchecks/2013/may/19/chris-christie/barbara-buono-voted-increases-taxes-fees-154-times/,True,True,True
+editorial_board_vote,148,Is it advisable to refrain from getting a flu vaccination?,https://www.snopes.com/fact-check/flu-shot-avoidance/,False,False,True
+editorial_board_vote,149,"Congress Removes Child Tax Credit, Mortgage Deduction, and EITC from Tax Code",https://www.snopes.com/fact-check/koch-druthers/,False,False,True
+editorial_board_vote,150,Did Starbucks Support Calls To 'Defund the Police'?,https://www.snopes.com/fact-check/starbucks-defund-police/,False,False,True
+editorial_board_vote,151,Is Marlboro distributing cartons of cigarettes for free on Facebook?,https://www.snopes.com/fact-check/marlboro-giving-away-free-cigarettes/,False,False,True
+editorial_board_vote,152,Planted Evidence,https://www.snopes.com/fact-check/planted-evidence/,True,False,False
+editorial_board_vote,153,Tapeworm Diet Pills,https://www.snopes.com/fact-check/as-the-worm-squirms/,True,False,False
+editorial_board_vote,154,Is this a picture of valueless currency found in the drainage systems of Venezuela?,https://www.snopes.com/fact-check/venezuela-money-in-gutter/,False,True,False
+editorial_board_vote,155,Obama Slams Stay at Home Moms,https://www.snopes.com/fact-check/obama-mama-drama/,False,False,True
+editorial_board_vote,156,Bank of America Dropping FDIC Coverage?,https://www.snopes.com/fact-check/fdic-you-later/,False,False,True
+editorial_board_vote,157,Did Congress Designate Confederate Soldiers as United States Veterans?,https://www.snopes.com/fact-check/confederate-soldiers-veterans/,False,False,True
+editorial_board_vote,158,"In the 1950s and 1960s, the minimum wage was such that it would lift you out of poverty.",https://www.politifact.com/factchecks/2014/jun/15/jack-reed/jack-reed-says-minimum-wage-1950s-and-1960s-would-/,True,False,False
+editorial_board_vote,159,Did Facebook Executive Jeff Rothschild Say 'We Need a Third World War'?,https://www.snopes.com/fact-check/jeff-rothschild-third-world-war/,False,False,True
+editorial_board_vote,160,"Latino small businesses are 1 in 4 new businesses, but only 1% of venture capital funding goes to Latino businesses.",https://www.politifact.com/factchecks/2023/may/16/kamala-harris/kamala-harris-claim-about-latinos-getting-1-of-ven/,True,True,True
+editorial_board_vote,161,Does This Photograph Show Beetles Embedded in a Dog's Mouth?,https://www.snopes.com/fact-check/ladybugs-beetles-dog-mouth/,True,True,True
+editorial_board_vote,162,Star Wreck,https://www.snopes.com/fact-check/roddenberry-plane-crash/,True,True,True
+editorial_board_vote,163,Mitt Romney 'Money' Shirts,https://www.snopes.com/fact-check/shirt-stop-2/,False,False,True
+editorial_board_vote,164,Georgia spends fewer tourism advertising dollars than any other state in the South.,https://www.politifact.com/factchecks/2012/aug/13/ron-stephens/tourism-advertising-not-georgias-mind-lawmaker-say/,True,True,True
+editorial_board_vote,165,Psychological manipulation at the White House,https://www.snopes.com/fact-check/obama-behavioral-experiments/,False,False,True
+editorial_board_vote,166,Did Experts and Officials Warn in 2018 US Couldn't Respond Effectively to a Pandemic?,https://www.snopes.com/fact-check/experts-officials-pandemic-2018/,True,True,True
+editorial_board_vote,167,'Cadbury Easter Egg Hunt' Scam Circulates on WhatsApp,https://www.snopes.com/fact-check/cadbury-easter-egg-hunt-whatsapp/,False,True,False
+editorial_board_vote,168,Are Social Security Numbers Assigned by Race?,https://www.snopes.com/fact-check/black-carded/,False,False,True
+editorial_board_vote,169,George Zimmerman Files Civil Suit Against Trayvon Martin's Parents,https://www.snopes.com/fact-check/ill-suited/,False,False,True
+editorial_board_vote,170,"Right now, four in 10 public schools in our state are at least 50 years old.",https://www.politifact.com/factchecks/2019/mar/05/roy-cooper/cooper-calls-attention-aging-north-carolina-school/,True,True,True
+editorial_board_vote,171,We have the lowest corporate tax rate since 1968.,https://www.politifact.com/factchecks/2020/jan/18/andrew-cuomo/cuomos-accurate-boast-about-new-yorks-historically/,True,True,True
+editorial_board_vote,172,Says Mike Enzi is getting about 84 percent of his campaign funds from Washington-based PACs. That's more than any senator of either party.,https://www.politifact.com/factchecks/2013/oct/30/dick-cheney/dick-cheney-says-daughters-opponent-mike-enzi-get-/,True,False,False
+editorial_board_vote,173,Did a Reddit User Find Treasure in His Grandparents' Barn?,https://www.snopes.com/fact-check/treasure-grandparents-safe/,True,False,False
+editorial_board_vote,174,We had bipartisan legislation that got through the Senate that would have prevented bonuses like AIG's and then somehow mysteriously disappeared.,https://www.politifact.com/factchecks/2009/mar/18/ron-wyden/aig-bonus-wyden-snowe/,True,False,False
+editorial_board_vote,175,Has Sberbank in Russia restricted cash withdrawals to $20?,https://www.snopes.com/fact-check/sberbank-cash-withdrawal-limit/,False,False,True
+editorial_board_vote,176,Was the military that Trump inherited from Obama considered to be lacking in resources?,https://www.snopes.com/fact-check/trump-inherit-depleted-military/,False,True,False
+editorial_board_vote,177,I'm also the only lieutenant governor to not take a security detail.,https://www.politifact.com/factchecks/2016/may/26/carlos-lopez-cantera/carlos-lopez-cantera-says-he-only-florida-lieutena/,True,True,True
+editorial_board_vote,178,"Republican candidate for Governor of California, Travis Allen, made political contributions to Jerry Brown, Gavin Newsom, and Barbara Boxer.",https://www.politifact.com/factchecks/2018/may/25/john-cox/did-gop-candidate-california-governor-really-donat/,True,True,True
+editorial_board_vote,179,Jennifer Lopez Rumor,https://www.snopes.com/fact-check/theres-always-room-for-jlo/,False,False,True
+editorial_board_vote,180,Political donations from the DeVos family,https://www.snopes.com/fact-check/devos-family-campaign-contributions/,True,True,True
+editorial_board_vote,181,"There are 321,092 public school teachers in Texas. And there are 313,850 non-teachers in our public schools.",https://www.politifact.com/factchecks/2010/may/28/empower-texans/pac-says-texas-public-schools-employ-one-non-teach/,True,True,True
+editorial_board_vote,182,Free Glasses for Kids at Target,https://www.snopes.com/fact-check/target-eyeglasses/,False,False,True
+editorial_board_vote,183,U.S. Sen. Kay Bailey Hutchison has voted nine separate times to raise the national debt ceiling.,https://www.politifact.com/factchecks/2010/jan/27/rick-perry/us-sen-kay-bailey-hutchison-us-sen-kay-bailey-hutc/,True,True,True
+editorial_board_vote,184,Did most of the new jobs in February 2021 consist of waiters and bartenders?,https://www.snopes.com/fact-check/most-jobs-waiters-bartenders/,True,True,True
+editorial_board_vote,185,Was it suggested by Senator Tom Cotton that drug testing should be required for individuals receiving Social Security benefits?,https://www.snopes.com/fact-check/tom-cotton-drug-testing/,False,False,True
+editorial_board_vote,186,I have repeatedly said that many of the predatory loans that were made in the mortgage system did target African-American and Latino communities.,https://www.politifact.com/factchecks/2008/aug/01/barack-obama/obama-cites-ethnicity-in-mortgage-crisis/,True,True,True
+editorial_board_vote,187,Who was Michael Myers?,https://www.snopes.com/fact-check/william-shatner-halloween-mask/,True,True,True
+editorial_board_vote,188,Bin Laden Shooter Rob O'Neill Mistakenly Attacked by Street Thugs Seeking to Collect Debt from Neighbor,https://www.snopes.com/fact-check/knife-to-a-gunfight/,False,False,True
+editorial_board_vote,189,Is This Katie McCormick's Gravestone from the 1870s?,https://www.snopes.com/fact-check/botched-abortion-gravestone/,True,False,False
+editorial_board_vote,190,Kid Rock Death Hoax,https://www.snopes.com/fact-check/kid-rock-death-hoax/,False,True,False
+editorial_board_vote,191,Is This Lev Parnas at a Family Birthday Party with Donald Trump?,https://www.snopes.com/fact-check/lev-parnas-eric-trump-birthday/,False,False,True
+editorial_board_vote,192,Is this Weightlifter with a Prolapsed Rectum Real?,https://www.snopes.com/fact-check/power-lifting/,False,False,True
+editorial_board_vote,193,"A Mileage Tax? No, Biden's Bill Doesn't Impose New Driving Tax",https://www.snopes.com/fact-check/mileage-tax-biden-build-back-better-bill/,False,True,False
+editorial_board_vote,194,Free Publix $100 Coupons Scam,https://www.snopes.com/fact-check/publix-100-coupons-2/,False,True,False
+editorial_board_vote,195,2011 W-2 tax documents and HR3590 legislation,https://www.snopes.com/fact-check/2011-w-2-tax-forms-and-hr3590/,False,False,True
+editorial_board_vote,196,The Secret Words,https://www.snopes.com/fact-check/the-secret-words/,False,False,True
+editorial_board_vote,197,The country's bankrupt.,https://www.politifact.com/factchecks/2011/aug/12/ron-paul/us-rep-ron-paul-says-countrys-bankrupt/,False,False,True
+editorial_board_vote,198,"Says that as Massachusetts governor, Mitt Romney condemned coal-fired plants, saying they kill people.",https://www.politifact.com/factchecks/2012/aug/23/barack-obama/barack-obama-says-mitt-romney-condemned-coal-fired/,True,True,True
+editorial_board_vote,199,When I talk about (raising the) minimum wage ... half of Republicansagree with it.,https://www.politifact.com/factchecks/2014/mar/07/barack-obama/barack-obama-says-half-republicans-agree-minimum-w/,True,False,False
+editorial_board_vote,200,"California is once again the sixth-largest economy in the world. If you add the GDPs of Washington and Oregon, California would surpass the United Kingdom to become the fifth-largest economy in the world.",https://www.politifact.com/factchecks/2016/dec/15/antonio-villaraigosa/villaraigosa-claims-california-oregon-washington-p/,True,True,True
+editorial_board_vote,201,Did a Cornell Student Cut 37 Pounds Using Apple Cider Vinegar and Supplements?,https://www.snopes.com/fact-check/apple-cider-vinegar-diet/,False,False,True
+editorial_board_vote,202,Was an image of Patti LaBelle utilized by Fox News in the midst of their tribute to Aretha Franklin?,https://www.snopes.com/fact-check/fox-patti-labelle-aretha-franklin/,True,True,True
+editorial_board_vote,203,Is the Picture Depicting Stephen Hawking at a Conference in the Caribbean Organized by Jeffrey Epstein?,https://www.snopes.com/fact-check/stephen-hawking-jeffrey-epsteins-conference/,True,True,True
+editorial_board_vote,204,Credit for the burdensome financial responsibilities imposed on black individuals as a result of systemic inequalities.,https://www.snopes.com/fact-check/black-tax-credit/,False,False,True
+editorial_board_vote,205,Scientists in Japan Clone 98% Pure Saber-Tooth Tiger,https://www.snopes.com/fact-check/tiger-beat/,False,False,True
+editorial_board_vote,206,John Madden Death Hoax (2014),https://www.snopes.com/fact-check/john-madden-death-hoax/,False,True,False
+editorial_board_vote,207,FDIC insurance provides coverage for more than 99 years.,https://www.snopes.com/fact-check/fdic-you/,False,False,True
+editorial_board_vote,208,Deceptive Reshipping Scheme,https://www.snopes.com/fact-check/reship-of-fools/,False,True,False
+editorial_board_vote,209,Did the picture depict Stephen Hawking attending a conference in the Caribbean organized by Jeffrey Epstein?,https://www.snopes.com/fact-check/stephen-hawking-jeffrey-epsteins-conference/,True,True,True
+editorial_board_vote,210,Failure to Salute,https://www.snopes.com/fact-check/keep-the-change/,False,False,True
+editorial_board_vote,211,Procter and Gamble and Satanism Rumor,https://www.snopes.com/fact-check/trademark-of-the-devil/,False,False,True
+editorial_board_vote,212,Sean Penn Letter to Washington Post,https://www.snopes.com/fact-check/penn-stated/,True,False,False
+editorial_board_vote,213,Did Ronald Reagan Pave the Way for Fox News?,https://www.snopes.com/fact-check/ronald-reagan-fairness-doctrine/,False,False,True
+editorial_board_vote,214,Did Trump Claim Obama Wrote the Emoluments Clause of U.S. Constitution?,https://www.snopes.com/fact-check/trump-obama-emoluments/,False,False,True
+editorial_board_vote,215,Does a Meme Accurately Describe 'Why It's a Big Deal Kamala Harris is VP'?,https://www.snopes.com/fact-check/kamala-harris-big-deal-vp/,True,True,True
+editorial_board_vote,216,There is no proof that a decrease in port activity is caused by the lenient laws in California.,https://www.snopes.com/fact-check/california-laws-port-slowdown/,False,True,False
+editorial_board_vote,217,"No, This Is Not a Phone Number for Tracking Your Coronavirus Stimulus Payments",https://www.snopes.com/fact-check/tracking-stimulus-check/,False,True,False
+editorial_board_vote,218,The state's transportation department is currently burdened with a significant level of debt and has made debt repayments totaling over $700 million within the past two years.,https://www.politifact.com/factchecks/2019/may/08/cody-smith/smiths-statement-modots-debt-adds-needs-context/,True,True,True
+editorial_board_vote,219,Did Mike Tyson Post About Social Media Making People 'Too Comfortable'?,https://www.snopes.com/fact-check/mike-tyson-social-media/,True,True,True
+editorial_board_vote,220,The recently passed transportation funding bill is a billion-dollar tax increase for Georgians.,https://www.politifact.com/factchecks/2015/apr/27/debbie-dooley/maybe-not-today-and-maybe-under-different-name-tax/,True,True,True
+editorial_board_vote,221,"Texas charter schools receive full state funding per pupil, while district schools, which have 95% of the student population, receive approximately one-third of their funding from the state, with the remainder coming from local property taxes, leading to high tax rates. Districts are receiving reduced funds because a significant portion is being directed to charter schools.",https://www.politifact.com/factchecks/2018/aug/15/donna-howard/donna-howard-says-charter-schools-draw-more-studen/,True,False,False
+editorial_board_vote,222,Opera Singer Embarrassment,https://www.snopes.com/fact-check/p-ness/,True,False,False
+editorial_board_vote,223,50-Foot Megalodon Captured on Video,https://www.snopes.com/fact-check/50-foot-megalodon-video/,False,False,True
+editorial_board_vote,224,Ford Motors Funds Black Lives Matter,https://www.snopes.com/fact-check/ford-motors-funds-black-lives-matter/,False,False,True
+editorial_board_vote,225,"Says David Perdue hasn't held a single public town hall meeting in six years and sells four meetings a year and a retreat on a private island for a $7,500 corporate PAC check.",https://www.politifact.com/factchecks/2020/dec/11/jon-ossoff/sen-david-perdue-hasnt-held-town-halls-did-offer-a/,True,True,True
+editorial_board_vote,226,Did Kurt Cobain Write That Pennyroyal Herb Was an Abortive That 'Doesn't Work'?,https://www.snopes.com/fact-check/kurt-cobain-pennyroyal-abortive/,True,True,True
+editorial_board_vote,227,"Scientists Say Giant Asteroid Could Hit Earth Next Week, Causing Mass Devastation",https://www.snopes.com/fact-check/asteroid-earth-clickbait-study/,False,False,True
+editorial_board_vote,228,"Canadian middle class incomes are now higher than in the United States. They are working fewer hours for more pay,  living longer on average, and facing less income inequality.",https://www.politifact.com/factchecks/2014/may/20/hillary-clinton/hillary-clinton-says-united-states-falling-behind-/,True,True,True
+editorial_board_vote,229,George Reeves Superman Death,https://www.snopes.com/fact-check/superman/,False,False,True
+editorial_board_vote,230,"Rhode Island has the second highest per enrollee (Medicaid) cost of any state in the country, which is 60 percent higher than the national average.",https://www.politifact.com/factchecks/2015/mar/29/gina-raimondo/gov-gina-raimondo-says-ris-medicaid-costs-enrollee/,True,True,True
+editorial_board_vote,231,Protection offered by the Secret Service to John Kerry,https://www.snopes.com/fact-check/secret-disservice/,False,False,True
+editorial_board_vote,232,Abandoned Polish Wedding Chairs,https://www.snopes.com/fact-check/polish-wwii-chairs/,False,False,True
+editorial_board_vote,233,"In Wisconsin, unions can essentially give unlimited contributions to political parties, but business can't give any.",https://www.politifact.com/factchecks/2014/nov/21/robin-vos/wisconsin-unions-can-give-unlimited-funds-politica/,True,False,False
+editorial_board_vote,234,Is Safyre Terry's Christmas Wish a Scam?,https://www.snopes.com/fact-check/safyre-terry-christmas-card/,True,True,True
+editorial_board_vote,235,Chase Wheedle is a Seattle attraction.,https://www.snopes.com/fact-check/seattle-sharia-law/,True,False,False
+editorial_board_vote,236,Did Trump Plagiarize Praise for Jesse Watters' Book from a Promo Blurb?,https://www.snopes.com/fact-check/trump-jesse-waters-book/,True,True,True
+editorial_board_vote,237,Did Astronaut Chris Hadfield Test the Effects of Marijuana in Space?,https://www.snopes.com/fact-check/iss-test-marijuana-space/,False,False,True
+editorial_board_vote,238,Was the prediction of the downfall of the world by Nostradamus related to the reign of a weak ruler?,https://www.snopes.com/fact-check/nostradamus-predict-feeble-man/,False,False,True
+editorial_board_vote,239,Macy's sent a letter to Rick Perry urging him to veto equal pay bill.,https://www.politifact.com/factchecks/2013/nov/25/senfronia-thompson/macys-other-retailers-asked-rick-perry-veto-equal-/,True,True,True
+editorial_board_vote,240,John Kerry Swears,https://www.snopes.com/fact-check/sob-story/,True,True,True
+editorial_board_vote,241,Were Millions of Mail-in Ballots Wrongly Sent to People Who Didn't Request Them?,https://www.snopes.com/fact-check/millions-mail-in-ballots/,False,False,True
+editorial_board_vote,242,Child care costs account for 24% of a WI familys budget.,https://www.politifact.com/factchecks/2020/jan/03/david-crowley/child-care-costs-can-take-big-bite-family-budget/,True,True,True
+editorial_board_vote,243,Does Glaxo Own the 'Wuhan Lab'?,https://www.snopes.com/fact-check/does-glaxo-own-the-wuhan-lab/,False,False,True
+editorial_board_vote,244,"Las Vegas Casino Owners, Gaming Commission Seek to Legalize Dog Fighting",https://www.snopes.com/fact-check/viva-paws-vegas/,False,False,True
+editorial_board_vote,245,"Does Stacey Abrams Owe More Than $50,000 in Back Taxes?",https://www.snopes.com/fact-check/stacey-abrams-back-taxes/,True,True,True
+editorial_board_vote,246,Did executive Jeff Rothschild from Facebook express the need for a third world war?,https://www.snopes.com/fact-check/jeff-rothschild-third-world-war/,False,False,True
+editorial_board_vote,247,"Seven years later, (Scott Walker) has not hit his first campaign promise of creating 250,000 jobs.",https://www.politifact.com/factchecks/2017/jun/23/mark-pocan/mark-pocan-claim-seven-years-later-scott-walker-ha/,True,True,True
+editorial_board_vote,248,"Over 3 million Americans are employed in the growing green-collar workforce, which is more than the number of people working in the fossil fuel industry.",https://www.politifact.com/factchecks/2014/feb/14/tammy-baldwin/expansive-definition-helps-green-jobs-outnumber-oi/,True,True,True
+editorial_board_vote,249,Did New Zealand Prime Minister Jacinda Ardern Don a Hijab and Offer Aid to Families of Massacre Victims?,https://www.snopes.com/fact-check/nz-prime-minister-massacre-aid/,True,True,True
+editorial_board_vote,250,The new tax will make soda sold in Chicago among the most expensive in the country.,https://www.politifact.com/factchecks/2017/aug/07/illinois-policy-institute/chicago-soda-tax-throws-batting-practice-fastball-/,True,True,True
+editorial_board_vote,251,Ralph Hall has never voted to raise the debt ceiling.,https://www.politifact.com/factchecks/2014/mar/31/cat-pac/us-rep-ralph-hall-texas-voted-increase-debt-limit-/,False,False,True
+editorial_board_vote,252,"Rewrite this item ""Dennis Guthrie's Letter to Nancy Pelosi"".",https://www.snopes.com/fact-check/guthrie-letter-to-pelosi/,True,True,True
+editorial_board_vote,253,Is This a Real Photograph of Bowie and Lemmy?,https://www.snopes.com/fact-check/david-bowie-lemmy-photo/,False,False,True
+editorial_board_vote,254,Does a Sony Patent Propose Viewers Skip Commercials by Yelling Brand Names at TV?,https://www.snopes.com/fact-check/sony-patent-mcdonalds/,True,True,True
+editorial_board_vote,255,Winston Churchill on Islam,https://www.snopes.com/fact-check/churchill-on-islam/,True,True,True
+editorial_board_vote,256,John McCain's description of 'rich',https://www.snopes.com/fact-check/the-five-million-dollar-man/,True,False,False
+editorial_board_vote,257,Did Channing Tatum Come Out as Gay?,https://www.snopes.com/fact-check/channing-tatum-rumor/,False,False,True
+editorial_board_vote,258,Does AARP Support the Democratic Party?,https://www.snopes.com/fact-check/aarp-supports-democratic-party/,False,False,True
+editorial_board_vote,259,Is Ukraine planning to legalize the production of pornography in order to boost funding for the military?,https://www.snopes.com/fact-check/ukraine-legalize-porn-for-military/,False,False,True
+editorial_board_vote,260,Did Boyd Bushman Provide Evidence of Alien Contact?,https://www.snopes.com/fact-check/boyd-bushman-aliens/,False,False,True
+editorial_board_vote,261,"Every American now is $51,000 in debt. Thats money I owe, thats money my children owe before they even go to kindergarten, thats their check to the federal government right now.",https://www.politifact.com/factchecks/2012/nov/15/caroline-casagrande/caroline-casagrande-says-every-american-owes-feder/,True,False,False
+editorial_board_vote,262,Did Biden Say People Making Less Than $400K 'Will Not Pay a Single Penny in Taxes'?,https://www.snopes.com/fact-check/biden-taxes-400k/,True,True,True
+editorial_board_vote,263,Is Facebook Issuing New Warnings About 'Extremist Content'?,https://www.snopes.com/fact-check/extremist-warnings-facebook/,True,True,True
+editorial_board_vote,264,"Says in Oregon today, the average debt upon college graduation is more than $24,000.",https://www.politifact.com/factchecks/2013/aug/10/jeff-merkley/average-debt-upon-college-graduation-more-24000/,True,True,True
+editorial_board_vote,265,Certainly! Here is a paraphrased version of the sentence: The IRS requested that taxpayers declare stolen goods and income obtained illegally.,https://www.snopes.com/fact-check/irs-taxpayers-stolen-items-illegal-income/,True,True,True
+editorial_board_vote,266,Says Barack Obama is the first president in modern history not to have a single year of 3 percent growth.,https://www.politifact.com/factchecks/2016/oct/31/donald-trump/trumps-claim-about-weak-economic-growth-under-obam/,True,True,True
+editorial_board_vote,267,"Under Barack Obama, the fewest number of adults are working since Jimmy Carters presidency.",https://www.politifact.com/factchecks/2016/jan/22/roger-williams/roger-williams-falsely-says-fewest-number-adults-w/,False,False,True
+editorial_board_vote,268,The Unexpected Inheritance,https://www.snopes.com/fact-check/the-unexpected-inheritance/,True,False,False
+editorial_board_vote,269,Did NYC Mayoral Candidate Andrew Yang Say This About Mentally Ill People?,https://www.snopes.com/fact-check/andrew-yang-mentally-ill/,True,True,True
+editorial_board_vote,270,Papa John's is unwilling to distribute 'excessive profits' amongst its employees.,https://www.snopes.com/fact-check/papa-johns-ceo-quote/,False,False,True
+editorial_board_vote,271,Pic Shows Taylor Swift Eating Ice Cream as Children Cry?,https://www.snopes.com/fact-check/taylor-swift-africa-pic/,False,False,True
+editorial_board_vote,272,Renaming Interstate 69,https://www.snopes.com/fact-check/highway-position/,False,False,True
+editorial_board_vote,273,Lunch Boxes and Lead,https://www.snopes.com/fact-check/pail-by-comparison/,False,True,False
+editorial_board_vote,274,Did Dave Ramsey Warn About a 'Cashless Society'?,https://www.snopes.com/fact-check/dave-ramsey-cashless-society/,False,False,True
+editorial_board_vote,275,Did a UC Berkeley Instructor Say Rural Americans Are 'Bad People'?,https://www.snopes.com/fact-check/berkeley-instructor-rural-usa/,True,True,True
+editorial_board_vote,276,Did WaPo Headline Call IS Leader al-Baghdadi an 'Austere Religious Scholar'?,https://www.snopes.com/fact-check/al-baghdadi-wapo-headline/,True,True,True
+editorial_board_vote,277,Corporate Angel Network Origin,https://www.snopes.com/fact-check/crock-of-ages/,False,False,True
+editorial_board_vote,278,"When it comes to income taxes, Wisconsin is one of the best places in the country to be poor but top 4 or 5 worst for middle-income earners.",https://www.politifact.com/factchecks/2012/nov/14/robin-vos/vos-says-income-taxes-wisconsin-one-easiest-poor-a/,True,False,False
+editorial_board_vote,279,Says Russ Feingolds campaign is powered by small-dollar contributions like ours.,https://www.politifact.com/factchecks/2016/jun/22/bernie-sanders/bernie-sanders-right-about-russ-feingolds-campaign/,True,True,True
+editorial_board_vote,280,Did Archaeologists Dig Up an 800-Year-Old Alien Cellphone?,https://www.snopes.com/fact-check/alien-cellphone-found/,False,False,True
+editorial_board_vote,281,Did Disney Release This 'Hocus Pocus 2' Movie Poster?,https://www.snopes.com/fact-check/hocus-pocus-2/,False,False,True
+editorial_board_vote,282,Did Winston Churchill Say 'The Fascists of the Future Will Call Themselves Anti-Fascists?',https://www.snopes.com/fact-check/fascists-called-anti-fascists-quote/,False,False,True
+editorial_board_vote,283,Is Facebook Deleting an Image of a Cross Carved to Honor Fallen Firefighters?,https://www.snopes.com/fact-check/cross-honor-fallen-firefighters/,False,False,True
+editorial_board_vote,284,"A mortgage buyback plan is my proposal, it's not Sen. Obama's proposal, it's not President Bush's proposal.",https://www.politifact.com/factchecks/2008/oct/09/john-mccain/the-idea-is-old-but-the-plan-is-mccains/,True,True,True
+editorial_board_vote,285,Fraudulent $75 Coupon Scheme involving Meijer,https://www.snopes.com/fact-check/meijer-coupon-scam/,False,True,False
+editorial_board_vote,286,Did Google Remove Photos of Bill Clinton with Jeffrey Epstein from Search Results?,https://www.snopes.com/fact-check/google-clinton-epstein/,False,False,True
+editorial_board_vote,287,"A new, independent study put out last week found that at least 55 of our largest corporations used various loopholes to pay zero federal income tax in 2020.",https://www.politifact.com/factchecks/2021/apr/12/joe-biden/fact-checking-joe-biden-corporation-taxes/,True,True,True
+editorial_board_vote,288,Infinity Tower Flooding Accident,https://www.snopes.com/fact-check/infinity-tower/,False,False,True
+editorial_board_vote,289,Virginia tax receipts in just the last four years alone have grown 50%.,https://www.politifact.com/factchecks/2023/jan/25/glenn-youngkin/youngkin-near-mark-tax-growth-claim/,True,False,False
+editorial_board_vote,290,Racist Product Color Descriptions,https://www.snopes.com/fact-check/hue-cry/,True,True,True
+editorial_board_vote,291,Does a Map Shared Online Depict All Churches 'Destroyed' in France in the Last 4 Years?,https://www.snopes.com/fact-check/churches-destroyed-in-france/,False,False,True
+editorial_board_vote,292,"Did Trump Solicit Donations, Attack Liz Cheney to Mark His Birthday?",https://www.snopes.com/fact-check/trump-birthday-donations-cheney-statement/,False,False,True
+editorial_board_vote,293,Was a Baseball Game Won by a Score of 2½-2?,https://www.snopes.com/fact-check/baseball-cut-in-half-by-axe/,False,False,True
+editorial_board_vote,294,Home Sales Tax,https://www.snopes.com/fact-check/home-sales-tax/,True,False,False
+editorial_board_vote,295,Kohl's Thanksgiving Coupon Scam,https://www.snopes.com/fact-check/kohls-thanksgiving-coupon-scam/,False,True,False
+editorial_board_vote,296,Hillary Clinton and the Victims of War,https://www.snopes.com/fact-check/hillary-clinton-victims-of-war/,True,True,True
+editorial_board_vote,297,"Rephrase this as ""Macy Neighs""",https://www.snopes.com/fact-check/macys-wont-hire-veteran/,True,False,False
+editorial_board_vote,298,Does Photo Show Trump Arriving in New York for His Arraignment?,https://www.snopes.com/fact-check/trump-arraignment-arrival-photo/,False,False,True
+editorial_board_vote,299,Is This Bill Clinton with Jeffrey Epstein?,https://www.snopes.com/fact-check/bill-clinton-with-jeffrey-epstein/,True,True,True
+weighted_evidence_scorer,0,"Says with the ongoing economic downturn, child abuse is on the rise.",https://www.politifact.com/factchecks/2010/sep/28/jeff-merkley/jeff-merkley-says-economic-downturn-oregon-seeing-/,True,False,False
+weighted_evidence_scorer,1,"In the last 22 months, businesses have created more than 3 million jobs. Last year, they created the most jobs since 2005.",https://www.politifact.com/factchecks/2012/jan/25/barack-obama/have-private-sector-jobs-grown-22-months-best-annu/,True,True,True
+weighted_evidence_scorer,2,This Facebook Post Offering Free Red Lobster Is a Scam,https://www.snopes.com/fact-check/red-lobster-facebook-post-scam/,False,True,False
+weighted_evidence_scorer,3,"Across the country, $174 billion of the Recovery Act have been committed in its first 130 days.",https://www.politifact.com/factchecks/2009/jul/15/joe-biden/vice-president-biden-correct-174-billion-stimulus-/,True,True,True
+weighted_evidence_scorer,4,Are Most Cruise Ships Registered Under Foreign Flags?,https://www.snopes.com/fact-check/cruise-ships-foreign-flags/,True,False,False
+weighted_evidence_scorer,5,Was 'America First' a Slogan of the Ku Klux Klan?,https://www.snopes.com/fact-check/america-first-ku-klux-klan-slogan/,True,False,False
+weighted_evidence_scorer,6,Today the top 1 percent earn a higher share of our national income than any year since 1928.,https://www.politifact.com/factchecks/2015/jan/30/ted-cruz/ted-cruz-says-top-1-percent-earn-more-national-inc/,True,Unknown,False
+weighted_evidence_scorer,7,We've cut taxes 50 times and look what has happened to our revenues. They've grown.,https://www.politifact.com/factchecks/2016/feb/04/rick-scott/scott-credits-tax-cuts-floridas-growing-tax-revenu/,True,False,False
+weighted_evidence_scorer,8,Did Biden Say Taxpayers Must Fund Health Care for 'Illegal Immigrants'?,https://www.snopes.com/fact-check/biden-undocumented-healthcare/,False,False,True
+weighted_evidence_scorer,9,"Says Joe Manchin strongly supported and voted for Hillary Clinton after she said, Were going to put a lot of coal miners and coal companies out of work.",https://www.politifact.com/factchecks/2018/sep/13/patrick-morrisey/did-joe-manchin-stick-hillary-clinton-after-contro/,True,True,True
+weighted_evidence_scorer,10,Were parents in Missouri schools mandated to sign COVID-19 liability waivers?,https://www.snopes.com/fact-check/missouri-schools-death-waiver/,True,False,False
+weighted_evidence_scorer,11,Was it against the law to make money from healthcare before the introduction of the HMO Act of 1973?,https://www.snopes.com/fact-check/healthcare-profit-1973-hmo-act/,False,False,True
+weighted_evidence_scorer,12,"Is Stacey Abrams responsible for a debt exceeding $50,000 in overdue taxes?",https://www.snopes.com/fact-check/stacey-abrams-back-taxes/,True,False,False
+weighted_evidence_scorer,13,The Tea Party of the United States is a new political movement.,https://www.snopes.com/fact-check/new-american-tea-party/,True,False,False
+weighted_evidence_scorer,14,Should an Empty Toilet Paper Roll or Red Cup Be Placed Under the Toilet Seat at Night?,https://www.snopes.com/fact-check/toilet-paper-roll-seat-night/,False,False,True
+weighted_evidence_scorer,15,Wal-Mart American Flags,https://www.snopes.com/fact-check/flagging-interest/,False,False,True
+weighted_evidence_scorer,16,The New American Way of Life,https://www.snopes.com/fact-check/new-american-way-life/,False,False,True
+weighted_evidence_scorer,17,Hooters Bans Motorcycle Clubs from All Restaurants,https://www.snopes.com/fact-check/no-shoes-no-shirts-no-motorcycles/,False,False,True
+weighted_evidence_scorer,18,Letter to Clinton re Sacrifice,https://www.snopes.com/fact-check/doodie-honor-and-country-2/,False,False,True
+weighted_evidence_scorer,19,Make the Pie Higher!,https://www.snopes.com/fact-check/make-the-pie-higher/,True,False,False
+weighted_evidence_scorer,20,Is This a Trump Tower Billboard in Mumbai?,https://www.snopes.com/fact-check/trump-tower-billboard-in-mumbai/,True,True,True
+weighted_evidence_scorer,21,Are Costco shutting down stores throughout the country?,https://www.snopes.com/fact-check/costco-closing-stores/,False,False,True
+weighted_evidence_scorer,22,"According to Ted Cruz's tax proposal, businesses are required to pay a 16 percent tax on their earnings, as well as on the wages they distribute to their employees.",https://www.politifact.com/factchecks/2016/jan/26/marco-rubio/marco-rubio-says-ted-cruz-flat-tax-charges-16-perc/,True,False,False
+weighted_evidence_scorer,23,Did Shane Patrick Boyle pass away due to his illness following successful fundraising for insulin via a crowdfunding campaign?,https://www.snopes.com/fact-check/shane-patrick-boyle-died-after-starting-a-gofundme-campaign-for-insulin/,True,False,False
+weighted_evidence_scorer,24,Did a governmental shutdown in Australia lead to the dismissal of all Members of Parliament?,https://www.snopes.com/fact-check/australia-government-shutdown/,True,True,True
+weighted_evidence_scorer,25,Does Biden's Climate Plan Include Cutting 90% of Red Meat From Our Diets?,https://www.snopes.com/fact-check/90-percent-red-meat/,False,False,True
+weighted_evidence_scorer,26,The bill that I carried cutting MOs income tax for 1st time in over 100 years will start its 1st phase in jan 1 2018. #moleg @Eric_Schmitt,https://www.politifact.com/factchecks/2017/sep/26/andrew-koenig/first-cut-missouri-income-tax-over-100-years/,True,True,True
+weighted_evidence_scorer,27,"Are These Real Pics of Elderly Women With Giant, Crocheted Cats?",https://www.snopes.com/fact-check/elderly-women-giant-crocheted-cats/,False,False,True
+weighted_evidence_scorer,28,"No, Sean Connery's Net Worth Didn't Leave Family 'in Tears'",https://www.snopes.com/fact-check/sean-connery-net-worth/,False,True,False
+weighted_evidence_scorer,29,Was an image of Patti LaBelle utilized by Fox News in their homage to Aretha Franklin?,https://www.snopes.com/fact-check/fox-patti-labelle-aretha-franklin/,True,True,True
+weighted_evidence_scorer,30,"Says Austin has been ranked repeatedly as one of the most, if not the most, economically segregated cities in the country.",https://www.politifact.com/factchecks/2018/may/31/greg-casar/greg-casar-says-austin-ranked-repeatedly-high-econ/,True,True,True
+weighted_evidence_scorer,31,Fifty-one percent of our taxes are paid by 2% of New Yorkers.,https://www.politifact.com/factchecks/2023/jan/24/eric-adams/claim-about-wealthy-residents-and-taxes-new-york-c/,True,True,True
+weighted_evidence_scorer,32,Alabama Lawmaker Wants Food Stamp 'Hunger Tests'?,https://www.snopes.com/fact-check/food-stamp-hunger-tests/,False,False,True
+weighted_evidence_scorer,33,"In the United States, a college loan stands out as the only type of loan that is not eligible for refinancing when interest rates decrease.",https://www.politifact.com/factchecks/2016/apr/06/bill-clinton/bill-clintons-college-debt-claim-mostly-true/,True,False,False
+weighted_evidence_scorer,34,Elaborate Welfare Housing Project,https://www.snopes.com/fact-check/elaborate-welfare-housing-project/,False,False,True
+weighted_evidence_scorer,35,General Motors Sales,https://www.snopes.com/fact-check/purchasing-agreement/,True,False,False
+weighted_evidence_scorer,36,$100 JCPenney Coupon Scam,https://www.snopes.com/fact-check/jc-penney-coupon/,False,False,True
+weighted_evidence_scorer,37,Was This McDonald's Burned During Floyd Protests?,https://www.snopes.com/fact-check/mcdonalds-burned-floyd-protests/,False,False,True
+weighted_evidence_scorer,38,Costa Rica Sea Turtle Egg Harvesting,https://www.snopes.com/fact-check/poached-eggs/,True,False,False
+weighted_evidence_scorer,39,Deceptive scheme on Facebook involving fraudulent ALDI coupons.,https://www.snopes.com/fact-check/scam-aldi-facebook-coupons/,False,True,False
+weighted_evidence_scorer,40,Probation for Child Rape Vs. Prison for Stealing Ribs?,https://www.snopes.com/fact-check/50-years-ribs-theft/,True,False,False
+weighted_evidence_scorer,41,Justin Trudeau has announced plans to grant pardons to all individuals who have been convicted of a marijuana-related offense.,https://www.snopes.com/fact-check/justin-trudeau-pardon-marijuana/,False,False,True
+weighted_evidence_scorer,42,Donald Trump's 'Quiet Acts of Random Kindness',https://www.snopes.com/fact-check/trump-quiet-acts-kindness/,True,False,False
+weighted_evidence_scorer,43,Our median household income in 2013 was the highest in the nation.,https://www.politifact.com/factchecks/2015/feb/13/maggie-hassan/maggie-hassan-says-nh-had-highest-median-income-us/,True,True,True
+weighted_evidence_scorer,44,"No, Trump Isn't 'Tactically' Implementing Voter Interference Sanctions",https://www.snopes.com/fact-check/trump-voter-interference/,False,True,False
+weighted_evidence_scorer,45,Did Trump Tweet That South Dakota Should Close Its Border with California?,https://www.snopes.com/fact-check/trump-tweet-south-dakota-border/,False,False,True
+weighted_evidence_scorer,46,"Under the compromise tax agreement, 99.7% of American families will not pay 1 nickel in an estate tax.",https://www.politifact.com/factchecks/2010/dec/14/bernie-sanders/sen-bernie-sanders-says-997-american-families-woul/,True,True,True
+weighted_evidence_scorer,47,Did Sheep Walk Through Gate Despite There Being No Fence?,https://www.snopes.com/fact-check/sheep-walking-through-gate/,False,False,True
+weighted_evidence_scorer,48,"When Nancy Nusbaum was Brown County executive, spending went up nearly 50 percent.",https://www.politifact.com/factchecks/2011/aug/05/wisconsin-manufacturers-and-commerce/wisconsin-manufacturers-commerce-says-brown-county/,True,True,True
+weighted_evidence_scorer,49,Facebook scam involving fraudulent ALDI coupons,https://www.snopes.com/fact-check/scam-aldi-facebook-coupons/,False,True,False
+weighted_evidence_scorer,50,Reselling U.S. Postage Stamps,https://www.snopes.com/fact-check/first-class-salesmanship/,False,False,True
+weighted_evidence_scorer,51,"Today, if you were raised poor, youre just as likely to stay poor as you were 50 years ago.",https://www.politifact.com/factchecks/2016/jan/19/paul-ryan/paul-ryan-says-if-you-were-raised-poor-youre-just-/,True,True,True
+weighted_evidence_scorer,52,The video does not depict electric scooter bikes left in a 'graveyard' because of the expensive nature of batteries.,https://www.snopes.com/fact-check/electric-scooter-bike-abandoned-graveyard/,False,True,False
+weighted_evidence_scorer,53,Eric Trump Tweets (Illegal) Ballot Selfie,https://www.snopes.com/fact-check/eric-trump-tweets-illegal-ballot-selfie/,True,True,True
+weighted_evidence_scorer,54,Accountant in a house of ill repute,https://www.snopes.com/fact-check/reading-railroaded/,True,True,True
+weighted_evidence_scorer,55,Giant Sea Creature Washes Ashore Along Santa Monica Coastline,https://www.snopes.com/fact-check/gigantic-squid/,False,False,True
+weighted_evidence_scorer,56,"Says Rick Scott changed his promise from700,000 jobs created on top of what normal growth would be to just 700,000 jobs.",https://www.politifact.com/factchecks/2014/oct/14/charlie-crist/rick-scott-changed-terms-his-promise-create-700000/,True,True,True
+weighted_evidence_scorer,57,Scam involving a fake $150 anniversary coupon from Lowe's.,https://www.snopes.com/fact-check/lowes-coupon-scam/,False,True,False
+weighted_evidence_scorer,58,Walmart Bows Down to Sharia Law?,https://www.snopes.com/fact-check/halal-mart/,True,False,False
+weighted_evidence_scorer,59,Redrawn Map of the United States,https://www.snopes.com/fact-check/altered-states/,False,False,True
+weighted_evidence_scorer,60,Barack Obama and the National Anthem,https://www.snopes.com/fact-check/hand-over-heart/,True,True,True
+weighted_evidence_scorer,61,"Sen. Rubios (tax plan) would cut taxes for households making around $3 million a year by almost $240,000, which is way more than three times the earnings of a typical family.",https://www.politifact.com/factchecks/2015/jul/16/hillary-clinton/would-rubios-tax-plan-mean-big-break-millionaires/,True,True,True
+weighted_evidence_scorer,62,Does This Image Show a Peaceful Meeting of a Lion and a Zebra at a Watering Hole?,https://www.snopes.com/fact-check/zebra-lion-watering-hole/,False,False,True
+weighted_evidence_scorer,63,Did Target End Its 'Shop with a Cop' Program?,https://www.snopes.com/fact-check/target-shop-with-a-cop/,False,False,True
+weighted_evidence_scorer,64,Does Donald Trump Have a Statue of Himself in Mar-a-Lago Office?,https://www.snopes.com/fact-check/trump-maralago-statue/,True,True,True
+weighted_evidence_scorer,65,Did Sen. Cory Booker Put Undocumented People 'Before Seniors and Veterans'?,https://www.snopes.com/fact-check/did-booker-put-dreamers-before-veterans/,False,False,True
+weighted_evidence_scorer,66,IRS Refund Notification,https://www.snopes.com/fact-check/irs-refund-notification-2/,False,True,False
+weighted_evidence_scorer,67,The Lying Game,https://www.snopes.com/fact-check/powerball-lottery-winners-identity/,False,True,False
+weighted_evidence_scorer,68,"No, AOC Didn't Tweet 'Farming Should Be Illegal'",https://www.snopes.com/fact-check/aoc-farming-should-be-illegal/,False,True,False
+weighted_evidence_scorer,69,Is This a Picture of Christine Blasey Ford in 1982?,https://www.snopes.com/fact-check/christine-blasey-ford-1982/,False,False,True
+weighted_evidence_scorer,70,Who Was Michael Myers?,https://www.snopes.com/fact-check/william-shatner-halloween-mask/,True,True,True
+weighted_evidence_scorer,71,"Is Disney Hiring for Remote, Entry-Level Jobs in Data Entry, Customer Service?",https://www.snopes.com/fact-check/disney-data-entry-jobs/,False,False,True
+weighted_evidence_scorer,72,Is the White House Gift Shop Selling a 'Trump Defeats COVID-19' Coin?,https://www.snopes.com/fact-check/trump-defeats-covid19-coin/,False,False,True
+weighted_evidence_scorer,73,Says President Donald Trump took more than a month to allocate Congress emergency funding to tribes  and only did so after tribes sued.,https://www.politifact.com/factchecks/2020/jun/01/joe-biden/fact-checking-joe-bidens-claim-trump-delayed-8-bil/,True,True,True
+weighted_evidence_scorer,74,Was it reported by Fox News that the Mar-a-Lago Club owned by Trump received a foreclosure notice from Deutsche Bank?,https://www.snopes.com/fact-check/mar-a-lago-foreclosure-fox-news/,False,False,True
+weighted_evidence_scorer,75,Are the majority of cruise ships registered under foreign flags?,https://www.snopes.com/fact-check/cruise-ships-foreign-flags/,True,True,True
+weighted_evidence_scorer,76,Ohios lost more jobs in March than any other state in the nation.,https://www.politifact.com/factchecks/2013/may/13/mike-foley/state-rep-mike-foley-says-ohio-led-nation-job-loss/,True,True,True
+weighted_evidence_scorer,77,Is This 'Good News' List About the COVID-19 Pandemic Accurate?,https://www.snopes.com/fact-check/covid-good-news-list-accurate/,True,False,False
+weighted_evidence_scorer,78,Was there a decrease of $102 billion in the National Debt following Donald Trump's inauguration?,https://www.snopes.com/fact-check/national-debt-trump/,True,True,True
+weighted_evidence_scorer,79,Did Dr. Oz Endorse Keto Weight Loss Gummies?,https://www.snopes.com/fact-check/dr-oz-keto-weight-loss-gummies/,False,False,True
+weighted_evidence_scorer,80,Purchasing SpaceX shares ahead of its public offering is a scam.,https://www.snopes.com/fact-check/buy-spacex-stock-public/,False,True,False
+weighted_evidence_scorer,81,Could this image be depicting the Bitterroot Forest Fire?,https://www.snopes.com/fact-check/bitterroot-forest-fire/,True,True,True
+weighted_evidence_scorer,82,Could a woman be considered the primary earner of the household for orchestrating a fraudulent foster care operation?,https://www.snopes.com/fact-check/breadwinner/,False,False,True
+weighted_evidence_scorer,83,Grand Canyon Skywalk,https://www.snopes.com/fact-check/grand-canyon-skywalk/,True,True,True
+weighted_evidence_scorer,84,Canada Gives Polygamist Immigrants Thousands in 'Start-Up Money'?,https://www.snopes.com/fact-check/canada-gives-polygamist-immigrants-thousands-start-money/,False,False,True
+weighted_evidence_scorer,85,"Did Failed Constitutional Amendments Include Ban on Divorce, 'United States of the Earth'?",https://www.snopes.com/fact-check/failed-constitutional-amendments/,True,True,True
+weighted_evidence_scorer,86,Did a TV Station Report Biden-Sanders Primary Results Before the Election?,https://www.snopes.com/fact-check/election-results-before-election/,False,False,True
+weighted_evidence_scorer,87,Are African nations implementing a massive tree barrier to halt the advance of the Sahara Desert?,https://www.snopes.com/fact-check/africa-giant-wall-of-trees-sahara/,True,True,True
+weighted_evidence_scorer,88,'Target PS5' Scam Email Leads to Credit Card Form on Vietnam-Registered Website,https://www.snopes.com/fact-check/target-ps5-scam-email-loyalty-program/,False,True,False
+weighted_evidence_scorer,89,Inheritance of a common family name,https://www.snopes.com/fact-check/windfall-inheritance/,False,False,True
+weighted_evidence_scorer,90,Did Trump Watch 'The Gorilla Channel' in the White House?,https://www.snopes.com/fact-check/donald-trump-watches-gorilla-channel/,False,True,False
+weighted_evidence_scorer,91,The House of Delegates budget bill cuts $50 million from education.,https://www.politifact.com/factchecks/2011/feb/22/virginia-senate-democratic-caucus/virginia-democrats-say-house-delegates-budget-cuts/,True,True,True
+weighted_evidence_scorer,92,Is the 'Pfizer Treatment Survey' Email a Scam or Legit?,https://www.snopes.com/fact-check/pfizer-treatment-survey-scam/,False,True,False
+weighted_evidence_scorer,93,Did Rosie O'Donnell 'Plead Insanity' Over Illegal Campaign Donations?,https://www.snopes.com/fact-check/did-rosie-insanity-campaign-donations/,False,False,True
+weighted_evidence_scorer,94,'The Big Lebowski 2' Announced,https://www.snopes.com/fact-check/false-the-big-lebowski-2-announced/,False,False,True
+weighted_evidence_scorer,95,Does Texting 'USPS' to 50409 Send a Letter to Your Political Representatives?,https://www.snopes.com/fact-check/usps-50409/,True,True,True
+weighted_evidence_scorer,96,Codex Alimentarius,https://www.snopes.com/fact-check/vitamin-see/,False,False,True
+weighted_evidence_scorer,97,Delta Air Lines Scams Promise '$500 Gift Card for $1' and '$100 Reward',https://www.snopes.com/fact-check/delta-air-lines-scams-500-for-1-dollar/,False,True,False
+weighted_evidence_scorer,98,Is This Really Donald Trump's Inauguration Poem?,https://www.snopes.com/fact-check/trumps-inauguration-poem/,False,False,True
+weighted_evidence_scorer,99,Does the American Rescue Plan consist of just 9% of COVID-19 related content?,https://www.snopes.com/fact-check/usa-rescue-plan-9-percent/,False,False,True
+weighted_evidence_scorer,100,Is Daryl Hannah Pregnant at Age 61?,https://www.snopes.com/fact-check/daryl-hannah-pregnant/,False,False,True
+weighted_evidence_scorer,101,L UTA Flight 772 Memorial,https://www.snopes.com/fact-check/uta-flight-772-memorial/,True,True,True
+weighted_evidence_scorer,102,FACT: the special assistant in @johnkasich's office makes over three times more than an average #OH firefighter,https://www.politifact.com/factchecks/2011/feb/24/ohio-democratic-party/ohio-democratic-party-claims-top-kasich-makes-trip/,True,True,True
+weighted_evidence_scorer,103,Tax Hikes for Sturgis Bikes,https://www.snopes.com/fact-check/sturgis-tax-hike/,True,False,False
+weighted_evidence_scorer,104,One Texas school district alone -- Austin ISD -- is expected to lose more than $530 million in local property taxes to Robin Hood this year.,https://www.politifact.com/factchecks/2017/jul/19/joe-straus/joe-straus-says-austin-school-district-expected-lo/,True,True,True
+weighted_evidence_scorer,105,SCAM: Luxury RV Giveaway,https://www.snopes.com/fact-check/luxury-rv-giveaway-scam/,False,True,False
+weighted_evidence_scorer,106,Did President Trump Tweet 'How Are Your 409Ks Doing'?,https://www.snopes.com/fact-check/trump-tweet-409k/,True,True,True
+weighted_evidence_scorer,107,Did Cargo Ship 'Draw' a Penis Before Getting Stuck in Suez Canal?,https://www.snopes.com/fact-check/cargo-ship-ever-given-penis/,True,True,True
+weighted_evidence_scorer,108,How many concerts would Taylor Swift have to perform to pay off one day of interest on our national debt? She would have to perform every day for three years.,https://www.politifact.com/factchecks/2015/nov/06/republican-party-florida/it-would-take-taylor-swift-3-years-pay-one-days-de/,True,True,True
+weighted_evidence_scorer,109,"Under Donald Trump's tax plan, the top 0.1 percent of taxpayers -- people earning multiple millions of dollars a year, on average -- would get more tax relief than the bottom 60 percent of taxpayers combined.",https://www.politifact.com/factchecks/2016/may/20/jennifer-shilling/top-01-would-be-big-winner-under-donald-trumps-tax/,True,True,True
+weighted_evidence_scorer,110,"The state's transportation department is already burdened with a significant amount of debt, and it has made over $700 million in debt payments within the past two years.",https://www.politifact.com/factchecks/2019/may/08/cody-smith/smiths-statement-modots-debt-adds-needs-context/,True,True,True
+weighted_evidence_scorer,111,"Did Dolly Parton Say: 'Trump In One Year Is Already Better Than 16 Years of Bush, Obama Put Together'?",https://www.snopes.com/fact-check/celebrity-trump-obama-together/,False,False,True
+weighted_evidence_scorer,112,What are the consequences of illegally crossing the United States border?,https://www.snopes.com/fact-check/illegal-immigrant-benefits/,False,False,True
+weighted_evidence_scorer,113,Titanic Sister Ship Gigantic,https://www.snopes.com/fact-check/gigantic/,True,True,True
+weighted_evidence_scorer,114,Oprah Ten Percent Tip Advice,https://www.snopes.com/fact-check/the-tipping-point/,False,False,True
+weighted_evidence_scorer,115,"Says that under his tax plan, seniors making less than $50,000 per year won't pay any income taxes.",https://www.politifact.com/factchecks/2008/sep/30/barack-obama/seniors-get-a-special-break/,True,True,True
+weighted_evidence_scorer,116,Are These Photos of Cicada Shell Art Real?,https://www.snopes.com/fact-check/cicada-shell-art/,True,True,True
+weighted_evidence_scorer,117,Says the 2011-13 state budget eliminates the structural deficit for the first time in decades.,https://www.politifact.com/factchecks/2011/jul/03/alberta-darling/state-sen-darling-says-2011-13-state-budget-elimin/,True,True,True
+weighted_evidence_scorer,118,The Love Machine,https://www.snopes.com/fact-check/the-love-machine/,True,False,False
+weighted_evidence_scorer,119,Public education has been permanently cutby $1.6 billion through changes in the Standards of Quality funding formula.,https://www.politifact.com/factchecks/2012/feb/07/kitty-boitnott/kitty-boitnott-says-virginia-has-cut-16-billion-mi/,True,True,True
+weighted_evidence_scorer,120,Did AT&T Have a Contract to Audit Dominion Voting Systems?,https://www.snopes.com/fact-check/att-nashville-dominion-audit/,False,False,True
+weighted_evidence_scorer,121,"Was it Denzel Washington who said, ""Simply because you do not post it on social media does not imply that you are not working on significant goals""?",https://www.snopes.com/fact-check/washington-social-media-quote/,False,False,True
+weighted_evidence_scorer,122,Corporate entities are paying a lot less taxes this year than they have in the past. Part of that is from a loophole in a bill that was passed in 2015.,https://www.politifact.com/factchecks/2017/mar/02/kip-kendrick/kendrick-mostly-right-about-reduced-corporate-tax-/,True,True,True
+weighted_evidence_scorer,123,Says the main Central Texas food bank is delivering 50 percent more food to the poor than three years ago.,https://www.politifact.com/factchecks/2011/nov/01/lloyd-doggett/lloyd-doggett-says-central-texas-food-bank-deliver/,True,True,True
+weighted_evidence_scorer,124,Did Putin Ban 5G in Russia Due to Health Concerns?,https://www.snopes.com/fact-check/putin-ban-5g/,False,False,True
+weighted_evidence_scorer,125,Donald Trump Supporters Seen Wearing Nazi-Style Armbands,https://www.snopes.com/fact-check/trump-armbands/,False,False,True
+weighted_evidence_scorer,126,"'Freedom Concert' Being Planned, But No Details Announced",https://www.snopes.com/fact-check/freedom-concert/,False,True,False
+weighted_evidence_scorer,127,"Since we passed tax cuts, over 3 million workers have gotten tax cut bonuses  many of them thousands and thousands of dollars.",https://www.politifact.com/factchecks/2018/jan/31/donald-trump/trump-says-tax-bill-led-bonuses-three-million-work/,True,False,False
+weighted_evidence_scorer,128,Obama unilaterally announced he was delaying employer mandate through a blog post by a mid-level bureaucrat at the Department of Treasury.,https://www.politifact.com/factchecks/2014/jan/16/ted-cruz/blog-posts-broke-news-administration-was-delaying-/,True,True,True
+weighted_evidence_scorer,129,Fukushima Radiation Causes 100% Infant Mortality Among Orca Whales,https://www.snopes.com/fact-check/fukushima-radiation-causes-100-infant-mortality-among-orca-whales/,False,False,True
+weighted_evidence_scorer,130,Is it possible for birth certificates in the United States to reveal undisclosed financial accounts linked to a 'Strawman'?,https://www.snopes.com/fact-check/birth-certificates-financial-accounts/,False,False,True
+weighted_evidence_scorer,131,"There was an estimated $5.3 million of economic loss just for a few hours of shutting down the border. Youre talking about millions and millions of dollars  billions of dollars  of economic consequence, if we continue with this rhetoric around shutting down the border without considering what that means.",https://www.politifact.com/factchecks/2018/dec/03/gavin-newsom/did-californias-border-closure-cost-53m-economic-l/,True,True,True
+weighted_evidence_scorer,132,The stock market has almost tripled since April of 2009.,https://www.politifact.com/factchecks/2015/mar/17/jim-webb/james-webb-says-stock-market-has-tripled-value-200/,True,True,True
+weighted_evidence_scorer,133,2 Million Bikers to DC,https://www.snopes.com/fact-check/2-million-bikers-to-dc/,True,True,True
+weighted_evidence_scorer,134,Is This a Photo of a Nazi Flag from the 'Million MAGA March'?,https://www.snopes.com/fact-check/million-maga-nazi-banner/,False,False,True
+weighted_evidence_scorer,135,The Tea Party movement in America was a novel political phenomenon that gained momentum.,https://www.snopes.com/fact-check/new-american-tea-party/,False,True,False
+weighted_evidence_scorer,136,Is It Dangerous to Wear a COVID-19 Protective Mask for Too Long?,https://www.snopes.com/fact-check/masks-dangerous-health/,False,False,True
+weighted_evidence_scorer,137,Did 'The Simpsons' Predict the Smartwatch?,https://www.snopes.com/fact-check/simpsons-predict-smartwatch/,False,False,True
+weighted_evidence_scorer,138,FDIC insurance provides payouts for a span exceeding 99 years.,https://www.snopes.com/fact-check/fdic-you/,False,False,True
+weighted_evidence_scorer,139,Legend: Drunk Groom Accidentally Returns Home Alone from His Honeymoon,https://www.snopes.com/fact-check/drunk-groom-honeymoon/,True,False,False
+weighted_evidence_scorer,140,What If Only Taxpayers Voted?,https://www.snopes.com/fact-check/what-if-taxpayers-only-voted-map/,False,False,True
+weighted_evidence_scorer,141,The Real Story on Paul Ryan's Proposed Budget Cuts,https://www.snopes.com/fact-check/budget-cuts/,True,False,False
+weighted_evidence_scorer,142,Scam involving fake Home Depot coupons on Facebook.,https://www.snopes.com/fact-check/home-depot-facebook-coupon-scam/,False,True,False
+weighted_evidence_scorer,143,SCAM ALERT: Walmart Is Not Giving Away Vouchers To Celebrate Going Plastic Bag-Free,https://www.snopes.com/fact-check/walmart-plastic-bag-free-giveaway/,False,True,False
+weighted_evidence_scorer,144,Did a Man Sue Himself After Being Hit by His Boomerang?,https://www.snopes.com/fact-check/goes-around-litigates-around/,False,False,True
+weighted_evidence_scorer,145,We aren't the only state cutting back on public television.,https://www.politifact.com/factchecks/2012/feb/14/richard-licht/rhode-island-director-administration-richard-licht/,True,True,True
+weighted_evidence_scorer,146,Benefits provided to former presidents after they leave office.,https://www.snopes.com/fact-check/pension-plan/,True,True,True
+weighted_evidence_scorer,147,"Buono voted 154 times to raise our taxes -- like the sales tax, the income tax, health care taxes, even small business taxes.",https://www.politifact.com/factchecks/2013/may/19/chris-christie/barbara-buono-voted-increases-taxes-fees-154-times/,True,True,True
+weighted_evidence_scorer,148,Is it advisable to refrain from getting a flu vaccination?,https://www.snopes.com/fact-check/flu-shot-avoidance/,False,False,True
+weighted_evidence_scorer,149,"Congress Removes Child Tax Credit, Mortgage Deduction, and EITC from Tax Code",https://www.snopes.com/fact-check/koch-druthers/,False,False,True
+weighted_evidence_scorer,150,Did Starbucks Support Calls To 'Defund the Police'?,https://www.snopes.com/fact-check/starbucks-defund-police/,False,False,True
+weighted_evidence_scorer,151,Is Marlboro distributing cartons of cigarettes for free on Facebook?,https://www.snopes.com/fact-check/marlboro-giving-away-free-cigarettes/,False,False,True
+weighted_evidence_scorer,152,Planted Evidence,https://www.snopes.com/fact-check/planted-evidence/,True,False,False
+weighted_evidence_scorer,153,Tapeworm Diet Pills,https://www.snopes.com/fact-check/as-the-worm-squirms/,True,False,False
+weighted_evidence_scorer,154,Is this a picture of valueless currency found in the drainage systems of Venezuela?,https://www.snopes.com/fact-check/venezuela-money-in-gutter/,False,True,False
+weighted_evidence_scorer,155,Obama Slams Stay at Home Moms,https://www.snopes.com/fact-check/obama-mama-drama/,False,False,True
+weighted_evidence_scorer,156,Bank of America Dropping FDIC Coverage?,https://www.snopes.com/fact-check/fdic-you-later/,False,False,True
+weighted_evidence_scorer,157,Did Congress Designate Confederate Soldiers as United States Veterans?,https://www.snopes.com/fact-check/confederate-soldiers-veterans/,False,False,True
+weighted_evidence_scorer,158,"In the 1950s and 1960s, the minimum wage was such that it would lift you out of poverty.",https://www.politifact.com/factchecks/2014/jun/15/jack-reed/jack-reed-says-minimum-wage-1950s-and-1960s-would-/,True,True,True
+weighted_evidence_scorer,159,Did Facebook Executive Jeff Rothschild Say 'We Need a Third World War'?,https://www.snopes.com/fact-check/jeff-rothschild-third-world-war/,False,False,True
+weighted_evidence_scorer,160,"Latino small businesses are 1 in 4 new businesses, but only 1% of venture capital funding goes to Latino businesses.",https://www.politifact.com/factchecks/2023/may/16/kamala-harris/kamala-harris-claim-about-latinos-getting-1-of-ven/,True,True,True
+weighted_evidence_scorer,161,Does This Photograph Show Beetles Embedded in a Dog's Mouth?,https://www.snopes.com/fact-check/ladybugs-beetles-dog-mouth/,True,True,True
+weighted_evidence_scorer,162,Star Wreck,https://www.snopes.com/fact-check/roddenberry-plane-crash/,True,False,False
+weighted_evidence_scorer,163,Mitt Romney 'Money' Shirts,https://www.snopes.com/fact-check/shirt-stop-2/,False,False,True
+weighted_evidence_scorer,164,Georgia spends fewer tourism advertising dollars than any other state in the South.,https://www.politifact.com/factchecks/2012/aug/13/ron-stephens/tourism-advertising-not-georgias-mind-lawmaker-say/,True,False,False
+weighted_evidence_scorer,165,Psychological manipulation at the White House,https://www.snopes.com/fact-check/obama-behavioral-experiments/,False,False,True
+weighted_evidence_scorer,166,Did Experts and Officials Warn in 2018 US Couldn't Respond Effectively to a Pandemic?,https://www.snopes.com/fact-check/experts-officials-pandemic-2018/,True,True,True
+weighted_evidence_scorer,167,'Cadbury Easter Egg Hunt' Scam Circulates on WhatsApp,https://www.snopes.com/fact-check/cadbury-easter-egg-hunt-whatsapp/,False,True,False
+weighted_evidence_scorer,168,Are Social Security Numbers Assigned by Race?,https://www.snopes.com/fact-check/black-carded/,False,True,False
+weighted_evidence_scorer,169,George Zimmerman Files Civil Suit Against Trayvon Martin's Parents,https://www.snopes.com/fact-check/ill-suited/,False,False,True
+weighted_evidence_scorer,170,"Right now, four in 10 public schools in our state are at least 50 years old.",https://www.politifact.com/factchecks/2019/mar/05/roy-cooper/cooper-calls-attention-aging-north-carolina-school/,True,True,True
+weighted_evidence_scorer,171,We have the lowest corporate tax rate since 1968.,https://www.politifact.com/factchecks/2020/jan/18/andrew-cuomo/cuomos-accurate-boast-about-new-yorks-historically/,True,True,True
+weighted_evidence_scorer,172,Says Mike Enzi is getting about 84 percent of his campaign funds from Washington-based PACs. That's more than any senator of either party.,https://www.politifact.com/factchecks/2013/oct/30/dick-cheney/dick-cheney-says-daughters-opponent-mike-enzi-get-/,True,False,False
+weighted_evidence_scorer,173,Did a Reddit User Find Treasure in His Grandparents' Barn?,https://www.snopes.com/fact-check/treasure-grandparents-safe/,True,False,False
+weighted_evidence_scorer,174,We had bipartisan legislation that got through the Senate that would have prevented bonuses like AIG's and then somehow mysteriously disappeared.,https://www.politifact.com/factchecks/2009/mar/18/ron-wyden/aig-bonus-wyden-snowe/,True,False,False
+weighted_evidence_scorer,175,Has Sberbank in Russia restricted cash withdrawals to $20?,https://www.snopes.com/fact-check/sberbank-cash-withdrawal-limit/,False,False,True
+weighted_evidence_scorer,176,Was the military that Trump inherited from Obama considered to be lacking in resources?,https://www.snopes.com/fact-check/trump-inherit-depleted-military/,False,False,True
+weighted_evidence_scorer,177,I'm also the only lieutenant governor to not take a security detail.,https://www.politifact.com/factchecks/2016/may/26/carlos-lopez-cantera/carlos-lopez-cantera-says-he-only-florida-lieutena/,True,True,True
+weighted_evidence_scorer,178,"Republican candidate for Governor of California, Travis Allen, made political contributions to Jerry Brown, Gavin Newsom, and Barbara Boxer.",https://www.politifact.com/factchecks/2018/may/25/john-cox/did-gop-candidate-california-governor-really-donat/,True,True,True
+weighted_evidence_scorer,179,Jennifer Lopez Rumor,https://www.snopes.com/fact-check/theres-always-room-for-jlo/,False,False,True
+weighted_evidence_scorer,180,Political donations from the DeVos family,https://www.snopes.com/fact-check/devos-family-campaign-contributions/,True,False,False
+weighted_evidence_scorer,181,"There are 321,092 public school teachers in Texas. And there are 313,850 non-teachers in our public schools.",https://www.politifact.com/factchecks/2010/may/28/empower-texans/pac-says-texas-public-schools-employ-one-non-teach/,True,True,True
+weighted_evidence_scorer,182,Free Glasses for Kids at Target,https://www.snopes.com/fact-check/target-eyeglasses/,False,False,True
+weighted_evidence_scorer,183,U.S. Sen. Kay Bailey Hutchison has voted nine separate times to raise the national debt ceiling.,https://www.politifact.com/factchecks/2010/jan/27/rick-perry/us-sen-kay-bailey-hutchison-us-sen-kay-bailey-hutc/,True,True,True
+weighted_evidence_scorer,184,Did most of the new jobs in February 2021 consist of waiters and bartenders?,https://www.snopes.com/fact-check/most-jobs-waiters-bartenders/,True,True,True
+weighted_evidence_scorer,185,Was it suggested by Senator Tom Cotton that drug testing should be required for individuals receiving Social Security benefits?,https://www.snopes.com/fact-check/tom-cotton-drug-testing/,False,False,True
+weighted_evidence_scorer,186,I have repeatedly said that many of the predatory loans that were made in the mortgage system did target African-American and Latino communities.,https://www.politifact.com/factchecks/2008/aug/01/barack-obama/obama-cites-ethnicity-in-mortgage-crisis/,True,True,True
+weighted_evidence_scorer,187,Who was Michael Myers?,https://www.snopes.com/fact-check/william-shatner-halloween-mask/,True,True,True
+weighted_evidence_scorer,188,Bin Laden Shooter Rob O'Neill Mistakenly Attacked by Street Thugs Seeking to Collect Debt from Neighbor,https://www.snopes.com/fact-check/knife-to-a-gunfight/,False,False,True
+weighted_evidence_scorer,189,Is This Katie McCormick's Gravestone from the 1870s?,https://www.snopes.com/fact-check/botched-abortion-gravestone/,True,False,False
+weighted_evidence_scorer,190,Kid Rock Death Hoax,https://www.snopes.com/fact-check/kid-rock-death-hoax/,False,True,False
+weighted_evidence_scorer,191,Is This Lev Parnas at a Family Birthday Party with Donald Trump?,https://www.snopes.com/fact-check/lev-parnas-eric-trump-birthday/,False,False,True
+weighted_evidence_scorer,192,Is this Weightlifter with a Prolapsed Rectum Real?,https://www.snopes.com/fact-check/power-lifting/,False,False,True
+weighted_evidence_scorer,193,"A Mileage Tax? No, Biden's Bill Doesn't Impose New Driving Tax",https://www.snopes.com/fact-check/mileage-tax-biden-build-back-better-bill/,False,True,False
+weighted_evidence_scorer,194,Free Publix $100 Coupons Scam,https://www.snopes.com/fact-check/publix-100-coupons-2/,False,True,False
+weighted_evidence_scorer,195,2011 W-2 tax documents and HR3590 legislation,https://www.snopes.com/fact-check/2011-w-2-tax-forms-and-hr3590/,False,False,True
+weighted_evidence_scorer,196,The Secret Words,https://www.snopes.com/fact-check/the-secret-words/,False,True,False
+weighted_evidence_scorer,197,The country's bankrupt.,https://www.politifact.com/factchecks/2011/aug/12/ron-paul/us-rep-ron-paul-says-countrys-bankrupt/,False,False,True
+weighted_evidence_scorer,198,"Says that as Massachusetts governor, Mitt Romney condemned coal-fired plants, saying they kill people.",https://www.politifact.com/factchecks/2012/aug/23/barack-obama/barack-obama-says-mitt-romney-condemned-coal-fired/,True,True,True
+weighted_evidence_scorer,199,When I talk about (raising the) minimum wage ... half of Republicansagree with it.,https://www.politifact.com/factchecks/2014/mar/07/barack-obama/barack-obama-says-half-republicans-agree-minimum-w/,True,True,True
+weighted_evidence_scorer,200,"California is once again the sixth-largest economy in the world. If you add the GDPs of Washington and Oregon, California would surpass the United Kingdom to become the fifth-largest economy in the world.",https://www.politifact.com/factchecks/2016/dec/15/antonio-villaraigosa/villaraigosa-claims-california-oregon-washington-p/,True,True,True
+weighted_evidence_scorer,201,Did a Cornell Student Cut 37 Pounds Using Apple Cider Vinegar and Supplements?,https://www.snopes.com/fact-check/apple-cider-vinegar-diet/,False,False,True
+weighted_evidence_scorer,202,Was an image of Patti LaBelle utilized by Fox News in the midst of their tribute to Aretha Franklin?,https://www.snopes.com/fact-check/fox-patti-labelle-aretha-franklin/,True,True,True
+weighted_evidence_scorer,203,Is the Picture Depicting Stephen Hawking at a Conference in the Caribbean Organized by Jeffrey Epstein?,https://www.snopes.com/fact-check/stephen-hawking-jeffrey-epsteins-conference/,True,True,True
+weighted_evidence_scorer,204,Credit for the burdensome financial responsibilities imposed on black individuals as a result of systemic inequalities.,https://www.snopes.com/fact-check/black-tax-credit/,False,False,True
+weighted_evidence_scorer,205,Scientists in Japan Clone 98% Pure Saber-Tooth Tiger,https://www.snopes.com/fact-check/tiger-beat/,False,False,True
+weighted_evidence_scorer,206,John Madden Death Hoax (2014),https://www.snopes.com/fact-check/john-madden-death-hoax/,False,True,False
+weighted_evidence_scorer,207,FDIC insurance provides coverage for more than 99 years.,https://www.snopes.com/fact-check/fdic-you/,False,False,True
+weighted_evidence_scorer,208,Deceptive Reshipping Scheme,https://www.snopes.com/fact-check/reship-of-fools/,False,False,True
+weighted_evidence_scorer,209,Did the picture depict Stephen Hawking attending a conference in the Caribbean organized by Jeffrey Epstein?,https://www.snopes.com/fact-check/stephen-hawking-jeffrey-epsteins-conference/,True,True,True
+weighted_evidence_scorer,210,Failure to Salute,https://www.snopes.com/fact-check/keep-the-change/,False,False,True
+weighted_evidence_scorer,211,Procter and Gamble and Satanism Rumor,https://www.snopes.com/fact-check/trademark-of-the-devil/,False,False,True
+weighted_evidence_scorer,212,Sean Penn Letter to Washington Post,https://www.snopes.com/fact-check/penn-stated/,True,False,False
+weighted_evidence_scorer,213,Did Ronald Reagan Pave the Way for Fox News?,https://www.snopes.com/fact-check/ronald-reagan-fairness-doctrine/,False,False,True
+weighted_evidence_scorer,214,Did Trump Claim Obama Wrote the Emoluments Clause of U.S. Constitution?,https://www.snopes.com/fact-check/trump-obama-emoluments/,False,False,True
+weighted_evidence_scorer,215,Does a Meme Accurately Describe 'Why It's a Big Deal Kamala Harris is VP'?,https://www.snopes.com/fact-check/kamala-harris-big-deal-vp/,True,True,True
+weighted_evidence_scorer,216,There is no proof that a decrease in port activity is caused by the lenient laws in California.,https://www.snopes.com/fact-check/california-laws-port-slowdown/,False,True,False
+weighted_evidence_scorer,217,"No, This Is Not a Phone Number for Tracking Your Coronavirus Stimulus Payments",https://www.snopes.com/fact-check/tracking-stimulus-check/,False,True,False
+weighted_evidence_scorer,218,The state's transportation department is currently burdened with a significant level of debt and has made debt repayments totaling over $700 million within the past two years.,https://www.politifact.com/factchecks/2019/may/08/cody-smith/smiths-statement-modots-debt-adds-needs-context/,True,True,True
+weighted_evidence_scorer,219,Did Mike Tyson Post About Social Media Making People 'Too Comfortable'?,https://www.snopes.com/fact-check/mike-tyson-social-media/,True,True,True
+weighted_evidence_scorer,220,The recently passed transportation funding bill is a billion-dollar tax increase for Georgians.,https://www.politifact.com/factchecks/2015/apr/27/debbie-dooley/maybe-not-today-and-maybe-under-different-name-tax/,True,False,False
+weighted_evidence_scorer,221,"Texas charter schools receive full state funding per pupil, while district schools, which have 95% of the student population, receive approximately one-third of their funding from the state, with the remainder coming from local property taxes, leading to high tax rates. Districts are receiving reduced funds because a significant portion is being directed to charter schools.",https://www.politifact.com/factchecks/2018/aug/15/donna-howard/donna-howard-says-charter-schools-draw-more-studen/,True,False,False
+weighted_evidence_scorer,222,Opera Singer Embarrassment,https://www.snopes.com/fact-check/p-ness/,True,False,False
+weighted_evidence_scorer,223,50-Foot Megalodon Captured on Video,https://www.snopes.com/fact-check/50-foot-megalodon-video/,False,False,True
+weighted_evidence_scorer,224,Ford Motors Funds Black Lives Matter,https://www.snopes.com/fact-check/ford-motors-funds-black-lives-matter/,False,False,True
+weighted_evidence_scorer,225,"Says David Perdue hasn't held a single public town hall meeting in six years and sells four meetings a year and a retreat on a private island for a $7,500 corporate PAC check.",https://www.politifact.com/factchecks/2020/dec/11/jon-ossoff/sen-david-perdue-hasnt-held-town-halls-did-offer-a/,True,True,True
+weighted_evidence_scorer,226,Did Kurt Cobain Write That Pennyroyal Herb Was an Abortive That 'Doesn't Work'?,https://www.snopes.com/fact-check/kurt-cobain-pennyroyal-abortive/,True,True,True
+weighted_evidence_scorer,227,"Scientists Say Giant Asteroid Could Hit Earth Next Week, Causing Mass Devastation",https://www.snopes.com/fact-check/asteroid-earth-clickbait-study/,False,False,True
+weighted_evidence_scorer,228,"Canadian middle class incomes are now higher than in the United States. They are working fewer hours for more pay,  living longer on average, and facing less income inequality.",https://www.politifact.com/factchecks/2014/may/20/hillary-clinton/hillary-clinton-says-united-states-falling-behind-/,True,False,False
+weighted_evidence_scorer,229,George Reeves Superman Death,https://www.snopes.com/fact-check/superman/,False,False,True
+weighted_evidence_scorer,230,"Rhode Island has the second highest per enrollee (Medicaid) cost of any state in the country, which is 60 percent higher than the national average.",https://www.politifact.com/factchecks/2015/mar/29/gina-raimondo/gov-gina-raimondo-says-ris-medicaid-costs-enrollee/,True,True,True
+weighted_evidence_scorer,231,Protection offered by the Secret Service to John Kerry,https://www.snopes.com/fact-check/secret-disservice/,False,False,True
+weighted_evidence_scorer,232,Abandoned Polish Wedding Chairs,https://www.snopes.com/fact-check/polish-wwii-chairs/,False,False,True
+weighted_evidence_scorer,233,"In Wisconsin, unions can essentially give unlimited contributions to political parties, but business can't give any.",https://www.politifact.com/factchecks/2014/nov/21/robin-vos/wisconsin-unions-can-give-unlimited-funds-politica/,True,False,False
+weighted_evidence_scorer,234,Is Safyre Terry's Christmas Wish a Scam?,https://www.snopes.com/fact-check/safyre-terry-christmas-card/,True,False,False
+weighted_evidence_scorer,235,Chase Wheedle is a Seattle attraction.,https://www.snopes.com/fact-check/seattle-sharia-law/,True,False,False
+weighted_evidence_scorer,236,Did Trump Plagiarize Praise for Jesse Watters' Book from a Promo Blurb?,https://www.snopes.com/fact-check/trump-jesse-waters-book/,True,True,True
+weighted_evidence_scorer,237,Did Astronaut Chris Hadfield Test the Effects of Marijuana in Space?,https://www.snopes.com/fact-check/iss-test-marijuana-space/,False,False,True
+weighted_evidence_scorer,238,Was the prediction of the downfall of the world by Nostradamus related to the reign of a weak ruler?,https://www.snopes.com/fact-check/nostradamus-predict-feeble-man/,False,False,True
+weighted_evidence_scorer,239,Macy's sent a letter to Rick Perry urging him to veto equal pay bill.,https://www.politifact.com/factchecks/2013/nov/25/senfronia-thompson/macys-other-retailers-asked-rick-perry-veto-equal-/,True,True,True
+weighted_evidence_scorer,240,John Kerry Swears,https://www.snopes.com/fact-check/sob-story/,True,True,True
+weighted_evidence_scorer,241,Were Millions of Mail-in Ballots Wrongly Sent to People Who Didn't Request Them?,https://www.snopes.com/fact-check/millions-mail-in-ballots/,False,False,True
+weighted_evidence_scorer,242,Child care costs account for 24% of a WI familys budget.,https://www.politifact.com/factchecks/2020/jan/03/david-crowley/child-care-costs-can-take-big-bite-family-budget/,True,True,True
+weighted_evidence_scorer,243,Does Glaxo Own the 'Wuhan Lab'?,https://www.snopes.com/fact-check/does-glaxo-own-the-wuhan-lab/,False,False,True
+weighted_evidence_scorer,244,"Las Vegas Casino Owners, Gaming Commission Seek to Legalize Dog Fighting",https://www.snopes.com/fact-check/viva-paws-vegas/,False,False,True
+weighted_evidence_scorer,245,"Does Stacey Abrams Owe More Than $50,000 in Back Taxes?",https://www.snopes.com/fact-check/stacey-abrams-back-taxes/,True,True,True
+weighted_evidence_scorer,246,Did executive Jeff Rothschild from Facebook express the need for a third world war?,https://www.snopes.com/fact-check/jeff-rothschild-third-world-war/,False,False,True
+weighted_evidence_scorer,247,"Seven years later, (Scott Walker) has not hit his first campaign promise of creating 250,000 jobs.",https://www.politifact.com/factchecks/2017/jun/23/mark-pocan/mark-pocan-claim-seven-years-later-scott-walker-ha/,True,True,True
+weighted_evidence_scorer,248,"Over 3 million Americans are employed in the growing green-collar workforce, which is more than the number of people working in the fossil fuel industry.",https://www.politifact.com/factchecks/2014/feb/14/tammy-baldwin/expansive-definition-helps-green-jobs-outnumber-oi/,True,False,False
+weighted_evidence_scorer,249,Did New Zealand Prime Minister Jacinda Ardern Don a Hijab and Offer Aid to Families of Massacre Victims?,https://www.snopes.com/fact-check/nz-prime-minister-massacre-aid/,True,True,True
+weighted_evidence_scorer,250,The new tax will make soda sold in Chicago among the most expensive in the country.,https://www.politifact.com/factchecks/2017/aug/07/illinois-policy-institute/chicago-soda-tax-throws-batting-practice-fastball-/,True,True,True
+weighted_evidence_scorer,251,Ralph Hall has never voted to raise the debt ceiling.,https://www.politifact.com/factchecks/2014/mar/31/cat-pac/us-rep-ralph-hall-texas-voted-increase-debt-limit-/,False,False,True
+weighted_evidence_scorer,252,"Rewrite this item ""Dennis Guthrie's Letter to Nancy Pelosi"".",https://www.snopes.com/fact-check/guthrie-letter-to-pelosi/,True,True,True
+weighted_evidence_scorer,253,Is This a Real Photograph of Bowie and Lemmy?,https://www.snopes.com/fact-check/david-bowie-lemmy-photo/,False,False,True
+weighted_evidence_scorer,254,Does a Sony Patent Propose Viewers Skip Commercials by Yelling Brand Names at TV?,https://www.snopes.com/fact-check/sony-patent-mcdonalds/,True,True,True
+weighted_evidence_scorer,255,Winston Churchill on Islam,https://www.snopes.com/fact-check/churchill-on-islam/,True,True,True
+weighted_evidence_scorer,256,John McCain's description of 'rich',https://www.snopes.com/fact-check/the-five-million-dollar-man/,True,True,True
+weighted_evidence_scorer,257,Did Channing Tatum Come Out as Gay?,https://www.snopes.com/fact-check/channing-tatum-rumor/,False,False,True
+weighted_evidence_scorer,258,Does AARP Support the Democratic Party?,https://www.snopes.com/fact-check/aarp-supports-democratic-party/,False,False,True
+weighted_evidence_scorer,259,Is Ukraine planning to legalize the production of pornography in order to boost funding for the military?,https://www.snopes.com/fact-check/ukraine-legalize-porn-for-military/,False,False,True
+weighted_evidence_scorer,260,Did Boyd Bushman Provide Evidence of Alien Contact?,https://www.snopes.com/fact-check/boyd-bushman-aliens/,False,False,True
+weighted_evidence_scorer,261,"Every American now is $51,000 in debt. Thats money I owe, thats money my children owe before they even go to kindergarten, thats their check to the federal government right now.",https://www.politifact.com/factchecks/2012/nov/15/caroline-casagrande/caroline-casagrande-says-every-american-owes-feder/,True,True,True
+weighted_evidence_scorer,262,Did Biden Say People Making Less Than $400K 'Will Not Pay a Single Penny in Taxes'?,https://www.snopes.com/fact-check/biden-taxes-400k/,True,False,False
+weighted_evidence_scorer,263,Is Facebook Issuing New Warnings About 'Extremist Content'?,https://www.snopes.com/fact-check/extremist-warnings-facebook/,True,True,True
+weighted_evidence_scorer,264,"Says in Oregon today, the average debt upon college graduation is more than $24,000.",https://www.politifact.com/factchecks/2013/aug/10/jeff-merkley/average-debt-upon-college-graduation-more-24000/,True,True,True
+weighted_evidence_scorer,265,Certainly! Here is a paraphrased version of the sentence: The IRS requested that taxpayers declare stolen goods and income obtained illegally.,https://www.snopes.com/fact-check/irs-taxpayers-stolen-items-illegal-income/,True,True,True
+weighted_evidence_scorer,266,Says Barack Obama is the first president in modern history not to have a single year of 3 percent growth.,https://www.politifact.com/factchecks/2016/oct/31/donald-trump/trumps-claim-about-weak-economic-growth-under-obam/,True,True,True
+weighted_evidence_scorer,267,"Under Barack Obama, the fewest number of adults are working since Jimmy Carters presidency.",https://www.politifact.com/factchecks/2016/jan/22/roger-williams/roger-williams-falsely-says-fewest-number-adults-w/,False,False,True
+weighted_evidence_scorer,268,The Unexpected Inheritance,https://www.snopes.com/fact-check/the-unexpected-inheritance/,True,True,True
+weighted_evidence_scorer,269,Did NYC Mayoral Candidate Andrew Yang Say This About Mentally Ill People?,https://www.snopes.com/fact-check/andrew-yang-mentally-ill/,True,True,True
+weighted_evidence_scorer,270,Papa John's is unwilling to distribute 'excessive profits' amongst its employees.,https://www.snopes.com/fact-check/papa-johns-ceo-quote/,False,False,True
+weighted_evidence_scorer,271,Pic Shows Taylor Swift Eating Ice Cream as Children Cry?,https://www.snopes.com/fact-check/taylor-swift-africa-pic/,False,False,True
+weighted_evidence_scorer,272,Renaming Interstate 69,https://www.snopes.com/fact-check/highway-position/,False,False,True
+weighted_evidence_scorer,273,Lunch Boxes and Lead,https://www.snopes.com/fact-check/pail-by-comparison/,False,True,False
+weighted_evidence_scorer,274,Did Dave Ramsey Warn About a 'Cashless Society'?,https://www.snopes.com/fact-check/dave-ramsey-cashless-society/,False,False,True
+weighted_evidence_scorer,275,Did a UC Berkeley Instructor Say Rural Americans Are 'Bad People'?,https://www.snopes.com/fact-check/berkeley-instructor-rural-usa/,True,True,True
+weighted_evidence_scorer,276,Did WaPo Headline Call IS Leader al-Baghdadi an 'Austere Religious Scholar'?,https://www.snopes.com/fact-check/al-baghdadi-wapo-headline/,True,True,True
+weighted_evidence_scorer,277,Corporate Angel Network Origin,https://www.snopes.com/fact-check/crock-of-ages/,False,False,True
+weighted_evidence_scorer,278,"When it comes to income taxes, Wisconsin is one of the best places in the country to be poor but top 4 or 5 worst for middle-income earners.",https://www.politifact.com/factchecks/2012/nov/14/robin-vos/vos-says-income-taxes-wisconsin-one-easiest-poor-a/,True,True,True
+weighted_evidence_scorer,279,Says Russ Feingolds campaign is powered by small-dollar contributions like ours.,https://www.politifact.com/factchecks/2016/jun/22/bernie-sanders/bernie-sanders-right-about-russ-feingolds-campaign/,True,True,True
+weighted_evidence_scorer,280,Did Archaeologists Dig Up an 800-Year-Old Alien Cellphone?,https://www.snopes.com/fact-check/alien-cellphone-found/,False,False,True
+weighted_evidence_scorer,281,Did Disney Release This 'Hocus Pocus 2' Movie Poster?,https://www.snopes.com/fact-check/hocus-pocus-2/,False,False,True
+weighted_evidence_scorer,282,Did Winston Churchill Say 'The Fascists of the Future Will Call Themselves Anti-Fascists?',https://www.snopes.com/fact-check/fascists-called-anti-fascists-quote/,False,False,True
+weighted_evidence_scorer,283,Is Facebook Deleting an Image of a Cross Carved to Honor Fallen Firefighters?,https://www.snopes.com/fact-check/cross-honor-fallen-firefighters/,False,True,False
+weighted_evidence_scorer,284,"A mortgage buyback plan is my proposal, it's not Sen. Obama's proposal, it's not President Bush's proposal.",https://www.politifact.com/factchecks/2008/oct/09/john-mccain/the-idea-is-old-but-the-plan-is-mccains/,True,True,True
+weighted_evidence_scorer,285,Fraudulent $75 Coupon Scheme involving Meijer,https://www.snopes.com/fact-check/meijer-coupon-scam/,False,False,True
+weighted_evidence_scorer,286,Did Google Remove Photos of Bill Clinton with Jeffrey Epstein from Search Results?,https://www.snopes.com/fact-check/google-clinton-epstein/,False,False,True
+weighted_evidence_scorer,287,"A new, independent study put out last week found that at least 55 of our largest corporations used various loopholes to pay zero federal income tax in 2020.",https://www.politifact.com/factchecks/2021/apr/12/joe-biden/fact-checking-joe-biden-corporation-taxes/,True,True,True
+weighted_evidence_scorer,288,Infinity Tower Flooding Accident,https://www.snopes.com/fact-check/infinity-tower/,False,True,False
+weighted_evidence_scorer,289,Virginia tax receipts in just the last four years alone have grown 50%.,https://www.politifact.com/factchecks/2023/jan/25/glenn-youngkin/youngkin-near-mark-tax-growth-claim/,True,True,True
+weighted_evidence_scorer,290,Racist Product Color Descriptions,https://www.snopes.com/fact-check/hue-cry/,True,True,True
+weighted_evidence_scorer,291,Does a Map Shared Online Depict All Churches 'Destroyed' in France in the Last 4 Years?,https://www.snopes.com/fact-check/churches-destroyed-in-france/,False,False,True
+weighted_evidence_scorer,292,"Did Trump Solicit Donations, Attack Liz Cheney to Mark His Birthday?",https://www.snopes.com/fact-check/trump-birthday-donations-cheney-statement/,False,False,True
+weighted_evidence_scorer,293,Was a Baseball Game Won by a Score of 2½-2?,https://www.snopes.com/fact-check/baseball-cut-in-half-by-axe/,False,False,True
+weighted_evidence_scorer,294,Home Sales Tax,https://www.snopes.com/fact-check/home-sales-tax/,True,False,False
+weighted_evidence_scorer,295,Kohl's Thanksgiving Coupon Scam,https://www.snopes.com/fact-check/kohls-thanksgiving-coupon-scam/,False,False,True
+weighted_evidence_scorer,296,Hillary Clinton and the Victims of War,https://www.snopes.com/fact-check/hillary-clinton-victims-of-war/,True,True,True
+weighted_evidence_scorer,297,"Rephrase this as ""Macy Neighs""",https://www.snopes.com/fact-check/macys-wont-hire-veteran/,True,False,False
+weighted_evidence_scorer,298,Does Photo Show Trump Arriving in New York for His Arraignment?,https://www.snopes.com/fact-check/trump-arraignment-arrival-photo/,False,False,True
+weighted_evidence_scorer,299,Is This Bill Clinton with Jeffrey Epstein?,https://www.snopes.com/fact-check/bill-clinton-with-jeffrey-epstein/,True,True,True
+cross_check_simulator,0,"Says with the ongoing economic downturn, child abuse is on the rise.",https://www.politifact.com/factchecks/2010/sep/28/jeff-merkley/jeff-merkley-says-economic-downturn-oregon-seeing-/,True,True,True
+cross_check_simulator,1,"In the last 22 months, businesses have created more than 3 million jobs. Last year, they created the most jobs since 2005.",https://www.politifact.com/factchecks/2012/jan/25/barack-obama/have-private-sector-jobs-grown-22-months-best-annu/,True,True,True
+cross_check_simulator,2,This Facebook Post Offering Free Red Lobster Is a Scam,https://www.snopes.com/fact-check/red-lobster-facebook-post-scam/,False,True,False
+cross_check_simulator,3,"Across the country, $174 billion of the Recovery Act have been committed in its first 130 days.",https://www.politifact.com/factchecks/2009/jul/15/joe-biden/vice-president-biden-correct-174-billion-stimulus-/,True,False,False
+cross_check_simulator,4,Are Most Cruise Ships Registered Under Foreign Flags?,https://www.snopes.com/fact-check/cruise-ships-foreign-flags/,True,True,True
+cross_check_simulator,5,Was 'America First' a Slogan of the Ku Klux Klan?,https://www.snopes.com/fact-check/america-first-ku-klux-klan-slogan/,True,False,False
+cross_check_simulator,6,Today the top 1 percent earn a higher share of our national income than any year since 1928.,https://www.politifact.com/factchecks/2015/jan/30/ted-cruz/ted-cruz-says-top-1-percent-earn-more-national-inc/,True,True,True
+cross_check_simulator,7,We've cut taxes 50 times and look what has happened to our revenues. They've grown.,https://www.politifact.com/factchecks/2016/feb/04/rick-scott/scott-credits-tax-cuts-floridas-growing-tax-revenu/,True,False,False
+cross_check_simulator,8,Did Biden Say Taxpayers Must Fund Health Care for 'Illegal Immigrants'?,https://www.snopes.com/fact-check/biden-undocumented-healthcare/,False,False,True
+cross_check_simulator,9,"Says Joe Manchin strongly supported and voted for Hillary Clinton after she said, Were going to put a lot of coal miners and coal companies out of work.",https://www.politifact.com/factchecks/2018/sep/13/patrick-morrisey/did-joe-manchin-stick-hillary-clinton-after-contro/,True,True,True
+cross_check_simulator,10,Were parents in Missouri schools mandated to sign COVID-19 liability waivers?,https://www.snopes.com/fact-check/missouri-schools-death-waiver/,True,False,False
+cross_check_simulator,11,Was it against the law to make money from healthcare before the introduction of the HMO Act of 1973?,https://www.snopes.com/fact-check/healthcare-profit-1973-hmo-act/,False,False,True
+cross_check_simulator,12,"Is Stacey Abrams responsible for a debt exceeding $50,000 in overdue taxes?",https://www.snopes.com/fact-check/stacey-abrams-back-taxes/,True,True,True
+cross_check_simulator,13,The Tea Party of the United States is a new political movement.,https://www.snopes.com/fact-check/new-american-tea-party/,True,True,True
+cross_check_simulator,14,Should an Empty Toilet Paper Roll or Red Cup Be Placed Under the Toilet Seat at Night?,https://www.snopes.com/fact-check/toilet-paper-roll-seat-night/,False,False,True
+cross_check_simulator,15,Wal-Mart American Flags,https://www.snopes.com/fact-check/flagging-interest/,False,False,True
+cross_check_simulator,16,The New American Way of Life,https://www.snopes.com/fact-check/new-american-way-life/,False,False,True
+cross_check_simulator,17,Hooters Bans Motorcycle Clubs from All Restaurants,https://www.snopes.com/fact-check/no-shoes-no-shirts-no-motorcycles/,False,False,True
+cross_check_simulator,18,Letter to Clinton re Sacrifice,https://www.snopes.com/fact-check/doodie-honor-and-country-2/,False,True,False
+cross_check_simulator,19,Make the Pie Higher!,https://www.snopes.com/fact-check/make-the-pie-higher/,True,False,False
+cross_check_simulator,20,Is This a Trump Tower Billboard in Mumbai?,https://www.snopes.com/fact-check/trump-tower-billboard-in-mumbai/,True,True,True
+cross_check_simulator,21,Are Costco shutting down stores throughout the country?,https://www.snopes.com/fact-check/costco-closing-stores/,False,False,True
+cross_check_simulator,22,"According to Ted Cruz's tax proposal, businesses are required to pay a 16 percent tax on their earnings, as well as on the wages they distribute to their employees.",https://www.politifact.com/factchecks/2016/jan/26/marco-rubio/marco-rubio-says-ted-cruz-flat-tax-charges-16-perc/,True,False,False
+cross_check_simulator,23,Did Shane Patrick Boyle pass away due to his illness following successful fundraising for insulin via a crowdfunding campaign?,https://www.snopes.com/fact-check/shane-patrick-boyle-died-after-starting-a-gofundme-campaign-for-insulin/,True,True,True
+cross_check_simulator,24,Did a governmental shutdown in Australia lead to the dismissal of all Members of Parliament?,https://www.snopes.com/fact-check/australia-government-shutdown/,True,False,False
+cross_check_simulator,25,Does Biden's Climate Plan Include Cutting 90% of Red Meat From Our Diets?,https://www.snopes.com/fact-check/90-percent-red-meat/,False,False,True
+cross_check_simulator,26,The bill that I carried cutting MOs income tax for 1st time in over 100 years will start its 1st phase in jan 1 2018. #moleg @Eric_Schmitt,https://www.politifact.com/factchecks/2017/sep/26/andrew-koenig/first-cut-missouri-income-tax-over-100-years/,True,False,False
+cross_check_simulator,27,"Are These Real Pics of Elderly Women With Giant, Crocheted Cats?",https://www.snopes.com/fact-check/elderly-women-giant-crocheted-cats/,False,False,True
+cross_check_simulator,28,"No, Sean Connery's Net Worth Didn't Leave Family 'in Tears'",https://www.snopes.com/fact-check/sean-connery-net-worth/,False,True,False
+cross_check_simulator,29,Was an image of Patti LaBelle utilized by Fox News in their homage to Aretha Franklin?,https://www.snopes.com/fact-check/fox-patti-labelle-aretha-franklin/,True,True,True
+cross_check_simulator,30,"Says Austin has been ranked repeatedly as one of the most, if not the most, economically segregated cities in the country.",https://www.politifact.com/factchecks/2018/may/31/greg-casar/greg-casar-says-austin-ranked-repeatedly-high-econ/,True,True,True
+cross_check_simulator,31,Fifty-one percent of our taxes are paid by 2% of New Yorkers.,https://www.politifact.com/factchecks/2023/jan/24/eric-adams/claim-about-wealthy-residents-and-taxes-new-york-c/,True,True,True
+cross_check_simulator,32,Alabama Lawmaker Wants Food Stamp 'Hunger Tests'?,https://www.snopes.com/fact-check/food-stamp-hunger-tests/,False,False,True
+cross_check_simulator,33,"In the United States, a college loan stands out as the only type of loan that is not eligible for refinancing when interest rates decrease.",https://www.politifact.com/factchecks/2016/apr/06/bill-clinton/bill-clintons-college-debt-claim-mostly-true/,True,False,False
+cross_check_simulator,34,Elaborate Welfare Housing Project,https://www.snopes.com/fact-check/elaborate-welfare-housing-project/,False,False,True
+cross_check_simulator,35,General Motors Sales,https://www.snopes.com/fact-check/purchasing-agreement/,True,False,False
+cross_check_simulator,36,$100 JCPenney Coupon Scam,https://www.snopes.com/fact-check/jc-penney-coupon/,False,True,False
+cross_check_simulator,37,Was This McDonald's Burned During Floyd Protests?,https://www.snopes.com/fact-check/mcdonalds-burned-floyd-protests/,False,False,True
+cross_check_simulator,38,Costa Rica Sea Turtle Egg Harvesting,https://www.snopes.com/fact-check/poached-eggs/,True,False,False
+cross_check_simulator,39,Deceptive scheme on Facebook involving fraudulent ALDI coupons.,https://www.snopes.com/fact-check/scam-aldi-facebook-coupons/,False,True,False
+cross_check_simulator,40,Probation for Child Rape Vs. Prison for Stealing Ribs?,https://www.snopes.com/fact-check/50-years-ribs-theft/,True,True,True
+cross_check_simulator,41,Justin Trudeau has announced plans to grant pardons to all individuals who have been convicted of a marijuana-related offense.,https://www.snopes.com/fact-check/justin-trudeau-pardon-marijuana/,False,False,True
+cross_check_simulator,42,Donald Trump's 'Quiet Acts of Random Kindness',https://www.snopes.com/fact-check/trump-quiet-acts-kindness/,True,False,False
+cross_check_simulator,43,Our median household income in 2013 was the highest in the nation.,https://www.politifact.com/factchecks/2015/feb/13/maggie-hassan/maggie-hassan-says-nh-had-highest-median-income-us/,True,True,True
+cross_check_simulator,44,"No, Trump Isn't 'Tactically' Implementing Voter Interference Sanctions",https://www.snopes.com/fact-check/trump-voter-interference/,False,True,False
+cross_check_simulator,45,Did Trump Tweet That South Dakota Should Close Its Border with California?,https://www.snopes.com/fact-check/trump-tweet-south-dakota-border/,False,False,True
+cross_check_simulator,46,"Under the compromise tax agreement, 99.7% of American families will not pay 1 nickel in an estate tax.",https://www.politifact.com/factchecks/2010/dec/14/bernie-sanders/sen-bernie-sanders-says-997-american-families-woul/,True,True,True
+cross_check_simulator,47,Did Sheep Walk Through Gate Despite There Being No Fence?,https://www.snopes.com/fact-check/sheep-walking-through-gate/,False,False,True
+cross_check_simulator,48,"When Nancy Nusbaum was Brown County executive, spending went up nearly 50 percent.",https://www.politifact.com/factchecks/2011/aug/05/wisconsin-manufacturers-and-commerce/wisconsin-manufacturers-commerce-says-brown-county/,True,True,True
+cross_check_simulator,49,Facebook scam involving fraudulent ALDI coupons,https://www.snopes.com/fact-check/scam-aldi-facebook-coupons/,False,True,False
+cross_check_simulator,50,Reselling U.S. Postage Stamps,https://www.snopes.com/fact-check/first-class-salesmanship/,False,False,True
+cross_check_simulator,51,"Today, if you were raised poor, youre just as likely to stay poor as you were 50 years ago.",https://www.politifact.com/factchecks/2016/jan/19/paul-ryan/paul-ryan-says-if-you-were-raised-poor-youre-just-/,True,True,True
+cross_check_simulator,52,The video does not depict electric scooter bikes left in a 'graveyard' because of the expensive nature of batteries.,https://www.snopes.com/fact-check/electric-scooter-bike-abandoned-graveyard/,False,True,False
+cross_check_simulator,53,Eric Trump Tweets (Illegal) Ballot Selfie,https://www.snopes.com/fact-check/eric-trump-tweets-illegal-ballot-selfie/,True,True,True
+cross_check_simulator,54,Accountant in a house of ill repute,https://www.snopes.com/fact-check/reading-railroaded/,True,True,True
+cross_check_simulator,55,Giant Sea Creature Washes Ashore Along Santa Monica Coastline,https://www.snopes.com/fact-check/gigantic-squid/,False,False,True
+cross_check_simulator,56,"Says Rick Scott changed his promise from700,000 jobs created on top of what normal growth would be to just 700,000 jobs.",https://www.politifact.com/factchecks/2014/oct/14/charlie-crist/rick-scott-changed-terms-his-promise-create-700000/,True,True,True
+cross_check_simulator,57,Scam involving a fake $150 anniversary coupon from Lowe's.,https://www.snopes.com/fact-check/lowes-coupon-scam/,False,True,False
+cross_check_simulator,58,Walmart Bows Down to Sharia Law?,https://www.snopes.com/fact-check/halal-mart/,True,False,False
+cross_check_simulator,59,Redrawn Map of the United States,https://www.snopes.com/fact-check/altered-states/,False,False,True
+cross_check_simulator,60,Barack Obama and the National Anthem,https://www.snopes.com/fact-check/hand-over-heart/,True,True,True
+cross_check_simulator,61,"Sen. Rubios (tax plan) would cut taxes for households making around $3 million a year by almost $240,000, which is way more than three times the earnings of a typical family.",https://www.politifact.com/factchecks/2015/jul/16/hillary-clinton/would-rubios-tax-plan-mean-big-break-millionaires/,True,True,True
+cross_check_simulator,62,Does This Image Show a Peaceful Meeting of a Lion and a Zebra at a Watering Hole?,https://www.snopes.com/fact-check/zebra-lion-watering-hole/,False,False,True
+cross_check_simulator,63,Did Target End Its 'Shop with a Cop' Program?,https://www.snopes.com/fact-check/target-shop-with-a-cop/,False,False,True
+cross_check_simulator,64,Does Donald Trump Have a Statue of Himself in Mar-a-Lago Office?,https://www.snopes.com/fact-check/trump-maralago-statue/,True,True,True
+cross_check_simulator,65,Did Sen. Cory Booker Put Undocumented People 'Before Seniors and Veterans'?,https://www.snopes.com/fact-check/did-booker-put-dreamers-before-veterans/,False,False,True
+cross_check_simulator,66,IRS Refund Notification,https://www.snopes.com/fact-check/irs-refund-notification-2/,False,False,True
+cross_check_simulator,67,The Lying Game,https://www.snopes.com/fact-check/powerball-lottery-winners-identity/,False,False,True
+cross_check_simulator,68,"No, AOC Didn't Tweet 'Farming Should Be Illegal'",https://www.snopes.com/fact-check/aoc-farming-should-be-illegal/,False,True,False
+cross_check_simulator,69,Is This a Picture of Christine Blasey Ford in 1982?,https://www.snopes.com/fact-check/christine-blasey-ford-1982/,False,False,True
+cross_check_simulator,70,Who Was Michael Myers?,https://www.snopes.com/fact-check/william-shatner-halloween-mask/,True,True,True
+cross_check_simulator,71,"Is Disney Hiring for Remote, Entry-Level Jobs in Data Entry, Customer Service?",https://www.snopes.com/fact-check/disney-data-entry-jobs/,False,False,True
+cross_check_simulator,72,Is the White House Gift Shop Selling a 'Trump Defeats COVID-19' Coin?,https://www.snopes.com/fact-check/trump-defeats-covid19-coin/,False,True,False
+cross_check_simulator,73,Says President Donald Trump took more than a month to allocate Congress emergency funding to tribes  and only did so after tribes sued.,https://www.politifact.com/factchecks/2020/jun/01/joe-biden/fact-checking-joe-bidens-claim-trump-delayed-8-bil/,True,True,True
+cross_check_simulator,74,Was it reported by Fox News that the Mar-a-Lago Club owned by Trump received a foreclosure notice from Deutsche Bank?,https://www.snopes.com/fact-check/mar-a-lago-foreclosure-fox-news/,False,False,True
+cross_check_simulator,75,Are the majority of cruise ships registered under foreign flags?,https://www.snopes.com/fact-check/cruise-ships-foreign-flags/,True,True,True
+cross_check_simulator,76,Ohios lost more jobs in March than any other state in the nation.,https://www.politifact.com/factchecks/2013/may/13/mike-foley/state-rep-mike-foley-says-ohio-led-nation-job-loss/,True,True,True
+cross_check_simulator,77,Is This 'Good News' List About the COVID-19 Pandemic Accurate?,https://www.snopes.com/fact-check/covid-good-news-list-accurate/,True,False,False
+cross_check_simulator,78,Was there a decrease of $102 billion in the National Debt following Donald Trump's inauguration?,https://www.snopes.com/fact-check/national-debt-trump/,True,True,True
+cross_check_simulator,79,Did Dr. Oz Endorse Keto Weight Loss Gummies?,https://www.snopes.com/fact-check/dr-oz-keto-weight-loss-gummies/,False,False,True
+cross_check_simulator,80,Purchasing SpaceX shares ahead of its public offering is a scam.,https://www.snopes.com/fact-check/buy-spacex-stock-public/,False,True,False
+cross_check_simulator,81,Could this image be depicting the Bitterroot Forest Fire?,https://www.snopes.com/fact-check/bitterroot-forest-fire/,True,True,True
+cross_check_simulator,82,Could a woman be considered the primary earner of the household for orchestrating a fraudulent foster care operation?,https://www.snopes.com/fact-check/breadwinner/,False,False,True
+cross_check_simulator,83,Grand Canyon Skywalk,https://www.snopes.com/fact-check/grand-canyon-skywalk/,True,True,True
+cross_check_simulator,84,Canada Gives Polygamist Immigrants Thousands in 'Start-Up Money'?,https://www.snopes.com/fact-check/canada-gives-polygamist-immigrants-thousands-start-money/,False,False,True
+cross_check_simulator,85,"Did Failed Constitutional Amendments Include Ban on Divorce, 'United States of the Earth'?",https://www.snopes.com/fact-check/failed-constitutional-amendments/,True,True,True
+cross_check_simulator,86,Did a TV Station Report Biden-Sanders Primary Results Before the Election?,https://www.snopes.com/fact-check/election-results-before-election/,False,True,False
+cross_check_simulator,87,Are African nations implementing a massive tree barrier to halt the advance of the Sahara Desert?,https://www.snopes.com/fact-check/africa-giant-wall-of-trees-sahara/,True,True,True
+cross_check_simulator,88,'Target PS5' Scam Email Leads to Credit Card Form on Vietnam-Registered Website,https://www.snopes.com/fact-check/target-ps5-scam-email-loyalty-program/,False,True,False
+cross_check_simulator,89,Inheritance of a common family name,https://www.snopes.com/fact-check/windfall-inheritance/,False,False,True
+cross_check_simulator,90,Did Trump Watch 'The Gorilla Channel' in the White House?,https://www.snopes.com/fact-check/donald-trump-watches-gorilla-channel/,False,False,True
+cross_check_simulator,91,The House of Delegates budget bill cuts $50 million from education.,https://www.politifact.com/factchecks/2011/feb/22/virginia-senate-democratic-caucus/virginia-democrats-say-house-delegates-budget-cuts/,True,True,True
+cross_check_simulator,92,Is the 'Pfizer Treatment Survey' Email a Scam or Legit?,https://www.snopes.com/fact-check/pfizer-treatment-survey-scam/,False,True,False
+cross_check_simulator,93,Did Rosie O'Donnell 'Plead Insanity' Over Illegal Campaign Donations?,https://www.snopes.com/fact-check/did-rosie-insanity-campaign-donations/,False,False,True
+cross_check_simulator,94,'The Big Lebowski 2' Announced,https://www.snopes.com/fact-check/false-the-big-lebowski-2-announced/,False,False,True
+cross_check_simulator,95,Does Texting 'USPS' to 50409 Send a Letter to Your Political Representatives?,https://www.snopes.com/fact-check/usps-50409/,True,True,True
+cross_check_simulator,96,Codex Alimentarius,https://www.snopes.com/fact-check/vitamin-see/,False,False,True
+cross_check_simulator,97,Delta Air Lines Scams Promise '$500 Gift Card for $1' and '$100 Reward',https://www.snopes.com/fact-check/delta-air-lines-scams-500-for-1-dollar/,False,True,False
+cross_check_simulator,98,Is This Really Donald Trump's Inauguration Poem?,https://www.snopes.com/fact-check/trumps-inauguration-poem/,False,False,True
+cross_check_simulator,99,Does the American Rescue Plan consist of just 9% of COVID-19 related content?,https://www.snopes.com/fact-check/usa-rescue-plan-9-percent/,False,False,True
+cross_check_simulator,100,Is Daryl Hannah Pregnant at Age 61?,https://www.snopes.com/fact-check/daryl-hannah-pregnant/,False,False,True
+cross_check_simulator,101,L UTA Flight 772 Memorial,https://www.snopes.com/fact-check/uta-flight-772-memorial/,True,True,True
+cross_check_simulator,102,FACT: the special assistant in @johnkasich's office makes over three times more than an average #OH firefighter,https://www.politifact.com/factchecks/2011/feb/24/ohio-democratic-party/ohio-democratic-party-claims-top-kasich-makes-trip/,True,True,True
+cross_check_simulator,103,Tax Hikes for Sturgis Bikes,https://www.snopes.com/fact-check/sturgis-tax-hike/,True,False,False
+cross_check_simulator,104,One Texas school district alone -- Austin ISD -- is expected to lose more than $530 million in local property taxes to Robin Hood this year.,https://www.politifact.com/factchecks/2017/jul/19/joe-straus/joe-straus-says-austin-school-district-expected-lo/,True,True,True
+cross_check_simulator,105,SCAM: Luxury RV Giveaway,https://www.snopes.com/fact-check/luxury-rv-giveaway-scam/,False,True,False
+cross_check_simulator,106,Did President Trump Tweet 'How Are Your 409Ks Doing'?,https://www.snopes.com/fact-check/trump-tweet-409k/,True,True,True
+cross_check_simulator,107,Did Cargo Ship 'Draw' a Penis Before Getting Stuck in Suez Canal?,https://www.snopes.com/fact-check/cargo-ship-ever-given-penis/,True,False,False
+cross_check_simulator,108,How many concerts would Taylor Swift have to perform to pay off one day of interest on our national debt? She would have to perform every day for three years.,https://www.politifact.com/factchecks/2015/nov/06/republican-party-florida/it-would-take-taylor-swift-3-years-pay-one-days-de/,True,True,True
+cross_check_simulator,109,"Under Donald Trump's tax plan, the top 0.1 percent of taxpayers -- people earning multiple millions of dollars a year, on average -- would get more tax relief than the bottom 60 percent of taxpayers combined.",https://www.politifact.com/factchecks/2016/may/20/jennifer-shilling/top-01-would-be-big-winner-under-donald-trumps-tax/,True,True,True
+cross_check_simulator,110,"The state's transportation department is already burdened with a significant amount of debt, and it has made over $700 million in debt payments within the past two years.",https://www.politifact.com/factchecks/2019/may/08/cody-smith/smiths-statement-modots-debt-adds-needs-context/,True,True,True
+cross_check_simulator,111,"Did Dolly Parton Say: 'Trump In One Year Is Already Better Than 16 Years of Bush, Obama Put Together'?",https://www.snopes.com/fact-check/celebrity-trump-obama-together/,False,False,True
+cross_check_simulator,112,What are the consequences of illegally crossing the United States border?,https://www.snopes.com/fact-check/illegal-immigrant-benefits/,False,False,True
+cross_check_simulator,113,Titanic Sister Ship Gigantic,https://www.snopes.com/fact-check/gigantic/,True,True,True
+cross_check_simulator,114,Oprah Ten Percent Tip Advice,https://www.snopes.com/fact-check/the-tipping-point/,False,False,True
+cross_check_simulator,115,"Says that under his tax plan, seniors making less than $50,000 per year won't pay any income taxes.",https://www.politifact.com/factchecks/2008/sep/30/barack-obama/seniors-get-a-special-break/,True,True,True
+cross_check_simulator,116,Are These Photos of Cicada Shell Art Real?,https://www.snopes.com/fact-check/cicada-shell-art/,True,True,True
+cross_check_simulator,117,Says the 2011-13 state budget eliminates the structural deficit for the first time in decades.,https://www.politifact.com/factchecks/2011/jul/03/alberta-darling/state-sen-darling-says-2011-13-state-budget-elimin/,True,True,True
+cross_check_simulator,118,The Love Machine,https://www.snopes.com/fact-check/the-love-machine/,True,False,False
+cross_check_simulator,119,Public education has been permanently cutby $1.6 billion through changes in the Standards of Quality funding formula.,https://www.politifact.com/factchecks/2012/feb/07/kitty-boitnott/kitty-boitnott-says-virginia-has-cut-16-billion-mi/,True,False,False
+cross_check_simulator,120,Did AT&T Have a Contract to Audit Dominion Voting Systems?,https://www.snopes.com/fact-check/att-nashville-dominion-audit/,False,False,True
+cross_check_simulator,121,"Was it Denzel Washington who said, ""Simply because you do not post it on social media does not imply that you are not working on significant goals""?",https://www.snopes.com/fact-check/washington-social-media-quote/,False,False,True
+cross_check_simulator,122,Corporate entities are paying a lot less taxes this year than they have in the past. Part of that is from a loophole in a bill that was passed in 2015.,https://www.politifact.com/factchecks/2017/mar/02/kip-kendrick/kendrick-mostly-right-about-reduced-corporate-tax-/,True,True,True
+cross_check_simulator,123,Says the main Central Texas food bank is delivering 50 percent more food to the poor than three years ago.,https://www.politifact.com/factchecks/2011/nov/01/lloyd-doggett/lloyd-doggett-says-central-texas-food-bank-deliver/,True,True,True
+cross_check_simulator,124,Did Putin Ban 5G in Russia Due to Health Concerns?,https://www.snopes.com/fact-check/putin-ban-5g/,False,False,True
+cross_check_simulator,125,Donald Trump Supporters Seen Wearing Nazi-Style Armbands,https://www.snopes.com/fact-check/trump-armbands/,False,False,True
+cross_check_simulator,126,"'Freedom Concert' Being Planned, But No Details Announced",https://www.snopes.com/fact-check/freedom-concert/,False,True,False
+cross_check_simulator,127,"Since we passed tax cuts, over 3 million workers have gotten tax cut bonuses  many of them thousands and thousands of dollars.",https://www.politifact.com/factchecks/2018/jan/31/donald-trump/trump-says-tax-bill-led-bonuses-three-million-work/,True,False,False
+cross_check_simulator,128,Obama unilaterally announced he was delaying employer mandate through a blog post by a mid-level bureaucrat at the Department of Treasury.,https://www.politifact.com/factchecks/2014/jan/16/ted-cruz/blog-posts-broke-news-administration-was-delaying-/,True,True,True
+cross_check_simulator,129,Fukushima Radiation Causes 100% Infant Mortality Among Orca Whales,https://www.snopes.com/fact-check/fukushima-radiation-causes-100-infant-mortality-among-orca-whales/,False,False,True
+cross_check_simulator,130,Is it possible for birth certificates in the United States to reveal undisclosed financial accounts linked to a 'Strawman'?,https://www.snopes.com/fact-check/birth-certificates-financial-accounts/,False,False,True
+cross_check_simulator,131,"There was an estimated $5.3 million of economic loss just for a few hours of shutting down the border. Youre talking about millions and millions of dollars  billions of dollars  of economic consequence, if we continue with this rhetoric around shutting down the border without considering what that means.",https://www.politifact.com/factchecks/2018/dec/03/gavin-newsom/did-californias-border-closure-cost-53m-economic-l/,True,True,True
+cross_check_simulator,132,The stock market has almost tripled since April of 2009.,https://www.politifact.com/factchecks/2015/mar/17/jim-webb/james-webb-says-stock-market-has-tripled-value-200/,True,True,True
+cross_check_simulator,133,2 Million Bikers to DC,https://www.snopes.com/fact-check/2-million-bikers-to-dc/,True,True,True
+cross_check_simulator,134,Is This a Photo of a Nazi Flag from the 'Million MAGA March'?,https://www.snopes.com/fact-check/million-maga-nazi-banner/,False,False,True
+cross_check_simulator,135,The Tea Party movement in America was a novel political phenomenon that gained momentum.,https://www.snopes.com/fact-check/new-american-tea-party/,False,True,False
+cross_check_simulator,136,Is It Dangerous to Wear a COVID-19 Protective Mask for Too Long?,https://www.snopes.com/fact-check/masks-dangerous-health/,False,False,True
+cross_check_simulator,137,Did 'The Simpsons' Predict the Smartwatch?,https://www.snopes.com/fact-check/simpsons-predict-smartwatch/,False,False,True
+cross_check_simulator,138,FDIC insurance provides payouts for a span exceeding 99 years.,https://www.snopes.com/fact-check/fdic-you/,False,False,True
+cross_check_simulator,139,Legend: Drunk Groom Accidentally Returns Home Alone from His Honeymoon,https://www.snopes.com/fact-check/drunk-groom-honeymoon/,True,True,True
+cross_check_simulator,140,What If Only Taxpayers Voted?,https://www.snopes.com/fact-check/what-if-taxpayers-only-voted-map/,False,False,True
+cross_check_simulator,141,The Real Story on Paul Ryan's Proposed Budget Cuts,https://www.snopes.com/fact-check/budget-cuts/,True,False,False
+cross_check_simulator,142,Scam involving fake Home Depot coupons on Facebook.,https://www.snopes.com/fact-check/home-depot-facebook-coupon-scam/,False,True,False
+cross_check_simulator,143,SCAM ALERT: Walmart Is Not Giving Away Vouchers To Celebrate Going Plastic Bag-Free,https://www.snopes.com/fact-check/walmart-plastic-bag-free-giveaway/,False,True,False
+cross_check_simulator,144,Did a Man Sue Himself After Being Hit by His Boomerang?,https://www.snopes.com/fact-check/goes-around-litigates-around/,False,False,True
+cross_check_simulator,145,We aren't the only state cutting back on public television.,https://www.politifact.com/factchecks/2012/feb/14/richard-licht/rhode-island-director-administration-richard-licht/,True,True,True
+cross_check_simulator,146,Benefits provided to former presidents after they leave office.,https://www.snopes.com/fact-check/pension-plan/,True,True,True
+cross_check_simulator,147,"Buono voted 154 times to raise our taxes -- like the sales tax, the income tax, health care taxes, even small business taxes.",https://www.politifact.com/factchecks/2013/may/19/chris-christie/barbara-buono-voted-increases-taxes-fees-154-times/,True,True,True
+cross_check_simulator,148,Is it advisable to refrain from getting a flu vaccination?,https://www.snopes.com/fact-check/flu-shot-avoidance/,False,False,True
+cross_check_simulator,149,"Congress Removes Child Tax Credit, Mortgage Deduction, and EITC from Tax Code",https://www.snopes.com/fact-check/koch-druthers/,False,False,True
+cross_check_simulator,150,Did Starbucks Support Calls To 'Defund the Police'?,https://www.snopes.com/fact-check/starbucks-defund-police/,False,False,True
+cross_check_simulator,151,Is Marlboro distributing cartons of cigarettes for free on Facebook?,https://www.snopes.com/fact-check/marlboro-giving-away-free-cigarettes/,False,False,True
+cross_check_simulator,152,Planted Evidence,https://www.snopes.com/fact-check/planted-evidence/,True,False,False
+cross_check_simulator,153,Tapeworm Diet Pills,https://www.snopes.com/fact-check/as-the-worm-squirms/,True,False,False
+cross_check_simulator,154,Is this a picture of valueless currency found in the drainage systems of Venezuela?,https://www.snopes.com/fact-check/venezuela-money-in-gutter/,False,True,False
+cross_check_simulator,155,Obama Slams Stay at Home Moms,https://www.snopes.com/fact-check/obama-mama-drama/,False,False,True
+cross_check_simulator,156,Bank of America Dropping FDIC Coverage?,https://www.snopes.com/fact-check/fdic-you-later/,False,False,True
+cross_check_simulator,157,Did Congress Designate Confederate Soldiers as United States Veterans?,https://www.snopes.com/fact-check/confederate-soldiers-veterans/,False,False,True
+cross_check_simulator,158,"In the 1950s and 1960s, the minimum wage was such that it would lift you out of poverty.",https://www.politifact.com/factchecks/2014/jun/15/jack-reed/jack-reed-says-minimum-wage-1950s-and-1960s-would-/,True,True,True
+cross_check_simulator,159,Did Facebook Executive Jeff Rothschild Say 'We Need a Third World War'?,https://www.snopes.com/fact-check/jeff-rothschild-third-world-war/,False,False,True
+cross_check_simulator,160,"Latino small businesses are 1 in 4 new businesses, but only 1% of venture capital funding goes to Latino businesses.",https://www.politifact.com/factchecks/2023/may/16/kamala-harris/kamala-harris-claim-about-latinos-getting-1-of-ven/,True,True,True
+cross_check_simulator,161,Does This Photograph Show Beetles Embedded in a Dog's Mouth?,https://www.snopes.com/fact-check/ladybugs-beetles-dog-mouth/,True,True,True
+cross_check_simulator,162,Star Wreck,https://www.snopes.com/fact-check/roddenberry-plane-crash/,True,False,False
+cross_check_simulator,163,Mitt Romney 'Money' Shirts,https://www.snopes.com/fact-check/shirt-stop-2/,False,False,True
+cross_check_simulator,164,Georgia spends fewer tourism advertising dollars than any other state in the South.,https://www.politifact.com/factchecks/2012/aug/13/ron-stephens/tourism-advertising-not-georgias-mind-lawmaker-say/,True,True,True
+cross_check_simulator,165,Psychological manipulation at the White House,https://www.snopes.com/fact-check/obama-behavioral-experiments/,False,False,True
+cross_check_simulator,166,Did Experts and Officials Warn in 2018 US Couldn't Respond Effectively to a Pandemic?,https://www.snopes.com/fact-check/experts-officials-pandemic-2018/,True,True,True
+cross_check_simulator,167,'Cadbury Easter Egg Hunt' Scam Circulates on WhatsApp,https://www.snopes.com/fact-check/cadbury-easter-egg-hunt-whatsapp/,False,True,False
+cross_check_simulator,168,Are Social Security Numbers Assigned by Race?,https://www.snopes.com/fact-check/black-carded/,False,False,True
+cross_check_simulator,169,George Zimmerman Files Civil Suit Against Trayvon Martin's Parents,https://www.snopes.com/fact-check/ill-suited/,False,False,True
+cross_check_simulator,170,"Right now, four in 10 public schools in our state are at least 50 years old.",https://www.politifact.com/factchecks/2019/mar/05/roy-cooper/cooper-calls-attention-aging-north-carolina-school/,True,True,True
+cross_check_simulator,171,We have the lowest corporate tax rate since 1968.,https://www.politifact.com/factchecks/2020/jan/18/andrew-cuomo/cuomos-accurate-boast-about-new-yorks-historically/,True,True,True
+cross_check_simulator,172,Says Mike Enzi is getting about 84 percent of his campaign funds from Washington-based PACs. That's more than any senator of either party.,https://www.politifact.com/factchecks/2013/oct/30/dick-cheney/dick-cheney-says-daughters-opponent-mike-enzi-get-/,True,False,False
+cross_check_simulator,173,Did a Reddit User Find Treasure in His Grandparents' Barn?,https://www.snopes.com/fact-check/treasure-grandparents-safe/,True,False,False
+cross_check_simulator,174,We had bipartisan legislation that got through the Senate that would have prevented bonuses like AIG's and then somehow mysteriously disappeared.,https://www.politifact.com/factchecks/2009/mar/18/ron-wyden/aig-bonus-wyden-snowe/,True,True,True
+cross_check_simulator,175,Has Sberbank in Russia restricted cash withdrawals to $20?,https://www.snopes.com/fact-check/sberbank-cash-withdrawal-limit/,False,False,True
+cross_check_simulator,176,Was the military that Trump inherited from Obama considered to be lacking in resources?,https://www.snopes.com/fact-check/trump-inherit-depleted-military/,False,False,True
+cross_check_simulator,177,I'm also the only lieutenant governor to not take a security detail.,https://www.politifact.com/factchecks/2016/may/26/carlos-lopez-cantera/carlos-lopez-cantera-says-he-only-florida-lieutena/,True,True,True
+cross_check_simulator,178,"Republican candidate for Governor of California, Travis Allen, made political contributions to Jerry Brown, Gavin Newsom, and Barbara Boxer.",https://www.politifact.com/factchecks/2018/may/25/john-cox/did-gop-candidate-california-governor-really-donat/,True,True,True
+cross_check_simulator,179,Jennifer Lopez Rumor,https://www.snopes.com/fact-check/theres-always-room-for-jlo/,False,False,True
+cross_check_simulator,180,Political donations from the DeVos family,https://www.snopes.com/fact-check/devos-family-campaign-contributions/,True,True,True
+cross_check_simulator,181,"There are 321,092 public school teachers in Texas. And there are 313,850 non-teachers in our public schools.",https://www.politifact.com/factchecks/2010/may/28/empower-texans/pac-says-texas-public-schools-employ-one-non-teach/,True,True,True
+cross_check_simulator,182,Free Glasses for Kids at Target,https://www.snopes.com/fact-check/target-eyeglasses/,False,False,True
+cross_check_simulator,183,U.S. Sen. Kay Bailey Hutchison has voted nine separate times to raise the national debt ceiling.,https://www.politifact.com/factchecks/2010/jan/27/rick-perry/us-sen-kay-bailey-hutchison-us-sen-kay-bailey-hutc/,True,True,True
+cross_check_simulator,184,Did most of the new jobs in February 2021 consist of waiters and bartenders?,https://www.snopes.com/fact-check/most-jobs-waiters-bartenders/,True,True,True
+cross_check_simulator,185,Was it suggested by Senator Tom Cotton that drug testing should be required for individuals receiving Social Security benefits?,https://www.snopes.com/fact-check/tom-cotton-drug-testing/,False,False,True
+cross_check_simulator,186,I have repeatedly said that many of the predatory loans that were made in the mortgage system did target African-American and Latino communities.,https://www.politifact.com/factchecks/2008/aug/01/barack-obama/obama-cites-ethnicity-in-mortgage-crisis/,True,True,True
+cross_check_simulator,187,Who was Michael Myers?,https://www.snopes.com/fact-check/william-shatner-halloween-mask/,True,True,True
+cross_check_simulator,188,Bin Laden Shooter Rob O'Neill Mistakenly Attacked by Street Thugs Seeking to Collect Debt from Neighbor,https://www.snopes.com/fact-check/knife-to-a-gunfight/,False,False,True
+cross_check_simulator,189,Is This Katie McCormick's Gravestone from the 1870s?,https://www.snopes.com/fact-check/botched-abortion-gravestone/,True,False,False
+cross_check_simulator,190,Kid Rock Death Hoax,https://www.snopes.com/fact-check/kid-rock-death-hoax/,False,True,False
+cross_check_simulator,191,Is This Lev Parnas at a Family Birthday Party with Donald Trump?,https://www.snopes.com/fact-check/lev-parnas-eric-trump-birthday/,False,False,True
+cross_check_simulator,192,Is this Weightlifter with a Prolapsed Rectum Real?,https://www.snopes.com/fact-check/power-lifting/,False,False,True
+cross_check_simulator,193,"A Mileage Tax? No, Biden's Bill Doesn't Impose New Driving Tax",https://www.snopes.com/fact-check/mileage-tax-biden-build-back-better-bill/,False,True,False
+cross_check_simulator,194,Free Publix $100 Coupons Scam,https://www.snopes.com/fact-check/publix-100-coupons-2/,False,True,False
+cross_check_simulator,195,2011 W-2 tax documents and HR3590 legislation,https://www.snopes.com/fact-check/2011-w-2-tax-forms-and-hr3590/,False,False,True
+cross_check_simulator,196,The Secret Words,https://www.snopes.com/fact-check/the-secret-words/,False,False,True
+cross_check_simulator,197,The country's bankrupt.,https://www.politifact.com/factchecks/2011/aug/12/ron-paul/us-rep-ron-paul-says-countrys-bankrupt/,False,False,True
+cross_check_simulator,198,"Says that as Massachusetts governor, Mitt Romney condemned coal-fired plants, saying they kill people.",https://www.politifact.com/factchecks/2012/aug/23/barack-obama/barack-obama-says-mitt-romney-condemned-coal-fired/,True,True,True
+cross_check_simulator,199,When I talk about (raising the) minimum wage ... half of Republicansagree with it.,https://www.politifact.com/factchecks/2014/mar/07/barack-obama/barack-obama-says-half-republicans-agree-minimum-w/,True,False,False
+cross_check_simulator,200,"California is once again the sixth-largest economy in the world. If you add the GDPs of Washington and Oregon, California would surpass the United Kingdom to become the fifth-largest economy in the world.",https://www.politifact.com/factchecks/2016/dec/15/antonio-villaraigosa/villaraigosa-claims-california-oregon-washington-p/,True,True,True
+cross_check_simulator,201,Did a Cornell Student Cut 37 Pounds Using Apple Cider Vinegar and Supplements?,https://www.snopes.com/fact-check/apple-cider-vinegar-diet/,False,False,True
+cross_check_simulator,202,Was an image of Patti LaBelle utilized by Fox News in the midst of their tribute to Aretha Franklin?,https://www.snopes.com/fact-check/fox-patti-labelle-aretha-franklin/,True,True,True
+cross_check_simulator,203,Is the Picture Depicting Stephen Hawking at a Conference in the Caribbean Organized by Jeffrey Epstein?,https://www.snopes.com/fact-check/stephen-hawking-jeffrey-epsteins-conference/,True,True,True
+cross_check_simulator,204,Credit for the burdensome financial responsibilities imposed on black individuals as a result of systemic inequalities.,https://www.snopes.com/fact-check/black-tax-credit/,False,False,True
+cross_check_simulator,205,Scientists in Japan Clone 98% Pure Saber-Tooth Tiger,https://www.snopes.com/fact-check/tiger-beat/,False,False,True
+cross_check_simulator,206,John Madden Death Hoax (2014),https://www.snopes.com/fact-check/john-madden-death-hoax/,False,True,False
+cross_check_simulator,207,FDIC insurance provides coverage for more than 99 years.,https://www.snopes.com/fact-check/fdic-you/,False,False,True
+cross_check_simulator,208,Deceptive Reshipping Scheme,https://www.snopes.com/fact-check/reship-of-fools/,False,True,False
+cross_check_simulator,209,Did the picture depict Stephen Hawking attending a conference in the Caribbean organized by Jeffrey Epstein?,https://www.snopes.com/fact-check/stephen-hawking-jeffrey-epsteins-conference/,True,True,True
+cross_check_simulator,210,Failure to Salute,https://www.snopes.com/fact-check/keep-the-change/,False,False,True
+cross_check_simulator,211,Procter and Gamble and Satanism Rumor,https://www.snopes.com/fact-check/trademark-of-the-devil/,False,False,True
+cross_check_simulator,212,Sean Penn Letter to Washington Post,https://www.snopes.com/fact-check/penn-stated/,True,True,True
+cross_check_simulator,213,Did Ronald Reagan Pave the Way for Fox News?,https://www.snopes.com/fact-check/ronald-reagan-fairness-doctrine/,False,False,True
+cross_check_simulator,214,Did Trump Claim Obama Wrote the Emoluments Clause of U.S. Constitution?,https://www.snopes.com/fact-check/trump-obama-emoluments/,False,False,True
+cross_check_simulator,215,Does a Meme Accurately Describe 'Why It's a Big Deal Kamala Harris is VP'?,https://www.snopes.com/fact-check/kamala-harris-big-deal-vp/,True,True,True
+cross_check_simulator,216,There is no proof that a decrease in port activity is caused by the lenient laws in California.,https://www.snopes.com/fact-check/california-laws-port-slowdown/,False,True,False
+cross_check_simulator,217,"No, This Is Not a Phone Number for Tracking Your Coronavirus Stimulus Payments",https://www.snopes.com/fact-check/tracking-stimulus-check/,False,True,False
+cross_check_simulator,218,The state's transportation department is currently burdened with a significant level of debt and has made debt repayments totaling over $700 million within the past two years.,https://www.politifact.com/factchecks/2019/may/08/cody-smith/smiths-statement-modots-debt-adds-needs-context/,True,True,True
+cross_check_simulator,219,Did Mike Tyson Post About Social Media Making People 'Too Comfortable'?,https://www.snopes.com/fact-check/mike-tyson-social-media/,True,True,True
+cross_check_simulator,220,The recently passed transportation funding bill is a billion-dollar tax increase for Georgians.,https://www.politifact.com/factchecks/2015/apr/27/debbie-dooley/maybe-not-today-and-maybe-under-different-name-tax/,True,True,True
+cross_check_simulator,221,"Texas charter schools receive full state funding per pupil, while district schools, which have 95% of the student population, receive approximately one-third of their funding from the state, with the remainder coming from local property taxes, leading to high tax rates. Districts are receiving reduced funds because a significant portion is being directed to charter schools.",https://www.politifact.com/factchecks/2018/aug/15/donna-howard/donna-howard-says-charter-schools-draw-more-studen/,True,False,False
+cross_check_simulator,222,Opera Singer Embarrassment,https://www.snopes.com/fact-check/p-ness/,True,False,False
+cross_check_simulator,223,50-Foot Megalodon Captured on Video,https://www.snopes.com/fact-check/50-foot-megalodon-video/,False,False,True
+cross_check_simulator,224,Ford Motors Funds Black Lives Matter,https://www.snopes.com/fact-check/ford-motors-funds-black-lives-matter/,False,False,True
+cross_check_simulator,225,"Says David Perdue hasn't held a single public town hall meeting in six years and sells four meetings a year and a retreat on a private island for a $7,500 corporate PAC check.",https://www.politifact.com/factchecks/2020/dec/11/jon-ossoff/sen-david-perdue-hasnt-held-town-halls-did-offer-a/,True,True,True
+cross_check_simulator,226,Did Kurt Cobain Write That Pennyroyal Herb Was an Abortive That 'Doesn't Work'?,https://www.snopes.com/fact-check/kurt-cobain-pennyroyal-abortive/,True,True,True
+cross_check_simulator,227,"Scientists Say Giant Asteroid Could Hit Earth Next Week, Causing Mass Devastation",https://www.snopes.com/fact-check/asteroid-earth-clickbait-study/,False,False,True
+cross_check_simulator,228,"Canadian middle class incomes are now higher than in the United States. They are working fewer hours for more pay,  living longer on average, and facing less income inequality.",https://www.politifact.com/factchecks/2014/may/20/hillary-clinton/hillary-clinton-says-united-states-falling-behind-/,True,False,False
+cross_check_simulator,229,George Reeves Superman Death,https://www.snopes.com/fact-check/superman/,False,False,True
+cross_check_simulator,230,"Rhode Island has the second highest per enrollee (Medicaid) cost of any state in the country, which is 60 percent higher than the national average.",https://www.politifact.com/factchecks/2015/mar/29/gina-raimondo/gov-gina-raimondo-says-ris-medicaid-costs-enrollee/,True,True,True
+cross_check_simulator,231,Protection offered by the Secret Service to John Kerry,https://www.snopes.com/fact-check/secret-disservice/,False,False,True
+cross_check_simulator,232,Abandoned Polish Wedding Chairs,https://www.snopes.com/fact-check/polish-wwii-chairs/,False,False,True
+cross_check_simulator,233,"In Wisconsin, unions can essentially give unlimited contributions to political parties, but business can't give any.",https://www.politifact.com/factchecks/2014/nov/21/robin-vos/wisconsin-unions-can-give-unlimited-funds-politica/,True,False,False
+cross_check_simulator,234,Is Safyre Terry's Christmas Wish a Scam?,https://www.snopes.com/fact-check/safyre-terry-christmas-card/,True,False,False
+cross_check_simulator,235,Chase Wheedle is a Seattle attraction.,https://www.snopes.com/fact-check/seattle-sharia-law/,True,False,False
+cross_check_simulator,236,Did Trump Plagiarize Praise for Jesse Watters' Book from a Promo Blurb?,https://www.snopes.com/fact-check/trump-jesse-waters-book/,True,True,True
+cross_check_simulator,237,Did Astronaut Chris Hadfield Test the Effects of Marijuana in Space?,https://www.snopes.com/fact-check/iss-test-marijuana-space/,False,False,True
+cross_check_simulator,238,Was the prediction of the downfall of the world by Nostradamus related to the reign of a weak ruler?,https://www.snopes.com/fact-check/nostradamus-predict-feeble-man/,False,False,True
+cross_check_simulator,239,Macy's sent a letter to Rick Perry urging him to veto equal pay bill.,https://www.politifact.com/factchecks/2013/nov/25/senfronia-thompson/macys-other-retailers-asked-rick-perry-veto-equal-/,True,True,True
+cross_check_simulator,240,John Kerry Swears,https://www.snopes.com/fact-check/sob-story/,True,True,True
+cross_check_simulator,241,Were Millions of Mail-in Ballots Wrongly Sent to People Who Didn't Request Them?,https://www.snopes.com/fact-check/millions-mail-in-ballots/,False,False,True
+cross_check_simulator,242,Child care costs account for 24% of a WI familys budget.,https://www.politifact.com/factchecks/2020/jan/03/david-crowley/child-care-costs-can-take-big-bite-family-budget/,True,True,True
+cross_check_simulator,243,Does Glaxo Own the 'Wuhan Lab'?,https://www.snopes.com/fact-check/does-glaxo-own-the-wuhan-lab/,False,False,True
+cross_check_simulator,244,"Las Vegas Casino Owners, Gaming Commission Seek to Legalize Dog Fighting",https://www.snopes.com/fact-check/viva-paws-vegas/,False,False,True
+cross_check_simulator,245,"Does Stacey Abrams Owe More Than $50,000 in Back Taxes?",https://www.snopes.com/fact-check/stacey-abrams-back-taxes/,True,True,True
+cross_check_simulator,246,Did executive Jeff Rothschild from Facebook express the need for a third world war?,https://www.snopes.com/fact-check/jeff-rothschild-third-world-war/,False,False,True
+cross_check_simulator,247,"Seven years later, (Scott Walker) has not hit his first campaign promise of creating 250,000 jobs.",https://www.politifact.com/factchecks/2017/jun/23/mark-pocan/mark-pocan-claim-seven-years-later-scott-walker-ha/,True,True,True
+cross_check_simulator,248,"Over 3 million Americans are employed in the growing green-collar workforce, which is more than the number of people working in the fossil fuel industry.",https://www.politifact.com/factchecks/2014/feb/14/tammy-baldwin/expansive-definition-helps-green-jobs-outnumber-oi/,True,True,True
+cross_check_simulator,249,Did New Zealand Prime Minister Jacinda Ardern Don a Hijab and Offer Aid to Families of Massacre Victims?,https://www.snopes.com/fact-check/nz-prime-minister-massacre-aid/,True,True,True
+cross_check_simulator,250,The new tax will make soda sold in Chicago among the most expensive in the country.,https://www.politifact.com/factchecks/2017/aug/07/illinois-policy-institute/chicago-soda-tax-throws-batting-practice-fastball-/,True,True,True
+cross_check_simulator,251,Ralph Hall has never voted to raise the debt ceiling.,https://www.politifact.com/factchecks/2014/mar/31/cat-pac/us-rep-ralph-hall-texas-voted-increase-debt-limit-/,False,False,True
+cross_check_simulator,252,"Rewrite this item ""Dennis Guthrie's Letter to Nancy Pelosi"".",https://www.snopes.com/fact-check/guthrie-letter-to-pelosi/,True,True,True
+cross_check_simulator,253,Is This a Real Photograph of Bowie and Lemmy?,https://www.snopes.com/fact-check/david-bowie-lemmy-photo/,False,False,True
+cross_check_simulator,254,Does a Sony Patent Propose Viewers Skip Commercials by Yelling Brand Names at TV?,https://www.snopes.com/fact-check/sony-patent-mcdonalds/,True,True,True
+cross_check_simulator,255,Winston Churchill on Islam,https://www.snopes.com/fact-check/churchill-on-islam/,True,True,True
+cross_check_simulator,256,John McCain's description of 'rich',https://www.snopes.com/fact-check/the-five-million-dollar-man/,True,False,False
+cross_check_simulator,257,Did Channing Tatum Come Out as Gay?,https://www.snopes.com/fact-check/channing-tatum-rumor/,False,False,True
+cross_check_simulator,258,Does AARP Support the Democratic Party?,https://www.snopes.com/fact-check/aarp-supports-democratic-party/,False,False,True
+cross_check_simulator,259,Is Ukraine planning to legalize the production of pornography in order to boost funding for the military?,https://www.snopes.com/fact-check/ukraine-legalize-porn-for-military/,False,False,True
+cross_check_simulator,260,Did Boyd Bushman Provide Evidence of Alien Contact?,https://www.snopes.com/fact-check/boyd-bushman-aliens/,False,False,True
+cross_check_simulator,261,"Every American now is $51,000 in debt. Thats money I owe, thats money my children owe before they even go to kindergarten, thats their check to the federal government right now.",https://www.politifact.com/factchecks/2012/nov/15/caroline-casagrande/caroline-casagrande-says-every-american-owes-feder/,True,True,True
+cross_check_simulator,262,Did Biden Say People Making Less Than $400K 'Will Not Pay a Single Penny in Taxes'?,https://www.snopes.com/fact-check/biden-taxes-400k/,True,True,True
+cross_check_simulator,263,Is Facebook Issuing New Warnings About 'Extremist Content'?,https://www.snopes.com/fact-check/extremist-warnings-facebook/,True,True,True
+cross_check_simulator,264,"Says in Oregon today, the average debt upon college graduation is more than $24,000.",https://www.politifact.com/factchecks/2013/aug/10/jeff-merkley/average-debt-upon-college-graduation-more-24000/,True,True,True
+cross_check_simulator,265,Certainly! Here is a paraphrased version of the sentence: The IRS requested that taxpayers declare stolen goods and income obtained illegally.,https://www.snopes.com/fact-check/irs-taxpayers-stolen-items-illegal-income/,True,True,True
+cross_check_simulator,266,Says Barack Obama is the first president in modern history not to have a single year of 3 percent growth.,https://www.politifact.com/factchecks/2016/oct/31/donald-trump/trumps-claim-about-weak-economic-growth-under-obam/,True,True,True
+cross_check_simulator,267,"Under Barack Obama, the fewest number of adults are working since Jimmy Carters presidency.",https://www.politifact.com/factchecks/2016/jan/22/roger-williams/roger-williams-falsely-says-fewest-number-adults-w/,False,False,True
+cross_check_simulator,268,The Unexpected Inheritance,https://www.snopes.com/fact-check/the-unexpected-inheritance/,True,True,True
+cross_check_simulator,269,Did NYC Mayoral Candidate Andrew Yang Say This About Mentally Ill People?,https://www.snopes.com/fact-check/andrew-yang-mentally-ill/,True,True,True
+cross_check_simulator,270,Papa John's is unwilling to distribute 'excessive profits' amongst its employees.,https://www.snopes.com/fact-check/papa-johns-ceo-quote/,False,False,True
+cross_check_simulator,271,Pic Shows Taylor Swift Eating Ice Cream as Children Cry?,https://www.snopes.com/fact-check/taylor-swift-africa-pic/,False,False,True
+cross_check_simulator,272,Renaming Interstate 69,https://www.snopes.com/fact-check/highway-position/,False,False,True
+cross_check_simulator,273,Lunch Boxes and Lead,https://www.snopes.com/fact-check/pail-by-comparison/,False,True,False
+cross_check_simulator,274,Did Dave Ramsey Warn About a 'Cashless Society'?,https://www.snopes.com/fact-check/dave-ramsey-cashless-society/,False,False,True
+cross_check_simulator,275,Did a UC Berkeley Instructor Say Rural Americans Are 'Bad People'?,https://www.snopes.com/fact-check/berkeley-instructor-rural-usa/,True,True,True
+cross_check_simulator,276,Did WaPo Headline Call IS Leader al-Baghdadi an 'Austere Religious Scholar'?,https://www.snopes.com/fact-check/al-baghdadi-wapo-headline/,True,True,True
+cross_check_simulator,277,Corporate Angel Network Origin,https://www.snopes.com/fact-check/crock-of-ages/,False,False,True
+cross_check_simulator,278,"When it comes to income taxes, Wisconsin is one of the best places in the country to be poor but top 4 or 5 worst for middle-income earners.",https://www.politifact.com/factchecks/2012/nov/14/robin-vos/vos-says-income-taxes-wisconsin-one-easiest-poor-a/,True,True,True
+cross_check_simulator,279,Says Russ Feingolds campaign is powered by small-dollar contributions like ours.,https://www.politifact.com/factchecks/2016/jun/22/bernie-sanders/bernie-sanders-right-about-russ-feingolds-campaign/,True,True,True
+cross_check_simulator,280,Did Archaeologists Dig Up an 800-Year-Old Alien Cellphone?,https://www.snopes.com/fact-check/alien-cellphone-found/,False,False,True
+cross_check_simulator,281,Did Disney Release This 'Hocus Pocus 2' Movie Poster?,https://www.snopes.com/fact-check/hocus-pocus-2/,False,False,True
+cross_check_simulator,282,Did Winston Churchill Say 'The Fascists of the Future Will Call Themselves Anti-Fascists?',https://www.snopes.com/fact-check/fascists-called-anti-fascists-quote/,False,False,True
+cross_check_simulator,283,Is Facebook Deleting an Image of a Cross Carved to Honor Fallen Firefighters?,https://www.snopes.com/fact-check/cross-honor-fallen-firefighters/,False,False,True
+cross_check_simulator,284,"A mortgage buyback plan is my proposal, it's not Sen. Obama's proposal, it's not President Bush's proposal.",https://www.politifact.com/factchecks/2008/oct/09/john-mccain/the-idea-is-old-but-the-plan-is-mccains/,True,True,True
+cross_check_simulator,285,Fraudulent $75 Coupon Scheme involving Meijer,https://www.snopes.com/fact-check/meijer-coupon-scam/,False,False,True
+cross_check_simulator,286,Did Google Remove Photos of Bill Clinton with Jeffrey Epstein from Search Results?,https://www.snopes.com/fact-check/google-clinton-epstein/,False,False,True
+cross_check_simulator,287,"A new, independent study put out last week found that at least 55 of our largest corporations used various loopholes to pay zero federal income tax in 2020.",https://www.politifact.com/factchecks/2021/apr/12/joe-biden/fact-checking-joe-biden-corporation-taxes/,True,True,True
+cross_check_simulator,288,Infinity Tower Flooding Accident,https://www.snopes.com/fact-check/infinity-tower/,False,True,False
+cross_check_simulator,289,Virginia tax receipts in just the last four years alone have grown 50%.,https://www.politifact.com/factchecks/2023/jan/25/glenn-youngkin/youngkin-near-mark-tax-growth-claim/,True,True,True
+cross_check_simulator,290,Racist Product Color Descriptions,https://www.snopes.com/fact-check/hue-cry/,True,True,True
+cross_check_simulator,291,Does a Map Shared Online Depict All Churches 'Destroyed' in France in the Last 4 Years?,https://www.snopes.com/fact-check/churches-destroyed-in-france/,False,False,True
+cross_check_simulator,292,"Did Trump Solicit Donations, Attack Liz Cheney to Mark His Birthday?",https://www.snopes.com/fact-check/trump-birthday-donations-cheney-statement/,False,False,True
+cross_check_simulator,293,Was a Baseball Game Won by a Score of 2½-2?,https://www.snopes.com/fact-check/baseball-cut-in-half-by-axe/,False,False,True
+cross_check_simulator,294,Home Sales Tax,https://www.snopes.com/fact-check/home-sales-tax/,True,False,False
+cross_check_simulator,295,Kohl's Thanksgiving Coupon Scam,https://www.snopes.com/fact-check/kohls-thanksgiving-coupon-scam/,False,True,False
+cross_check_simulator,296,Hillary Clinton and the Victims of War,https://www.snopes.com/fact-check/hillary-clinton-victims-of-war/,True,True,True
+cross_check_simulator,297,"Rephrase this as ""Macy Neighs""",https://www.snopes.com/fact-check/macys-wont-hire-veteran/,True,False,False
+cross_check_simulator,298,Does Photo Show Trump Arriving in New York for His Arraignment?,https://www.snopes.com/fact-check/trump-arraignment-arrival-photo/,False,False,True
+cross_check_simulator,299,Is This Bill Clinton with Jeffrey Epstein?,https://www.snopes.com/fact-check/bill-clinton-with-jeffrey-epstein/,True,True,True

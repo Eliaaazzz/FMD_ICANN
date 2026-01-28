@@ -170,13 +170,18 @@ skeptical_investigator        43.48%     40.00%     36.36%     38.10%
 
 ​               
 
-
+**Finguard300条**
 
 ##### Prompt名称               Accuracy  Precision     Recall         F1
-binary_classifier_en     80.56%    100.00%     80.56%     89.23%  **有问题 重新跑**
-cot_stepwise             85.57%     83.65%     89.26%     86.36%
+binary_classifier_en     84.67%     87.14%     81.33%     84.14%
+**cot_stepwise**             85.57%     83.65%     89.26%     86.36%
 
-
+**multi_perspective**	0.8837	0.8739	0.8981	0.8858
+verification_protocol_en	0.8127	0.7831	0.8667	0.8228
+logical_fallacy_check	0.8133	0.9196	0.6867	0.7863
+editorial_board_vote	0.8227	0.805	0.8533	0.8285
+**weighted_evidence_scorer**	0.8633	0.8658	0.86	0.8629
+cross_check_simulator	0.7692	0.7299	0.8523	0.7864
 
 
 
@@ -205,7 +210,27 @@ logical_fallacy_check         59.00%     64.52%     40.00%     49.38%
 
 
 
+---
 
+
+
+**Finfact 300条**
 
 ##### Prompt名称                    Accuracy  Precision     Recall         F1
-verification_protocol_en      69.90%     74.79%     59.73%     66.42%		**Finfact 300条**
+verification_protocol_en      69.90%     74.79%     59.73%     66.42%		
+
+**editorial_board_vote**	0.7333	0.7465	0.7067	0.726
+**weighted_evidence_scorer**	0.7458	0.7626	0.7114	0.7361
+**cross_check_simulator**	0.77	0.7755	0.76	0.7677
+
+
+
+
+
+### 总结：
+
+**Finfact top3**：cross_check_simulator	weighted_evidence_scorer	editorial_board_vote	（300条）
+
+
+
+**Finguard top3：** multi_perspective	weighted_evidence_scorer	cot_stepwise        （300条）     

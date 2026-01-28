@@ -1,0 +1,56 @@
+[
+  {
+    "prompt_name": "editorial_board_vote",
+    "system_prompt": "你模拟一个拥有三位资深成员的事实核查委员会：\n1. 首席核查员（关注证据链的完整性）\n2. 领域专家（关注术语和概念的准确性）\n3. 逻辑分析师（关注推理过程的严密性）\n你们需要投票决定该声明是否属实。",
+    "user_prompt_template": "委员会请就位，对以下声明进行审核投票。\n\n【声明】\n{claim}\n\n【案卷材料】\n摘要：{sci_digest}\n论证：{justification}\n证据：{evidence}\n\n【委员会讨论】\n- 首席核查员意见：...\n- 领域专家意见：...\n- 逻辑分析师意见：...\n\n【最终投票结果】\n如果至少两票认为属实(True)，则判定为真。\n输出格式：Prediction: True 或 Prediction: False",
+    "metrics": {
+      "accuracy": 0.7333333333333333,
+      "precision": 0.7464788732394366,
+      "recall": 0.7066666666666667,
+      "f1": 0.7260273972602739,
+      "total": 300,
+      "correct": 220,
+      "unknown_count": 0,
+      "tp": 106,
+      "fp": 36,
+      "fn": 44,
+      "tn": 114
+    }
+  },
+  {
+    "prompt_name": "weighted_evidence_scorer",
+    "system_prompt": "你是一个基于证据权重的评分系统。你会对声明的可信度要素进行打分（0-10分），总分低于20分（满分30）将被标记为False。",
+    "user_prompt_template": "请对以下声明进行基于证据的打分评估。\n\n【声明】\n{claim}\n\n【证据材料】\n{justification}\n{evidence}\n\n【评分项】\nA. 证据覆盖度 (0-10): 0=无直接证据，10=证据完全覆盖声明的所有细节\nB. 一致性 (0-10): 0=声明与证据矛盾，10=声明与证据高度一致\nC. 语境准确性 (0-10): 0=严重断章取义，10=完全忠实于原意\n\n请计算总分。\nDecision Rule: Total Score >= 20 -> True; Total Score < 20 -> False.\n输出格式：Prediction: True 或 Prediction: False",
+    "metrics": {
+      "accuracy": 0.745819397993311,
+      "precision": 0.762589928057554,
+      "recall": 0.7114093959731543,
+      "f1": 0.736111111111111,
+      "total": 299,
+      "correct": 223,
+      "unknown_count": 1,
+      "tp": 106,
+      "fp": 33,
+      "fn": 43,
+      "tn": 117
+    }
+  },
+  {
+    "prompt_name": "cross_check_simulator",
+    "system_prompt": "You are a research assistant simulating a cross-referencing process.\nYou use the provided \"Justification\" and \"Evidence\" as your ground truth knowledge base to verify the \"Claim\".",
+    "user_prompt_template": "Verify the claim by cross-referencing it against the provided ground truth.\n\n[Target Claim]\n{claim}\n\n[Ground Truth Knowledge Base]\n{justification}\n{evidence}\n\n[Simulation]\n- Initial Check: Does the claim exist in the Knowledge Base?\n- Detail Verification: Do specific numbers, dates, and entities match exactly?\n- Conflict Detection: Is there any statement in the Knowledge Base that directly contradicts the claim?\n\nVerdict:\nPrediction: True or Prediction: False",
+    "metrics": {
+      "accuracy": 0.77,
+      "precision": 0.7755102040816326,
+      "recall": 0.76,
+      "f1": 0.7676767676767676,
+      "total": 300,
+      "correct": 231,
+      "unknown_count": 0,
+      "tp": 114,
+      "fp": 33,
+      "fn": 36,
+      "tn": 117
+    }
+  }
+]

@@ -1,0 +1,15 @@
+﻿prompt_name,accuracy,precision,recall,f1,total_samples,correct,unknown_count,tp,fp,fn,tn,system_prompt,user_prompt_template
+binary_classifier_en,0.8467,0.8714,0.8133,0.8414,300,254,0,122,18,28,132,"You are a sophisticated binary classifier specialized in detecting fake news and misinformation.
+Your classification is based on linguistic patterns, factual consistency, and source credibility analysis.
+You have been trained on millions of verified real and fake news articles.","Analyze the following news article and classify it as authentic or fabricated.
+
+[NEWS ARTICLE]
+{text}
+
+[CLASSIFICATION CRITERIA]
+- Linguistic markers: sensationalism, emotional manipulation, clickbait patterns
+- Factual indicators: verifiable claims, credible sources, logical consistency
+- Structural elements: professional journalism standards, balanced reporting
+
+Provide your binary classification.
+Output format: Prediction: True (authentic) or Prediction: False (fake/misleading)"
