@@ -1,0 +1,85 @@
+{
+  "dataset": "FinGuard",
+  "num_samples": 200,
+  "valid_samples": 49,
+  "failed_samples": 44,
+  "accuracy": 0.8979591836734694,
+  "macro_f1": 0.4731182795698925,
+  "paper_accuracy": 0.7362,
+  "paper_macro_f1": 0.6667,
+  "confusion_matrix": [
+    [
+      44,
+      5
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "load_time_seconds": 32.18055963516235,
+  "inference_time_seconds": 125.16808581352234,
+  "avg_time_per_sample": 0.6258404290676117,
+  "sample_outputs": [
+    {
+      "index": 0,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This text contains several red flags that indicate it's a work of misinformation:\n\n1.  The text is trying to sell a DVD, which is a clear attempt to make money off of people's fears.\n2.  The text is s"
+    },
+    {
+      "index": 3,
+      "true_label": "Fake",
+      "pred_label": "Real",
+      "response": "This text appears to be a personal opinion or a philosophical statement rather than a factual report about public pensions."
+    },
+    {
+      "index": 4,
+      "true_label": "Fake",
+      "pred_label": "Real",
+      "response": "This article is a collection of quotes and observations from various individuals and sources, but it does not provide a clear and direct statement that can be verified as true or false."
+    },
+    {
+      "index": 6,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This text is a fabrication."
+    },
+    {
+      "index": 10,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This text is a satirical article about a fictional Java code, and it's not a real programming code."
+    },
+    {
+      "index": 12,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article contains false information."
+    },
+    {
+      "index": 17,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article is a fabrication."
+    },
+    {
+      "index": 18,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article appears to be a fabrication, as it contains several inaccuracies and inconsistencies."
+    },
+    {
+      "index": 19,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "it."
+    },
+    {
+      "index": 21,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "This text is a work of fiction, not a factual news article."
+    }
+  ]
+}

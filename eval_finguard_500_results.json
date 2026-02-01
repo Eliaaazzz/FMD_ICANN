@@ -1,0 +1,3525 @@
+{
+  "dataset": "FinGuard",
+  "num_samples": 500,
+  "valid_samples": 361,
+  "failed_samples": 139,
+  "accuracy": 0.9224376731301939,
+  "macro_f1": 0.9174183006535948,
+  "paper_accuracy": 0.7362,
+  "paper_macro_f1": 0.6667,
+  "confusion_matrix": [
+    [
+      122,
+      21
+    ],
+    [
+      7,
+      211
+    ]
+  ],
+  "load_time_seconds": 39.79470229148865,
+  "inference_time_seconds": 531.0239171981812,
+  "avg_time_per_sample": 1.0620478343963624,
+  "sample_outputs": [
+    {
+      "index": 0,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This text contains several red flags that indicate it's a work of misinformation:\n\n1.  The text",
+      "correct": true
+    },
+    {
+      "index": 1,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (AP) and reports on a real event (",
+      "correct": true
+    },
+    {
+      "index": 2,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": ", said the list will help clarify the rules. â€œIt will give us a better understanding",
+      "correct": false
+    },
+    {
+      "index": 3,
+      "true_label": "Fake",
+      "pred_label": "Real",
+      "response": "This text appears to be a personal opinion or a philosophical statement rather than a factual report about public pensions",
+      "correct": false
+    },
+    {
+      "index": 4,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "This article is a collection of quotes and observations from various individuals and sources, but it does not provide",
+      "correct": false
+    },
+    {
+      "index": 5,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text is a news article from a reputable source (Reuters) and reports on a real event.",
+      "correct": true
+    },
+    {
+      "index": 6,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This text is a fabrication.",
+      "correct": true
+    },
+    {
+      "index": 7,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This article is from the New York Times, a reliable source.",
+      "correct": true
+    },
+    {
+      "index": 8,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from the Washington Post, and it reports on a real event and quotes",
+      "correct": true
+    },
+    {
+      "index": 9,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (Bloomberg) and reports on actual events and",
+      "correct": true
+    },
+    {
+      "index": 10,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This text is a satirical article about a fictional Java code, and it's not a real programming",
+      "correct": true
+    },
+    {
+      "index": 11,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This article is a true story about Ryan Speedo Green, a singer who rose to fame after a",
+      "correct": true
+    },
+    {
+      "index": 12,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article contains false information.",
+      "correct": true
+    },
+    {
+      "index": 13,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from Reuters, a reputable news agency.",
+      "correct": true
+    },
+    {
+      "index": 14,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text appears to be a genuine news article from Reuters, a reputable news agency.",
+      "correct": true
+    },
+    {
+      "index": 15,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (Reuters) and reports on a real event (",
+      "correct": true
+    },
+    {
+      "index": 16,
+      "true_label": "True",
+      "pred_label": "Fake",
+      "response": "This user-generated content is false.",
+      "correct": false
+    },
+    {
+      "index": 17,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article is a fabrication.",
+      "correct": true
+    },
+    {
+      "index": 18,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article appears to be a fabrication, as it contains several inaccuracies and inconsistencies.",
+      "correct": true
+    },
+    {
+      "index": 19,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "it.",
+      "correct": false
+    },
+    {
+      "index": 20,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": ".â€",
+      "correct": false
+    },
+    {
+      "index": 21,
+      "true_label": "Fake",
+      "pred_label": "Real",
+      "response": "This text is a work of fiction, not a factual news article.",
+      "correct": false
+    },
+    {
+      "index": 22,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This answer is: 1. True",
+      "correct": true
+    },
+    {
+      "index": 23,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "loy would be too great. But, the US will continue to posture and threaten, and the western",
+      "correct": false
+    },
+    {
+      "index": 24,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This text contains several false claims and misrepresentations about Dr. William Thompson, the CDC, and",
+      "correct": true
+    },
+    {
+      "index": 25,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article contains false information and is a misleading representation of the facts.",
+      "correct": true
+    },
+    {
+      "index": 26,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from 2016, and the information it contains is accurate.",
+      "correct": true
+    },
+    {
+      "index": 27,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text is a news article from 2017, and the information it contains is accurate.",
+      "correct": true
+    },
+    {
+      "index": 28,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "magazine's editor-in-chief is a Muslim \nUS Congress to pass bill to make 'I'm with",
+      "correct": false
+    },
+    {
+      "index": 29,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article is a conspiracy theory with no basis in fact.",
+      "correct": true
+    },
+    {
+      "index": 30,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text appears to be a factual news article from a reputable source (Reuters) and reports on a",
+      "correct": true
+    },
+    {
+      "index": 31,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This article is a commentary piece from a conservative perspective, and it is not a factual news report.",
+      "correct": true
+    },
+    {
+      "index": 32,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This article is a true news report from Reuters, a reputable news agency.",
+      "correct": true
+    },
+    {
+      "index": 33,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text appears to be a factual report on a press call by the U.S. House Committee on",
+      "correct": true
+    },
+    {
+      "index": 34,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": "as women.\n\n\"Donald Trump has to be a different person in the general election than he was in",
+      "correct": false
+    },
+    {
+      "index": 35,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This article was funded in part by SAP. It was independently created by the Reuters editorial staff. SAP",
+      "correct": true
+    },
+    {
+      "index": 36,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text is a news article from Reuters, a reputable news source, and it reports on a statement",
+      "correct": true
+    },
+    {
+      "index": 37,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": "British government. â€œIlya is a great guy, but he is not a good fit",
+      "correct": false
+    },
+    {
+      "index": 38,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article contains several inaccuracies and misleading information.",
+      "correct": true
+    },
+    {
+      "index": 39,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text appears to be a factual report from a news source, and the quotes from President Moon Jae",
+      "correct": true
+    },
+    {
+      "index": 40,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text is a news article from a reputable source (AP News) and reports on a real event",
+      "correct": true
+    },
+    {
+      "index": 41,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This text contains false information about the Senate Democrats forcing Republicans to vote for things they might not otherwise vote",
+      "correct": true
+    },
+    {
+      "index": 42,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (Reuters) and reports on a real event (",
+      "correct": true
+    },
+    {
+      "index": 43,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a true report of a speech given by President Donald Trump.",
+      "correct": true
+    },
+    {
+      "index": 44,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The article is a news report from a reputable source (BBC) and the information presented appears to be",
+      "correct": true
+    },
+    {
+      "index": 45,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This answer is: 1. True",
+      "correct": true
+    },
+    {
+      "index": 46,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text is a news article from a reputable source (AP) and reports on a specific event (",
+      "correct": true
+    },
+    {
+      "index": 47,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": "â€”   are more likely to speak up.",
+      "correct": false
+    },
+    {
+      "index": 48,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "This article is an opinion piece written by Justin Raimondo, a columnist for Antiwar.com.",
+      "correct": false
+    },
+    {
+      "index": 49,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": ", and the politicians who serve the interests of the wealthy are rewarded with campaign contributions and other perks.",
+      "correct": false
+    },
+    {
+      "index": 50,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from The New York Times, and it reports on a real event.",
+      "correct": true
+    },
+    {
+      "index": 51,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from The New York Times, and it reports on a real event:",
+      "correct": true
+    },
+    {
+      "index": 52,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text appears to be a factual report from a news source, and the quotes from the U.N",
+      "correct": true
+    },
+    {
+      "index": 53,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": "€",
+      "correct": false
+    },
+    {
+      "index": 54,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (Reuters) and reports on a real event (",
+      "correct": true
+    },
+    {
+      "index": 55,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This item is false.",
+      "correct": true
+    },
+    {
+      "index": 56,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "This text is a satirical piece written in the style of a negative review, but it's actually",
+      "correct": false
+    },
+    {
+      "index": 57,
+      "true_label": "True",
+      "pred_label": "Fake",
+      "response": "0. Fake",
+      "correct": false
+    },
+    {
+      "index": 58,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article is a fabrication.",
+      "correct": true
+    },
+    {
+      "index": 59,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (Reuters) and reports on a real event (",
+      "correct": true
+    },
+    {
+      "index": 60,
+      "true_label": "Fake",
+      "pred_label": "Real",
+      "response": "This text is an opinion piece, not a factual report.",
+      "correct": false
+    },
+    {
+      "index": 61,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text appears to be a factual news report from a reputable source, and the information it contains is",
+      "correct": true
+    },
+    {
+      "index": 62,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article appears to be a work of fiction or a hoax, as it contains numerous inaccuracies and",
+      "correct": true
+    },
+    {
+      "index": 63,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This text is a strongly opinionated and polemical piece that uses inflammatory language and conspiracy theories to",
+      "correct": true
+    },
+    {
+      "index": 64,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": "they want to be heard, can use their platforms to speak out against Trump.",
+      "correct": false
+    },
+    {
+      "index": 65,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article appears to be a fabrication, as it contains several inaccuracies and misquotes.",
+      "correct": true
+    },
+    {
+      "index": 66,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a factual report from a news agency (Xinhua) about a meeting of the",
+      "correct": true
+    },
+    {
+      "index": 67,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a true story about a gay man's experiences with violence and persecution in Haiti and his",
+      "correct": true
+    },
+    {
+      "index": 68,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "atism Inc. will finally take the advice of Peter Brimelow and Edwin S. Rubenstein and",
+      "correct": false
+    },
+    {
+      "index": 69,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This item is false.",
+      "correct": true
+    },
+    {
+      "index": 70,
+      "true_label": "Fake",
+      "pred_label": "Real",
+      "response": "This text is a satirical piece, not a factual report.",
+      "correct": false
+    },
+    {
+      "index": 71,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": "side will take away their rights, their land, or their lives.",
+      "correct": false
+    },
+    {
+      "index": 72,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (Reuters) and reports on a real event (",
+      "correct": true
+    },
+    {
+      "index": 73,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": "",
+      "correct": false
+    },
+    {
+      "index": 74,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "This item is a political opinion piece.",
+      "correct": false
+    },
+    {
+      "index": 75,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This news article from Legal Insurrection contains several inaccuracies and misleading information.",
+      "correct": true
+    },
+    {
+      "index": 76,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The article is based on real events and quotes from credible sources, including the United Nations.",
+      "correct": true
+    },
+    {
+      "index": 77,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This statement is a conspiracy theory that has been widely debunked by historians and experts. The Maidan",
+      "correct": true
+    },
+    {
+      "index": 78,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This text contains false information about the VA spending millions of dollars on high-end art.",
+      "correct": true
+    },
+    {
+      "index": 79,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This news article is a collection of false and misleading information.",
+      "correct": true
+    },
+    {
+      "index": 80,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": "This text is a quote from a news article, and the content appears to be a direct quote from",
+      "correct": false
+    },
+    {
+      "index": 81,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "Arnold Schwarzenegger has not condemned Donald Trump or announced that he will not be voting Republican",
+      "correct": false
+    },
+    {
+      "index": 82,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article contains several inaccuracies and misleading statements about the Affordable Care Act (ACA) and the Trump",
+      "correct": true
+    },
+    {
+      "index": 83,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text is a news article from a reputable source (Reuters) and reports on a real event:",
+      "correct": true
+    },
+    {
+      "index": 84,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (AP) and reports on a real event,",
+      "correct": true
+    },
+    {
+      "index": 85,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This text is a fabrication.",
+      "correct": true
+    },
+    {
+      "index": 86,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a true article about actress Naomie Harris and her fashion choices.",
+      "correct": true
+    },
+    {
+      "index": 87,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article contains false information.",
+      "correct": true
+    },
+    {
+      "index": 88,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "This text is a collection of opinions and predictions about the 2016 US presidential election, specifically about",
+      "correct": false
+    },
+    {
+      "index": 89,
+      "true_label": "Fake",
+      "pred_label": "Real",
+      "response": "This article is a satirical piece, not a factual news report.",
+      "correct": false
+    },
+    {
+      "index": 90,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This text contains several red flags that indicate it's a fabrication:\n\n1.  The text is written",
+      "correct": true
+    },
+    {
+      "index": 91,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": ", the debate over these issues is likely to be intense.",
+      "correct": false
+    },
+    {
+      "index": 92,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text appears to be a factual report from a news source, and the information it contains is consistent",
+      "correct": true
+    },
+    {
+      "index": 93,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article is entirely false.",
+      "correct": true
+    },
+    {
+      "index": 94,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (CNN) and reports on a real event (",
+      "correct": true
+    },
+    {
+      "index": 95,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "This user does not have an account on this site.",
+      "correct": false
+    },
+    {
+      "index": 96,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": "This article is a fact-checking piece that examines Donald Trump's claim that he opposed the 200",
+      "correct": false
+    },
+    {
+      "index": 97,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text is a news article from The New York Times, and the events described are real.",
+      "correct": true
+    },
+    {
+      "index": 98,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a factual news article about Hillary Clinton's presidential campaign.",
+      "correct": true
+    },
+    {
+      "index": 99,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article is a collection of conspiracy theories and misinformation about the concept of individual power and the education system",
+      "correct": true
+    },
+    {
+      "index": 100,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (The New York Times) and reports on a",
+      "correct": true
+    },
+    {
+      "index": 101,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "The text you provided is a collection of tweets that appear to be from various individuals, including Hector More",
+      "correct": false
+    },
+    {
+      "index": 102,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "The article contains several inaccuracies and misquotes.",
+      "correct": false
+    },
+    {
+      "index": 103,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This article is from the New York Times, a reputable news source.",
+      "correct": true
+    },
+    {
+      "index": 104,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "This article is a satirical piece, and the app \"Equipay\" is not real.",
+      "correct": false
+    },
+    {
+      "index": 105,
+      "true_label": "Fake",
+      "pred_label": "Real",
+      "response": "This article is a satirical piece, not a factual report.",
+      "correct": false
+    },
+    {
+      "index": 106,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (Reuters) and reports on a real event (",
+      "correct": true
+    },
+    {
+      "index": 107,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article appears to be a conspiracy theory piece with a clear bias against Hillary Clinton and the Democratic Party",
+      "correct": true
+    },
+    {
+      "index": 108,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text appears to be a news article from a reputable source (Reuters) and reports on a specific",
+      "correct": true
+    },
+    {
+      "index": 109,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (ARD public broadcaster) and reports on a real",
+      "correct": true
+    },
+    {
+      "index": 110,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article contains misinformation and inaccuracies.",
+      "correct": true
+    },
+    {
+      "index": 111,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (AP) and reports on a real event (",
+      "correct": true
+    },
+    {
+      "index": 112,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (Reuters) and reports on a real event and",
+      "correct": true
+    },
+    {
+      "index": 113,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "considered to be Cuban citizens. But Cuban citizens who are paid a million dollars to play for a Cuban",
+      "correct": false
+    },
+    {
+      "index": 114,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a direct quote from a news article, and it reports on a real event and a",
+      "correct": true
+    },
+    {
+      "index": 115,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article contains false information and misleading comparisons.",
+      "correct": true
+    },
+    {
+      "index": 116,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": ". â€œThey feel like theyâ€™re just stuck.â€",
+      "correct": false
+    },
+    {
+      "index": 117,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a factual report from a news source (AP) and is likely to be true.",
+      "correct": true
+    },
+    {
+      "index": 118,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "The text is a fabrication, and the program described does not exist.",
+      "correct": true
+    },
+    {
+      "index": 119,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": "This text appears to be a news article from Breitbart Texas, a conservative news outlet.",
+      "correct": false
+    },
+    {
+      "index": 120,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "for the early use of nuclear weapons to deter NATO from intervening in a conflict. This is a doctrine",
+      "correct": false
+    },
+    {
+      "index": 121,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This text contains several indicators of misinformation, including:\n\n*   The quote from Andrew Stein is taken out",
+      "correct": true
+    },
+    {
+      "index": 122,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": "Islam: The Search for the Ummah.â€ â€œThe children of immigrants",
+      "correct": false
+    },
+    {
+      "index": 123,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "the 44,106 ozs of gold deposits. BCR gold position as of 30 September",
+      "correct": false
+    },
+    {
+      "index": 124,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "and communities",
+      "correct": false
+    },
+    {
+      "index": 125,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text is a news article from a reputable source (AP) and reports on a real event and",
+      "correct": true
+    },
+    {
+      "index": 126,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "The text contains several inaccuracies and false statements.",
+      "correct": true
+    },
+    {
+      "index": 127,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article contains several false claims about voter fraud in the United States.",
+      "correct": true
+    },
+    {
+      "index": 128,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "1st century A. D. It is a Roman copy of a Greek original, and is",
+      "correct": true
+    },
+    {
+      "index": 129,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is true because Corsican nationalists did win a significant number of votes in the local election,",
+      "correct": true
+    },
+    {
+      "index": 130,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (AP) and reports on a real event.",
+      "correct": true
+    },
+    {
+      "index": 131,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "began to jail those arrested, including Zarqawi. The author attributes this shift to the U.S",
+      "correct": false
+    },
+    {
+      "index": 132,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text is a news article from Reuters, a reputable news agency, and it reports on a statement",
+      "correct": true
+    },
+    {
+      "index": 133,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text appears to be a factual news report from a reputable source (Reuters) and does not contain",
+      "correct": true
+    },
+    {
+      "index": 134,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from The New York Times, and it reports on a real event:",
+      "correct": true
+    },
+    {
+      "index": 135,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article contains several red flags that indicate it's a fake:\n\n1.  The article is from",
+      "correct": true
+    },
+    {
+      "index": 136,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "The text is a fabrication.",
+      "correct": true
+    },
+    {
+      "index": 137,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text is a news article from a reputable source (Reuters) and reports on a real event,",
+      "correct": true
+    },
+    {
+      "index": 138,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (AP) and reports on a real event:",
+      "correct": true
+    },
+    {
+      "index": 139,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "into his own survival and preparedness strategies.",
+      "correct": false
+    },
+    {
+      "index": 140,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": "is not doing enough.â€\n\nThe Clinton campaign and its allies have raised $1.",
+      "correct": false
+    },
+    {
+      "index": 141,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This text is a collection of tweets and a letter that is not true.",
+      "correct": true
+    },
+    {
+      "index": 142,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This item is a conspiracy theory.",
+      "correct": true
+    },
+    {
+      "index": 143,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This article is a news report from a reputable source (Reuters) and appears to be a factual account",
+      "correct": true
+    },
+    {
+      "index": 144,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": ": Obama to give Castro a ride to the moon on SpaceX rocket \nUS to send 100,",
+      "correct": false
+    },
+    {
+      "index": 145,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is true.",
+      "correct": true
+    },
+    {
+      "index": 146,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (AP) and reports on a real event.",
+      "correct": true
+    },
+    {
+      "index": 147,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article contains several inaccuracies and misleading statements.",
+      "correct": true
+    },
+    {
+      "index": 148,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This text is a collection of exaggerated and misleading health claims about the benefits of drinking carrot juice.",
+      "correct": true
+    },
+    {
+      "index": 149,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article is a collection of misleading and false statements about profiling, terrorism, and the left.",
+      "correct": true
+    },
+    {
+      "index": 150,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "The text appears to be a promotional piece for a radio show, but it's written in a style",
+      "correct": false
+    },
+    {
+      "index": 151,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article is a collection of misinformation and conspiracy theories about the 2016 US presidential election.",
+      "correct": true
+    },
+    {
+      "index": 152,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text is a news article from a reputable source (CNN) and reports on a real event (",
+      "correct": true
+    },
+    {
+      "index": 153,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": "This text is written by Dr. W. David Montgomery, an expert on the economic issues associated with",
+      "correct": false
+    },
+    {
+      "index": 154,
+      "true_label": "Fake",
+      "pred_label": "Real",
+      "response": "This article appears to be a promotional piece rather than a factual news article.",
+      "correct": false
+    },
+    {
+      "index": 155,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text is a news article from a reputable source (AP) and reports on a real event (",
+      "correct": true
+    },
+    {
+      "index": 156,
+      "true_label": "Fake",
+      "pred_label": "Real",
+      "response": "The Washington Post did not report that the Donald J. Trump Foundation paid a $2,500 fine",
+      "correct": false
+    },
+    {
+      "index": 157,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "This article was written by Ron Paul, a former U.S. congressman and libertarian activist.",
+      "correct": false
+    },
+    {
+      "index": 158,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This text contains several inaccuracies and misleading statements about the European Union and its member countries.",
+      "correct": true
+    },
+    {
+      "index": 159,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This text is a collection of false statements and misleading information.",
+      "correct": true
+    },
+    {
+      "index": 160,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "him? \nMr. Abay Tsehaye’s reference to Rwanda \nMr. Abay",
+      "correct": false
+    },
+    {
+      "index": 161,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "This article contains several inaccuracies and exaggerations.",
+      "correct": false
+    },
+    {
+      "index": 162,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article is a fabrication.",
+      "correct": true
+    },
+    {
+      "index": 163,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article is a fabrication.",
+      "correct": true
+    },
+    {
+      "index": 164,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (The New York Times) and reports on a",
+      "correct": true
+    },
+    {
+      "index": 165,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "will be gone.” Dolores: “What about the physical changes?” SC: “The body will",
+      "correct": false
+    },
+    {
+      "index": 166,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (The Washington Post) and reports on a real",
+      "correct": true
+    },
+    {
+      "index": 167,
+      "true_label": "Fake",
+      "pred_label": "Real",
+      "response": "This article is a satirical piece, not a factual news report.",
+      "correct": false
+    },
+    {
+      "index": 168,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text is a news article from a reputable source (AP) and reports on a real event.",
+      "correct": true
+    },
+    {
+      "index": 169,
+      "true_label": "True",
+      "pred_label": "Fake",
+      "response": "This text is from Breitbart London, a right-wing news outlet known for its biased and sensationalized reporting",
+      "correct": false
+    },
+    {
+      "index": 170,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article is a collection of conspiracy theories and misinformation.",
+      "correct": true
+    },
+    {
+      "index": 171,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "The proclamation you're referring to is not from President Obama, but from President Trump.",
+      "correct": false
+    },
+    {
+      "index": 172,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": "about his business dealings with Mr. Rybolovlev, and that he had been a client of",
+      "correct": false
+    },
+    {
+      "index": 173,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text is a news article from a reputable source (Reuters) and reports on a real court case",
+      "correct": true
+    },
+    {
+      "index": 174,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": "payments on the increased debt. What Mrs. Clinton would do: She would raise taxes on the wealthy",
+      "correct": false
+    },
+    {
+      "index": 175,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "” or “Turkish Stream.” \nThe Turkish Stream pipeline, which would run from Turkey to Europe",
+      "correct": false
+    },
+    {
+      "index": 176,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": "This text is a profile of Stephen K. Bannon's political philosophy, which is based on his public",
+      "correct": false
+    },
+    {
+      "index": 177,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from The New York Times, and it reports on a statement made by",
+      "correct": true
+    },
+    {
+      "index": 178,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a direct quote from a government spokeswoman, indicating that it is a true statement.",
+      "correct": true
+    },
+    {
+      "index": 179,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is largely true.",
+      "correct": true
+    },
+    {
+      "index": 180,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text is a news article from a reputable source (Arab News) and reports on a real",
+      "correct": true
+    },
+    {
+      "index": 181,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": ".",
+      "correct": false
+    },
+    {
+      "index": 182,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "teller, Gerard’s book is the most authoritative. Gerard’s book is the only one that questions",
+      "correct": false
+    },
+    {
+      "index": 183,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a real news article from the Washington Post, dated January 22, 2018",
+      "correct": true
+    },
+    {
+      "index": 184,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text appears to be a factual news report from a reputable news source (Reuters), and it reports",
+      "correct": true
+    },
+    {
+      "index": 185,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "Neumeyer: “Eric, I think the price of silver will be much higher than $30",
+      "correct": false
+    },
+    {
+      "index": 186,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This article is a true news report from Reuters, a reputable news agency.",
+      "correct": true
+    },
+    {
+      "index": 187,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text appears to be a factual report from a news source, and the information it contains is consistent",
+      "correct": true
+    },
+    {
+      "index": 188,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from The New York Times, and it reports on a real event and",
+      "correct": true
+    },
+    {
+      "index": 189,
+      "true_label": "Fake",
+      "pred_label": "Real",
+      "response": "The Miami Herald is a reputable news source, but the article you're referring to is likely a headline",
+      "correct": false
+    },
+    {
+      "index": 190,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": "â€”   weâ€™re not just walking away from them, weâ€™re",
+      "correct": false
+    },
+    {
+      "index": 191,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (The New York Times) and reports on a",
+      "correct": true
+    },
+    {
+      "index": 192,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": ". Paul, who was averaging 18. 1 points, 9. 3 assists and",
+      "correct": false
+    },
+    {
+      "index": 193,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "This text is a satirical piece, not a genuine comment from a Detroit Lions fan.",
+      "correct": false
+    },
+    {
+      "index": 194,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This text contains false information about Ukraine's measles morbidity rates and the role of Ulana Suprun",
+      "correct": true
+    },
+    {
+      "index": 195,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": "The text is a quote from a State Department spokeswoman, Heather Nauert, and a report on",
+      "correct": false
+    },
+    {
+      "index": 196,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "This article is a commentary on a leaked audio recording of UK Prime Minister Theresa May speaking to a group",
+      "correct": false
+    },
+    {
+      "index": 197,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from the New York Times, dated March 2, 2016",
+      "correct": true
+    },
+    {
+      "index": 198,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "This article is a collection of unrelated information about Rene Boucher, the man accused of assaulting Senator Rand",
+      "correct": false
+    },
+    {
+      "index": 199,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from The New York Times, and it reports on a real event and",
+      "correct": true
+    },
+    {
+      "index": 200,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "event occur to Trump, the public would be primed to accept the most outlandish and base",
+      "correct": false
+    },
+    {
+      "index": 201,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "Manny MUA is a male makeup artist and YouTube personality, but I couldn't verify that he",
+      "correct": false
+    },
+    {
+      "index": 202,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from The New York Times, and it reports on the reaction of the",
+      "correct": true
+    },
+    {
+      "index": 203,
+      "true_label": "Fake",
+      "pred_label": "Real",
+      "response": "The post contains a mix of alarmist language and sensationalist tactics, but lacks credible evidence to support",
+      "correct": false
+    },
+    {
+      "index": 204,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text is a news article from a reputable source (CNN) and reports on a specific event (",
+      "correct": true
+    },
+    {
+      "index": 205,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article contains misinformation about the accuracy of polls and the intentions of the media.",
+      "correct": true
+    },
+    {
+      "index": 206,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is true.",
+      "correct": true
+    },
+    {
+      "index": 207,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": "percent of the familyâ€™s income, and her husband was grateful. But he was also uneasy",
+      "correct": false
+    },
+    {
+      "index": 208,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This text is a satirical piece that presents a fictional and exaggerated view of the Obama era and its",
+      "correct": true
+    },
+    {
+      "index": 209,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from The New York Times, and it reports on the decline of retail",
+      "correct": true
+    },
+    {
+      "index": 210,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "This text is a promotional piece, not a news article.",
+      "correct": false
+    },
+    {
+      "index": 211,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": "hateful, divisive campaign. â€ In New Jersey, Senator Cory Booker, a Democrat,",
+      "correct": false
+    },
+    {
+      "index": 212,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (Reuters) and reports on a real event (",
+      "correct": true
+    },
+    {
+      "index": 213,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article contains false information about the law and its effects.",
+      "correct": true
+    },
+    {
+      "index": 214,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (Reuters) and reports on actual events and quotes",
+      "correct": true
+    },
+    {
+      "index": 215,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "The text is a fabrication.",
+      "correct": true
+    },
+    {
+      "index": 216,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article is a fabrication.",
+      "correct": true
+    },
+    {
+      "index": 217,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text is a news article from a reputable source (AP) and reports on a real event (",
+      "correct": true
+    },
+    {
+      "index": 218,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is an article from the New York Daily News, a reputable news source.",
+      "correct": true
+    },
+    {
+      "index": 219,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is based on real events and quotes from actual people, including a South Korean lawmaker and a",
+      "correct": true
+    },
+    {
+      "index": 220,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (CNBC) and reports on a real event",
+      "correct": true
+    },
+    {
+      "index": 221,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a quote from Chuck Todd, a host on MSNBC, and it's a real statement",
+      "correct": true
+    },
+    {
+      "index": 222,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article is false. The Trans-Pacific Partnership (TPP) and the Transatlantic Trade and",
+      "correct": true
+    },
+    {
+      "index": 223,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (AP) and reports on a real event and",
+      "correct": true
+    },
+    {
+      "index": 224,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "war with the very same terrorists.",
+      "correct": false
+    },
+    {
+      "index": 225,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "This article contains several inaccuracies and biased language.",
+      "correct": false
+    },
+    {
+      "index": 226,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This answer is: 1. True",
+      "correct": true
+    },
+    {
+      "index": 227,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "The text is a disclaimer from a website (ZeroHedge.com) that is warning readers that the",
+      "correct": false
+    },
+    {
+      "index": 228,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (The New York Times) and reports on a",
+      "correct": true
+    },
+    {
+      "index": 229,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text is a news article from a reputable source (Reuters) and reports on a specific event (",
+      "correct": true
+    },
+    {
+      "index": 230,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a factual report on the Catalan legal framework for independence, including the legislation passed in the",
+      "correct": true
+    },
+    {
+      "index": 231,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "The text is a fabrication.",
+      "correct": true
+    },
+    {
+      "index": 232,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "This article contains numerous inaccuracies and exaggerations.",
+      "correct": false
+    },
+    {
+      "index": 233,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": "health care providers in the country. â€œIt would be a shame if they were to leave",
+      "correct": false
+    },
+    {
+      "index": 234,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text is a news article from The New York Times, and the information it contains is accurate.",
+      "correct": true
+    },
+    {
+      "index": 235,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "income by 10%.The global warming crowd is not just about saving the planet... it",
+      "correct": false
+    },
+    {
+      "index": 236,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": "for their own interests. And the rise of the Islamic State and other extremist groups has made it harder",
+      "correct": false
+    },
+    {
+      "index": 237,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": "thing that was clear,â€ he said. â€œThe European Union is not going",
+      "correct": false
+    },
+    {
+      "index": 238,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text is a news article from Reuters, a reputable news agency, and the events described are real",
+      "correct": true
+    },
+    {
+      "index": 239,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text is a news article from Reuters, a reputable news agency, and it reports on a real",
+      "correct": true
+    },
+    {
+      "index": 240,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text is a news article from The New York Times, and it appears to be a factual report",
+      "correct": true
+    },
+    {
+      "index": 241,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This news article appears to be a fabrication, likely created to promote a particular agenda or ideology.",
+      "correct": true
+    },
+    {
+      "index": 242,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "This publication does not meet our standards for accuracy and quality.",
+      "correct": false
+    },
+    {
+      "index": 243,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text is a news article from a reputable source (AP) and reports on a real event (",
+      "correct": true
+    },
+    {
+      "index": 244,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "by selling our private data to the government for profit.",
+      "correct": false
+    },
+    {
+      "index": 245,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This text is a collection of false information.",
+      "correct": true
+    },
+    {
+      "index": 246,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "This text is a political opinion piece that contains several inaccuracies and biased statements.",
+      "correct": false
+    },
+    {
+      "index": 247,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (AP) and reports on actual events and quotes",
+      "correct": true
+    },
+    {
+      "index": 248,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a true news article from a reputable source (AP News).",
+      "correct": true
+    },
+    {
+      "index": 249,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This text contains misinformation and biased language.",
+      "correct": true
+    },
+    {
+      "index": 250,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article appears to be a fabrication or a piece of propaganda, as it contains several inaccuracies and",
+      "correct": true
+    },
+    {
+      "index": 251,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": ". â€œI think it was because he was ashamed of his father.â€ Mr",
+      "correct": false
+    },
+    {
+      "index": 252,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "This text contains several inaccuracies and misrepresentations of the Swedish government's policy on ISIS fighters returning",
+      "correct": false
+    },
+    {
+      "index": 253,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This text appears to be sensational and attention-grabbing, which is a common trait of misinformation.",
+      "correct": true
+    },
+    {
+      "index": 254,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "The text contains several inaccuracies and misleading statements about the Clinton Foundation and its donors.",
+      "correct": true
+    },
+    {
+      "index": 255,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": "The text is a personal essay by an American historian, not a biography of Chester A. Arthur.",
+      "correct": false
+    },
+    {
+      "index": 256,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text appears to be a genuine news article, and the quotes from David Davis and Guy Verhof",
+      "correct": true
+    },
+    {
+      "index": 257,
+      "true_label": "True",
+      "pred_label": "Fake",
+      "response": "This text is actually 0. Fake.",
+      "correct": false
+    },
+    {
+      "index": 258,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "This text is a collection of emails that appear to be from the Podesta emails released by Wikileaks,",
+      "correct": false
+    },
+    {
+      "index": 259,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article contains false information.",
+      "correct": true
+    },
+    {
+      "index": 260,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from Reuters, a reputable news source, and it reports on a real",
+      "correct": true
+    },
+    {
+      "index": 261,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text appears to be a factual news report from a reputable source (Reuters) and describes actual events",
+      "correct": true
+    },
+    {
+      "index": 262,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from Reuters, a reputable news source.",
+      "correct": true
+    },
+    {
+      "index": 263,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": "thought through,â€ says Ms. Lewis. â€œWe were trying to make it",
+      "correct": false
+    },
+    {
+      "index": 264,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "Tulsi Gabbard was a supporter of Donald Trump in 2020, not Bernie Sanders",
+      "correct": false
+    },
+    {
+      "index": 265,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from The New York Times, and it reports on Facebook's efforts to",
+      "correct": true
+    },
+    {
+      "index": 266,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (AP) and reports on a real event (",
+      "correct": true
+    },
+    {
+      "index": 267,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a quote from Sen. Rand Paul, so it is true.",
+      "correct": true
+    },
+    {
+      "index": 268,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text appears to be a factual news report from a reputable source, and the events described are publicly",
+      "correct": true
+    },
+    {
+      "index": 269,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article is a fabrication.",
+      "correct": true
+    },
+    {
+      "index": 270,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This text contains several inaccuracies and misinformation.",
+      "correct": true
+    },
+    {
+      "index": 271,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This article is a true news report from a reputable source (The Wall Street Journal).",
+      "correct": true
+    },
+    {
+      "index": 272,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This article is factually accurate.",
+      "correct": true
+    },
+    {
+      "index": 273,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is based on real events and can be verified through other news sources.",
+      "correct": true
+    },
+    {
+      "index": 274,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (WSB and KPTV) and reports",
+      "correct": true
+    },
+    {
+      "index": 275,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news report from a credible source (RIA news agency and Interfax news agency)",
+      "correct": true
+    },
+    {
+      "index": 276,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text is a news article from Reuters, and it reports on the efforts of the Mexican government to",
+      "correct": true
+    },
+    {
+      "index": 277,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "This text contains several inaccuracies and biased statements.",
+      "correct": false
+    },
+    {
+      "index": 278,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a factual report on the appointments of Donald Trump's cabinet members.",
+      "correct": true
+    },
+    {
+      "index": 279,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "rebels continued to use sarin gas on civilians in Syria.",
+      "correct": false
+    },
+    {
+      "index": 280,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text appears to be a factual report from a news source, and it quotes a real person (",
+      "correct": true
+    },
+    {
+      "index": 281,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article is a fabrication.",
+      "correct": true
+    },
+    {
+      "index": 282,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a true news article from the New York Times.",
+      "correct": true
+    },
+    {
+      "index": 283,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (AP) and reports on a real event (",
+      "correct": true
+    },
+    {
+      "index": 284,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article contains several inaccuracies and misinformation about the effects of Proposition 64, also known as the",
+      "correct": true
+    },
+    {
+      "index": 285,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text is a news article from a reputable source (AP) and the information it contains is accurate",
+      "correct": true
+    },
+    {
+      "index": 286,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article contains false information about Governor Chris Christie's stance on Planned Parenthood and the federal budget.",
+      "correct": true
+    },
+    {
+      "index": 287,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a quote from former Secretary of State John Kerry, and it accurately reflects his views on",
+      "correct": true
+    },
+    {
+      "index": 288,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This article is a true news report from Reuters.",
+      "correct": true
+    },
+    {
+      "index": 289,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This article is based on real events and quotes from actual people.",
+      "correct": true
+    },
+    {
+      "index": 290,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "Lo siento, pero no puedo proporcionar información sobre cómo comunicarse con el equipo de moderadores",
+      "correct": false
+    },
+    {
+      "index": 291,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text is a news article from CNN, and the statements made in it are based on facts and",
+      "correct": true
+    },
+    {
+      "index": 292,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (Breitbart Jerusalem) and reports on a specific",
+      "correct": true
+    },
+    {
+      "index": 293,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text appears to be a factual news report from a reputable source (AP).",
+      "correct": true
+    },
+    {
+      "index": 294,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article contains several inaccuracies and misleading statements.",
+      "correct": true
+    },
+    {
+      "index": 295,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (Reuters) and appears to be a factual report",
+      "correct": true
+    },
+    {
+      "index": 296,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "This article contains numerous inaccuracies and exaggerations.",
+      "correct": false
+    },
+    {
+      "index": 297,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This article was funded in part by SAP. It was independently created by the Reuters editorial staff. SAP",
+      "correct": true
+    },
+    {
+      "index": 298,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This text is a collection of conspiracy theories and misinformation about the Obama administration's policies and programs.",
+      "correct": true
+    },
+    {
+      "index": 299,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (Reuters) and reports on a real event (",
+      "correct": true
+    },
+    {
+      "index": 300,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (The New York Times) and reports on a",
+      "correct": true
+    },
+    {
+      "index": 301,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "The text is a news article from a news source.",
+      "correct": false
+    },
+    {
+      "index": 302,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text is a collection of news articles and stories from The New York Times about various topics related to",
+      "correct": true
+    },
+    {
+      "index": 303,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "The Pirate Party did not win 10 seats in the Icelandic parliament.",
+      "correct": false
+    },
+    {
+      "index": 304,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article contains false information.",
+      "correct": true
+    },
+    {
+      "index": 305,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": "hint: Mr. Putin said he was looking forward to a visit to Turkey in the fall.",
+      "correct": false
+    },
+    {
+      "index": 306,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article contains false information and biased reporting.",
+      "correct": true
+    },
+    {
+      "index": 307,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article contains false information about the events and quotes.",
+      "correct": true
+    },
+    {
+      "index": 308,
+      "true_label": "Fake",
+      "pred_label": "Real",
+      "response": "This article is an opinion piece that contains biased and sarcastic language, and it does not provide factual",
+      "correct": false
+    },
+    {
+      "index": 309,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is true.",
+      "correct": true
+    },
+    {
+      "index": 310,
+      "true_label": "Fake",
+      "pred_label": "Real",
+      "response": "The text appears to be a satirical article, not a factual one.",
+      "correct": false
+    },
+    {
+      "index": 311,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is supported by multiple credible sources, including Amnesty International.",
+      "correct": true
+    },
+    {
+      "index": 312,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": "do it.â€™â€ Mr. Lewis said he was drawn to Mr. Kahneman",
+      "correct": false
+    },
+    {
+      "index": 313,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from The New York Times, and it reports on the toy company Spin",
+      "correct": true
+    },
+    {
+      "index": 314,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (Reuters) and reports on a real event and",
+      "correct": true
+    },
+    {
+      "index": 315,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article is a satirical piece, and the content is not true.",
+      "correct": true
+    },
+    {
+      "index": 316,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": "can keep it.\n\nPataki has already raised $1.1 million in the first quarter of",
+      "correct": false
+    },
+    {
+      "index": 317,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (AP) and reports on a real event.",
+      "correct": true
+    },
+    {
+      "index": 318,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article is a collection of false claims about Donald Trump's campaign and policies.",
+      "correct": true
+    },
+    {
+      "index": 319,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a real quote from European Trade Commissioner Cecilia Malmström, and it's",
+      "correct": true
+    },
+    {
+      "index": 320,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "?” Ellison asked. \nMonte looked down at his shirt, then back up at the sheriff.",
+      "correct": false
+    },
+    {
+      "index": 321,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article contains numerous inaccuracies and conspiracy theories about the New World Order, Vladimir Putin, and the",
+      "correct": true
+    },
+    {
+      "index": 322,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The article is a news report from The New York Times, and the information it contains is factual.",
+      "correct": true
+    },
+    {
+      "index": 323,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This answer is correct. The article is a real news article from EurActiv.",
+      "correct": true
+    },
+    {
+      "index": 324,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article is a fabrication. Snopes is a well-established fact-checking website that has been debunk",
+      "correct": true
+    },
+    {
+      "index": 325,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": "facing prison time.",
+      "correct": false
+    },
+    {
+      "index": 326,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": "The text is a list of the Screen Actors Guild (SAG) award nominations for 2017",
+      "correct": false
+    },
+    {
+      "index": 327,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "The text appears to be a promotional piece for a radio show, but it contains language and references that",
+      "correct": false
+    },
+    {
+      "index": 328,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (Reuters) and reports on a real event (",
+      "correct": true
+    },
+    {
+      "index": 329,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "This text is a solicitation for donations to support a publication, but it's presented in a way",
+      "correct": false
+    },
+    {
+      "index": 330,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This text contains false information about Joy-Ann Reid and Al Sharpton's tax situations.",
+      "correct": true
+    },
+    {
+      "index": 331,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (Quinnipiac Poll) and reports on",
+      "correct": true
+    },
+    {
+      "index": 332,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article is a collection of false claims and misinformation.",
+      "correct": true
+    },
+    {
+      "index": 333,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is based on real events and people.",
+      "correct": true
+    },
+    {
+      "index": 334,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This article is a news report from a reputable source (Reuters) and appears to be a factual account",
+      "correct": true
+    },
+    {
+      "index": 335,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "TBQ community and their enablers are prepared to sacrifice the very freedoms they claim to cherish.",
+      "correct": false
+    },
+    {
+      "index": 336,
+      "true_label": "Fake",
+      "pred_label": "Real",
+      "response": "This item is false. The New York Times reported that Donald Trump paid $38 million in taxes in",
+      "correct": false
+    },
+    {
+      "index": 337,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "This article contains several inaccuracies and biased statements about Donald Trump's actions as President.",
+      "correct": false
+    },
+    {
+      "index": 338,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": "The text is a collection of tweets from various celebrities reacting to the Trump administration's announcement that it would",
+      "correct": false
+    },
+    {
+      "index": 339,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text is a news article from Reuters, a reputable news agency, and it reports on a real",
+      "correct": true
+    },
+    {
+      "index": 340,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text is a true obituary of Hans Rosling, a Swedish doctor and statistician.",
+      "correct": true
+    },
+    {
+      "index": 341,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "The text contains several red flags that indicate it's a fake news article:\n\n1. The tone is",
+      "correct": true
+    },
+    {
+      "index": 342,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "rather well in our analysis, even though our findings probably understate the political influence of elites.”..",
+      "correct": false
+    },
+    {
+      "index": 343,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "The text contains several inaccuracies and misquotes.",
+      "correct": false
+    },
+    {
+      "index": 344,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This news article is false.",
+      "correct": true
+    },
+    {
+      "index": 345,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text appears to be a factual report from a news agency (Reuters) and does not contain any",
+      "correct": true
+    },
+    {
+      "index": 346,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "hard we try to fill the hole of separateness with possessions, power, status, or relationships",
+      "correct": false
+    },
+    {
+      "index": 347,
+      "true_label": "Fake",
+      "pred_label": "Real",
+      "response": "This article is a satirical piece, not a factual news report.",
+      "correct": false
+    },
+    {
+      "index": 348,
+      "true_label": "Fake",
+      "pred_label": "Real",
+      "response": "This article is an opinion piece, not a factual news report.",
+      "correct": false
+    },
+    {
+      "index": 349,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article is a collection of conspiracy theories and misinformation about Hillary Clinton and her campaign.",
+      "correct": true
+    },
+    {
+      "index": 350,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": ". He said that Vision had a â€œzero tolerance policyâ€ for contractors who don",
+      "correct": false
+    },
+    {
+      "index": 351,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from Reuters, a reputable news source.",
+      "correct": true
+    },
+    {
+      "index": 352,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "blood of the innocent or the blood of the guilty, it’s all the same. The blood of",
+      "correct": false
+    },
+    {
+      "index": 353,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article is a fabrication.",
+      "correct": true
+    },
+    {
+      "index": 354,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": "the insurance companies. Paul Ryanâ€™s plan just calls it something else. Itâ€™s",
+      "correct": false
+    },
+    {
+      "index": 355,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article appears to be a biased and misleading piece of writing.",
+      "correct": true
+    },
+    {
+      "index": 356,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article contains several inaccuracies and misleading information.",
+      "correct": true
+    },
+    {
+      "index": 357,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "Street Journal reported that former GAB staff counsel Shane Falk, who was involved in the John Doe probe",
+      "correct": false
+    },
+    {
+      "index": 358,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "We have to be strong, we have to be tough, we have to be smart, we have",
+      "correct": false
+    },
+    {
+      "index": 359,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (AP) and reports on a real event.",
+      "correct": true
+    },
+    {
+      "index": 360,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article contains several inaccuracies and misinformation.",
+      "correct": true
+    },
+    {
+      "index": 361,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": "Mr. Leshchenko, who is also a former journalist. â€œItâ€™",
+      "correct": false
+    },
+    {
+      "index": 362,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article contains false information.",
+      "correct": true
+    },
+    {
+      "index": 363,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is based on real events and is reported by a news agency.",
+      "correct": true
+    },
+    {
+      "index": 364,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (Reuters) and reports on a real event,",
+      "correct": true
+    },
+    {
+      "index": 365,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": "This conversation is not a news article.",
+      "correct": false
+    },
+    {
+      "index": 366,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": "working at the restaurant in 2014, said she had been paid $450 a week for",
+      "correct": false
+    },
+    {
+      "index": 367,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article contains several red flags that indicate it's a work of fiction:\n\n1. The Global Conscious",
+      "correct": true
+    },
+    {
+      "index": 368,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a true statement.",
+      "correct": true
+    },
+    {
+      "index": 369,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text describes a real situation in Mexico City, referencing a specific earthquake (1985) and its",
+      "correct": true
+    },
+    {
+      "index": 370,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from Reuters, a reputable news source.",
+      "correct": true
+    },
+    {
+      "index": 371,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This answer is incorrect.",
+      "correct": true
+    },
+    {
+      "index": 372,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a true news article from The New York Times.",
+      "correct": true
+    },
+    {
+      "index": 373,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article contains several inaccuracies and misleading statements about Merrick Garland's record and the Senate's plans",
+      "correct": true
+    },
+    {
+      "index": 374,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This text contains several indicators of misinformation, including:\n\n1.  The use of sensational language (\"as",
+      "correct": true
+    },
+    {
+      "index": 375,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This text is not a news article, but a satirical piece written by Yves Smith, a",
+      "correct": true
+    },
+    {
+      "index": 376,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from Reuters, a reputable news agency, and it reports on a real",
+      "correct": true
+    },
+    {
+      "index": 377,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This text contains several false statements and inaccuracies about Elizabeth Warren and her views.",
+      "correct": true
+    },
+    {
+      "index": 378,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article contains numerous inaccuracies and misleading information.",
+      "correct": true
+    },
+    {
+      "index": 379,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text is a true news article from 2014.",
+      "correct": true
+    },
+    {
+      "index": 380,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text appears to be a factual news report from a reputable source (Reuters), and the events described",
+      "correct": true
+    },
+    {
+      "index": 381,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is true.",
+      "correct": true
+    },
+    {
+      "index": 382,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This text is a collection of unsubstantiated claims and conspiracy theories about Hillary Clinton.",
+      "correct": true
+    },
+    {
+      "index": 383,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article is a fabrication.",
+      "correct": true
+    },
+    {
+      "index": 384,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This article is a news article from The New York Times, and it reports on the second presidential debate",
+      "correct": true
+    },
+    {
+      "index": 385,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text is a news article from the Wall Street Journal, and its content is factual.",
+      "correct": true
+    },
+    {
+      "index": 386,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": "from his other ventures. He has a stake in a production company, Glittering Steel, that",
+      "correct": false
+    },
+    {
+      "index": 387,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from Der Spiegel, a reputable German news magazine.",
+      "correct": true
+    },
+    {
+      "index": 388,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": "into the media, or whether a charismatic leader is in the mix, all these factors can sway voters",
+      "correct": false
+    },
+    {
+      "index": 389,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "The text is a satirical piece that uses humor and irony to critique the \"manosphere\" and",
+      "correct": true
+    },
+    {
+      "index": 390,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "the 2016 presidential election, the Clinton Foundation was forced to admit that they had been involved in",
+      "correct": false
+    },
+    {
+      "index": 391,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article contains several red flags that indicate it's a fabrication:\n\n1.  The article claims that",
+      "correct": true
+    },
+    {
+      "index": 392,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "This article appears to be a collection of unrelated news items and analysis from various sources, including South Front",
+      "correct": false
+    },
+    {
+      "index": 393,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text is a factual report of a real event.",
+      "correct": true
+    },
+    {
+      "index": 394,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": "The text is a review of Carla Hall's Southern Kitchen in Brooklyn, a restaurant that serves Nashville-style",
+      "correct": false
+    },
+    {
+      "index": 395,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "This article appears to be a collection of quotes from various individuals, including volunteers and refugees, discussing their",
+      "correct": false
+    },
+    {
+      "index": 396,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text is a news article from The New York Times, and the events described in it are real",
+      "correct": true
+    },
+    {
+      "index": 397,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text appears to be a factual news report from a reputable source (Reuters).",
+      "correct": true
+    },
+    {
+      "index": 398,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "him? \nMr. Abay Tsehaye’s reference to Rwanda \nMr. Abay",
+      "correct": false
+    },
+    {
+      "index": 399,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text is a news article from a reputable source (Reuters) and reports on a real event (",
+      "correct": true
+    },
+    {
+      "index": 400,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "The UK's departure from the EU (Brexit) does not affect the membership status of other Eastern",
+      "correct": false
+    },
+    {
+      "index": 401,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a true news article from the New York Times, dated December 8, 201",
+      "correct": true
+    },
+    {
+      "index": 402,
+      "true_label": "True",
+      "pred_label": "Fake",
+      "response": "0. Fake",
+      "correct": false
+    },
+    {
+      "index": 403,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "The text is a satirical article from the show Full Frontal with Samantha Bee, and it's",
+      "correct": true
+    },
+    {
+      "index": 404,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text appears to be a factual report from a news source, and there's no indication that it",
+      "correct": true
+    },
+    {
+      "index": 405,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article is a fake news piece.",
+      "correct": true
+    },
+    {
+      "index": 406,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article is not true.",
+      "correct": true
+    },
+    {
+      "index": 407,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text is a news article from Reuters, a reputable news source, and it reports on a real",
+      "correct": true
+    },
+    {
+      "index": 408,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (NBC) and reports on a real event involving",
+      "correct": true
+    },
+    {
+      "index": 409,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (The Huffington Post) and appears to be a",
+      "correct": true
+    },
+    {
+      "index": 410,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text is a real news article from 2017 about Pope Francis' comments on the status of",
+      "correct": true
+    },
+    {
+      "index": 411,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This user-generated content is false.",
+      "correct": true
+    },
+    {
+      "index": 412,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article contains false information about the Republican Party and Donald Trump.",
+      "correct": true
+    },
+    {
+      "index": 413,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "zone over Syria. This is a thinly veiled threat to the Syrian government. The US has already",
+      "correct": false
+    },
+    {
+      "index": 414,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "This article is about the 2016 US presidential election and the reaction of the stock market to the",
+      "correct": false
+    },
+    {
+      "index": 415,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "This text appears to be a fabrication, as there is no credible evidence to support the claims made about",
+      "correct": false
+    },
+    {
+      "index": 416,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text is a news article from The New York Times, and the information it contains is accurate.",
+      "correct": true
+    },
+    {
+      "index": 417,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (AP) and reports on a real event.",
+      "correct": true
+    },
+    {
+      "index": 418,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "This article is a collection of opinions and perspectives on the foreign policy positions of Hillary Clinton and Donald Trump",
+      "correct": false
+    },
+    {
+      "index": 419,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This text is a fabrication.",
+      "correct": true
+    },
+    {
+      "index": 420,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This text contains several inaccuracies and misleading statements about President Obama's policies and actions.",
+      "correct": true
+    },
+    {
+      "index": 421,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This text is a fabrication.",
+      "correct": true
+    },
+    {
+      "index": 422,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This text contains hate speech and misinformation.",
+      "correct": true
+    },
+    {
+      "index": 423,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is an opinion piece, not a factual news article.",
+      "correct": true
+    },
+    {
+      "index": 424,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article contains several inaccuracies and misleading information.",
+      "correct": true
+    },
+    {
+      "index": 425,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": "This text is a direct quote from a news source, and it reports on a specific conversation between the",
+      "correct": false
+    },
+    {
+      "index": 426,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article contains false information about President Trump's visit to the CIA headquarters and his comments about the intelligence",
+      "correct": true
+    },
+    {
+      "index": 427,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": "was shot in the head for playing the wrong song on the jukebox. In a housing project",
+      "correct": false
+    },
+    {
+      "index": 428,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "The text appears to be a collection of short stories told by individuals who are in support of the Dakota",
+      "correct": false
+    },
+    {
+      "index": 429,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "can do it again.",
+      "correct": false
+    },
+    {
+      "index": 430,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is true.",
+      "correct": true
+    },
+    {
+      "index": 431,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (Reuters) and reports on a real event.",
+      "correct": true
+    },
+    {
+      "index": 432,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": "This text is a review of a Chris Rock comedy show.",
+      "correct": false
+    },
+    {
+      "index": 433,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (NNA, a state news agency) and",
+      "correct": true
+    },
+    {
+      "index": 434,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article is a fabrication.",
+      "correct": true
+    },
+    {
+      "index": 435,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text is a personal essay, not a factual article.",
+      "correct": true
+    },
+    {
+      "index": 436,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a true news article from Reuters, a reputable news source.",
+      "correct": true
+    },
+    {
+      "index": 437,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from the New York Times, and it is true.",
+      "correct": true
+    },
+    {
+      "index": 438,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "This article contains several inaccuracies and biased statements.",
+      "correct": false
+    },
+    {
+      "index": 439,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article contains false information and biased opinions.",
+      "correct": true
+    },
+    {
+      "index": 440,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text is a news article from a reputable source (AP) and reports on a real event (",
+      "correct": true
+    },
+    {
+      "index": 441,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": "never substantiated.\n\nFlanagan also wrote that he was \"somewhat racist against whites, blacks and",
+      "correct": false
+    },
+    {
+      "index": 442,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "This text is a work of satire, and its purpose is to entertain and provoke rather than to inform",
+      "correct": false
+    },
+    {
+      "index": 443,
+      "true_label": "True",
+      "pred_label": "Fake",
+      "response": "0. Fake",
+      "correct": false
+    },
+    {
+      "index": 444,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": "This text is a satirical piece, and the \"Beijing Bikini\" is not a real",
+      "correct": false
+    },
+    {
+      "index": 445,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": "The text is a news article from a watchdog agency, the Special Inspector General for Afghanistan Reconstruction (SIG",
+      "correct": false
+    },
+    {
+      "index": 446,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "This text is not a news article, but rather an opinion piece written by Jeffrey Snider, a",
+      "correct": false
+    },
+    {
+      "index": 447,
+      "true_label": "True",
+      "pred_label": "Fake",
+      "response": "This user query is not a statement that can be classified as 0. Fake or 1.",
+      "correct": false
+    },
+    {
+      "index": 448,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "0. Fake",
+      "correct": true
+    },
+    {
+      "index": 449,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "The text appears to be a promotional piece for a website and podcast, rather than a neutral or informative",
+      "correct": false
+    },
+    {
+      "index": 450,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text appears to be a factual news report from a reputable source (al-Arabiya television",
+      "correct": true
+    },
+    {
+      "index": 451,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (Reuters) and reports on a real event and",
+      "correct": true
+    },
+    {
+      "index": 452,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text is a factual news report from a reputable source (The Washington Post) and accurately describes the",
+      "correct": true
+    },
+    {
+      "index": 453,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article contains numerous inaccuracies and conspiracy theories about the 2016 US presidential election and the Trump",
+      "correct": true
+    },
+    {
+      "index": 454,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article is a fabrication.",
+      "correct": true
+    },
+    {
+      "index": 455,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This text contains inflammatory language and a false statement about a political candidate.",
+      "correct": true
+    },
+    {
+      "index": 456,
+      "true_label": "True",
+      "pred_label": "Unknown",
+      "response": "The article is actually a work of fiction.",
+      "correct": false
+    },
+    {
+      "index": 457,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (AP) and reports on actual events and quotes",
+      "correct": true
+    },
+    {
+      "index": 458,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (AP) and reports on a real event where",
+      "correct": true
+    },
+    {
+      "index": 459,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a true statement.",
+      "correct": true
+    },
+    {
+      "index": 460,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text appears to be a true news article from 2017 about Hurricane Maria's potential impact on",
+      "correct": true
+    },
+    {
+      "index": 461,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article is a fabrication.",
+      "correct": true
+    },
+    {
+      "index": 462,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "This text appears to be a quote from a speech by Ben Carson, but it's not a neutral",
+      "correct": false
+    },
+    {
+      "index": 463,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (Nikkei business daily) and reports",
+      "correct": true
+    },
+    {
+      "index": 464,
+      "true_label": "Fake",
+      "pred_label": "Real",
+      "response": "This article is a satirical piece, not a factual report.",
+      "correct": false
+    },
+    {
+      "index": 465,
+      "true_label": "Fake",
+      "pred_label": "Real",
+      "response": "Kevin McCarthy was actually elected as the Speaker of the House in 2019 and again in 202",
+      "correct": false
+    },
+    {
+      "index": 466,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is true.",
+      "correct": true
+    },
+    {
+      "index": 467,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article contains several inaccuracies and misleading information.",
+      "correct": true
+    },
+    {
+      "index": 468,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "This text contains several inaccuracies and misquotes.",
+      "correct": false
+    },
+    {
+      "index": 469,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (AP) and reports on a real event (",
+      "correct": true
+    },
+    {
+      "index": 470,
+      "true_label": "Fake",
+      "pred_label": "Real",
+      "response": "This text is a satirical piece, not a factual report.",
+      "correct": false
+    },
+    {
+      "index": 471,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This article is a true news article from The New York Times.",
+      "correct": true
+    },
+    {
+      "index": 472,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "This article contains several inaccuracies and misrepresentations of facts.",
+      "correct": false
+    },
+    {
+      "index": 473,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (Reuters) and reports on a real event (",
+      "correct": true
+    },
+    {
+      "index": 474,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from Reuters, a reputable news agency, and it reports on a specific",
+      "correct": true
+    },
+    {
+      "index": 475,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This article is from the New York Times, a reputable news source.",
+      "correct": true
+    },
+    {
+      "index": 476,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (Reuters) and reports on a real event,",
+      "correct": true
+    },
+    {
+      "index": 477,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "The article contains several inaccuracies and biased language, including:\n\n1. The article claims that the Bundy",
+      "correct": false
+    },
+    {
+      "index": 478,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This article is true.",
+      "correct": true
+    },
+    {
+      "index": 479,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "the continent, and then the Nazis sent a group of scientists to the South Pole. The expedition was",
+      "correct": false
+    },
+    {
+      "index": 480,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from the New York Times about the 2016 Rio Olympics.",
+      "correct": true
+    },
+    {
+      "index": 481,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from The New York Times, and it reports on real events and quotes",
+      "correct": true
+    },
+    {
+      "index": 482,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (MSNBC) and reports on a real event",
+      "correct": true
+    },
+    {
+      "index": 483,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This article is a news article from the New York Times, discussing the 2016 US presidential election",
+      "correct": true
+    },
+    {
+      "index": 484,
+      "true_label": "Fake",
+      "pred_label": "Unknown",
+      "response": "I ask you, what will you tell your daughter?",
+      "correct": false
+    },
+    {
+      "index": 485,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text appears to be a factual news report from a reputable source (Reuters), and it describes a",
+      "correct": true
+    },
+    {
+      "index": 486,
+      "true_label": "Fake",
+      "pred_label": "Real",
+      "response": "This text appears to be a biased and emotive statement rather than a factual one.",
+      "correct": false
+    },
+    {
+      "index": 487,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article contains several inaccuracies and misleading statements about Al Jazeera America (AJAM) and its history",
+      "correct": true
+    },
+    {
+      "index": 488,
+      "true_label": "Fake",
+      "pred_label": "Real",
+      "response": "This article is a satirical piece, not a factual news report.",
+      "correct": false
+    },
+    {
+      "index": 489,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is a news article from a reputable source (Reuters) and reports on actual events and statements",
+      "correct": true
+    },
+    {
+      "index": 490,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This article is based on real events and quotes from Nikki Haley's prepared testimony.",
+      "correct": true
+    },
+    {
+      "index": 491,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text is a news article from the New York Times, and the information it contains is accurate.",
+      "correct": true
+    },
+    {
+      "index": 492,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "The text is describing real events and facts about the Arkansas Supreme Court's decision regarding a medical marijuana proposal",
+      "correct": true
+    },
+    {
+      "index": 493,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This text contains several indicators of misinformation, including:\n\n*   The use of sensational language, such as",
+      "correct": true
+    },
+    {
+      "index": 494,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article appears to be a satirical piece, and the tone and language used are not typical of",
+      "correct": true
+    },
+    {
+      "index": 495,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "The text is a fabrication, and the information presented is not accurate.",
+      "correct": true
+    },
+    {
+      "index": 496,
+      "true_label": "True",
+      "pred_label": "Real",
+      "response": "This text is true.",
+      "correct": true
+    },
+    {
+      "index": 497,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This article contains false information about Robert De Niro's comments about Donald Trump.",
+      "correct": true
+    },
+    {
+      "index": 498,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This text contains several inaccuracies and misleading information.",
+      "correct": true
+    },
+    {
+      "index": 499,
+      "true_label": "Fake",
+      "pred_label": "Fake",
+      "response": "This text is a collection of false statements about Nancy Pelosi, a prominent American politician.",
+      "correct": true
+    }
+  ]
+}
