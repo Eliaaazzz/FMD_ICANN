@@ -5,8 +5,8 @@
   "failed_samples": 139,
   "accuracy": 0.9224376731301939,
   "macro_f1": 0.9174183006535948,
-  "paper_accuracy": 0.7362,
-  "paper_macro_f1": 0.6667,
+  "paper_accuracy": 0.9947,
+  "paper_macro_f1": 0.9947,
   "confusion_matrix": [
     [
       122,

@@ -1,0 +1,82 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Model and Stock Ticker</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Select Model and Stock Ticker for Financial News Authenticity Checker</h1>
+    </header>
+    <main class="main-content">
+        <div class="grid-container">
+            <div class="stock-ticker-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Company</th>
+                            <th>Ticker</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Apple</td>
+                            <td>AAPL</td>
+                        </tr>
+                        <tr>
+                            <td>Microsoft</td>
+                            <td>MSFT</td>
+                        </tr>
+                        <tr>
+                            <td>Amazon</td>
+                            <td>AMZN</td>
+                        </tr>
+                        <tr>
+                            <td>Google</td>
+                            <td>GOOGL</td>
+                        </tr>
+                        <tr>
+                            <td>Facebook</td>
+                            <td>FB</td>
+                        </tr>
+                        <tr>
+                            <td>Nvidia</td>
+                            <td>NVDA</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div>
+                <div class="form">
+                    <form action="{% url 'home' %}" method="get">
+                        <div class="title">Welcome</div>
+                        <div class="subtitle">Let's start Detecting!</div>
+                        <div class="input-container ic1">
+                            <label class="subtitle" for="model">Choose a model:</label>
+                            <br>
+                            <select class="styled-select" name="model" id="model">
+                                <option value="cnn_model.h5">CNN Model</option>
+                                <option value="naive_bayes_model.pkl">Naive Bayes Model</option>
+                                <option value="pilot_model.h5">Pilot Model</option>
+                            </select>
+                        </div>
+                        <div class="input-container ic2">
+                            <label class="subtitle" for="stock_ticker">Enter Stock Ticker Symbol:</label>
+                            <br>
+                            <input class="styled-input" type="text" id="stock_ticker" name="stock_ticker" required>
+                        </div>
+                        <button type="submit" class="submit">Submit</button>
+                    </form>
+                </div>
+                <div class="explanation">
+                    <h2>About the Financial News Authenticity Checker</h2>
+                    <p>This tool helps you determine the authenticity of financial news related to stock market companies. Select a model and enter a stock ticker symbol to get started. Our models analyze the news articles and provide a credibility score, helping you make informed decisions based on reliable information.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

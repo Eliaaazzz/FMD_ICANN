@@ -1,0 +1,22 @@
+{
+  "finfact": {
+    "train": 0,
+    "val": 0,
+    "test": 0,
+    "total": 0
+  },
+  "finguard": {
+    "train": 2900,
+    "val": 600,
+    "test": 1500,
+    "total": 5000
+  },
+  "combined": {
+    "train": 2900,
+    "val": 600,
+    "test": 1500,
+    "total": 5000
+  },
+  "generated_at": "2026-01-29T22:17:49.775609",
+  "random_seed": 42
+}

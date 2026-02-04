@@ -6,17 +6,7 @@ Replicating the FMDLlama paper results on FinGuard dataset
 
 import json
 import torch
-import re
-import gc
-import time
-from pathlib import Path
-from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
-from sklearn.metrics import accuracy_score, f1_score, classification_report, confusion_matrix
-from tqdm import tqdm
-
-# Configuration
-MODEL_PATH = "/home/ufb/models/FMDLlama3"
-TEST_DATA_PATH = "/mnt/c/Users/Aufb/Desktop/FMD/processed_data/finguard/test.jsonl"
+import rejinjin
 OUTPUT_PATH = "/mnt/c/Users/Aufb/Desktop/FMD/eval_finguard_1500_results.json"
 NUM_SAMPLES = 1500
 
