@@ -161,6 +161,29 @@ skeptical_investigator        43.48%     40.00%     36.36%     38.10%
 
 
 
+### 先划分
+
+| 数据集 | 文件名                    | 数量 | false | true  | NEI   |
+| ------ | ------------------------- | ---- | ----- | ----- | ----- |
+| 训练集 | `finfact_train.json`      | 2357 | 44.3% | 37.8% | 17.9% |
+| 测试集 | `finfact_test.json`       | 673  | 44.3% | 37.9% | 17.8% |
+| 验证集 | `finfact_validation.json` | 339  | 44.2% | 37.8% | 18.0% |
+
+
+
+| 数据集 | 文件名                        | 数量  | 比例  |
+| ------ | ----------------------------- | ----- | ----- |
+| 训练集 | `Finance_FAKE_train.csv`      | 10868 | 70.0% |
+| 测试集 | `Finance_FAKE_test.csv`       | 3105  | 20.0% |
+| 验证集 | `Finance_FAKE_validation.csv` | 1554  | 10.0% |
+| 训练集 | `Finance_TRUE_train.csv`      | 19644 | 70%   |
+
+
+
+
+
+
+
 1. **统一特征结构**：
    - 你希望对 finfact 和 finguard（fake/true）三类数据，构建统一字段的RAG数据库。
    - finfact 原始字段如 url、claim、author、posted、justification、evidence、label 等都要提取出来。
