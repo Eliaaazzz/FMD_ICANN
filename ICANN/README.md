@@ -183,6 +183,12 @@ editorial_board_vote	0.8227	0.805	0.8533	0.8285
 **weighted_evidence_scorer**	0.8633	0.8658	0.86	0.8629
 cross_check_simulator	0.7692	0.7299	0.8523	0.7864
 
+**优势分析：**
+
+1. **cot_stepwise**: 5步结构化链式推理（摘要→语言→证据→逻辑→综合）
+2. **multi_perspective**: 4视角全面审视（记者、核查员、读者、专家）
+3. **weighted_evidence_scorer**: 3维度量化评分（来源、细节、中立性）+ 阈值决策
+
 
 
 ### Finfact: 100条
@@ -223,7 +229,11 @@ verification_protocol_en      69.90%     74.79%     59.73%     66.42%
 **weighted_evidence_scorer**	0.7458	0.7626	0.7114	0.7361
 **cross_check_simulator**	0.77	0.7755	0.76	0.7677
 
+**三个最佳prompt的核心优势：**
 
+1. **editorial_board_vote**: 多角色投票机制，关注不同维度
+2. **weighted_evidence_scorer**: 量化评分系统，明确决策阈值
+3. **cross_check_simulator**: 交叉验证框架，系统化检查流程
 
 
 
@@ -234,3 +244,90 @@ verification_protocol_en      69.90%     74.79%     59.73%     66.42%
 
 
 **Finguard top3：** multi_perspective	weighted_evidence_scorer	cot_stepwise        （300条）     
+
+
+
+
+
+---
+
+### 继续优化prompt
+
+#### Finfact使用100
+
+| Prompt名称                   | 融合策略          | 核心特点                       |
+| ---------------------------- | ----------------- | ------------------------------ |
+| `expert_panel_scoring`       | 投票 + 评分       | 三位专家分别评分，总分决定结果 |
+| `triple_validation_vote`     | 交叉验证 + 投票   | 三个独立验证器投票，多数决定   |
+| `detailed_scoring_validator` | 评分 + 交叉验证   | 四维度精细评分（阈值28/40）    |
+| `committee_cross_reference`  | 多角色 + 交叉验证 | 委员会成员分别交叉验证后投票   |
+| `enhanced_weighted_scorer`   | 增强版评分        | 五维度评分（阈值35/50）        |
+| `systematic_cross_validator` | 增强版交叉验证    | 5步验证协议（≥4步通过）        |
+| `tribunal_judgment`          | 三合一审判        | 三阶段流程：审查→评分→投票     |
+| `dual_track_verifier`        | 双轨并行          | 量化评分+定性验证矩阵决策      |
+
+性能汇总已保存至: D:\Programming\Project\FMD\ICANN\FinFact\prompt_comparison_summary_20260130_034215.csv
+详细结果已保存至: D:\Programming\Project\FMD\ICANN\FinFact\prompt_comparison_details_20260130_034215.csv
+完整JSON已保存至: D:\Programming\Project\FMD\ICANN\FinFact\prompt_comparison_full_20260130_034215.json
+
+
+##### 【最终性能比较】
+##### Prompt名称                    Accuracy  Precision     Recall         F1
+**dual_track_verifier**           74.00%     72.22%     78.00%     75.00%
+**systematic_cross_validator**     72.45%     71.15%     75.51%     73.27%
+**tribunal_judgment**             73.00%     72.55%     74.00%     73.27%
+detailed_scoring_validator     71.00%     69.81%     74.00%     71.84%
+enhanced_weighted_scorer      71.72%     71.43%     71.43%     71.43%
+expert_panel_scoring          70.00%     71.74%     66.00%     68.75%
+committee_cross_reference     70.00%     73.81%     62.00%     67.39%
+triple_validation_vote        68.00%     73.68%     56.00%     63.64%
+
+
+
+
+
+
+
+#### 继续优化Finguard，使用300
+
+
+
+
+
+性能汇总已保存至: D:\Programming\Project\FMD\ICANN\FinGuard\prompt_comparison_summary_20260130_221240.csv
+详细结果已保存至: D:\Programming\Project\FMD\ICANN\FinGuard\prompt_comparison_details_20260130_221240.csv
+完整JSON已保存至: D:\Programming\Project\FMD\ICANN\FinGuard\prompt_comparison_full_20260130_221240.json
+
+
+##### 【FinGuard最终性能比较】
+##### Prompt名称               Accuracy  Precision     Recall         F1
+**enhanced_cot_6step**       86.86%     84.47%     97.75%     90.62%
+**confidence_tiered_decision**     89.00%     88.24%     90.00%     89.11%
+**cot_with_scoring**         88.00%     87.50%     88.67%     88.08%
+**triple_fusion_analyzer**     87.02%     84.71%     91.10%     87.79%
+staged_tribunal          87.25%     87.84%     86.67%     87.25%
+enhanced_5dim_scorer     86.67%     83.95%     90.67%     87.18%
+perspective_scoring_panel     87.00%     86.75%     87.33%     87.04%
+dual_track_news_verifier     86.33%     83.44%     90.67%     86.90%
+cot_role_division        81.19%     80.30%     89.83%     84.80%
+enhanced_5role_vote      83.33%     80.12%     88.67%     84.18%
+hypothesis_contrast      79.26%     72.54%     93.96%     81.87%
+red_flag_detector        82.83%     89.34%     74.15%     81.04%
+
+🏆 最佳 Prompt: enhanced_cot_6step (F1: 90.62%)
+
+| Prompt 名称                  | 核心特点                                                     |
+| ---------------------------- | ------------------------------------------------------------ |
+| `cot_with_scoring`           | 结合链式思维（CoT）和逐步量化评分，对每个分析步骤打分并以总分阈值决定真假。 |
+| `perspective_scoring_panel`  | 多角色（记者、核查员、读者、金融专家）独立评分并汇总，总分决定最终判断。 |
+| `cot_role_division`          | 将链式分析分配给不同角色（内容、数据、语言、逻辑），由各角色结论投票汇总。 |
+| `triple_fusion_analyzer`     | 三阶段融合：结构化CoT分析 + 多角度审视 + 量化评分，三者联合给出结论。 |
+| `enhanced_cot_6step`         | 增强版CoT，6步精细化检查（含5W1H、来源、语言、数据、逻辑、动机）以提升覆盖面。 |
+| `enhanced_5dim_scorer`       | 五维度量化评分（来源、细节、中立性、逻辑、专业）并用严格阈值判定真伪。 |
+| `enhanced_5role_vote`        | 五位专家独立投票（主编、数据、合规、领域、核查），多数票决定结果。 |
+| `dual_track_news_verifier`   | 双轨并行：定性CoT分析与定量多维评分同时运行，再按规则合成最终判断。 |
+| `staged_tribunal`            | 阶段式审判流程：初筛→深度多维分析→综合评分裁决，短路明显虚假样本。 |
+| `hypothesis_contrast`        | 对比假设法：分别假设“真/假”，评估哪一假设更符合证据与逻辑以做决定。 |
+| `red_flag_detector`          | 专注红旗信号检测（8项常见虚假特征），通过红旗计数阈值快速判断。 |
+| `confidence_tiered_decision` | 基于多维度置信度分层决策：计算置信分并按置信等级应用不同判定阈值。 |
+

@@ -1,0 +1,153 @@
+{
+  "model": "/home/ufb/models/FMDLlama3",
+  "quantization": "4-bit BitsAndBytes",
+  "num_samples": 1347,
+  "accuracy": 67.92873051224944,
+  "per_class": {
+    "True": 77.75510204081633,
+    "False": 87.91946308724832,
+    "NEI": 3.8314176245210727
+  },
+  "samples": [
+    {
+      "claim": "When I ran for Congress, I promised to refuse money from corporate PACs. Ive kept that promise.",
+      "label": "True",
+      "pred": "True",
+      "correct": true,
+      "response": "Prediction: Mostly True.\nExplanation: According to herlatest filingswith the Federal Election Commission, Spanberger has raised $4.2 million in contributions since the start of 2019 through the end of"
+    },
+    {
+      "claim": "Are individuals involved in sex trafficking marking vehicles as possible targets?",
+      "label": "False",
+      "pred": "False",
+      "correct": true,
+      "response": "Prediction: False.\nExplanation: The Polaris Project, a non-profit that runs the U.S. National Human Trafficking Hotline, writes that the forced kidnapping aspect of the aforementioned rumors is one of"
+    },
+    {
+      "claim": "Is this Really an Electric Car From 1905?",
+      "label": "True",
+      "pred": "False",
+      "correct": false,
+      "response": "Prediction: False.\nExplanation: The photographs also don't show the world's first electric car, just an early one; London inventor Thomas Parker claimed to have produced an electric powered vehicle as"
+    },
+    {
+      "claim": "Did U.S. Rep. Elijah Cummings Write a Bill to Keep All of Barack Obama's Records Sealed?",
+      "label": "False",
+      "pred": "False",
+      "correct": true,
+      "response": "Prediction: False.\nExplanation: A meme that circulated in 2019, during a period of controversy over Congress' attempts to obtain access to some of President Donald Trump's records (such as his tax ret"
+    },
+    {
+      "claim": "Are 20 Percent of Homicide Victims with Restraining Orders Killed Soon After Obtaining Them?",
+      "label": "NEI",
+      "pred": "False",
+      "correct": false,
+      "response": "Prediction: False.\nExplanation: Although the data presented in the meme was accurate, it lacked some context provided by the original source and therefore could be potentially misleading when taken in"
+    },
+    {
+      "claim": "John Kerry's Address Given on the Front Porch",
+      "label": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "response": " Canonsburg, who was among the hecklers, said she was upset that Kerry was talking about the economy and not about the war in Iraq. \"I'm not a fan of his,\" she said. \"I'm a fan of Bush.\" Patricia Roma"
+    },
+    {
+      "claim": "Detailed Social Housing Initiative",
+      "label": "NEI",
+      "pred": "False",
+      "correct": false,
+      "response": "Prediction: False.\nExplanation: As noted by Kathleen Merryman of the Tacoma News Tribune the video clip linked above about the Salishan housing development on Tacoma's East Side has garnered a good de"
+    },
+    {
+      "claim": "Does Website for Wisconsin Republicans Say 'Prepare for War'?",
+      "label": "True",
+      "pred": "True",
+      "correct": true,
+      "response": "Prediction: True.\nExplanation: The reports were true."
+    },
+    {
+      "claim": "This Is Not a Real Photo of the Pope in a Puffy Coat",
+      "label": "False",
+      "pred": "False",
+      "correct": true,
+      "response": "Prediction: False.\nExplanation: On March 25, 2023, a photo that appeared to show 86-year-old Pope Francis out and about in a fashionable white puffy jacket went viral on social media."
+    },
+    {
+      "claim": "Did an 11-Year-Old Girl Shoot and Kill 'Illegal Aliens' Burglarizing Her Home?",
+      "label": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "response": "Old Boy Shoots, Kills Intruder in St. Louis.\" St. Louis Post-Dispatch. 2015-08-31. Retrieved 2015-09-01."
+    },
+    {
+      "claim": "Do Oreo Cookies Have a Hidden Meaning?",
+      "label": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "response": " stuff is just people's imagination.\" Bill Turnier's father, William A. Turnier, was a longtime Nabisco engineer who designed the Oreo's current pattern in 1952. Bill Turnier's father, William A. Turn"
+    },
+    {
+      "claim": "Is This Surprising Payment from an Unknown Individual Genuine?",
+      "label": "False",
+      "pred": "False",
+      "correct": true,
+      "response": "Prediction: False.\nExplanation: In March 2020, the prospect of the U.S. government's sending out $1,200 stimulus checks to individual taxpayers as part of a $2 trillion emergency economic package for "
+    },
+    {
+      "claim": "Did Hillary Clinton Suppress Haiti's Minimum Wage?",
+      "label": "NEI",
+      "pred": "False",
+      "correct": false,
+      "response": "Prediction: False.\nExplanation: To resolve the impasse between the factory owners and Parliament, the State Department urged quick intervention by then Haitian President Ren Prval. A more visible and "
+    },
+    {
+      "claim": "50-Foot Megalodon Captured on Video",
+      "label": "False",
+      "pred": "False",
+      "correct": true,
+      "response": "Prediction: False.\nExplanation: The earliest version of this video we could uncover was posted to YouTube in 2008:"
+    },
+    {
+      "claim": "Was Hillary Clinton Offered a Plea Deal in August 2017?",
+      "label": "NEI",
+      "pred": "False",
+      "correct": false,
+      "response": "Prediction: False.\nExplanation: On 8 August 2017, NewsMax author Ed Klein published an article (\"Hillary's Plea Bargain\") heavily insinuating that Hillary Clinton had been quietly offered a plea barga"
+    },
+    {
+      "claim": "Does This Photograph Show Beetles Embedded in a Dog's Mouth?",
+      "label": "True",
+      "pred": "False",
+      "correct": false,
+      "response": "Prediction: False.\nExplanation: While we haven't been able to identify who the \"Somebody\" is in the above-quoted Facebook post, a message posted by the Hands & Paws group did provide some information "
+    },
+    {
+      "claim": "Says taxes paid by the poorest residents of Texas are above the national average.",
+      "label": "True",
+      "pred": "True",
+      "correct": true,
+      "response": "Prediction: True.\nExplanation: By e-mail, Krugman told us he based his statement on an analysis released Nov. 18, 2009 by the Institute on Taxation and Economic Policy, a research arm of Washington-ba"
+    },
+    {
+      "claim": "Does AARP Support the Democratic Party?",
+      "label": "False",
+      "pred": "False",
+      "correct": true,
+      "response": "Prediction: False.\nExplanation: AARP does not support, endorse or contribute to political candidates or parties."
+    },
+    {
+      "claim": "Letter to Clinton re Sacrifice",
+      "label": "NEI",
+      "pred": "False",
+      "correct": false,
+      "response": "Prediction: False.\nExplanation: Origins:  Exactly who wrote this evocative and well-crafted letter chiding President Clinton for calling on older generations to \"learn sacrifice as other generations h"
+    },
+    {
+      "claim": "Did Ghislaine Maxwell Attend Chelsea Clinton's Wedding?",
+      "label": "True",
+      "pred": "True",
+      "correct": true,
+      "response": "Prediction: True.\nExplanation: A photograph is frequently shared on social media that appears to show convicted sex trafficker and former Jeffrey Epstein associate Ghislaine Maxwell watching as former"
+    }
+  ]
+}

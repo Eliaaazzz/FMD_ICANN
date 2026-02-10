@@ -1,0 +1,146 @@
+[
+  {
+    "prompt_name": "expert_panel_scoring",
+    "system_prompt": "你是一个由三位专家组成的评分委员会系统。\n每位专家从自己的专业角度对声明进行0-10分评估，最终根据总分决定真实性。\n- 证据分析师：评估证据的充分性和可靠性\n- 逻辑审计师：评估推理过程的严密性\n- 语境专家：评估声明是否被正确理解和呈现",
+    "user_prompt_template": "请三位专家分别对以下声明进行评分。\n\n【声明】\n{claim}\n\n【摘要】\n{sci_digest}\n\n【论证材料】\n{justification}\n\n【证据】\n{evidence}\n\n【专家评分】\n📊 证据分析师评分 (0-10): 证据是否充分支持或反驳声明？来源是否可靠？\n📊 逻辑审计师评分 (0-10): 从证据到结论的推理是否严密？是否存在逻辑谬误？\n📊 语境专家评分 (0-10): 声明是否在正确语境下被理解？是否断章取义？\n\n【决策规则】\n总分 >= 20 → True（声明属实）\n总分 < 20 → False（声明虚假/误导）\n\n输出格式：Prediction: True 或 Prediction: False",
+    "metrics": {
+      "accuracy": 0.7,
+      "precision": 0.717391304347826,
+      "recall": 0.66,
+      "f1": 0.6875,
+      "total": 100,
+      "correct": 70,
+      "unknown_count": 0,
+      "tp": 33,
+      "fp": 13,
+      "fn": 17,
+      "tn": 37
+    }
+  },
+  {
+    "prompt_name": "triple_validation_vote",
+    "system_prompt": "You are a triple-validation system with three independent validators:\n1. Evidence Matcher: Checks if claim aligns with provided evidence\n2. Logic Validator: Verifies logical consistency between claim and justification  \n3. Context Checker: Ensures claim is not taken out of context\nEach validator votes True or False. Majority wins.",
+    "user_prompt_template": "Run triple validation on the following claim.\n\n[CLAIM]\n{claim}\n\n[VALIDATION MATERIALS]\nSummary: {sci_digest}\nJustification: {justification}\nEvidence: {evidence}\n\n[VALIDATION PROCESS]\n🔍 Evidence Matcher Vote:\n- Does the claim's content match the evidence provided?\n- Are specific facts, numbers, dates accurate?\n→ Vote: True/False\n\n🔍 Logic Validator Vote:\n- Is the claim logically supported by the justification?\n- Are there any logical fallacies?\n→ Vote: True/False\n\n🔍 Context Checker Vote:\n- Is the claim presented in proper context?\n- Does it accurately represent the source material?\n→ Vote: True/False\n\n[FINAL DECISION]\nCount votes: If >= 2 True votes → Prediction: True\nOtherwise → Prediction: False",
+    "metrics": {
+      "accuracy": 0.68,
+      "precision": 0.7368421052631579,
+      "recall": 0.56,
+      "f1": 0.6363636363636364,
+      "total": 100,
+      "correct": 68,
+      "unknown_count": 0,
+      "tp": 28,
+      "fp": 10,
+      "fn": 22,
+      "tn": 40
+    }
+  },
+  {
+    "prompt_name": "detailed_scoring_validator",
+    "system_prompt": "你是一个精细化评分验证系统。\n你会对声明的每个关键维度进行交叉验证并打分，确保评估的全面性和准确性。",
+    "user_prompt_template": "请对以下声明进行精细化评分验证。\n\n【待验证声明】\n{claim}\n\n【验证知识库】\n摘要：{sci_digest}\n论证：{justification}\n证据：{evidence}\n\n【精细化评分验证】\n1. 事实匹配度 (0-10分)\n   - 声明中的具体事实是否与知识库一致？\n   - 数字、日期、实体名称是否准确？\n   评分: ___\n\n2. 论证支持度 (0-10分)\n   - 论证材料是否支持该声明？\n   - 是否存在直接矛盾？\n   评分: ___\n\n3. 证据覆盖度 (0-10分)\n   - 声明的核心观点是否有证据支撑？\n   - 证据来源是否可靠？\n   评分: ___\n\n4. 语境准确度 (0-10分)\n   - 声明是否在正确语境下呈现？\n   - 是否存在断章取义或误导？\n   评分: ___\n\n【决策阈值】总分 >= 28 → True; 总分 < 28 → False\n输出格式：Prediction: True 或 Prediction: False",
+    "metrics": {
+      "accuracy": 0.71,
+      "precision": 0.6981132075471698,
+      "recall": 0.74,
+      "f1": 0.7184466019417476,
+      "total": 100,
+      "correct": 71,
+      "unknown_count": 0,
+      "tp": 37,
+      "fp": 16,
+      "fn": 13,
+      "tn": 34
+    }
+  },
+  {
+    "prompt_name": "committee_cross_reference",
+    "system_prompt": "You are a fact-checking committee that uses cross-referencing methodology.\nThree committee members independently cross-reference the claim against the evidence base:\n- Senior Fact-Checker: Focus on factual accuracy\n- Research Analyst: Focus on source credibility and evidence quality\n- Editorial Director: Focus on context and potential misleading elements",
+    "user_prompt_template": "Committee members, please cross-reference and evaluate the following claim.\n\n[CLAIM TO EVALUATE]\n{claim}\n\n[REFERENCE DATABASE]\nSummary: {sci_digest}\nJustification: {justification}\nEvidence: {evidence}\n\n[COMMITTEE CROSS-REFERENCE ANALYSIS]\n\n👤 Senior Fact-Checker:\n- Cross-reference: Does each fact in the claim appear in the reference database?\n- Accuracy check: Are all details (numbers, dates, names) correct?\n- Verdict: ___\n\n👤 Research Analyst:\n- Source quality: Are the evidence sources credible and verifiable?\n- Coverage: Does the evidence sufficiently support the claim?\n- Verdict: ___\n\n👤 Editorial Director:\n- Context check: Is the claim presented without misleading omissions?\n- Interpretation: Is the claim a fair representation of the source material?\n- Verdict: ___\n\n[COMMITTEE DECISION]\nIf majority (>=2) approve → Prediction: True\nOtherwise → Prediction: False",
+    "metrics": {
+      "accuracy": 0.7,
+      "precision": 0.7380952380952381,
+      "recall": 0.62,
+      "f1": 0.6739130434782609,
+      "total": 100,
+      "correct": 70,
+      "unknown_count": 0,
+      "tp": 31,
+      "fp": 11,
+      "fn": 19,
+      "tn": 39
+    }
+  },
+  {
+    "prompt_name": "enhanced_weighted_scorer",
+    "system_prompt": "你是一个增强版证据权重评分系统。\n你会从5个核心维度对声明进行评分，每个维度0-10分，总分50分。\n使用更严格的阈值确保判断的准确性。",
+    "user_prompt_template": "请对以下声明进行五维度评分评估。\n\n【声明】\n{claim}\n\n【参考材料】\n摘要：{sci_digest}\n论证：{justification}\n证据：{evidence}\n\n【五维度评分】\nA. 事实准确性 (0-10): 声明中的事实陈述是否准确无误？\nB. 证据支持度 (0-10): 提供的证据是否充分支持该声明？\nC. 逻辑一致性 (0-10): 声明与论证之间是否逻辑自洽？\nD. 语境完整性 (0-10): 声明是否在完整语境下呈现？\nE. 来源可信度 (0-10): 证据来源是否权威可靠？\n\n【评分汇总】\nA + B + C + D + E = 总分\n\n【决策规则】\n总分 >= 35 → Prediction: True\n总分 < 35 → Prediction: False",
+    "metrics": {
+      "accuracy": 0.7171717171717171,
+      "precision": 0.7142857142857143,
+      "recall": 0.7142857142857143,
+      "f1": 0.7142857142857143,
+      "total": 99,
+      "correct": 71,
+      "unknown_count": 1,
+      "tp": 35,
+      "fp": 14,
+      "fn": 14,
+      "tn": 36
+    }
+  },
+  {
+    "prompt_name": "systematic_cross_validator",
+    "system_prompt": "You are an advanced cross-validation system with a systematic 5-step verification protocol.\nYou treat the justification and evidence as the ground truth and systematically verify every aspect of the claim.",
+    "user_prompt_template": "Execute the systematic cross-validation protocol.\n\n[TARGET CLAIM]\n{claim}\n\n[GROUND TRUTH DATABASE]\nSummary: {sci_digest}\nJustification: {justification}\nEvidence: {evidence}\n\n[5-STEP VERIFICATION PROTOCOL]\n\nStep 1 - Existence Check:\n□ Does the core assertion exist in the ground truth?\n□ Result: PASS / FAIL\n\nStep 2 - Precision Verification:\n□ Do specific numbers, percentages, dates match exactly?\n□ Are entity names and titles accurate?\n□ Result: PASS / FAIL\n\nStep 3 - Logical Alignment:\n□ Is the claim's conclusion supported by the justification's reasoning?\n□ Are there any logical gaps or leaps?\n□ Result: PASS / FAIL\n\nStep 4 - Contradiction Scan:\n□ Is there any statement in the ground truth that contradicts the claim?\n□ Result: PASS (no contradiction) / FAIL (contradiction found)\n\nStep 5 - Context Integrity:\n□ Is the claim presented with proper context?\n□ Does it faithfully represent the source material?\n□ Result: PASS / FAIL\n\n[FINAL VERDICT]\nIf >= 4 steps PASS → Prediction: True\nIf < 4 steps PASS → Prediction: False",
+    "metrics": {
+      "accuracy": 0.7244897959183674,
+      "precision": 0.7115384615384616,
+      "recall": 0.7551020408163265,
+      "f1": 0.7326732673267328,
+      "total": 98,
+      "correct": 71,
+      "unknown_count": 2,
+      "tp": 37,
+      "fp": 15,
+      "fn": 12,
+      "tn": 34
+    }
+  },
+  {
+    "prompt_name": "tribunal_judgment",
+    "system_prompt": "你是一个事实审判庭系统，采用三阶段审判流程：\n阶段一：证据审查（交叉验证）\n阶段二：专家评分（量化评估）\n阶段三：陪审投票（多角色决策）\n三阶段综合判断确保结论的可靠性。",
+    "user_prompt_template": "开始对以下声明进行三阶段审判。\n\n【被审声明】\n{claim}\n\n【案卷材料】\n摘要：{sci_digest}\n论证：{justification}\n证据：{evidence}\n\n═══════════════════════════════════════\n【阶段一：证据审查】\n- 声明核心内容是否存在于证据中？ □是 □否\n- 具体细节（数字/日期/名称）是否匹配？ □是 □否\n- 是否发现矛盾信息？ □无矛盾 □有矛盾\n\n═══════════════════════════════════════\n【阶段二：专家评分】\n- 事实准确度: ___/10\n- 证据充分度: ___/10\n- 逻辑严密度: ___/10\n总分: ___/30\n\n═══════════════════════════════════════\n【阶段三：陪审投票】\n- 首席核查员: □支持True □支持False\n- 证据分析师: □支持True □支持False\n- 逻辑审计师: □支持True □支持False\n\n═══════════════════════════════════════\n【最终裁决】\n综合三阶段结果：\n- 阶段一无重大问题 + 阶段二总分>=20 + 阶段三多数支持True → Prediction: True\n- 否则 → Prediction: False",
+    "metrics": {
+      "accuracy": 0.73,
+      "precision": 0.7254901960784313,
+      "recall": 0.74,
+      "f1": 0.7326732673267328,
+      "total": 100,
+      "correct": 73,
+      "unknown_count": 0,
+      "tp": 37,
+      "fp": 14,
+      "fn": 13,
+      "tn": 36
+    }
+  },
+  {
+    "prompt_name": "dual_track_verifier",
+    "system_prompt": "You are a dual-track verification system that performs both quantitative scoring and qualitative cross-referencing in parallel, then synthesizes results for final judgment.\nTrack A: Quantitative Scoring (0-30 scale)\nTrack B: Qualitative Cross-Reference (Pass/Fail checks)",
+    "user_prompt_template": "Execute dual-track verification on the following claim.\n\n[CLAIM]\n{claim}\n\n[REFERENCE MATERIALS]\nSummary: {sci_digest}\nJustification: {justification}\nEvidence: {evidence}\n\n══════════════════════════════════════════\n[TRACK A: QUANTITATIVE SCORING]\nA1. Factual Accuracy (0-10): ___\nA2. Evidence Alignment (0-10): ___\nA3. Logical Consistency (0-10): ___\nTrack A Total: ___/30\n\n══════════════════════════════════════════\n[TRACK B: QUALITATIVE CROSS-REFERENCE]\nB1. Core claim exists in evidence? □ PASS □ FAIL\nB2. No contradictions detected? □ PASS □ FAIL\nB3. Context preserved correctly? □ PASS □ FAIL\nTrack B Result: ___ of 3 PASS\n\n══════════════════════════════════════════\n[SYNTHESIS DECISION MATRIX]\n| Track A Score | Track B Passes | Final Decision |\n|---------------|----------------|----------------|\n| >= 22         | >= 2           | True           |\n| >= 25         | >= 1           | True           |\n| < 22          | 3              | True           |\n| Otherwise     | -              | False          |\n\nFinal Output: Prediction: True or Prediction: False",
+    "metrics": {
+      "accuracy": 0.74,
+      "precision": 0.7222222222222222,
+      "recall": 0.78,
+      "f1": 0.7500000000000001,
+      "total": 100,
+      "correct": 74,
+      "unknown_count": 0,
+      "tp": 39,
+      "fp": 15,
+      "fn": 11,
+      "tn": 35
+    }
+  }
+]

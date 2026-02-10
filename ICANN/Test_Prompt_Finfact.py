@@ -157,38 +157,334 @@ PROMPT_TEMPLATES = {
 # Final Output: Prediction: True OR Prediction: False"""
 #     },
 
-    "logical_fallacy_check": {
-        "system": """你是一位逻辑侦探，专门寻找声明中的逻辑谬误。
-通过对比声明与证据，寻找推理链条中的断裂处。""",
-        "user": """请分析以下声明是否相对于证据存在逻辑谬误。
+#     "logical_fallacy_check": {
+#         "system": """你是一位逻辑侦探，专门寻找声明中的逻辑谬误。
+# 通过对比声明与证据，寻找推理链条中的断裂处。""",
+#         "user": """请分析以下声明是否相对于证据存在逻辑谬误。
+
+# 【待验证声明】
+# {claim}
+
+# 【核查依据】
+# 摘要：{sci_digest}
+# 论证：{justification}
+# 证据：{evidence}
+
+# 【逻辑审查】
+# 1. 过度以此类推：声明是否夸大了证据所支持的范围？
+# 2. 证据缺失：声明的关键要素是否有对应的证据支持？
+# 3. 断章取义：声明是否忽略了论证中的限制条件或前提？
+# 4. 错误归因：是否错误地建立了因果关系？
+
+# 如果没有发现明显逻辑谬误且证据支持，则为真。
+# 输出格式：Prediction: True 或 Prediction: False"""
+#     },
+
+#     "editorial_board_vote": {
+#         "system": """你模拟一个拥有三位资深成员的事实核查委员会：
+# 1. 首席核查员（关注证据链的完整性）
+# 2. 领域专家（关注术语和概念的准确性）
+# 3. 逻辑分析师（关注推理过程的严密性）
+# 你们需要投票决定该声明是否属实。""",
+#         "user": """委员会请就位，对以下声明进行审核投票。
+
+# 【声明】
+# {claim}
+
+# 【案卷材料】
+# 摘要：{sci_digest}
+# 论证：{justification}
+# 证据：{evidence}
+
+# 【委员会讨论】
+# - 首席核查员意见：...
+# - 领域专家意见：...
+# - 逻辑分析师意见：...
+
+# 【最终投票结果】
+# 如果至少两票认为属实(True)，则判定为真。
+# 输出格式：Prediction: True 或 Prediction: False"""
+#     },
+
+#     "weighted_evidence_scorer": {
+#         "system": """你是一个基于证据权重的评分系统。你会对声明的可信度要素进行打分（0-10分），总分低于20分（满分30）将被标记为False。""",
+#         "user": """请对以下声明进行基于证据的打分评估。
+
+# 【声明】
+# {claim}
+
+# 【证据材料】
+# {justification}
+# {evidence}
+
+# 【评分项】
+# A. 证据覆盖度 (0-10): 0=无直接证据，10=证据完全覆盖声明的所有细节
+# B. 一致性 (0-10): 0=声明与证据矛盾，10=声明与证据高度一致
+# C. 语境准确性 (0-10): 0=严重断章取义，10=完全忠实于原意
+
+# 请计算总分。
+# Decision Rule: Total Score >= 20 -> True; Total Score < 20 -> False.
+# 输出格式：Prediction: True 或 Prediction: False"""
+#     },
+
+#     "cross_check_simulator": {
+#         "system": """You are a research assistant simulating a cross-referencing process.
+# You use the provided "Justification" and "Evidence" as your ground truth knowledge base to verify the "Claim".""",
+#         "user": """Verify the claim by cross-referencing it against the provided ground truth.
+
+# [Target Claim]
+# {claim}
+
+# [Ground Truth Knowledge Base]
+# {justification}
+# {evidence}
+
+# [Simulation]
+# - Initial Check: Does the claim exist in the Knowledge Base?
+# - Detail Verification: Do specific numbers, dates, and entities match exactly?
+# - Conflict Detection: Is there any statement in the Knowledge Base that directly contradicts the claim?
+
+# Verdict:
+# Prediction: True or Prediction: False"""
+#     },
+
+    # ============================================================
+    # 🆕 融合优化 Prompts (基于最佳表现prompt设计)
+    # ============================================================
+
+    # 融合1: 多角色投票 + 评分系统
+    "expert_panel_scoring": {
+        "system": """你是一个由三位专家组成的评分委员会系统。
+每位专家从自己的专业角度对声明进行0-10分评估，最终根据总分决定真实性。
+- 证据分析师：评估证据的充分性和可靠性
+- 逻辑审计师：评估推理过程的严密性
+- 语境专家：评估声明是否被正确理解和呈现""",
+        "user": """请三位专家分别对以下声明进行评分。
+
+【声明】
+{claim}
+
+【摘要】
+{sci_digest}
+
+【论证材料】
+{justification}
+
+【证据】
+{evidence}
+
+【专家评分】
+📊 证据分析师评分 (0-10): 证据是否充分支持或反驳声明？来源是否可靠？
+📊 逻辑审计师评分 (0-10): 从证据到结论的推理是否严密？是否存在逻辑谬误？
+📊 语境专家评分 (0-10): 声明是否在正确语境下被理解？是否断章取义？
+
+【决策规则】
+总分 >= 20 → True（声明属实）
+总分 < 20 → False（声明虚假/误导）
+
+输出格式：Prediction: True 或 Prediction: False"""
+    },
+
+    # 融合2: 交叉验证 + 投票机制
+    "triple_validation_vote": {
+        "system": """You are a triple-validation system with three independent validators:
+1. Evidence Matcher: Checks if claim aligns with provided evidence
+2. Logic Validator: Verifies logical consistency between claim and justification  
+3. Context Checker: Ensures claim is not taken out of context
+Each validator votes True or False. Majority wins.""",
+        "user": """Run triple validation on the following claim.
+
+[CLAIM]
+{claim}
+
+[VALIDATION MATERIALS]
+Summary: {sci_digest}
+Justification: {justification}
+Evidence: {evidence}
+
+[VALIDATION PROCESS]
+🔍 Evidence Matcher Vote:
+- Does the claim's content match the evidence provided?
+- Are specific facts, numbers, dates accurate?
+→ Vote: True/False
+
+🔍 Logic Validator Vote:
+- Is the claim logically supported by the justification?
+- Are there any logical fallacies?
+→ Vote: True/False
+
+🔍 Context Checker Vote:
+- Is the claim presented in proper context?
+- Does it accurately represent the source material?
+→ Vote: True/False
+
+[FINAL DECISION]
+Count votes: If >= 2 True votes → Prediction: True
+Otherwise → Prediction: False"""
+    },
+
+    # 融合3: 评分系统 + 交叉验证的细节检查
+    "detailed_scoring_validator": {
+        "system": """你是一个精细化评分验证系统。
+你会对声明的每个关键维度进行交叉验证并打分，确保评估的全面性和准确性。""",
+        "user": """请对以下声明进行精细化评分验证。
 
 【待验证声明】
 {claim}
 
-【核查依据】
+【验证知识库】
 摘要：{sci_digest}
 论证：{justification}
 证据：{evidence}
 
-【逻辑审查】
-1. 过度以此类推：声明是否夸大了证据所支持的范围？
-2. 证据缺失：声明的关键要素是否有对应的证据支持？
-3. 断章取义：声明是否忽略了论证中的限制条件或前提？
-4. 错误归因：是否错误地建立了因果关系？
+【精细化评分验证】
+1. 事实匹配度 (0-10分)
+   - 声明中的具体事实是否与知识库一致？
+   - 数字、日期、实体名称是否准确？
+   评分: ___
 
-如果没有发现明显逻辑谬误且证据支持，则为真。
+2. 论证支持度 (0-10分)
+   - 论证材料是否支持该声明？
+   - 是否存在直接矛盾？
+   评分: ___
+
+3. 证据覆盖度 (0-10分)
+   - 声明的核心观点是否有证据支撑？
+   - 证据来源是否可靠？
+   评分: ___
+
+4. 语境准确度 (0-10分)
+   - 声明是否在正确语境下呈现？
+   - 是否存在断章取义或误导？
+   评分: ___
+
+【决策阈值】总分 >= 28 → True; 总分 < 28 → False
 输出格式：Prediction: True 或 Prediction: False"""
     },
 
-    "editorial_board_vote": {
-        "system": """你模拟一个拥有三位资深成员的事实核查委员会：
-1. 首席核查员（关注证据链的完整性）
-2. 领域专家（关注术语和概念的准确性）
-3. 逻辑分析师（关注推理过程的严密性）
-你们需要投票决定该声明是否属实。""",
-        "user": """委员会请就位，对以下声明进行审核投票。
+    # 融合4: 多角色 + 交叉验证协议
+    "committee_cross_reference": {
+        "system": """You are a fact-checking committee that uses cross-referencing methodology.
+Three committee members independently cross-reference the claim against the evidence base:
+- Senior Fact-Checker: Focus on factual accuracy
+- Research Analyst: Focus on source credibility and evidence quality
+- Editorial Director: Focus on context and potential misleading elements""",
+        "user": """Committee members, please cross-reference and evaluate the following claim.
+
+[CLAIM TO EVALUATE]
+{claim}
+
+[REFERENCE DATABASE]
+Summary: {sci_digest}
+Justification: {justification}
+Evidence: {evidence}
+
+[COMMITTEE CROSS-REFERENCE ANALYSIS]
+
+👤 Senior Fact-Checker:
+- Cross-reference: Does each fact in the claim appear in the reference database?
+- Accuracy check: Are all details (numbers, dates, names) correct?
+- Verdict: ___
+
+👤 Research Analyst:
+- Source quality: Are the evidence sources credible and verifiable?
+- Coverage: Does the evidence sufficiently support the claim?
+- Verdict: ___
+
+👤 Editorial Director:
+- Context check: Is the claim presented without misleading omissions?
+- Interpretation: Is the claim a fair representation of the source material?
+- Verdict: ___
+
+[COMMITTEE DECISION]
+If majority (>=2) approve → Prediction: True
+Otherwise → Prediction: False"""
+    },
+
+    # 优化5: 增强版评分系统（更细致的维度）
+    "enhanced_weighted_scorer": {
+        "system": """你是一个增强版证据权重评分系统。
+你会从5个核心维度对声明进行评分，每个维度0-10分，总分50分。
+使用更严格的阈值确保判断的准确性。""",
+        "user": """请对以下声明进行五维度评分评估。
 
 【声明】
+{claim}
+
+【参考材料】
+摘要：{sci_digest}
+论证：{justification}
+证据：{evidence}
+
+【五维度评分】
+A. 事实准确性 (0-10): 声明中的事实陈述是否准确无误？
+B. 证据支持度 (0-10): 提供的证据是否充分支持该声明？
+C. 逻辑一致性 (0-10): 声明与论证之间是否逻辑自洽？
+D. 语境完整性 (0-10): 声明是否在完整语境下呈现？
+E. 来源可信度 (0-10): 证据来源是否权威可靠？
+
+【评分汇总】
+A + B + C + D + E = 总分
+
+【决策规则】
+总分 >= 35 → Prediction: True
+总分 < 35 → Prediction: False"""
+    },
+
+    # 优化6: 增强版交叉验证（更系统化的检查）
+    "systematic_cross_validator": {
+        "system": """You are an advanced cross-validation system with a systematic 5-step verification protocol.
+You treat the justification and evidence as the ground truth and systematically verify every aspect of the claim.""",
+        "user": """Execute the systematic cross-validation protocol.
+
+[TARGET CLAIM]
+{claim}
+
+[GROUND TRUTH DATABASE]
+Summary: {sci_digest}
+Justification: {justification}
+Evidence: {evidence}
+
+[5-STEP VERIFICATION PROTOCOL]
+
+Step 1 - Existence Check:
+□ Does the core assertion exist in the ground truth?
+□ Result: PASS / FAIL
+
+Step 2 - Precision Verification:
+□ Do specific numbers, percentages, dates match exactly?
+□ Are entity names and titles accurate?
+□ Result: PASS / FAIL
+
+Step 3 - Logical Alignment:
+□ Is the claim's conclusion supported by the justification's reasoning?
+□ Are there any logical gaps or leaps?
+□ Result: PASS / FAIL
+
+Step 4 - Contradiction Scan:
+□ Is there any statement in the ground truth that contradicts the claim?
+□ Result: PASS (no contradiction) / FAIL (contradiction found)
+
+Step 5 - Context Integrity:
+□ Is the claim presented with proper context?
+□ Does it faithfully represent the source material?
+□ Result: PASS / FAIL
+
+[FINAL VERDICT]
+If >= 4 steps PASS → Prediction: True
+If < 4 steps PASS → Prediction: False"""
+    },
+
+    # 创新7: 审判模式（综合三种方法的结构化流程）
+    "tribunal_judgment": {
+        "system": """你是一个事实审判庭系统，采用三阶段审判流程：
+阶段一：证据审查（交叉验证）
+阶段二：专家评分（量化评估）
+阶段三：陪审投票（多角色决策）
+三阶段综合判断确保结论的可靠性。""",
+        "user": """开始对以下声明进行三阶段审判。
+
+【被审声明】
 {claim}
 
 【案卷材料】
@@ -196,56 +492,71 @@ PROMPT_TEMPLATES = {
 论证：{justification}
 证据：{evidence}
 
-【委员会讨论】
-- 首席核查员意见：...
-- 领域专家意见：...
-- 逻辑分析师意见：...
+═══════════════════════════════════════
+【阶段一：证据审查】
+- 声明核心内容是否存在于证据中？ □是 □否
+- 具体细节（数字/日期/名称）是否匹配？ □是 □否
+- 是否发现矛盾信息？ □无矛盾 □有矛盾
 
-【最终投票结果】
-如果至少两票认为属实(True)，则判定为真。
-输出格式：Prediction: True 或 Prediction: False"""
+═══════════════════════════════════════
+【阶段二：专家评分】
+- 事实准确度: ___/10
+- 证据充分度: ___/10
+- 逻辑严密度: ___/10
+总分: ___/30
+
+═══════════════════════════════════════
+【阶段三：陪审投票】
+- 首席核查员: □支持True □支持False
+- 证据分析师: □支持True □支持False
+- 逻辑审计师: □支持True □支持False
+
+═══════════════════════════════════════
+【最终裁决】
+综合三阶段结果：
+- 阶段一无重大问题 + 阶段二总分>=20 + 阶段三多数支持True → Prediction: True
+- 否则 → Prediction: False"""
     },
 
-    "weighted_evidence_scorer": {
-        "system": """你是一个基于证据权重的评分系统。你会对声明的可信度要素进行打分（0-10分），总分低于20分（满分30）将被标记为False。""",
-        "user": """请对以下声明进行基于证据的打分评估。
+    # 创新8: 双轨验证系统（中英双语验证）
+    "dual_track_verifier": {
+        "system": """You are a dual-track verification system that performs both quantitative scoring and qualitative cross-referencing in parallel, then synthesizes results for final judgment.
+Track A: Quantitative Scoring (0-30 scale)
+Track B: Qualitative Cross-Reference (Pass/Fail checks)""",
+        "user": """Execute dual-track verification on the following claim.
 
-【声明】
+[CLAIM]
 {claim}
 
-【证据材料】
-{justification}
-{evidence}
+[REFERENCE MATERIALS]
+Summary: {sci_digest}
+Justification: {justification}
+Evidence: {evidence}
 
-【评分项】
-A. 证据覆盖度 (0-10): 0=无直接证据，10=证据完全覆盖声明的所有细节
-B. 一致性 (0-10): 0=声明与证据矛盾，10=声明与证据高度一致
-C. 语境准确性 (0-10): 0=严重断章取义，10=完全忠实于原意
+══════════════════════════════════════════
+[TRACK A: QUANTITATIVE SCORING]
+A1. Factual Accuracy (0-10): ___
+A2. Evidence Alignment (0-10): ___
+A3. Logical Consistency (0-10): ___
+Track A Total: ___/30
 
-请计算总分。
-Decision Rule: Total Score >= 20 -> True; Total Score < 20 -> False.
-输出格式：Prediction: True 或 Prediction: False"""
-    },
+══════════════════════════════════════════
+[TRACK B: QUALITATIVE CROSS-REFERENCE]
+B1. Core claim exists in evidence? □ PASS □ FAIL
+B2. No contradictions detected? □ PASS □ FAIL
+B3. Context preserved correctly? □ PASS □ FAIL
+Track B Result: ___ of 3 PASS
 
-    "cross_check_simulator": {
-        "system": """You are a research assistant simulating a cross-referencing process.
-You use the provided "Justification" and "Evidence" as your ground truth knowledge base to verify the "Claim".""",
-        "user": """Verify the claim by cross-referencing it against the provided ground truth.
+══════════════════════════════════════════
+[SYNTHESIS DECISION MATRIX]
+| Track A Score | Track B Passes | Final Decision |
+|---------------|----------------|----------------|
+| >= 22         | >= 2           | True           |
+| >= 25         | >= 1           | True           |
+| < 22          | 3              | True           |
+| Otherwise     | -              | False          |
 
-[Target Claim]
-{claim}
-
-[Ground Truth Knowledge Base]
-{justification}
-{evidence}
-
-[Simulation]
-- Initial Check: Does the claim exist in the Knowledge Base?
-- Detail Verification: Do specific numbers, dates, and entities match exactly?
-- Conflict Detection: Is there any statement in the Knowledge Base that directly contradicts the claim?
-
-Verdict:
-Prediction: True or Prediction: False"""
+Final Output: Prediction: True or Prediction: False"""
     },
 
     # ============================================================
