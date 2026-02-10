@@ -151,3 +151,70 @@ skeptical_investigator        43.48%     40.00%     36.36%     38.10%
 
 ---
 
+
+
+
+
+# 数据库生成
+
+***ICANN\DAG\DAG_Construct.py***
+
+
+
+1. **统一特征结构**：
+   - 你希望对 finfact 和 finguard（fake/true）三类数据，构建统一字段的RAG数据库。
+   - finfact 原始字段如 url、claim、author、posted、justification、evidence、label 等都要提取出来。
+   - finguard 只有 text（和label），需要用 LLM（API）尽量提取出与 finfact 对应的字段（如作者、时间、事件、权威来源等），但如果 LLM无法高置信度提取，就写 Null，不能乱猜。
+2. **特征一致性与区分**：
+   - 所有数据都要有完全一致的字段结构（即使某些字段为 Null）。
+   - 对 true/false/NEI 等不同label，特征结构也要一致。
+   - 某些特征如“负面修辞/夸大”等，false类要提取，true类也要有该字段但内容为 Null。
+3. **特征扩展与验证**：
+   - 希望数据库包含比原始数据更多的特征（如事件类型、权威来源、修辞模式等），这些特征要能通过 LLM/规则等方式可靠提取。
+   - 你希望后续能验证这些新特征是否提升了下游任务效果（如RAG检索、分类等）。
+4. **脚本要求**：
+   - 新脚本命名为 DAG_Construct.py，结构参考“构建.py”，但要适配上述需求。
+   - 代码要有清晰的特征提取逻辑，不能随意猜测，提取不出来就写 Null。
+
+
+
+
+
+---
+
+### V1：
+
+新特征如下（可在 DAG_Construct.py 中实现，后续可灵活增删）：
+
+1. **entities**：涉及的公司、人物、机构（LLM提取，finfact原生有，finguard需推断）。
+2. **events**：金融事件类型（如“收购”、“股价暴跌”等，LLM提取）。
+3. **timestamp**：事件时间（finfact原生有，finguard需推断，推断不出写 Null）。
+4. **author/source**：作者或权威信息源（finfact原生有，finguard需推断，推断不出写 Null）。
+5. **rhetoric_pattern**：修辞/欺诈模式（如“夸大”、“情感操控”，false类需提取，true类为 Null）。
+6. **credibility_score**：可信度分数（可根据label赋值，如true=0.9，false=0.1，NEI=0.5）。
+7. **evidence_snippets**：证据片段（finfact原生有，finguard可尝试提取或为 Null）。
+8. **justification**：推理逻辑（finfact原生有，finguard可尝试提取或为 Null）。
+9. **source_url**：原文链接（finfact原生有，finguard可尝试提取或为 Null）。
+10. **label**：true/false/NEI。
+
+后续修改建议：
+
+- 若需增加新特征，只需在脚本中添加字段并调整提取逻辑。
+- 若需减少特征，删除相关字段即可。
+- 若需调整提取方式（如更换LLM、规则），修改对应函数即可。
+
+
+
+数据库存到 ICANN\data\DAG，首批仅处理15条（finfact, finguard_true, finguard_false各5条），并自动区分文件名防止覆盖。请稍等。
+
+
+
+
+
+
+
+**后续**：验证新特征提升性能建议：
+
+- **单独写一个评估脚本（如 DAG_Evaluate.py）**，对比有无新特征的检索/分类/问答等下游任务效果。
+- 可采用：准确率、召回率、F1、检索排序、问答质量等指标。
+- 支持多版本数据库（如带时间戳区分），便于横向对比。
