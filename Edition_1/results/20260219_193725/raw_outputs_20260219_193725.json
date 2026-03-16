@@ -1,0 +1,122 @@
+[
+  {
+    "prompt_name": "dual_track_verifier",
+    "index": 1,
+    "claim": "Oprah's advice regarding a ten percent tip.",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "══════════════════════════════════════════\n[TRACK A: QUANTITATIVE SCORING]\nA1. Factual Accuracy (0-10): 2\n- The claim that Oprah advised a ten percent tip is false, as evidenced by the provided reference materials. The sources clearly state that there is no evidence of Oprah making such a recommendation, and in fact, her show and magazine have consistently recommended tipping at least 15%.\n\nA2. Evidence Alignment (0-10): 8\n- The evidence provided aligns with the refutation of the claim. Multiple sources, including Snopes, confirm that the claim is false and provide context for the misinformation.\n\nA3. Logical Consistency (0-10): 9\n- The information is logically consistent. The sources provide a clear and coherent narrative that the claim is a rumor and has been debunked. There are no logical inconsistencies within the provided evidence.\n\nTrack A Total: 19/30\n\n══════════════════════════════════════════\n[TRACK B: QUALITATIVE CROSS-REFERENCE]\nB1. Core claim exists in evidence? □ PASS □ FAIL\n- FAIL: The core claim that Oprah advised a ten percent tip does not exist in the evidence. The evidence refutes this claim.\n\nB2. No contradictions detected? □ PASS □ FAIL\n- PASS: There are no contradictions in the evidence. All sources consistently refute the claim.\n\nB3. Context preserved correctly? □ PASS □ FAIL\n- PASS: The context is preserved correctly. The sources provide a detailed explanation of how the rumor originated and was debunked.\n\nTrack B Result: 2 of 3 PASS\n\n══════════════════════════════════════════\n[SYNTHESIS DECISION MATRIX]\n| Track A Score | Track B Passes | Final Decision |\n|---------------|----------------|----------------|\n| >= 22         | >= 2           | True           |\n| >= 25         | >= 1           | True           |\n| < 22          | 3              | True           |\n| Otherwise     | -              | False          |\n\nFinal Output: Prediction: False",
+      "compressed_evidence": "1. 来源匿名，可信度低。\n2. 无事实矛盾，一致性高。\n3. 奥普拉建议给10%小费。\n4. 综合判断为未验证。"
+    }
+  },
+  {
+    "prompt_name": "dual_track_verifier",
+    "index": 2,
+    "claim": "Poll to Legalize Marijuana",
+    "ground_truth": "False",
+    "prediction": "True",
+    "raw_output": {
+      "final_label": "Real",
+      "explanation_path": "### TRACK A: QUANTITATIVE SCORING\n**A1. Factual Accuracy (0-10): 8**\n- The claim that California will vote on the legalization of marijuana for recreational use is supported by the evidence. The reference materials indicate that California did indeed vote on and passed Proposition 64, which legalized recreational marijuana.\n- However, the claim does not specify the exact date or the outcome, which could be more precise.\n\n**A2. Evidence Alignment (0-10): 9**\n- The evidence provided aligns well with the claim. Multiple sources confirm that California voted on the legalization of recreational marijuana.\n- The evidence also provides additional context, such as the potential tax revenue and the broader national trend toward marijuana legalization.\n\n**A3. Logical Consistency (0-10): 9**\n- The claim is logically consistent with the evidence. The evidence supports the idea that California was considering and ultimately passed a measure to legalize recreational marijuana.\n- There are no logical inconsistencies in the claim or the supporting evidence.\n\n**Track A Total: 26/30**\n\n### TRACK B: QUALITATIVE CROSS-REFERENCE\n**B1. Core claim exists in evidence? □ PASS**\n- The core claim that California will vote on the legalization of marijuana for recreational use is clearly supported by the evidence.\n\n**B2. No contradictions detected? □ PASS**\n- There are no contradictions in the evidence. All sources consistently support the claim that California voted on and passed the legalization of recreational marijuana.\n\n**B3. Context preserved correctly? □ PASS**\n- The context of the claim is preserved correctly. The evidence provides additional details about the potential benefits and the broader national context, but these do not contradict the core claim.\n\n**Track B Result: 3 of 3 PASS**\n\n### SYNTHESIS DECISION MATRIX\n| Track A Score | Track B Passes | Final Decision |\n|---------------|----------------|----------------|\n| >= 22         | >= 2           | True           |\n| >= 25         | >= 1           | True           |\n| < 22          | 3              | True           |\n| Otherwise     | -              | False          |\n\n**Final Output: Prediction: True**",
+      "compressed_evidence": "1. 来源匿名，无官方背书。\n2. 事实核查未发现矛盾，信息一致。\n3. 内容主要为信息传递，情感强度低。\n4. 加州将投票决定是否娱乐用大麻合法化。"
+    }
+  },
+  {
+    "prompt_name": "weighted_evidence_scorer",
+    "index": 1,
+    "claim": "Oprah's advice regarding a ten percent tip.",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "根据提供的证据材料，我们可以对声明进行如下评估：\n\nA. 证据覆盖度 (0-10): 从给出的证据来看，并没有直接证明Oprah Winfrey确实建议给10%的小费。相反，证据表明这是一个谣言，且有多个来源指出Oprah推荐至少15%的小费。因此，这项得分为2，因为虽然找到了相关的信息，但它们并不支持原声明。\n\nB. 一致性 (0-10): 声明与证据是不一致的。证据显示Oprah并未提出过这样的小费建议，甚至她的节目和杂志都提倡更高的小费比例。因此，这项得分也为2，以反映声明与实际证据之间的差异。\n\nC. 语境准确性 (0-10): 给出的信息清楚地表明了这个说法是基于一个误解或误传。考虑到这一点，以及证据中提到的实际建议（即至少15%的小费），该声明在语境上是不准确的。因此，对于这一项，给予3分，表示有一定的背景信息被提供，但是这些信息并不支持原始声明。\n\n总分：2 + 2 + 3 = 7\n\n由于总分低于20分，按照决策规则，最终判断为：\nPrediction: False",
+      "compressed_evidence": "1. 来源匿名，存在风险。\n2. 事实核查未发现矛盾。\n3. 建议小费比例被验证。\n4. 总体结论为未验证。"
+    }
+  },
+  {
+    "prompt_name": "weighted_evidence_scorer",
+    "index": 2,
+    "claim": "Poll to Legalize Marijuana",
+    "ground_truth": "False",
+    "prediction": "True",
+    "raw_output": {
+      "final_label": "Real",
+      "explanation_path": "根据提供的证据材料，我们来逐项评估声明 \"Poll to Legalize Marijuana\"。\n\nA. 证据覆盖度 (0-10): 声明提到的是关于大麻合法化的投票。从证据2中可以直接得知加州确实将就娱乐用大麻是否合法化进行投票。此外，证据4也提供了全国范围内支持大麻合法化的趋势。因此，声明的主要内容在证据中有直接的支持。评分：8\n\nB. 一致性 (0-10): 证据材料与声明之间没有明显的矛盾。实际上，它们都指向了大麻合法化的讨论和支持率的增长。这表明声明与给出的背景信息是一致的。评分：9\n\nC. 语境准确性 (0-10): 虽然声明本身较为简略，但结合给定的信息来看，并没有对原始意图或背景做出曲解。声明准确反映了即将发生的投票活动及其背后的广泛社会背景。评分：8\n\n总分 = A + B + C = 8 + 9 + 8 = 25\n\n根据决策规则，总分>=20则判定为True。\nPrediction: True",
+      "compressed_evidence": "1. 来源为匿名自媒体，无官方背书。\n2. 加州将投票决定是否娱乐用大麻合法化。\n3. 多州因大麻合法化增加税收。\n4. 全美支持大麻合法化的比例上升。"
+    }
+  },
+  {
+    "prompt_name": "cross_check_simulator",
+    "index": 1,
+    "claim": "Oprah's advice regarding a ten percent tip.",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "- **Initial Check:** The claim \"Oprah's advice regarding a ten percent tip\" is present in the Knowledge Base, with specific mentions of Oprah and the 10% tipping advice.\n- **Detail Verification:**\n  - The claim refers to Oprah suggesting a 10% tip.\n  - The evidence snippets and justifications in the Knowledge Base (e.g., from Snopes) indicate that there was a rumor that Oprah suggested a 10% tip, but this is explicitly stated as false. For example, Barbara Mikkelson's article on Snopes states, \"There is no evidence in support of the assertion that Oprah Winfrey recommended her audience tip waitstaff 10%, in response to economic recession or otherwise, on her television show or in her magazine.\"\n  - The actual advice from Oprah, as per the sources, is to tip at least 15%.\n- **Conflict Detection:**\n  - The Knowledge Base clearly contradicts the claim. It states that the 10% tip advice attributed to Oprah is a false rumor. The correct advice, according to the sources, is to tip 15% or more.\n\n**Verdict:**\nPrediction: False\n\nThe claim that Oprah advised a 10% tip is not supported by the provided ground truth. The evidence shows that this was a false rumor, and the actual advice from Oprah is to tip at least 15%.",
+      "compressed_evidence": "1. 来源匿名，有风险标记。\n2. 无炒作词汇，风险低。\n3. 奥普拉建议给10%小费，事实一致。\n4. 不违反经济常识。"
+    }
+  },
+  {
+    "prompt_name": "cross_check_simulator",
+    "index": 2,
+    "claim": "Poll to Legalize Marijuana",
+    "ground_truth": "False",
+    "prediction": "True",
+    "raw_output": {
+      "final_label": "Real",
+      "explanation_path": "### Initial Check: Does the claim exist in the Knowledge Base?\n\nThe claim \"Poll to Legalize Marijuana\" is not explicitly stated in the provided ground truth. However, the ground truth does contain information related to the legalization of marijuana and public support for it, which can be used to verify the claim.\n\n### Detail Verification: Do specific numbers, dates, and entities match exactly?\n\n- **Entities**: The ground truth mentions several states where marijuana has been legalized, including California, Massachusetts, Nevada, Alaska, Colorado, Oregon, and Washington. It also mentions Washington, D.C.\n- **Dates**: The ground truth provides some specific dates, such as November 2023 (in the first piece of evidence) and a reference to the 2016 election (in the second piece of evidence).\n- **Numbers**: The ground truth includes figures related to tax revenue from marijuana legalization, such as $3.48 million in Oregon and $1 billion in California.\n\n### Conflict Detection: Is there any statement in the Knowledge Base that directly contradicts the claim?\n\n- The ground truth does not directly contradict the claim. Instead, it provides supporting evidence for the legalization of marijuana, including:\n  - A Gallup poll showing 60% support for legalization.\n  - Examples of states that have already legalized marijuana and the resulting tax revenue.\n  - Arguments for the social and economic benefits of legalization.\n\n### Verdict:\n\nGiven the context and the supporting evidence in the ground truth, the claim \"Poll to Legalize Marijuana\" can be inferred to be true, as there is significant public support and multiple states have already taken steps to legalize marijuana.\n\n**Prediction: True**",
+      "compressed_evidence": "1. 来源匿名，无官方背书。\n2. 无情感煽动或操纵迹象。\n3. 提供多州大麻合法化后税收增长事实。\n4. 缺少具体日期、反对意见及社会影响背景。"
+    }
+  },
+  {
+    "prompt_name": "tribunal_judgment",
+    "index": 2,
+    "claim": "Poll to Legalize Marijuana",
+    "ground_truth": "False",
+    "prediction": "True",
+    "raw_output": {
+      "final_label": "Real",
+      "explanation_path": "### 【阶段一：证据审查】\n\n- **声明核心内容是否存在于证据中？** 是\n  - 证据中确实提到了关于加州以及其他州的娱乐性大麻合法化的投票。例如，第二条证据明确指出“California, Massachusetts and Nevada legalized marijuana on Tuesday...”。\n\n- **具体细节（数字/日期/名称）是否匹配？** 部分匹配\n  - 第一条证据提到加州可能在11月进行投票，并且预计每年可带来10亿美元的税收。第二条证据则确认了加州、马萨诸塞州和内华达州在某个周二通过了大麻合法化法案。\n  - 然而，具体的日期和一些细节信息在不同证据之间存在差异。\n\n- **是否发现矛盾信息？** 无重大矛盾\n  - 虽然第一条证据的来源可信度较低（匿名自媒体），但其内容与第二条证据中的实际事件相符。第二条证据来自可信的新闻报道，因此可以认为没有重大矛盾。\n\n### 【阶段二：专家评分】\n\n- **事实准确度:** 8/10\n  - 大部分事实得到了验证，但缺少具体日期和州名等关键背景信息。\n\n- **证据充分度:** 7/10\n  - 提供的证据较为充分，但来源的可靠性参差不齐。第二条证据的可靠性较高，但第一条和第三条证据的来源可信度较低。\n\n- **逻辑严密度:** 6/10\n  - 逻辑上基本合理，但缺乏对反对意见及公共健康担忧的讨论，这使得论证不够全面。\n\n总分: 21/30\n\n### 【阶段三：陪审投票】\n\n- **首席核查员:** 支持True\n  - 尽管部分证据来源不可靠，但第二条证据提供了确凿的信息，支持加州及其他州的大麻合法化投票。\n\n- **证据分析师:** 支持True\n  - 证据中提到的事件和数据总体上是真实的，尽管有些细节不完全一致。\n\n- **逻辑审计师:** 支持False\n  - 论证不够全面，缺乏对反对意见和公共健康问题的讨论，这使得逻辑上存在缺陷。\n\n### 【最终裁决】\n\n综合三阶段结果：\n- 阶段一无重大问题 + 阶段二总分>=20 + 阶段三多数支持True → Prediction: True\n\n最终裁决：True",
+      "compressed_evidence": "1. 来源为匿名自媒体，无官方背书。\n2. 缺少具体日期和州名等关键背景信息。\n3. 未提及反对意见及公共健康担忧。\n4. 已验证的事实与已知数据一致。"
+    }
+  },
+  {
+    "prompt_name": "tribunal_judgment",
+    "index": 1,
+    "claim": "Oprah's advice regarding a ten percent tip.",
+    "ground_truth": "False",
+    "prediction": "True",
+    "raw_output": {
+      "final_label": "Real",
+      "explanation_path": "### 阶段一：证据审查\n- **声明核心内容是否存在于证据中？** \n  - 声明提到“Oprah的建议是给10%的小费”，但在提供的证据中，明确指出这是一个谣言。实际上，Oprah从未说过这样的建议，相反，她支持的是至少15%的小费。\n  - **结论**：□否\n\n- **具体细节（数字/日期/名称）是否匹配？**\n  - 证据中的日期和人物（如Oprah、Steven Dublanica等）与声明中的信息一致，但声明的核心内容与事实不符。\n  - **结论**：□否\n\n- **是否发现矛盾信息？**\n  - 证据中明确指出，Oprah从未建议过只给10%的小费，反而多次强调至少15%的小费。\n  - **结论**：□有矛盾\n\n### 阶段二：专家评分\n- **事实准确度: 2/10**\n  - 声明中的事实与实际证据完全不符，Oprah并未建议10%的小费。\n\n- **证据充分度: 8/10**\n  - 提供了多个来源的证据，包括Oprah Winfrey Show的内容、O, The Oprah Magazine的文章以及HarpoBear在官方论坛上的澄清，这些都明确反驳了声明。\n\n- **逻辑严密度: 6/10**\n  - 声明本身没有明显的逻辑错误，但其内容与大量证据相矛盾。\n\n- **总分: 16/30**\n\n### 阶段三：陪审投票\n- **首席核查员: □支持True □支持False**\n  - 根据证据审查的结果，首席核查员应支持False。\n\n- **证据分析师: □支持True □支持False**\n  - 证据分析师也应支持False，因为证据明确表明Oprah从未建议10%的小费。\n\n- **逻辑审计师: □支持True □支持False**\n  - 逻辑审计师同样支持False，因为虽然声明本身没有逻辑问题，但其内容与事实不符。\n\n### 最终裁决\n- **阶段一无重大问题 + 阶段二总分>=20 + 阶段三多数支持True → Prediction: True**\n- **否则 → Prediction: False**\n\n**综合三阶段结果：**\n- 阶段一发现了矛盾信息。\n- 阶段二总分为16，低于20。\n- 阶段三多数支持False。\n\n**最终裁决：**\n- **Prediction: False**",
+      "compressed_evidence": "1. 来源匿名，可信度低。\n2. 无事实矛盾，符合常识。\n3. 无情感煽动或操纵手段。"
+    }
+  },
+  {
+    "prompt_name": "editorial_board_vote",
+    "index": 1,
+    "claim": "Oprah's advice regarding a ten percent tip.",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "【委员会讨论】\n- 首席核查员意见：根据提供的证据，Oprah Winfrey并没有建议人们给服务员的小费不应超过10%。事实上，有多个来源表明她支持至少15%的小费标准。虽然存在一些误导性的社交媒体帖子和传闻，但这些都没有可靠的视频或文章支持。因此，关于Oprah建议只给10%小费的声明缺乏可信度。\n- 领域专家意见：从服务行业以及相关文化背景来看，美国普遍接受的小费比例是15%-20%，而材料中提到的《O, The Oprah Magazine》以及Oprah本人的公开言论都支持这一观点。此外，Oprah Winfrey作为公众人物，通常会提倡公平对待劳动者，这与“仅给10%小费”的说法相矛盾。\n- 逻辑分析师意见：考虑到该声明所依赖的信息来源（如匿名社交网络页面）的可靠性较低，并且没有直接证据证明Oprah曾做出过这样的表态；相反地，还有许多来自权威渠道的消息否认了这一点。因此，从逻辑上讲，我们不能认为这个声明是真实的。\n\n【最终投票结果】\n首席核查员: False\n领域专家: False\n逻辑分析师: False\n\n输出格式：Prediction: False",
+      "compressed_evidence": "1. 来源匿名，存在风险。\n2. 无显著事实矛盾或常识违规。\n3. 建议内容与已知事实一致。\n4. 最终结论为未验证。"
+    }
+  },
+  {
+    "prompt_name": "editorial_board_vote",
+    "index": 2,
+    "claim": "Poll to Legalize Marijuana",
+    "ground_truth": "False",
+    "prediction": "True",
+    "raw_output": {
+      "final_label": "Real",
+      "explanation_path": "【委员会讨论】\n\n- 首席核查员意见：从提供的材料来看，存在两个相对可信度较高的来源。其中一个表明加州以及其他几个州确实已经通过了大麻合法化的提案，并且这些地区预期或已经从这项政策中获得了显著的税收增长。另一个高可信度来源则具体提到加州预计每年将从大麻合法化中获得额外约10亿美元的税收。尽管有部分信息来源的可靠性较低（如匿名信源），但主要论点和数据支持该声明是基于实际发生的事件以及合理的预测。因此我倾向于认为该声明属实。\n\n- 领域专家意见：根据我的专业知识，在美国多个州包括加州、马萨诸塞州及内华达州等地确实已经实现了大麻的部分甚至全面合法化。同时，这些地方政府也的确因为这一改变而增加了财政收入。特别是在加州这样一个拥有庞大人口基数的地方，其潜在市场价值巨大。因此，从专业角度出发，我认为关于“投票使大麻合法化”的说法是有依据的，并且这种变化对当地经济产生了积极影响。\n\n- 逻辑分析师意见：从逻辑上分析，该声明描述了一个因果关系——即如果某地投票决定让大麻合法化，则可能会带来额外的税收收入。这与我们所知的事实相符：例如科罗拉多州、俄勒冈州等早先实行类似政策的地区均报告了显著增加的税收。此外，文中还提到了加州作为下一个可能受益于此类改革的大州之一。虽然某些细节可能需要进一步验证，但从整体上看，这个推论过程是合理且连贯的。\n\n【最终投票结果】\n- 首席核查员: True\n- 领域专家: True\n- 逻辑分析师: True\n\nPrediction: True",
+      "compressed_evidence": "1. 来源匿名，可信度低。\n2. 无事实矛盾或时间线错误。\n3. 多个州因大麻合法化增加税收。\n4. 预计加州将从大麻合法化中获益。"
+    }
+  }
+]

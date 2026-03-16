@@ -36,18 +36,18 @@ LLM_MODEL = "qwen-max"
 EMBEDDING_MODEL = "text-embedding-v4"
 
 # 每个数据集生成条数（-1 表示全量）
-FINFACT_LIMIT = 5
-FINGUARD_TRUE_LIMIT = 5
-FINGUARD_FALSE_LIMIT = 5
+FINFACT_LIMIT = -1
+FINGUARD_TRUE_LIMIT = -1
+FINGUARD_FALSE_LIMIT = -1
 
 # 断点重跑配置
 # 想断点续跑：把 RESUME 设为 True，并固定 RUN_TAG（不要改动）
 RESUME = True
-RUN_TAG = None  # 设为 None 会自动生成时间戳；想续跑请写固定字符串，例如 "run_20260210"
+RUN_TAG = "20260211_002927"  # 设为 None 会自动生成时间戳；想续跑请写固定字符串，例如 "run_20260210"
 
 # 初始化API
 client = OpenAI(
-    api_key="sk-6234f2144f4946fa81cbfaf6e382c3a0",
+    api_key="sk-09964cbd8e0446879cac5bac49a87aad",
     base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
 )
 

@@ -1,0 +1,21 @@
+﻿prompt_name,index,claim,ground_truth,prediction,correct,raw_label,error
+dual_track_verifier,1,Oprah's advice regarding a ten percent tip.,False,False,True,false,
+dual_track_verifier,2,Poll to Legalize Marijuana,False,True,False,false,
+weighted_evidence_scorer,1,Oprah's advice regarding a ten percent tip.,False,False,True,false,
+weighted_evidence_scorer,2,Poll to Legalize Marijuana,False,True,False,false,
+cross_check_simulator,1,Oprah's advice regarding a ten percent tip.,False,False,True,false,
+cross_check_simulator,2,Poll to Legalize Marijuana,False,True,False,false,
+tribunal_judgment,1,Oprah's advice regarding a ten percent tip.,False,False,True,false,
+tribunal_judgment,2,Poll to Legalize Marijuana,False,True,False,false,
+editorial_board_vote,1,Oprah's advice regarding a ten percent tip.,False,False,True,false,
+editorial_board_vote,2,Poll to Legalize Marijuana,False,True,False,false,
+systematic_cross_validator,1,Oprah's advice regarding a ten percent tip.,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,2,Poll to Legalize Marijuana,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,2,Poll to Legalize Marijuana,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,1,Oprah's advice regarding a ten percent tip.,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,1,Oprah's advice regarding a ten percent tip.,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,2,Poll to Legalize Marijuana,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,1,Oprah's advice regarding a ten percent tip.,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,2,Poll to Legalize Marijuana,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,2,Poll to Legalize Marijuana,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,1,Oprah's advice regarding a ten percent tip.,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False

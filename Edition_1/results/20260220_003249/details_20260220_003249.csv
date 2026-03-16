@@ -1,0 +1,1001 @@
+﻿prompt_name,index,claim,ground_truth,prediction,correct,raw_label,error
+dual_track_verifier,1,Oprah's advice regarding a ten percent tip.,False,False,True,false,
+dual_track_verifier,7,The average faculty member at UW-Madison brings in close to a quarter million dollars a year in grant money.,True,False,False,true,
+dual_track_verifier,2,Poll to Legalize Marijuana,False,True,False,false,
+dual_track_verifier,8,Procter and Gamble and Satanism Rumor,False,False,True,false,
+dual_track_verifier,4,If Texas were a country our economy would rank # 10...in the WORLD.,True,False,False,true,
+dual_track_verifier,6,Juval Aviv Terrorist Predictions,False,False,True,false,
+dual_track_verifier,3,Did Joe Biden Use the N-Word in a Recorded Speech?,False,False,True,false,
+dual_track_verifier,5,Is This a Real Photo of Obama Shaking Hands with Iranian President Rouhani?,False,False,True,false,
+dual_track_verifier,10,Is McDonald's the World's Largest Purchaser of Cow Eyeballs?,False,False,True,false,
+dual_track_verifier,9,SCAM ALERT: Texas Roadhouse Vouchers on Facebook,False,True,False,false,
+dual_track_verifier,11,The addition of a 1 percent sales tax would cost a typical household in Hillsborough County approximately $12 a month.,True,False,False,true,
+dual_track_verifier,15,Was This 'Health Bulletin' an Accurate Coronavirus Warning?,False,False,True,false,
+dual_track_verifier,13,"Says that under Rick Perrys plan, Texas has cut funding for public schools by 25%.",True,False,False,true,
+dual_track_verifier,12,Says the United States has the highest corporate tax rate in the world.,True,False,False,true,
+dual_track_verifier,14,Customer Liability for Chipped Card (EMV) Fraud,False,False,True,false,
+dual_track_verifier,16,Can the 'FireChat' App Send Messages Without an Internet Connection?,True,False,False,true,
+dual_track_verifier,17,Betty White on 'Grow Some Balls',False,False,True,false,
+dual_track_verifier,18,Amelia Bassano: The True Shakespeare?,False,False,True,false,
+dual_track_verifier,19,Ronda Rousey Death Hoax,False,False,True,false,
+dual_track_verifier,23,Fraudulent activity targeting refrigerators and ovens at Target and Walmart gains traction on Facebook.,False,False,True,false,
+dual_track_verifier,21,Scam for Target and Walmart Refrigerators and Ovens Hits Facebook,False,False,True,false,
+dual_track_verifier,22,Fraudulent scheme regarding refrigerators and ovens at Target and Walmart gains traction on Facebook.,False,False,True,false,
+dual_track_verifier,20,The Stolen Biscuits,True,False,False,true,
+dual_track_verifier,24,Is the 'Inventor of Autocorrect Died' Sign Real?,True,False,False,true,
+dual_track_verifier,26,Is This a Picture of Christine Blasey Ford in 1982?,False,False,True,false,
+dual_track_verifier,25,The top one-tenth of 1 percent of Americans own almost as much wealth as the bottom 90 percent.,True,False,False,true,
+dual_track_verifier,29,Did Adele Endorse Keto Weight Loss Gummies on 'Ellen'?,False,False,True,false,
+dual_track_verifier,31,Is Biden's Logo a Reference to China's 'Three Red Banners'?,False,False,True,false,"attempt 3 failed: Error code: 400 - {'error': {'message': 'Input data may contain inappropriate content. For details, see: https://help.aliyun.com/zh/model-studio/error-code#inappropriate-content', 'type': 'data_inspection_failed', 'param': None, 'code': 'data_inspection_failed'}, 'id': 'chatcmpl-409ccb65-7f65-9d99-8fe7-8fc58ed559f8', 'request_id': '409ccb65-7f65-9d99-8fe7-8fc58ed559f8'} | fallback->False"
+dual_track_verifier,27,Immigration Bill Free Cars,False,False,True,false,
+dual_track_verifier,28,Legislation on Immigration Offering Complimentary Vehicles,False,False,True,false,
+dual_track_verifier,30,The House of Delegates budget bill cuts $50 million from education.,True,False,False,true,
+dual_track_verifier,33,Was Barack Obama Arrested in a Japanese Drug Bust?,False,False,True,false,
+dual_track_verifier,34,Has the Legal Drinking Age Been Raised to 23?,False,False,True,false,
+dual_track_verifier,32,"Although California has the sixth largest economy in the world, we also have one of the highest poverty rates in the nation.",True,False,False,true,
+dual_track_verifier,36,Is There a Unique Tip for Cars with Automatic Headlights?,False,False,True,false,
+dual_track_verifier,35,"Tax rates were significantly higher in the '40s, the '50s, and the '60s.",True,False,False,true,
+dual_track_verifier,39,Russian forces will be responsible for ensuring the safety at events held in the United States.,False,False,True,false,
+dual_track_verifier,37,The largest U.S. companies would owe $620 billion in U.S. taxes on the cash they store in tax havens.,True,False,False,true,
+dual_track_verifier,38,Three in four low-income workers dont have any paid sick days available.,True,False,False,true,
+dual_track_verifier,43,Is the White House Gift Shop Selling a 'Trump Defeats COVID-19' Coin?,False,False,True,false,
+dual_track_verifier,42,Is Safyre Terry's Christmas Wish a Scam?,True,False,False,true,
+dual_track_verifier,45,"Pepper ... kicked off a jock tax, imposing a levy on the sports and entertainment industry.",True,False,False,true,
+dual_track_verifier,40,"California's Attorney General, Xavier Becerra is putting together plans to raise property tax revenue by eliminating the only thing keeping some people's property tax from sky rocketing, Prop 13.",False,False,True,false,
+dual_track_verifier,41,The recently passed transportation funding bill is a billion-dollar tax increase for Georgians.,True,False,False,true,
+dual_track_verifier,44,"Does This Photograph Show Pipe-Bombing Suspect Cesar Sayoc With a 'Known Democrat,' Proving a Hoax Conspiracy?",False,False,True,false,
+dual_track_verifier,47,Free Dunkin' Donuts Coupon Scam,False,True,False,false,
+dual_track_verifier,46,Gun Con-Troll,False,False,True,false,
+dual_track_verifier,48,Fraudulent Free Dunkin' Donuts Coupon Offer,False,False,True,false,
+dual_track_verifier,49,Deceptive offer of complimentary Dunkin' Donuts voucher,False,True,False,false,
+dual_track_verifier,50,Fraudulent offer for complimentary Dunkin' Donuts voucher,False,True,False,false,
+dual_track_verifier,51,Did Biden Say Poor Kids Are 'Just as Talented as White Kids'?,True,False,False,true,
+dual_track_verifier,52,Does Biden's Climate Plan Include Cutting 90% of Red Meat From Our Diets?,False,False,True,false,
+dual_track_verifier,55,Is there a provision in Biden's climate plan that involves reducing our red meat consumption by 90%?,False,False,True,false,
+dual_track_verifier,53,Is it true that Biden's Climate Plan proposes reducing red meat consumption by 90%?,False,False,True,false,
+dual_track_verifier,54,Is there a provision in Biden's climate plan to reduce red meat consumption by 90%?,False,False,True,false,
+dual_track_verifier,56,"At the beginning of the last decade ... America had a budget surplus of over $200 billion. By the time I took office, we had a one-year deficit of over $1 trillion and projected deficits of $8 trillion over the next decade.",True,True,True,true,
+dual_track_verifier,57,Is Starbucks Opening a Roasting Facility in China?,True,False,False,true,
+dual_track_verifier,59,"Was Deutsche Bank a source of funding for Auschwitz, Trump, Jeffrey Epstein, and ISIS?",True,False,False,true,
+dual_track_verifier,58,"Did Deutsche Bank Fund Auschwitz, Trump, Jeffrey Epstein, and ISIS?",True,False,False,true,
+dual_track_verifier,62,Are the Trumps Looting the White House?,False,False,True,false,
+dual_track_verifier,60,"Was Deutsche Bank the source of funding for Auschwitz, Trump, Jeffrey Epstein, and ISIS?",True,False,False,true,
+dual_track_verifier,63,Does Walmart Sell Insulin for $25 a Vial Without a Prescription?,True,False,False,true,
+dual_track_verifier,61,"Did Deutsche Bank provide funding for Auschwitz, Trump, Jeffrey Epstein, and ISIS?",True,False,False,true,
+dual_track_verifier,64,Warning Concerning Obamacare,False,True,False,false,
+dual_track_verifier,65,Cautionary notice regarding the Affordable Care Act,False,False,True,false,
+dual_track_verifier,67,Passing the Starbucks,False,False,True,false,
+dual_track_verifier,70,Rhode Island's legislature is the strongest in the country.,True,False,False,true,
+dual_track_verifier,68,Can You Text to 83361 to Receive a Free Target Gift Card?,False,False,True,false,
+dual_track_verifier,66,The Last of the Kennedy Dynasty,False,False,True,false,
+dual_track_verifier,71,Abandoned Polish Wedding Chairs,False,False,True,false,
+dual_track_verifier,69,Sinking of Titanic Was Orchestrated to Kill Businessmen Who Opposed Formation of Federal Reserve?,False,False,True,false,
+dual_track_verifier,73,June 11 2004 Terrorist Rumor,False,False,True,false,
+dual_track_verifier,72,"My campaign finished the last quarter reporting the most cash on hand of any Republican in the field  $13.8 million in the bank, $3.5 million more than the Jeb Bush campaign.",True,False,False,true,
+dual_track_verifier,74,Says the 2011-13 state budget eliminates the structural deficit for the first time in decades.,True,False,False,true,
+dual_track_verifier,76,Mixed Case Street Name Signs,False,False,True,false,
+dual_track_verifier,75,Did President Trump Sign an Executive Order Giving Veterans Free Care at Any Hospital?,False,False,True,false,
+dual_track_verifier,77,Is the Equifax Data Breach Settlement Email Legit?,True,False,False,true,
+dual_track_verifier,78,Is the Equifax Data Breach Settlement Email Genuine?,True,False,False,true,
+dual_track_verifier,79,Is the email concerning the Equifax Data Breach Settlement authentic?,True,False,False,true,
+dual_track_verifier,83,[E]xcise tax increases drive commerce across state lines.,True,False,False,true,
+dual_track_verifier,80,"In the past year, Floridians, not government, created almost 135,000 new private sector jobs. We netted more than 120,000 total jobs in the first 11 months of 2011; the third most of any state in the nation.",True,True,True,true,
+dual_track_verifier,81,Did President Obama Order More Than 500 Drone Strikes?,True,True,True,true,
+dual_track_verifier,84,Was Michael Moore Accused of Sexual Harassment?,False,False,True,false,
+dual_track_verifier,82,Wisconsin is below the national average in wage growth and job growth.,True,False,False,true,
+dual_track_verifier,86,Special education categorical aid from the state hasnt been raised in over a decade.,True,False,False,true,
+dual_track_verifier,85,Did Kevin Sorbo of 'Hercules' Fame Die in 2020?,False,False,True,false,
+dual_track_verifier,87,The Inland Empire is the second fastest growing region for jobs in California.,True,False,False,true,
+dual_track_verifier,88,Does Photo Show Trump Arriving in New York for His Arraignment?,False,False,True,false,
+dual_track_verifier,89,Missing Child: Ember Graham,True,False,False,true,
+dual_track_verifier,91,Will Cars with Full Gas Tanks Explode on Hot Days?,False,False,True,false,
+dual_track_verifier,92,Were Most Jobs Added in February 2021 'Waiters and Bartenders'?,True,False,False,true,
+dual_track_verifier,90,Is this Really an Electric Car From 1905?,True,False,False,true,
+dual_track_verifier,93,Did most of the new jobs in February 2021 consist of waiters and bartenders?,True,False,False,true,
+dual_track_verifier,94,Did the greatest number of jobs in February 2021 come from the 'Waiters and Bartenders' sector?,True,False,False,true,
+dual_track_verifier,95,Joanna Gaines Never Endorsed Keto Gummies for Weight Loss,False,True,False,false,
+dual_track_verifier,96,Ford Motors Funds Black Lives Matter,False,False,True,false,
+dual_track_verifier,97,Did Alex Smith Die at Age 26 Because He Couldn't Afford Insulin?,True,False,False,true,
+dual_track_verifier,98,Could Polar Bears Be Extinct by 2100?,True,True,True,true,
+dual_track_verifier,100,"The average family (is) now bringing home $4,000 less than they did just five years ago.",True,False,False,true,
+dual_track_verifier,99,"This budget also reflects the smallest state government workforce per 1,000 residents in Florida in this century.",True,False,False,true,
+weighted_evidence_scorer,1,Oprah's advice regarding a ten percent tip.,False,False,True,false,
+weighted_evidence_scorer,4,If Texas were a country our economy would rank # 10...in the WORLD.,True,False,False,true,
+weighted_evidence_scorer,8,Procter and Gamble and Satanism Rumor,False,False,True,false,
+weighted_evidence_scorer,6,Juval Aviv Terrorist Predictions,False,False,True,false,
+weighted_evidence_scorer,2,Poll to Legalize Marijuana,False,True,False,false,
+weighted_evidence_scorer,3,Did Joe Biden Use the N-Word in a Recorded Speech?,False,False,True,false,
+weighted_evidence_scorer,7,The average faculty member at UW-Madison brings in close to a quarter million dollars a year in grant money.,True,False,False,true,
+weighted_evidence_scorer,5,Is This a Real Photo of Obama Shaking Hands with Iranian President Rouhani?,False,False,True,false,
+weighted_evidence_scorer,10,Is McDonald's the World's Largest Purchaser of Cow Eyeballs?,False,False,True,false,
+weighted_evidence_scorer,9,SCAM ALERT: Texas Roadhouse Vouchers on Facebook,False,True,False,false,
+weighted_evidence_scorer,11,The addition of a 1 percent sales tax would cost a typical household in Hillsborough County approximately $12 a month.,True,False,False,true,
+weighted_evidence_scorer,12,Says the United States has the highest corporate tax rate in the world.,True,False,False,true,
+weighted_evidence_scorer,15,Was This 'Health Bulletin' an Accurate Coronavirus Warning?,False,False,True,false,
+weighted_evidence_scorer,14,Customer Liability for Chipped Card (EMV) Fraud,False,False,True,false,
+weighted_evidence_scorer,13,"Says that under Rick Perrys plan, Texas has cut funding for public schools by 25%.",True,False,False,true,
+weighted_evidence_scorer,16,Can the 'FireChat' App Send Messages Without an Internet Connection?,True,False,False,true,
+weighted_evidence_scorer,17,Betty White on 'Grow Some Balls',False,False,True,false,
+weighted_evidence_scorer,19,Ronda Rousey Death Hoax,False,False,True,false,
+weighted_evidence_scorer,18,Amelia Bassano: The True Shakespeare?,False,False,True,false,
+weighted_evidence_scorer,21,Scam for Target and Walmart Refrigerators and Ovens Hits Facebook,False,False,True,false,
+weighted_evidence_scorer,23,Fraudulent activity targeting refrigerators and ovens at Target and Walmart gains traction on Facebook.,False,False,True,false,
+weighted_evidence_scorer,20,The Stolen Biscuits,True,False,False,true,
+weighted_evidence_scorer,22,Fraudulent scheme regarding refrigerators and ovens at Target and Walmart gains traction on Facebook.,False,False,True,false,
+weighted_evidence_scorer,24,Is the 'Inventor of Autocorrect Died' Sign Real?,True,False,False,true,
+weighted_evidence_scorer,26,Is This a Picture of Christine Blasey Ford in 1982?,False,False,True,false,
+weighted_evidence_scorer,25,The top one-tenth of 1 percent of Americans own almost as much wealth as the bottom 90 percent.,True,False,False,true,
+weighted_evidence_scorer,29,Did Adele Endorse Keto Weight Loss Gummies on 'Ellen'?,False,False,True,false,
+weighted_evidence_scorer,27,Immigration Bill Free Cars,False,False,True,false,
+weighted_evidence_scorer,30,The House of Delegates budget bill cuts $50 million from education.,True,False,False,true,
+weighted_evidence_scorer,28,Legislation on Immigration Offering Complimentary Vehicles,False,False,True,false,
+weighted_evidence_scorer,31,Is Biden's Logo a Reference to China's 'Three Red Banners'?,False,False,True,false,"attempt 3 failed: Error code: 400 - {'error': {'message': 'Input data may contain inappropriate content. For details, see: https://help.aliyun.com/zh/model-studio/error-code#inappropriate-content', 'type': 'data_inspection_failed', 'param': None, 'code': 'data_inspection_failed'}, 'id': 'chatcmpl-e96d6c33-6b65-9341-b4a0-0e80079d3ce1', 'request_id': 'e96d6c33-6b65-9341-b4a0-0e80079d3ce1'} | fallback->False"
+weighted_evidence_scorer,32,"Although California has the sixth largest economy in the world, we also have one of the highest poverty rates in the nation.",True,False,False,true,
+weighted_evidence_scorer,34,Has the Legal Drinking Age Been Raised to 23?,False,False,True,false,
+weighted_evidence_scorer,36,Is There a Unique Tip for Cars with Automatic Headlights?,False,False,True,false,
+weighted_evidence_scorer,35,"Tax rates were significantly higher in the '40s, the '50s, and the '60s.",True,False,False,true,
+weighted_evidence_scorer,33,Was Barack Obama Arrested in a Japanese Drug Bust?,False,False,True,false,
+weighted_evidence_scorer,37,The largest U.S. companies would owe $620 billion in U.S. taxes on the cash they store in tax havens.,True,False,False,true,
+weighted_evidence_scorer,38,Three in four low-income workers dont have any paid sick days available.,True,False,False,true,
+weighted_evidence_scorer,39,Russian forces will be responsible for ensuring the safety at events held in the United States.,False,False,True,false,
+weighted_evidence_scorer,40,"California's Attorney General, Xavier Becerra is putting together plans to raise property tax revenue by eliminating the only thing keeping some people's property tax from sky rocketing, Prop 13.",False,False,True,false,
+weighted_evidence_scorer,43,Is the White House Gift Shop Selling a 'Trump Defeats COVID-19' Coin?,False,False,True,false,
+weighted_evidence_scorer,41,The recently passed transportation funding bill is a billion-dollar tax increase for Georgians.,True,False,False,true,
+weighted_evidence_scorer,44,"Does This Photograph Show Pipe-Bombing Suspect Cesar Sayoc With a 'Known Democrat,' Proving a Hoax Conspiracy?",False,False,True,false,
+weighted_evidence_scorer,42,Is Safyre Terry's Christmas Wish a Scam?,True,False,False,true,
+weighted_evidence_scorer,45,"Pepper ... kicked off a jock tax, imposing a levy on the sports and entertainment industry.",True,False,False,true,
+weighted_evidence_scorer,46,Gun Con-Troll,False,False,True,false,
+weighted_evidence_scorer,47,Free Dunkin' Donuts Coupon Scam,False,True,False,false,
+weighted_evidence_scorer,48,Fraudulent Free Dunkin' Donuts Coupon Offer,False,True,False,false,
+weighted_evidence_scorer,50,Fraudulent offer for complimentary Dunkin' Donuts voucher,False,False,True,false,
+weighted_evidence_scorer,49,Deceptive offer of complimentary Dunkin' Donuts voucher,False,True,False,false,
+weighted_evidence_scorer,51,Did Biden Say Poor Kids Are 'Just as Talented as White Kids'?,True,False,False,true,
+weighted_evidence_scorer,54,Is there a provision in Biden's climate plan to reduce red meat consumption by 90%?,False,False,True,false,
+weighted_evidence_scorer,52,Does Biden's Climate Plan Include Cutting 90% of Red Meat From Our Diets?,False,False,True,false,
+weighted_evidence_scorer,53,Is it true that Biden's Climate Plan proposes reducing red meat consumption by 90%?,False,False,True,false,
+weighted_evidence_scorer,55,Is there a provision in Biden's climate plan that involves reducing our red meat consumption by 90%?,False,False,True,false,
+weighted_evidence_scorer,56,"At the beginning of the last decade ... America had a budget surplus of over $200 billion. By the time I took office, we had a one-year deficit of over $1 trillion and projected deficits of $8 trillion over the next decade.",True,False,False,true,
+weighted_evidence_scorer,57,Is Starbucks Opening a Roasting Facility in China?,True,False,False,true,
+weighted_evidence_scorer,58,"Did Deutsche Bank Fund Auschwitz, Trump, Jeffrey Epstein, and ISIS?",True,False,False,true,
+weighted_evidence_scorer,60,"Was Deutsche Bank the source of funding for Auschwitz, Trump, Jeffrey Epstein, and ISIS?",True,False,False,true,
+weighted_evidence_scorer,59,"Was Deutsche Bank a source of funding for Auschwitz, Trump, Jeffrey Epstein, and ISIS?",True,False,False,true,
+weighted_evidence_scorer,62,Are the Trumps Looting the White House?,False,False,True,false,
+weighted_evidence_scorer,61,"Did Deutsche Bank provide funding for Auschwitz, Trump, Jeffrey Epstein, and ISIS?",True,False,False,true,
+weighted_evidence_scorer,63,Does Walmart Sell Insulin for $25 a Vial Without a Prescription?,True,False,False,true,
+weighted_evidence_scorer,65,Cautionary notice regarding the Affordable Care Act,False,False,True,false,
+weighted_evidence_scorer,64,Warning Concerning Obamacare,False,False,True,false,
+weighted_evidence_scorer,66,The Last of the Kennedy Dynasty,False,False,True,false,
+weighted_evidence_scorer,70,Rhode Island's legislature is the strongest in the country.,True,False,False,true,
+weighted_evidence_scorer,68,Can You Text to 83361 to Receive a Free Target Gift Card?,False,False,True,false,
+weighted_evidence_scorer,69,Sinking of Titanic Was Orchestrated to Kill Businessmen Who Opposed Formation of Federal Reserve?,False,False,True,false,
+weighted_evidence_scorer,67,Passing the Starbucks,False,False,True,false,
+weighted_evidence_scorer,71,Abandoned Polish Wedding Chairs,False,False,True,false,
+weighted_evidence_scorer,72,"My campaign finished the last quarter reporting the most cash on hand of any Republican in the field  $13.8 million in the bank, $3.5 million more than the Jeb Bush campaign.",True,False,False,true,
+weighted_evidence_scorer,74,Says the 2011-13 state budget eliminates the structural deficit for the first time in decades.,True,False,False,true,
+weighted_evidence_scorer,73,June 11 2004 Terrorist Rumor,False,False,True,false,
+weighted_evidence_scorer,76,Mixed Case Street Name Signs,False,False,True,false,
+weighted_evidence_scorer,77,Is the Equifax Data Breach Settlement Email Legit?,True,False,False,true,
+weighted_evidence_scorer,75,Did President Trump Sign an Executive Order Giving Veterans Free Care at Any Hospital?,False,False,True,false,
+weighted_evidence_scorer,79,Is the email concerning the Equifax Data Breach Settlement authentic?,True,False,False,true,
+weighted_evidence_scorer,78,Is the Equifax Data Breach Settlement Email Genuine?,True,False,False,true,
+weighted_evidence_scorer,81,Did President Obama Order More Than 500 Drone Strikes?,True,False,False,true,
+weighted_evidence_scorer,83,[E]xcise tax increases drive commerce across state lines.,True,False,False,true,
+weighted_evidence_scorer,80,"In the past year, Floridians, not government, created almost 135,000 new private sector jobs. We netted more than 120,000 total jobs in the first 11 months of 2011; the third most of any state in the nation.",True,False,False,true,
+weighted_evidence_scorer,82,Wisconsin is below the national average in wage growth and job growth.,True,False,False,true,
+weighted_evidence_scorer,84,Was Michael Moore Accused of Sexual Harassment?,False,False,True,false,
+weighted_evidence_scorer,90,Is this Really an Electric Car From 1905?,True,False,False,true,
+weighted_evidence_scorer,86,Special education categorical aid from the state hasnt been raised in over a decade.,True,False,False,true,
+weighted_evidence_scorer,85,Did Kevin Sorbo of 'Hercules' Fame Die in 2020?,False,False,True,false,
+weighted_evidence_scorer,87,The Inland Empire is the second fastest growing region for jobs in California.,True,False,False,true,
+weighted_evidence_scorer,88,Does Photo Show Trump Arriving in New York for His Arraignment?,False,False,True,false,
+weighted_evidence_scorer,89,Missing Child: Ember Graham,True,False,False,true,
+weighted_evidence_scorer,91,Will Cars with Full Gas Tanks Explode on Hot Days?,False,False,True,false,
+weighted_evidence_scorer,96,Ford Motors Funds Black Lives Matter,False,False,True,false,
+weighted_evidence_scorer,92,Were Most Jobs Added in February 2021 'Waiters and Bartenders'?,True,False,False,true,
+weighted_evidence_scorer,93,Did most of the new jobs in February 2021 consist of waiters and bartenders?,True,False,False,true,
+weighted_evidence_scorer,95,Joanna Gaines Never Endorsed Keto Gummies for Weight Loss,False,True,False,false,
+weighted_evidence_scorer,94,Did the greatest number of jobs in February 2021 come from the 'Waiters and Bartenders' sector?,True,False,False,true,
+weighted_evidence_scorer,97,Did Alex Smith Die at Age 26 Because He Couldn't Afford Insulin?,True,False,False,true,
+weighted_evidence_scorer,98,Could Polar Bears Be Extinct by 2100?,True,False,False,true,
+weighted_evidence_scorer,99,"This budget also reflects the smallest state government workforce per 1,000 residents in Florida in this century.",True,False,False,true,
+weighted_evidence_scorer,100,"The average family (is) now bringing home $4,000 less than they did just five years ago.",True,False,False,true,
+cross_check_simulator,1,Oprah's advice regarding a ten percent tip.,False,False,True,false,
+cross_check_simulator,8,Procter and Gamble and Satanism Rumor,False,False,True,false,
+cross_check_simulator,3,Did Joe Biden Use the N-Word in a Recorded Speech?,False,False,True,false,
+cross_check_simulator,7,The average faculty member at UW-Madison brings in close to a quarter million dollars a year in grant money.,True,False,False,true,
+cross_check_simulator,4,If Texas were a country our economy would rank # 10...in the WORLD.,True,False,False,true,
+cross_check_simulator,2,Poll to Legalize Marijuana,False,True,False,false,
+cross_check_simulator,6,Juval Aviv Terrorist Predictions,False,False,True,false,
+cross_check_simulator,5,Is This a Real Photo of Obama Shaking Hands with Iranian President Rouhani?,False,False,True,false,
+cross_check_simulator,9,SCAM ALERT: Texas Roadhouse Vouchers on Facebook,False,True,False,false,
+cross_check_simulator,10,Is McDonald's the World's Largest Purchaser of Cow Eyeballs?,False,False,True,false,
+cross_check_simulator,11,The addition of a 1 percent sales tax would cost a typical household in Hillsborough County approximately $12 a month.,True,False,False,true,
+cross_check_simulator,15,Was This 'Health Bulletin' an Accurate Coronavirus Warning?,False,False,True,false,
+cross_check_simulator,16,Can the 'FireChat' App Send Messages Without an Internet Connection?,True,False,False,true,
+cross_check_simulator,13,"Says that under Rick Perrys plan, Texas has cut funding for public schools by 25%.",True,False,False,true,
+cross_check_simulator,14,Customer Liability for Chipped Card (EMV) Fraud,False,False,True,false,
+cross_check_simulator,12,Says the United States has the highest corporate tax rate in the world.,True,False,False,true,
+cross_check_simulator,18,Amelia Bassano: The True Shakespeare?,False,False,True,false,
+cross_check_simulator,17,Betty White on 'Grow Some Balls',False,False,True,false,
+cross_check_simulator,19,Ronda Rousey Death Hoax,False,False,True,false,
+cross_check_simulator,22,Fraudulent scheme regarding refrigerators and ovens at Target and Walmart gains traction on Facebook.,False,False,True,false,
+cross_check_simulator,21,Scam for Target and Walmart Refrigerators and Ovens Hits Facebook,False,False,True,false,
+cross_check_simulator,20,The Stolen Biscuits,True,False,False,true,
+cross_check_simulator,23,Fraudulent activity targeting refrigerators and ovens at Target and Walmart gains traction on Facebook.,False,False,True,false,
+cross_check_simulator,24,Is the 'Inventor of Autocorrect Died' Sign Real?,True,False,False,true,
+cross_check_simulator,25,The top one-tenth of 1 percent of Americans own almost as much wealth as the bottom 90 percent.,True,False,False,true,
+cross_check_simulator,26,Is This a Picture of Christine Blasey Ford in 1982?,False,False,True,false,
+cross_check_simulator,28,Legislation on Immigration Offering Complimentary Vehicles,False,False,True,false,
+cross_check_simulator,29,Did Adele Endorse Keto Weight Loss Gummies on 'Ellen'?,False,False,True,false,
+cross_check_simulator,31,Is Biden's Logo a Reference to China's 'Three Red Banners'?,False,False,True,false,"attempt 3 failed: Error code: 400 - {'error': {'message': 'Input data may contain inappropriate content. For details, see: https://help.aliyun.com/zh/model-studio/error-code#inappropriate-content', 'type': 'data_inspection_failed', 'param': None, 'code': 'data_inspection_failed'}, 'id': 'chatcmpl-65b57a9e-7ea8-91f7-80d5-e6d76bd50a0d', 'request_id': '65b57a9e-7ea8-91f7-80d5-e6d76bd50a0d'} | fallback->False"
+cross_check_simulator,30,The House of Delegates budget bill cuts $50 million from education.,True,False,False,true,
+cross_check_simulator,27,Immigration Bill Free Cars,False,False,True,false,
+cross_check_simulator,33,Was Barack Obama Arrested in a Japanese Drug Bust?,False,False,True,false,
+cross_check_simulator,35,"Tax rates were significantly higher in the '40s, the '50s, and the '60s.",True,False,False,true,
+cross_check_simulator,34,Has the Legal Drinking Age Been Raised to 23?,False,False,True,false,
+cross_check_simulator,32,"Although California has the sixth largest economy in the world, we also have one of the highest poverty rates in the nation.",True,False,False,true,
+cross_check_simulator,36,Is There a Unique Tip for Cars with Automatic Headlights?,False,False,True,false,
+cross_check_simulator,38,Three in four low-income workers dont have any paid sick days available.,True,False,False,true,
+cross_check_simulator,39,Russian forces will be responsible for ensuring the safety at events held in the United States.,False,False,True,false,
+cross_check_simulator,37,The largest U.S. companies would owe $620 billion in U.S. taxes on the cash they store in tax havens.,True,False,False,true,
+cross_check_simulator,40,"California's Attorney General, Xavier Becerra is putting together plans to raise property tax revenue by eliminating the only thing keeping some people's property tax from sky rocketing, Prop 13.",False,False,True,false,
+cross_check_simulator,42,Is Safyre Terry's Christmas Wish a Scam?,True,False,False,true,
+cross_check_simulator,41,The recently passed transportation funding bill is a billion-dollar tax increase for Georgians.,True,False,False,true,
+cross_check_simulator,43,Is the White House Gift Shop Selling a 'Trump Defeats COVID-19' Coin?,False,False,True,false,
+cross_check_simulator,45,"Pepper ... kicked off a jock tax, imposing a levy on the sports and entertainment industry.",True,False,False,true,
+cross_check_simulator,47,Free Dunkin' Donuts Coupon Scam,False,False,True,false,
+cross_check_simulator,44,"Does This Photograph Show Pipe-Bombing Suspect Cesar Sayoc With a 'Known Democrat,' Proving a Hoax Conspiracy?",False,False,True,false,
+cross_check_simulator,46,Gun Con-Troll,False,False,True,false,
+cross_check_simulator,48,Fraudulent Free Dunkin' Donuts Coupon Offer,False,False,True,false,
+cross_check_simulator,49,Deceptive offer of complimentary Dunkin' Donuts voucher,False,False,True,false,
+cross_check_simulator,50,Fraudulent offer for complimentary Dunkin' Donuts voucher,False,False,True,false,
+cross_check_simulator,51,Did Biden Say Poor Kids Are 'Just as Talented as White Kids'?,True,False,False,true,
+cross_check_simulator,52,Does Biden's Climate Plan Include Cutting 90% of Red Meat From Our Diets?,False,False,True,false,
+cross_check_simulator,55,Is there a provision in Biden's climate plan that involves reducing our red meat consumption by 90%?,False,False,True,false,
+cross_check_simulator,54,Is there a provision in Biden's climate plan to reduce red meat consumption by 90%?,False,False,True,false,
+cross_check_simulator,53,Is it true that Biden's Climate Plan proposes reducing red meat consumption by 90%?,False,False,True,false,
+cross_check_simulator,56,"At the beginning of the last decade ... America had a budget surplus of over $200 billion. By the time I took office, we had a one-year deficit of over $1 trillion and projected deficits of $8 trillion over the next decade.",True,True,True,true,
+cross_check_simulator,58,"Did Deutsche Bank Fund Auschwitz, Trump, Jeffrey Epstein, and ISIS?",True,False,False,true,
+cross_check_simulator,57,Is Starbucks Opening a Roasting Facility in China?,True,False,False,true,
+cross_check_simulator,59,"Was Deutsche Bank a source of funding for Auschwitz, Trump, Jeffrey Epstein, and ISIS?",True,False,False,true,
+cross_check_simulator,60,"Was Deutsche Bank the source of funding for Auschwitz, Trump, Jeffrey Epstein, and ISIS?",True,False,False,true,
+cross_check_simulator,62,Are the Trumps Looting the White House?,False,False,True,false,
+cross_check_simulator,61,"Did Deutsche Bank provide funding for Auschwitz, Trump, Jeffrey Epstein, and ISIS?",True,False,False,true,
+cross_check_simulator,63,Does Walmart Sell Insulin for $25 a Vial Without a Prescription?,True,False,False,true,
+cross_check_simulator,64,Warning Concerning Obamacare,False,True,False,false,
+cross_check_simulator,68,Can You Text to 83361 to Receive a Free Target Gift Card?,False,False,True,false,
+cross_check_simulator,66,The Last of the Kennedy Dynasty,False,True,False,false,
+cross_check_simulator,67,Passing the Starbucks,False,False,True,false,
+cross_check_simulator,70,Rhode Island's legislature is the strongest in the country.,True,False,False,true,
+cross_check_simulator,69,Sinking of Titanic Was Orchestrated to Kill Businessmen Who Opposed Formation of Federal Reserve?,False,False,True,false,
+cross_check_simulator,72,"My campaign finished the last quarter reporting the most cash on hand of any Republican in the field  $13.8 million in the bank, $3.5 million more than the Jeb Bush campaign.",True,False,False,true,
+cross_check_simulator,71,Abandoned Polish Wedding Chairs,False,False,True,false,
+cross_check_simulator,76,Mixed Case Street Name Signs,False,False,True,false,
+cross_check_simulator,73,June 11 2004 Terrorist Rumor,False,False,True,false,
+cross_check_simulator,74,Says the 2011-13 state budget eliminates the structural deficit for the first time in decades.,True,False,False,true,
+cross_check_simulator,75,Did President Trump Sign an Executive Order Giving Veterans Free Care at Any Hospital?,False,False,True,false,
+cross_check_simulator,78,Is the Equifax Data Breach Settlement Email Genuine?,True,False,False,true,
+cross_check_simulator,77,Is the Equifax Data Breach Settlement Email Legit?,True,False,False,true,
+cross_check_simulator,79,Is the email concerning the Equifax Data Breach Settlement authentic?,True,False,False,true,
+cross_check_simulator,80,"In the past year, Floridians, not government, created almost 135,000 new private sector jobs. We netted more than 120,000 total jobs in the first 11 months of 2011; the third most of any state in the nation.",True,False,False,true,
+cross_check_simulator,81,Did President Obama Order More Than 500 Drone Strikes?,True,False,False,true,
+cross_check_simulator,82,Wisconsin is below the national average in wage growth and job growth.,True,False,False,true,
+cross_check_simulator,83,[E]xcise tax increases drive commerce across state lines.,True,False,False,true,
+cross_check_simulator,84,Was Michael Moore Accused of Sexual Harassment?,False,False,True,false,
+cross_check_simulator,85,Did Kevin Sorbo of 'Hercules' Fame Die in 2020?,False,False,True,false,
+cross_check_simulator,86,Special education categorical aid from the state hasnt been raised in over a decade.,True,False,False,true,
+cross_check_simulator,87,The Inland Empire is the second fastest growing region for jobs in California.,True,False,False,true,
+cross_check_simulator,89,Missing Child: Ember Graham,True,False,False,true,
+cross_check_simulator,88,Does Photo Show Trump Arriving in New York for His Arraignment?,False,False,True,false,
+cross_check_simulator,92,Were Most Jobs Added in February 2021 'Waiters and Bartenders'?,True,False,False,true,
+cross_check_simulator,93,Did most of the new jobs in February 2021 consist of waiters and bartenders?,True,False,False,true,
+cross_check_simulator,91,Will Cars with Full Gas Tanks Explode on Hot Days?,False,False,True,false,
+cross_check_simulator,90,Is this Really an Electric Car From 1905?,True,False,False,true,
+cross_check_simulator,94,Did the greatest number of jobs in February 2021 come from the 'Waiters and Bartenders' sector?,True,False,False,true,
+cross_check_simulator,96,Ford Motors Funds Black Lives Matter,False,False,True,false,
+cross_check_simulator,95,Joanna Gaines Never Endorsed Keto Gummies for Weight Loss,False,True,False,false,
+cross_check_simulator,97,Did Alex Smith Die at Age 26 Because He Couldn't Afford Insulin?,True,False,False,true,
+cross_check_simulator,99,"This budget also reflects the smallest state government workforce per 1,000 residents in Florida in this century.",True,False,False,true,
+cross_check_simulator,100,"The average family (is) now bringing home $4,000 less than they did just five years ago.",True,False,False,true,
+cross_check_simulator,98,Could Polar Bears Be Extinct by 2100?,True,False,False,true,
+cross_check_simulator,65,Cautionary notice regarding the Affordable Care Act,False,True,False,false,
+tribunal_judgment,2,Poll to Legalize Marijuana,False,True,False,false,
+tribunal_judgment,1,Oprah's advice regarding a ten percent tip.,False,False,True,false,
+tribunal_judgment,6,Juval Aviv Terrorist Predictions,False,True,False,false,
+tribunal_judgment,3,Did Joe Biden Use the N-Word in a Recorded Speech?,False,False,True,false,
+tribunal_judgment,7,The average faculty member at UW-Madison brings in close to a quarter million dollars a year in grant money.,True,False,False,true,
+tribunal_judgment,8,Procter and Gamble and Satanism Rumor,False,False,True,false,
+tribunal_judgment,4,If Texas were a country our economy would rank # 10...in the WORLD.,True,True,True,true,
+tribunal_judgment,5,Is This a Real Photo of Obama Shaking Hands with Iranian President Rouhani?,False,True,False,false,
+tribunal_judgment,9,SCAM ALERT: Texas Roadhouse Vouchers on Facebook,False,False,True,false,
+tribunal_judgment,10,Is McDonald's the World's Largest Purchaser of Cow Eyeballs?,False,True,False,false,
+tribunal_judgment,12,Says the United States has the highest corporate tax rate in the world.,True,False,False,true,
+tribunal_judgment,15,Was This 'Health Bulletin' an Accurate Coronavirus Warning?,False,True,False,false,
+tribunal_judgment,13,"Says that under Rick Perrys plan, Texas has cut funding for public schools by 25%.",True,True,True,true,
+tribunal_judgment,11,The addition of a 1 percent sales tax would cost a typical household in Hillsborough County approximately $12 a month.,True,True,True,true,
+tribunal_judgment,14,Customer Liability for Chipped Card (EMV) Fraud,False,True,False,false,
+tribunal_judgment,16,Can the 'FireChat' App Send Messages Without an Internet Connection?,True,True,True,true,
+tribunal_judgment,19,Ronda Rousey Death Hoax,False,False,True,false,
+tribunal_judgment,22,Fraudulent scheme regarding refrigerators and ovens at Target and Walmart gains traction on Facebook.,False,True,False,false,
+tribunal_judgment,17,Betty White on 'Grow Some Balls',False,True,False,false,
+tribunal_judgment,20,The Stolen Biscuits,True,True,True,true,
+tribunal_judgment,21,Scam for Target and Walmart Refrigerators and Ovens Hits Facebook,False,False,True,false,
+tribunal_judgment,18,Amelia Bassano: The True Shakespeare?,False,True,False,false,
+tribunal_judgment,23,Fraudulent activity targeting refrigerators and ovens at Target and Walmart gains traction on Facebook.,False,True,False,false,
+tribunal_judgment,24,Is the 'Inventor of Autocorrect Died' Sign Real?,True,True,True,true,
+tribunal_judgment,31,Is Biden's Logo a Reference to China's 'Three Red Banners'?,False,False,True,false,"attempt 3 failed: Error code: 400 - {'error': {'message': 'Input data may contain inappropriate content. For details, see: https://help.aliyun.com/zh/model-studio/error-code#inappropriate-content', 'type': 'data_inspection_failed', 'param': None, 'code': 'data_inspection_failed'}, 'id': 'chatcmpl-b64ae6e2-1e43-9189-9b5e-587120991f0f', 'request_id': 'b64ae6e2-1e43-9189-9b5e-587120991f0f'} | fallback->False"
+tribunal_judgment,30,The House of Delegates budget bill cuts $50 million from education.,True,False,False,true,
+tribunal_judgment,28,Legislation on Immigration Offering Complimentary Vehicles,False,True,False,false,
+tribunal_judgment,25,The top one-tenth of 1 percent of Americans own almost as much wealth as the bottom 90 percent.,True,True,True,true,
+tribunal_judgment,29,Did Adele Endorse Keto Weight Loss Gummies on 'Ellen'?,False,False,True,false,
+tribunal_judgment,26,Is This a Picture of Christine Blasey Ford in 1982?,False,True,False,false,
+tribunal_judgment,27,Immigration Bill Free Cars,False,True,False,false,
+tribunal_judgment,33,Was Barack Obama Arrested in a Japanese Drug Bust?,False,False,True,false,
+tribunal_judgment,35,"Tax rates were significantly higher in the '40s, the '50s, and the '60s.",True,True,True,true,
+tribunal_judgment,34,Has the Legal Drinking Age Been Raised to 23?,False,True,False,false,
+tribunal_judgment,32,"Although California has the sixth largest economy in the world, we also have one of the highest poverty rates in the nation.",True,False,False,true,
+tribunal_judgment,39,Russian forces will be responsible for ensuring the safety at events held in the United States.,False,True,False,false,
+tribunal_judgment,36,Is There a Unique Tip for Cars with Automatic Headlights?,False,True,False,false,
+tribunal_judgment,37,The largest U.S. companies would owe $620 billion in U.S. taxes on the cash they store in tax havens.,True,False,False,true,
+tribunal_judgment,38,Three in four low-income workers dont have any paid sick days available.,True,True,True,true,
+tribunal_judgment,40,"California's Attorney General, Xavier Becerra is putting together plans to raise property tax revenue by eliminating the only thing keeping some people's property tax from sky rocketing, Prop 13.",False,True,False,false,
+tribunal_judgment,43,Is the White House Gift Shop Selling a 'Trump Defeats COVID-19' Coin?,False,False,True,false,
+tribunal_judgment,42,Is Safyre Terry's Christmas Wish a Scam?,True,False,False,true,
+tribunal_judgment,44,"Does This Photograph Show Pipe-Bombing Suspect Cesar Sayoc With a 'Known Democrat,' Proving a Hoax Conspiracy?",False,False,True,false,
+tribunal_judgment,41,The recently passed transportation funding bill is a billion-dollar tax increase for Georgians.,True,True,True,true,
+tribunal_judgment,45,"Pepper ... kicked off a jock tax, imposing a levy on the sports and entertainment industry.",True,True,True,true,
+tribunal_judgment,46,Gun Con-Troll,False,True,False,false,
+tribunal_judgment,47,Free Dunkin' Donuts Coupon Scam,False,True,False,false,
+tribunal_judgment,48,Fraudulent Free Dunkin' Donuts Coupon Offer,False,True,False,false,
+tribunal_judgment,49,Deceptive offer of complimentary Dunkin' Donuts voucher,False,False,True,false,
+tribunal_judgment,50,Fraudulent offer for complimentary Dunkin' Donuts voucher,False,False,True,false,
+tribunal_judgment,52,Does Biden's Climate Plan Include Cutting 90% of Red Meat From Our Diets?,False,True,False,false,
+tribunal_judgment,51,Did Biden Say Poor Kids Are 'Just as Talented as White Kids'?,True,False,False,true,
+tribunal_judgment,53,Is it true that Biden's Climate Plan proposes reducing red meat consumption by 90%?,False,True,False,false,
+tribunal_judgment,55,Is there a provision in Biden's climate plan that involves reducing our red meat consumption by 90%?,False,False,True,false,
+tribunal_judgment,54,Is there a provision in Biden's climate plan to reduce red meat consumption by 90%?,False,False,True,false,
+tribunal_judgment,56,"At the beginning of the last decade ... America had a budget surplus of over $200 billion. By the time I took office, we had a one-year deficit of over $1 trillion and projected deficits of $8 trillion over the next decade.",True,False,False,true,
+tribunal_judgment,57,Is Starbucks Opening a Roasting Facility in China?,True,True,True,true,
+tribunal_judgment,59,"Was Deutsche Bank a source of funding for Auschwitz, Trump, Jeffrey Epstein, and ISIS?",True,False,False,true,
+tribunal_judgment,58,"Did Deutsche Bank Fund Auschwitz, Trump, Jeffrey Epstein, and ISIS?",True,True,True,true,
+tribunal_judgment,62,Are the Trumps Looting the White House?,False,False,True,false,
+tribunal_judgment,60,"Was Deutsche Bank the source of funding for Auschwitz, Trump, Jeffrey Epstein, and ISIS?",True,True,True,true,
+tribunal_judgment,61,"Did Deutsche Bank provide funding for Auschwitz, Trump, Jeffrey Epstein, and ISIS?",True,True,True,true,
+tribunal_judgment,63,Does Walmart Sell Insulin for $25 a Vial Without a Prescription?,True,True,True,true,
+tribunal_judgment,64,Warning Concerning Obamacare,False,False,True,false,
+tribunal_judgment,65,Cautionary notice regarding the Affordable Care Act,False,True,False,false,
+tribunal_judgment,67,Passing the Starbucks,False,True,False,false,
+tribunal_judgment,66,The Last of the Kennedy Dynasty,False,True,False,false,
+tribunal_judgment,68,Can You Text to 83361 to Receive a Free Target Gift Card?,False,True,False,false,
+tribunal_judgment,69,Sinking of Titanic Was Orchestrated to Kill Businessmen Who Opposed Formation of Federal Reserve?,False,True,False,false,
+tribunal_judgment,71,Abandoned Polish Wedding Chairs,False,True,False,false,
+tribunal_judgment,70,Rhode Island's legislature is the strongest in the country.,True,False,False,true,
+tribunal_judgment,73,June 11 2004 Terrorist Rumor,False,False,True,false,
+tribunal_judgment,72,"My campaign finished the last quarter reporting the most cash on hand of any Republican in the field  $13.8 million in the bank, $3.5 million more than the Jeb Bush campaign.",True,False,False,true,
+tribunal_judgment,76,Mixed Case Street Name Signs,False,True,False,false,
+tribunal_judgment,74,Says the 2011-13 state budget eliminates the structural deficit for the first time in decades.,True,True,True,true,
+tribunal_judgment,75,Did President Trump Sign an Executive Order Giving Veterans Free Care at Any Hospital?,False,False,True,false,
+tribunal_judgment,78,Is the Equifax Data Breach Settlement Email Genuine?,True,False,False,true,
+tribunal_judgment,81,Did President Obama Order More Than 500 Drone Strikes?,True,False,False,true,
+tribunal_judgment,83,[E]xcise tax increases drive commerce across state lines.,True,False,False,true,
+tribunal_judgment,79,Is the email concerning the Equifax Data Breach Settlement authentic?,True,False,False,true,
+tribunal_judgment,80,"In the past year, Floridians, not government, created almost 135,000 new private sector jobs. We netted more than 120,000 total jobs in the first 11 months of 2011; the third most of any state in the nation.",True,True,True,true,
+tribunal_judgment,77,Is the Equifax Data Breach Settlement Email Legit?,True,True,True,true,
+tribunal_judgment,82,Wisconsin is below the national average in wage growth and job growth.,True,True,True,true,
+tribunal_judgment,84,Was Michael Moore Accused of Sexual Harassment?,False,True,False,false,
+tribunal_judgment,85,Did Kevin Sorbo of 'Hercules' Fame Die in 2020?,False,False,True,false,
+tribunal_judgment,86,Special education categorical aid from the state hasnt been raised in over a decade.,True,False,False,true,
+tribunal_judgment,88,Does Photo Show Trump Arriving in New York for His Arraignment?,False,False,True,false,
+tribunal_judgment,87,The Inland Empire is the second fastest growing region for jobs in California.,True,False,False,true,
+tribunal_judgment,91,Will Cars with Full Gas Tanks Explode on Hot Days?,False,False,True,false,
+tribunal_judgment,90,Is this Really an Electric Car From 1905?,True,False,False,true,
+tribunal_judgment,89,Missing Child: Ember Graham,True,False,False,true,
+tribunal_judgment,92,Were Most Jobs Added in February 2021 'Waiters and Bartenders'?,True,True,True,true,
+tribunal_judgment,93,Did most of the new jobs in February 2021 consist of waiters and bartenders?,True,True,True,true,
+tribunal_judgment,95,Joanna Gaines Never Endorsed Keto Gummies for Weight Loss,False,True,False,false,
+tribunal_judgment,94,Did the greatest number of jobs in February 2021 come from the 'Waiters and Bartenders' sector?,True,False,False,true,
+tribunal_judgment,96,Ford Motors Funds Black Lives Matter,False,True,False,false,
+tribunal_judgment,97,Did Alex Smith Die at Age 26 Because He Couldn't Afford Insulin?,True,False,False,true,
+tribunal_judgment,98,Could Polar Bears Be Extinct by 2100?,True,False,False,true,
+tribunal_judgment,99,"This budget also reflects the smallest state government workforce per 1,000 residents in Florida in this century.",True,False,False,true,
+tribunal_judgment,100,"The average family (is) now bringing home $4,000 less than they did just five years ago.",True,False,False,true,
+editorial_board_vote,1,Oprah's advice regarding a ten percent tip.,False,False,True,false,
+editorial_board_vote,2,Poll to Legalize Marijuana,False,True,False,false,
+editorial_board_vote,3,Did Joe Biden Use the N-Word in a Recorded Speech?,False,False,True,false,
+editorial_board_vote,7,The average faculty member at UW-Madison brings in close to a quarter million dollars a year in grant money.,True,False,False,true,
+editorial_board_vote,4,If Texas were a country our economy would rank # 10...in the WORLD.,True,False,False,true,
+editorial_board_vote,8,Procter and Gamble and Satanism Rumor,False,False,True,false,
+editorial_board_vote,5,Is This a Real Photo of Obama Shaking Hands with Iranian President Rouhani?,False,False,True,false,
+editorial_board_vote,6,Juval Aviv Terrorist Predictions,False,False,True,false,
+editorial_board_vote,9,SCAM ALERT: Texas Roadhouse Vouchers on Facebook,False,False,True,false,
+editorial_board_vote,11,The addition of a 1 percent sales tax would cost a typical household in Hillsborough County approximately $12 a month.,True,False,False,true,
+editorial_board_vote,10,Is McDonald's the World's Largest Purchaser of Cow Eyeballs?,False,False,True,false,
+editorial_board_vote,12,Says the United States has the highest corporate tax rate in the world.,True,False,False,true,
+editorial_board_vote,13,"Says that under Rick Perrys plan, Texas has cut funding for public schools by 25%.",True,False,False,true,
+editorial_board_vote,15,Was This 'Health Bulletin' an Accurate Coronavirus Warning?,False,False,True,false,
+editorial_board_vote,14,Customer Liability for Chipped Card (EMV) Fraud,False,False,True,false,
+editorial_board_vote,16,Can the 'FireChat' App Send Messages Without an Internet Connection?,True,False,False,true,
+editorial_board_vote,17,Betty White on 'Grow Some Balls',False,False,True,false,
+editorial_board_vote,20,The Stolen Biscuits,True,False,False,true,
+editorial_board_vote,19,Ronda Rousey Death Hoax,False,False,True,false,
+editorial_board_vote,18,Amelia Bassano: The True Shakespeare?,False,False,True,false,
+editorial_board_vote,21,Scam for Target and Walmart Refrigerators and Ovens Hits Facebook,False,False,True,false,
+editorial_board_vote,23,Fraudulent activity targeting refrigerators and ovens at Target and Walmart gains traction on Facebook.,False,False,True,false,
+editorial_board_vote,24,Is the 'Inventor of Autocorrect Died' Sign Real?,True,False,False,true,
+editorial_board_vote,22,Fraudulent scheme regarding refrigerators and ovens at Target and Walmart gains traction on Facebook.,False,False,True,false,
+editorial_board_vote,25,The top one-tenth of 1 percent of Americans own almost as much wealth as the bottom 90 percent.,True,False,False,true,
+editorial_board_vote,26,Is This a Picture of Christine Blasey Ford in 1982?,False,False,True,false,
+editorial_board_vote,28,Legislation on Immigration Offering Complimentary Vehicles,False,False,True,false,
+editorial_board_vote,27,Immigration Bill Free Cars,False,False,True,false,
+editorial_board_vote,29,Did Adele Endorse Keto Weight Loss Gummies on 'Ellen'?,False,False,True,false,
+editorial_board_vote,31,Is Biden's Logo a Reference to China's 'Three Red Banners'?,False,False,True,false,"attempt 3 failed: Error code: 400 - {'error': {'message': 'Input data may contain inappropriate content. For details, see: https://help.aliyun.com/zh/model-studio/error-code#inappropriate-content', 'type': 'data_inspection_failed', 'param': None, 'code': 'data_inspection_failed'}, 'id': 'chatcmpl-4ea0a795-a0da-946b-ae3c-aaed04e94025', 'request_id': '4ea0a795-a0da-946b-ae3c-aaed04e94025'} | fallback->False"
+editorial_board_vote,33,Was Barack Obama Arrested in a Japanese Drug Bust?,False,False,True,false,
+editorial_board_vote,30,The House of Delegates budget bill cuts $50 million from education.,True,False,False,true,
+editorial_board_vote,34,Has the Legal Drinking Age Been Raised to 23?,False,False,True,false,
+editorial_board_vote,32,"Although California has the sixth largest economy in the world, we also have one of the highest poverty rates in the nation.",True,False,False,true,
+editorial_board_vote,36,Is There a Unique Tip for Cars with Automatic Headlights?,False,False,True,false,
+editorial_board_vote,35,"Tax rates were significantly higher in the '40s, the '50s, and the '60s.",True,True,True,true,
+editorial_board_vote,38,Three in four low-income workers dont have any paid sick days available.,True,False,False,true,
+editorial_board_vote,37,The largest U.S. companies would owe $620 billion in U.S. taxes on the cash they store in tax havens.,True,False,False,true,
+editorial_board_vote,39,Russian forces will be responsible for ensuring the safety at events held in the United States.,False,False,True,false,
+editorial_board_vote,42,Is Safyre Terry's Christmas Wish a Scam?,True,False,False,true,
+editorial_board_vote,40,"California's Attorney General, Xavier Becerra is putting together plans to raise property tax revenue by eliminating the only thing keeping some people's property tax from sky rocketing, Prop 13.",False,False,True,false,
+editorial_board_vote,41,The recently passed transportation funding bill is a billion-dollar tax increase for Georgians.,True,False,False,true,
+editorial_board_vote,43,Is the White House Gift Shop Selling a 'Trump Defeats COVID-19' Coin?,False,False,True,false,
+editorial_board_vote,44,"Does This Photograph Show Pipe-Bombing Suspect Cesar Sayoc With a 'Known Democrat,' Proving a Hoax Conspiracy?",False,False,True,false,
+editorial_board_vote,47,Free Dunkin' Donuts Coupon Scam,False,False,True,false,
+editorial_board_vote,45,"Pepper ... kicked off a jock tax, imposing a levy on the sports and entertainment industry.",True,False,False,true,
+editorial_board_vote,46,Gun Con-Troll,False,False,True,false,
+editorial_board_vote,50,Fraudulent offer for complimentary Dunkin' Donuts voucher,False,True,False,false,
+editorial_board_vote,49,Deceptive offer of complimentary Dunkin' Donuts voucher,False,True,False,false,
+editorial_board_vote,48,Fraudulent Free Dunkin' Donuts Coupon Offer,False,False,True,false,
+editorial_board_vote,51,Did Biden Say Poor Kids Are 'Just as Talented as White Kids'?,True,False,False,true,
+editorial_board_vote,52,Does Biden's Climate Plan Include Cutting 90% of Red Meat From Our Diets?,False,False,True,false,
+editorial_board_vote,53,Is it true that Biden's Climate Plan proposes reducing red meat consumption by 90%?,False,False,True,false,
+editorial_board_vote,54,Is there a provision in Biden's climate plan to reduce red meat consumption by 90%?,False,False,True,false,
+editorial_board_vote,55,Is there a provision in Biden's climate plan that involves reducing our red meat consumption by 90%?,False,False,True,false,
+editorial_board_vote,57,Is Starbucks Opening a Roasting Facility in China?,True,False,False,true,
+editorial_board_vote,58,"Did Deutsche Bank Fund Auschwitz, Trump, Jeffrey Epstein, and ISIS?",True,False,False,true,
+editorial_board_vote,59,"Was Deutsche Bank a source of funding for Auschwitz, Trump, Jeffrey Epstein, and ISIS?",True,False,False,true,
+editorial_board_vote,56,"At the beginning of the last decade ... America had a budget surplus of over $200 billion. By the time I took office, we had a one-year deficit of over $1 trillion and projected deficits of $8 trillion over the next decade.",True,True,True,true,
+editorial_board_vote,60,"Was Deutsche Bank the source of funding for Auschwitz, Trump, Jeffrey Epstein, and ISIS?",True,False,False,true,
+editorial_board_vote,62,Are the Trumps Looting the White House?,False,False,True,false,
+editorial_board_vote,61,"Did Deutsche Bank provide funding for Auschwitz, Trump, Jeffrey Epstein, and ISIS?",True,False,False,true,
+editorial_board_vote,63,Does Walmart Sell Insulin for $25 a Vial Without a Prescription?,True,False,False,true,
+editorial_board_vote,64,Warning Concerning Obamacare,False,False,True,false,
+editorial_board_vote,68,Can You Text to 83361 to Receive a Free Target Gift Card?,False,False,True,false,
+editorial_board_vote,65,Cautionary notice regarding the Affordable Care Act,False,False,True,false,
+editorial_board_vote,66,The Last of the Kennedy Dynasty,False,False,True,false,
+editorial_board_vote,67,Passing the Starbucks,False,False,True,false,
+editorial_board_vote,70,Rhode Island's legislature is the strongest in the country.,True,False,False,true,
+editorial_board_vote,69,Sinking of Titanic Was Orchestrated to Kill Businessmen Who Opposed Formation of Federal Reserve?,False,False,True,false,
+editorial_board_vote,71,Abandoned Polish Wedding Chairs,False,False,True,false,
+editorial_board_vote,72,"My campaign finished the last quarter reporting the most cash on hand of any Republican in the field  $13.8 million in the bank, $3.5 million more than the Jeb Bush campaign.",True,False,False,true,
+editorial_board_vote,73,June 11 2004 Terrorist Rumor,False,False,True,false,
+editorial_board_vote,76,Mixed Case Street Name Signs,False,False,True,false,
+editorial_board_vote,74,Says the 2011-13 state budget eliminates the structural deficit for the first time in decades.,True,False,False,true,
+editorial_board_vote,75,Did President Trump Sign an Executive Order Giving Veterans Free Care at Any Hospital?,False,False,True,false,
+editorial_board_vote,77,Is the Equifax Data Breach Settlement Email Legit?,True,False,False,true,
+editorial_board_vote,78,Is the Equifax Data Breach Settlement Email Genuine?,True,False,False,true,
+editorial_board_vote,80,"In the past year, Floridians, not government, created almost 135,000 new private sector jobs. We netted more than 120,000 total jobs in the first 11 months of 2011; the third most of any state in the nation.",True,False,False,true,
+editorial_board_vote,79,Is the email concerning the Equifax Data Breach Settlement authentic?,True,False,False,true,
+editorial_board_vote,81,Did President Obama Order More Than 500 Drone Strikes?,True,True,True,true,
+editorial_board_vote,83,[E]xcise tax increases drive commerce across state lines.,True,False,False,true,
+editorial_board_vote,82,Wisconsin is below the national average in wage growth and job growth.,True,False,False,true,
+editorial_board_vote,84,Was Michael Moore Accused of Sexual Harassment?,False,False,True,false,
+editorial_board_vote,85,Did Kevin Sorbo of 'Hercules' Fame Die in 2020?,False,False,True,false,
+editorial_board_vote,87,The Inland Empire is the second fastest growing region for jobs in California.,True,False,False,true,
+editorial_board_vote,86,Special education categorical aid from the state hasnt been raised in over a decade.,True,False,False,true,
+editorial_board_vote,88,Does Photo Show Trump Arriving in New York for His Arraignment?,False,False,True,false,
+editorial_board_vote,89,Missing Child: Ember Graham,True,False,False,true,
+editorial_board_vote,91,Will Cars with Full Gas Tanks Explode on Hot Days?,False,False,True,false,
+editorial_board_vote,90,Is this Really an Electric Car From 1905?,True,False,False,true,
+editorial_board_vote,92,Were Most Jobs Added in February 2021 'Waiters and Bartenders'?,True,False,False,true,
+editorial_board_vote,94,Did the greatest number of jobs in February 2021 come from the 'Waiters and Bartenders' sector?,True,False,False,true,
+editorial_board_vote,93,Did most of the new jobs in February 2021 consist of waiters and bartenders?,True,False,False,true,
+editorial_board_vote,96,Ford Motors Funds Black Lives Matter,False,False,True,false,
+editorial_board_vote,95,Joanna Gaines Never Endorsed Keto Gummies for Weight Loss,False,True,False,false,
+editorial_board_vote,97,Did Alex Smith Die at Age 26 Because He Couldn't Afford Insulin?,True,False,False,true,
+editorial_board_vote,98,Could Polar Bears Be Extinct by 2100?,True,False,False,true,
+editorial_board_vote,100,"The average family (is) now bringing home $4,000 less than they did just five years ago.",True,False,False,true,
+editorial_board_vote,99,"This budget also reflects the smallest state government workforce per 1,000 residents in Florida in this century.",True,False,False,true,
+systematic_cross_validator,1,Oprah's advice regarding a ten percent tip.,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,7,The average faculty member at UW-Madison brings in close to a quarter million dollars a year in grant money.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,6,Juval Aviv Terrorist Predictions,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,8,Procter and Gamble and Satanism Rumor,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,5,Is This a Real Photo of Obama Shaking Hands with Iranian President Rouhani?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,3,Did Joe Biden Use the N-Word in a Recorded Speech?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,4,If Texas were a country our economy would rank # 10...in the WORLD.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,2,Poll to Legalize Marijuana,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,9,SCAM ALERT: Texas Roadhouse Vouchers on Facebook,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,10,Is McDonald's the World's Largest Purchaser of Cow Eyeballs?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,13,"Says that under Rick Perrys plan, Texas has cut funding for public schools by 25%.",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,15,Was This 'Health Bulletin' an Accurate Coronavirus Warning?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,12,Says the United States has the highest corporate tax rate in the world.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,11,The addition of a 1 percent sales tax would cost a typical household in Hillsborough County approximately $12 a month.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,14,Customer Liability for Chipped Card (EMV) Fraud,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,16,Can the 'FireChat' App Send Messages Without an Internet Connection?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,17,Betty White on 'Grow Some Balls',False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,21,Scam for Target and Walmart Refrigerators and Ovens Hits Facebook,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,19,Ronda Rousey Death Hoax,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,20,The Stolen Biscuits,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,22,Fraudulent scheme regarding refrigerators and ovens at Target and Walmart gains traction on Facebook.,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,18,Amelia Bassano: The True Shakespeare?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,23,Fraudulent activity targeting refrigerators and ovens at Target and Walmart gains traction on Facebook.,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,24,Is the 'Inventor of Autocorrect Died' Sign Real?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,31,Is Biden's Logo a Reference to China's 'Three Red Banners'?,False,False,True,false,"attempt 3 failed: Error code: 400 - {'error': {'message': 'Input data may contain inappropriate content. For details, see: https://help.aliyun.com/zh/model-studio/error-code#inappropriate-content', 'type': 'data_inspection_failed', 'param': None, 'code': 'data_inspection_failed'}, 'id': 'chatcmpl-17450c44-a33c-9428-9d88-1524ef00e677', 'request_id': '17450c44-a33c-9428-9d88-1524ef00e677'} | fallback->False"
+systematic_cross_validator,25,The top one-tenth of 1 percent of Americans own almost as much wealth as the bottom 90 percent.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,26,Is This a Picture of Christine Blasey Ford in 1982?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,28,Legislation on Immigration Offering Complimentary Vehicles,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,29,Did Adele Endorse Keto Weight Loss Gummies on 'Ellen'?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,27,Immigration Bill Free Cars,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,30,The House of Delegates budget bill cuts $50 million from education.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,34,Has the Legal Drinking Age Been Raised to 23?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,33,Was Barack Obama Arrested in a Japanese Drug Bust?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,35,"Tax rates were significantly higher in the '40s, the '50s, and the '60s.",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,32,"Although California has the sixth largest economy in the world, we also have one of the highest poverty rates in the nation.",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,37,The largest U.S. companies would owe $620 billion in U.S. taxes on the cash they store in tax havens.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,36,Is There a Unique Tip for Cars with Automatic Headlights?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,38,Three in four low-income workers dont have any paid sick days available.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,39,Russian forces will be responsible for ensuring the safety at events held in the United States.,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,40,"California's Attorney General, Xavier Becerra is putting together plans to raise property tax revenue by eliminating the only thing keeping some people's property tax from sky rocketing, Prop 13.",False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,42,Is Safyre Terry's Christmas Wish a Scam?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,41,The recently passed transportation funding bill is a billion-dollar tax increase for Georgians.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,47,Free Dunkin' Donuts Coupon Scam,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,44,"Does This Photograph Show Pipe-Bombing Suspect Cesar Sayoc With a 'Known Democrat,' Proving a Hoax Conspiracy?",False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,43,Is the White House Gift Shop Selling a 'Trump Defeats COVID-19' Coin?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,45,"Pepper ... kicked off a jock tax, imposing a levy on the sports and entertainment industry.",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,46,Gun Con-Troll,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,48,Fraudulent Free Dunkin' Donuts Coupon Offer,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,49,Deceptive offer of complimentary Dunkin' Donuts voucher,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,50,Fraudulent offer for complimentary Dunkin' Donuts voucher,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,54,Is there a provision in Biden's climate plan to reduce red meat consumption by 90%?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,51,Did Biden Say Poor Kids Are 'Just as Talented as White Kids'?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,56,"At the beginning of the last decade ... America had a budget surplus of over $200 billion. By the time I took office, we had a one-year deficit of over $1 trillion and projected deficits of $8 trillion over the next decade.",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,52,Does Biden's Climate Plan Include Cutting 90% of Red Meat From Our Diets?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,55,Is there a provision in Biden's climate plan that involves reducing our red meat consumption by 90%?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,53,Is it true that Biden's Climate Plan proposes reducing red meat consumption by 90%?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,57,Is Starbucks Opening a Roasting Facility in China?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,58,"Did Deutsche Bank Fund Auschwitz, Trump, Jeffrey Epstein, and ISIS?",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,59,"Was Deutsche Bank a source of funding for Auschwitz, Trump, Jeffrey Epstein, and ISIS?",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,60,"Was Deutsche Bank the source of funding for Auschwitz, Trump, Jeffrey Epstein, and ISIS?",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,62,Are the Trumps Looting the White House?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,63,Does Walmart Sell Insulin for $25 a Vial Without a Prescription?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,61,"Did Deutsche Bank provide funding for Auschwitz, Trump, Jeffrey Epstein, and ISIS?",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,64,Warning Concerning Obamacare,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,65,Cautionary notice regarding the Affordable Care Act,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,68,Can You Text to 83361 to Receive a Free Target Gift Card?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,69,Sinking of Titanic Was Orchestrated to Kill Businessmen Who Opposed Formation of Federal Reserve?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,66,The Last of the Kennedy Dynasty,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,67,Passing the Starbucks,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,70,Rhode Island's legislature is the strongest in the country.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,72,"My campaign finished the last quarter reporting the most cash on hand of any Republican in the field  $13.8 million in the bank, $3.5 million more than the Jeb Bush campaign.",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,71,Abandoned Polish Wedding Chairs,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,73,June 11 2004 Terrorist Rumor,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,76,Mixed Case Street Name Signs,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,74,Says the 2011-13 state budget eliminates the structural deficit for the first time in decades.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,77,Is the Equifax Data Breach Settlement Email Legit?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,79,Is the email concerning the Equifax Data Breach Settlement authentic?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,78,Is the Equifax Data Breach Settlement Email Genuine?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,75,Did President Trump Sign an Executive Order Giving Veterans Free Care at Any Hospital?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,80,"In the past year, Floridians, not government, created almost 135,000 new private sector jobs. We netted more than 120,000 total jobs in the first 11 months of 2011; the third most of any state in the nation.",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,81,Did President Obama Order More Than 500 Drone Strikes?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,83,[E]xcise tax increases drive commerce across state lines.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,87,The Inland Empire is the second fastest growing region for jobs in California.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,86,Special education categorical aid from the state hasnt been raised in over a decade.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,85,Did Kevin Sorbo of 'Hercules' Fame Die in 2020?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,82,Wisconsin is below the national average in wage growth and job growth.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,88,Does Photo Show Trump Arriving in New York for His Arraignment?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,89,Missing Child: Ember Graham,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,84,Was Michael Moore Accused of Sexual Harassment?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,91,Will Cars with Full Gas Tanks Explode on Hot Days?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,93,Did most of the new jobs in February 2021 consist of waiters and bartenders?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,90,Is this Really an Electric Car From 1905?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,94,Did the greatest number of jobs in February 2021 come from the 'Waiters and Bartenders' sector?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,92,Were Most Jobs Added in February 2021 'Waiters and Bartenders'?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,96,Ford Motors Funds Black Lives Matter,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,95,Joanna Gaines Never Endorsed Keto Gummies for Weight Loss,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,97,Did Alex Smith Die at Age 26 Because He Couldn't Afford Insulin?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,100,"The average family (is) now bringing home $4,000 less than they did just five years ago.",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,98,Could Polar Bears Be Extinct by 2100?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+systematic_cross_validator,99,"This budget also reflects the smallest state government workforce per 1,000 residents in Florida in this century.",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,1,Oprah's advice regarding a ten percent tip.,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,7,The average faculty member at UW-Madison brings in close to a quarter million dollars a year in grant money.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,4,If Texas were a country our economy would rank # 10...in the WORLD.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,6,Juval Aviv Terrorist Predictions,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,5,Is This a Real Photo of Obama Shaking Hands with Iranian President Rouhani?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,8,Procter and Gamble and Satanism Rumor,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,2,Poll to Legalize Marijuana,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,3,Did Joe Biden Use the N-Word in a Recorded Speech?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,9,SCAM ALERT: Texas Roadhouse Vouchers on Facebook,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,10,Is McDonald's the World's Largest Purchaser of Cow Eyeballs?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,15,Was This 'Health Bulletin' an Accurate Coronavirus Warning?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,12,Says the United States has the highest corporate tax rate in the world.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,11,The addition of a 1 percent sales tax would cost a typical household in Hillsborough County approximately $12 a month.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,16,Can the 'FireChat' App Send Messages Without an Internet Connection?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,14,Customer Liability for Chipped Card (EMV) Fraud,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,13,"Says that under Rick Perrys plan, Texas has cut funding for public schools by 25%.",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,17,Betty White on 'Grow Some Balls',False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,19,Ronda Rousey Death Hoax,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,21,Scam for Target and Walmart Refrigerators and Ovens Hits Facebook,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,18,Amelia Bassano: The True Shakespeare?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,22,Fraudulent scheme regarding refrigerators and ovens at Target and Walmart gains traction on Facebook.,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,20,The Stolen Biscuits,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,23,Fraudulent activity targeting refrigerators and ovens at Target and Walmart gains traction on Facebook.,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,24,Is the 'Inventor of Autocorrect Died' Sign Real?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,31,Is Biden's Logo a Reference to China's 'Three Red Banners'?,False,False,True,false,"attempt 3 failed: Error code: 400 - {'error': {'message': 'Input data may contain inappropriate content. For details, see: https://help.aliyun.com/zh/model-studio/error-code#inappropriate-content', 'type': 'data_inspection_failed', 'param': None, 'code': 'data_inspection_failed'}, 'id': 'chatcmpl-cb59735d-3ac8-9937-8f88-720b34d70e4c', 'request_id': 'cb59735d-3ac8-9937-8f88-720b34d70e4c'} | fallback->False"
+detailed_scoring_validator,26,Is This a Picture of Christine Blasey Ford in 1982?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,29,Did Adele Endorse Keto Weight Loss Gummies on 'Ellen'?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,25,The top one-tenth of 1 percent of Americans own almost as much wealth as the bottom 90 percent.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,30,The House of Delegates budget bill cuts $50 million from education.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,28,Legislation on Immigration Offering Complimentary Vehicles,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,27,Immigration Bill Free Cars,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,32,"Although California has the sixth largest economy in the world, we also have one of the highest poverty rates in the nation.",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,33,Was Barack Obama Arrested in a Japanese Drug Bust?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,34,Has the Legal Drinking Age Been Raised to 23?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,36,Is There a Unique Tip for Cars with Automatic Headlights?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,35,"Tax rates were significantly higher in the '40s, the '50s, and the '60s.",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,38,Three in four low-income workers dont have any paid sick days available.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,37,The largest U.S. companies would owe $620 billion in U.S. taxes on the cash they store in tax havens.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,39,Russian forces will be responsible for ensuring the safety at events held in the United States.,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,42,Is Safyre Terry's Christmas Wish a Scam?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,40,"California's Attorney General, Xavier Becerra is putting together plans to raise property tax revenue by eliminating the only thing keeping some people's property tax from sky rocketing, Prop 13.",False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,41,The recently passed transportation funding bill is a billion-dollar tax increase for Georgians.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,43,Is the White House Gift Shop Selling a 'Trump Defeats COVID-19' Coin?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,44,"Does This Photograph Show Pipe-Bombing Suspect Cesar Sayoc With a 'Known Democrat,' Proving a Hoax Conspiracy?",False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,47,Free Dunkin' Donuts Coupon Scam,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,45,"Pepper ... kicked off a jock tax, imposing a levy on the sports and entertainment industry.",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,46,Gun Con-Troll,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,49,Deceptive offer of complimentary Dunkin' Donuts voucher,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,50,Fraudulent offer for complimentary Dunkin' Donuts voucher,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,48,Fraudulent Free Dunkin' Donuts Coupon Offer,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,51,Did Biden Say Poor Kids Are 'Just as Talented as White Kids'?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,52,Does Biden's Climate Plan Include Cutting 90% of Red Meat From Our Diets?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,53,Is it true that Biden's Climate Plan proposes reducing red meat consumption by 90%?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,55,Is there a provision in Biden's climate plan that involves reducing our red meat consumption by 90%?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,54,Is there a provision in Biden's climate plan to reduce red meat consumption by 90%?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,57,Is Starbucks Opening a Roasting Facility in China?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,58,"Did Deutsche Bank Fund Auschwitz, Trump, Jeffrey Epstein, and ISIS?",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,56,"At the beginning of the last decade ... America had a budget surplus of over $200 billion. By the time I took office, we had a one-year deficit of over $1 trillion and projected deficits of $8 trillion over the next decade.",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,60,"Was Deutsche Bank the source of funding for Auschwitz, Trump, Jeffrey Epstein, and ISIS?",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,59,"Was Deutsche Bank a source of funding for Auschwitz, Trump, Jeffrey Epstein, and ISIS?",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,61,"Did Deutsche Bank provide funding for Auschwitz, Trump, Jeffrey Epstein, and ISIS?",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,62,Are the Trumps Looting the White House?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,63,Does Walmart Sell Insulin for $25 a Vial Without a Prescription?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,65,Cautionary notice regarding the Affordable Care Act,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,64,Warning Concerning Obamacare,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,68,Can You Text to 83361 to Receive a Free Target Gift Card?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,66,The Last of the Kennedy Dynasty,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,70,Rhode Island's legislature is the strongest in the country.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,67,Passing the Starbucks,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,69,Sinking of Titanic Was Orchestrated to Kill Businessmen Who Opposed Formation of Federal Reserve?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,71,Abandoned Polish Wedding Chairs,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,72,"My campaign finished the last quarter reporting the most cash on hand of any Republican in the field  $13.8 million in the bank, $3.5 million more than the Jeb Bush campaign.",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,73,June 11 2004 Terrorist Rumor,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,76,Mixed Case Street Name Signs,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,74,Says the 2011-13 state budget eliminates the structural deficit for the first time in decades.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,75,Did President Trump Sign an Executive Order Giving Veterans Free Care at Any Hospital?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,77,Is the Equifax Data Breach Settlement Email Legit?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,78,Is the Equifax Data Breach Settlement Email Genuine?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,80,"In the past year, Floridians, not government, created almost 135,000 new private sector jobs. We netted more than 120,000 total jobs in the first 11 months of 2011; the third most of any state in the nation.",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,79,Is the email concerning the Equifax Data Breach Settlement authentic?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,83,[E]xcise tax increases drive commerce across state lines.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,81,Did President Obama Order More Than 500 Drone Strikes?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,84,Was Michael Moore Accused of Sexual Harassment?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,85,Did Kevin Sorbo of 'Hercules' Fame Die in 2020?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,82,Wisconsin is below the national average in wage growth and job growth.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,86,Special education categorical aid from the state hasnt been raised in over a decade.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,87,The Inland Empire is the second fastest growing region for jobs in California.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,88,Does Photo Show Trump Arriving in New York for His Arraignment?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,89,Missing Child: Ember Graham,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,90,Is this Really an Electric Car From 1905?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,91,Will Cars with Full Gas Tanks Explode on Hot Days?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,93,Did most of the new jobs in February 2021 consist of waiters and bartenders?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,95,Joanna Gaines Never Endorsed Keto Gummies for Weight Loss,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,94,Did the greatest number of jobs in February 2021 come from the 'Waiters and Bartenders' sector?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,92,Were Most Jobs Added in February 2021 'Waiters and Bartenders'?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,96,Ford Motors Funds Black Lives Matter,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,97,Did Alex Smith Die at Age 26 Because He Couldn't Afford Insulin?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,98,Could Polar Bears Be Extinct by 2100?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,99,"This budget also reflects the smallest state government workforce per 1,000 residents in Florida in this century.",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+detailed_scoring_validator,100,"The average family (is) now bringing home $4,000 less than they did just five years ago.",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,3,Did Joe Biden Use the N-Word in a Recorded Speech?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,1,Oprah's advice regarding a ten percent tip.,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,4,If Texas were a country our economy would rank # 10...in the WORLD.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,2,Poll to Legalize Marijuana,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,7,The average faculty member at UW-Madison brings in close to a quarter million dollars a year in grant money.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,6,Juval Aviv Terrorist Predictions,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,8,Procter and Gamble and Satanism Rumor,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,5,Is This a Real Photo of Obama Shaking Hands with Iranian President Rouhani?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,9,SCAM ALERT: Texas Roadhouse Vouchers on Facebook,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,10,Is McDonald's the World's Largest Purchaser of Cow Eyeballs?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,15,Was This 'Health Bulletin' an Accurate Coronavirus Warning?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,11,The addition of a 1 percent sales tax would cost a typical household in Hillsborough County approximately $12 a month.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,13,"Says that under Rick Perrys plan, Texas has cut funding for public schools by 25%.",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,12,Says the United States has the highest corporate tax rate in the world.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,16,Can the 'FireChat' App Send Messages Without an Internet Connection?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,14,Customer Liability for Chipped Card (EMV) Fraud,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,17,Betty White on 'Grow Some Balls',False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,18,Amelia Bassano: The True Shakespeare?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,20,The Stolen Biscuits,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,21,Scam for Target and Walmart Refrigerators and Ovens Hits Facebook,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,19,Ronda Rousey Death Hoax,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,22,Fraudulent scheme regarding refrigerators and ovens at Target and Walmart gains traction on Facebook.,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,23,Fraudulent activity targeting refrigerators and ovens at Target and Walmart gains traction on Facebook.,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,24,Is the 'Inventor of Autocorrect Died' Sign Real?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,31,Is Biden's Logo a Reference to China's 'Three Red Banners'?,False,False,True,false,"attempt 3 failed: Error code: 400 - {'error': {'message': 'Input data may contain inappropriate content. For details, see: https://help.aliyun.com/zh/model-studio/error-code#inappropriate-content', 'type': 'data_inspection_failed', 'param': None, 'code': 'data_inspection_failed'}, 'id': 'chatcmpl-c295e920-cf69-9709-b43d-032387415efd', 'request_id': 'c295e920-cf69-9709-b43d-032387415efd'} | fallback->False"
+enhanced_weighted_scorer,28,Legislation on Immigration Offering Complimentary Vehicles,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,29,Did Adele Endorse Keto Weight Loss Gummies on 'Ellen'?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,25,The top one-tenth of 1 percent of Americans own almost as much wealth as the bottom 90 percent.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,26,Is This a Picture of Christine Blasey Ford in 1982?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,30,The House of Delegates budget bill cuts $50 million from education.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,27,Immigration Bill Free Cars,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,32,"Although California has the sixth largest economy in the world, we also have one of the highest poverty rates in the nation.",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,33,Was Barack Obama Arrested in a Japanese Drug Bust?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,34,Has the Legal Drinking Age Been Raised to 23?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,35,"Tax rates were significantly higher in the '40s, the '50s, and the '60s.",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,36,Is There a Unique Tip for Cars with Automatic Headlights?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,38,Three in four low-income workers dont have any paid sick days available.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,39,Russian forces will be responsible for ensuring the safety at events held in the United States.,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,37,The largest U.S. companies would owe $620 billion in U.S. taxes on the cash they store in tax havens.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,40,"California's Attorney General, Xavier Becerra is putting together plans to raise property tax revenue by eliminating the only thing keeping some people's property tax from sky rocketing, Prop 13.",False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,41,The recently passed transportation funding bill is a billion-dollar tax increase for Georgians.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,42,Is Safyre Terry's Christmas Wish a Scam?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,43,Is the White House Gift Shop Selling a 'Trump Defeats COVID-19' Coin?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,45,"Pepper ... kicked off a jock tax, imposing a levy on the sports and entertainment industry.",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,46,Gun Con-Troll,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,47,Free Dunkin' Donuts Coupon Scam,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,44,"Does This Photograph Show Pipe-Bombing Suspect Cesar Sayoc With a 'Known Democrat,' Proving a Hoax Conspiracy?",False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,48,Fraudulent Free Dunkin' Donuts Coupon Offer,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,49,Deceptive offer of complimentary Dunkin' Donuts voucher,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,50,Fraudulent offer for complimentary Dunkin' Donuts voucher,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,51,Did Biden Say Poor Kids Are 'Just as Talented as White Kids'?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,55,Is there a provision in Biden's climate plan that involves reducing our red meat consumption by 90%?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,56,"At the beginning of the last decade ... America had a budget surplus of over $200 billion. By the time I took office, we had a one-year deficit of over $1 trillion and projected deficits of $8 trillion over the next decade.",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,52,Does Biden's Climate Plan Include Cutting 90% of Red Meat From Our Diets?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,54,Is there a provision in Biden's climate plan to reduce red meat consumption by 90%?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,53,Is it true that Biden's Climate Plan proposes reducing red meat consumption by 90%?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,57,Is Starbucks Opening a Roasting Facility in China?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,58,"Did Deutsche Bank Fund Auschwitz, Trump, Jeffrey Epstein, and ISIS?",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,59,"Was Deutsche Bank a source of funding for Auschwitz, Trump, Jeffrey Epstein, and ISIS?",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,60,"Was Deutsche Bank the source of funding for Auschwitz, Trump, Jeffrey Epstein, and ISIS?",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,61,"Did Deutsche Bank provide funding for Auschwitz, Trump, Jeffrey Epstein, and ISIS?",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,62,Are the Trumps Looting the White House?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,64,Warning Concerning Obamacare,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,63,Does Walmart Sell Insulin for $25 a Vial Without a Prescription?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,65,Cautionary notice regarding the Affordable Care Act,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,68,Can You Text to 83361 to Receive a Free Target Gift Card?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,66,The Last of the Kennedy Dynasty,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,67,Passing the Starbucks,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,70,Rhode Island's legislature is the strongest in the country.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,72,"My campaign finished the last quarter reporting the most cash on hand of any Republican in the field  $13.8 million in the bank, $3.5 million more than the Jeb Bush campaign.",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,69,Sinking of Titanic Was Orchestrated to Kill Businessmen Who Opposed Formation of Federal Reserve?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,71,Abandoned Polish Wedding Chairs,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,73,June 11 2004 Terrorist Rumor,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,76,Mixed Case Street Name Signs,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,75,Did President Trump Sign an Executive Order Giving Veterans Free Care at Any Hospital?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,74,Says the 2011-13 state budget eliminates the structural deficit for the first time in decades.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,77,Is the Equifax Data Breach Settlement Email Legit?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,78,Is the Equifax Data Breach Settlement Email Genuine?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,79,Is the email concerning the Equifax Data Breach Settlement authentic?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,80,"In the past year, Floridians, not government, created almost 135,000 new private sector jobs. We netted more than 120,000 total jobs in the first 11 months of 2011; the third most of any state in the nation.",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,81,Did President Obama Order More Than 500 Drone Strikes?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,83,[E]xcise tax increases drive commerce across state lines.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,82,Wisconsin is below the national average in wage growth and job growth.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,84,Was Michael Moore Accused of Sexual Harassment?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,87,The Inland Empire is the second fastest growing region for jobs in California.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,86,Special education categorical aid from the state hasnt been raised in over a decade.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,85,Did Kevin Sorbo of 'Hercules' Fame Die in 2020?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,88,Does Photo Show Trump Arriving in New York for His Arraignment?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,89,Missing Child: Ember Graham,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,90,Is this Really an Electric Car From 1905?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,91,Will Cars with Full Gas Tanks Explode on Hot Days?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,95,Joanna Gaines Never Endorsed Keto Gummies for Weight Loss,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,93,Did most of the new jobs in February 2021 consist of waiters and bartenders?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,92,Were Most Jobs Added in February 2021 'Waiters and Bartenders'?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,94,Did the greatest number of jobs in February 2021 come from the 'Waiters and Bartenders' sector?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,96,Ford Motors Funds Black Lives Matter,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,97,Did Alex Smith Die at Age 26 Because He Couldn't Afford Insulin?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,98,Could Polar Bears Be Extinct by 2100?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,99,"This budget also reflects the smallest state government workforce per 1,000 residents in Florida in this century.",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+enhanced_weighted_scorer,100,"The average family (is) now bringing home $4,000 less than they did just five years ago.",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,1,Oprah's advice regarding a ten percent tip.,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,3,Did Joe Biden Use the N-Word in a Recorded Speech?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,8,Procter and Gamble and Satanism Rumor,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,6,Juval Aviv Terrorist Predictions,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,2,Poll to Legalize Marijuana,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,4,If Texas were a country our economy would rank # 10...in the WORLD.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,7,The average faculty member at UW-Madison brings in close to a quarter million dollars a year in grant money.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,5,Is This a Real Photo of Obama Shaking Hands with Iranian President Rouhani?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,9,SCAM ALERT: Texas Roadhouse Vouchers on Facebook,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,10,Is McDonald's the World's Largest Purchaser of Cow Eyeballs?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,11,The addition of a 1 percent sales tax would cost a typical household in Hillsborough County approximately $12 a month.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,15,Was This 'Health Bulletin' an Accurate Coronavirus Warning?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,12,Says the United States has the highest corporate tax rate in the world.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,14,Customer Liability for Chipped Card (EMV) Fraud,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,13,"Says that under Rick Perrys plan, Texas has cut funding for public schools by 25%.",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,17,Betty White on 'Grow Some Balls',False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,16,Can the 'FireChat' App Send Messages Without an Internet Connection?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,19,Ronda Rousey Death Hoax,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,21,Scam for Target and Walmart Refrigerators and Ovens Hits Facebook,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,20,The Stolen Biscuits,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,18,Amelia Bassano: The True Shakespeare?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,24,Is the 'Inventor of Autocorrect Died' Sign Real?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,22,Fraudulent scheme regarding refrigerators and ovens at Target and Walmart gains traction on Facebook.,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,23,Fraudulent activity targeting refrigerators and ovens at Target and Walmart gains traction on Facebook.,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,25,The top one-tenth of 1 percent of Americans own almost as much wealth as the bottom 90 percent.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,26,Is This a Picture of Christine Blasey Ford in 1982?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,31,Is Biden's Logo a Reference to China's 'Three Red Banners'?,False,False,True,false,"attempt 3 failed: Error code: 400 - {'error': {'message': 'Input data may contain inappropriate content. For details, see: https://help.aliyun.com/zh/model-studio/error-code#inappropriate-content', 'type': 'data_inspection_failed', 'param': None, 'code': 'data_inspection_failed'}, 'id': 'chatcmpl-96b7887d-147a-9030-b521-605a9afd6618', 'request_id': '96b7887d-147a-9030-b521-605a9afd6618'} | fallback->False"
+expert_panel_scoring,28,Legislation on Immigration Offering Complimentary Vehicles,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,29,Did Adele Endorse Keto Weight Loss Gummies on 'Ellen'?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,27,Immigration Bill Free Cars,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,33,Was Barack Obama Arrested in a Japanese Drug Bust?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,30,The House of Delegates budget bill cuts $50 million from education.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,34,Has the Legal Drinking Age Been Raised to 23?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,32,"Although California has the sixth largest economy in the world, we also have one of the highest poverty rates in the nation.",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,35,"Tax rates were significantly higher in the '40s, the '50s, and the '60s.",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,36,Is There a Unique Tip for Cars with Automatic Headlights?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,37,The largest U.S. companies would owe $620 billion in U.S. taxes on the cash they store in tax havens.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,39,Russian forces will be responsible for ensuring the safety at events held in the United States.,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,38,Three in four low-income workers dont have any paid sick days available.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,40,"California's Attorney General, Xavier Becerra is putting together plans to raise property tax revenue by eliminating the only thing keeping some people's property tax from sky rocketing, Prop 13.",False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,42,Is Safyre Terry's Christmas Wish a Scam?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,41,The recently passed transportation funding bill is a billion-dollar tax increase for Georgians.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,43,Is the White House Gift Shop Selling a 'Trump Defeats COVID-19' Coin?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,45,"Pepper ... kicked off a jock tax, imposing a levy on the sports and entertainment industry.",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,44,"Does This Photograph Show Pipe-Bombing Suspect Cesar Sayoc With a 'Known Democrat,' Proving a Hoax Conspiracy?",False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,46,Gun Con-Troll,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,48,Fraudulent Free Dunkin' Donuts Coupon Offer,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,47,Free Dunkin' Donuts Coupon Scam,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,50,Fraudulent offer for complimentary Dunkin' Donuts voucher,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,49,Deceptive offer of complimentary Dunkin' Donuts voucher,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,52,Does Biden's Climate Plan Include Cutting 90% of Red Meat From Our Diets?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,51,Did Biden Say Poor Kids Are 'Just as Talented as White Kids'?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,56,"At the beginning of the last decade ... America had a budget surplus of over $200 billion. By the time I took office, we had a one-year deficit of over $1 trillion and projected deficits of $8 trillion over the next decade.",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,54,Is there a provision in Biden's climate plan to reduce red meat consumption by 90%?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,55,Is there a provision in Biden's climate plan that involves reducing our red meat consumption by 90%?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,53,Is it true that Biden's Climate Plan proposes reducing red meat consumption by 90%?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,58,"Did Deutsche Bank Fund Auschwitz, Trump, Jeffrey Epstein, and ISIS?",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,57,Is Starbucks Opening a Roasting Facility in China?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,59,"Was Deutsche Bank a source of funding for Auschwitz, Trump, Jeffrey Epstein, and ISIS?",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,60,"Was Deutsche Bank the source of funding for Auschwitz, Trump, Jeffrey Epstein, and ISIS?",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,62,Are the Trumps Looting the White House?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,61,"Did Deutsche Bank provide funding for Auschwitz, Trump, Jeffrey Epstein, and ISIS?",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,63,Does Walmart Sell Insulin for $25 a Vial Without a Prescription?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,64,Warning Concerning Obamacare,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,65,Cautionary notice regarding the Affordable Care Act,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,68,Can You Text to 83361 to Receive a Free Target Gift Card?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,66,The Last of the Kennedy Dynasty,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,67,Passing the Starbucks,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,70,Rhode Island's legislature is the strongest in the country.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,69,Sinking of Titanic Was Orchestrated to Kill Businessmen Who Opposed Formation of Federal Reserve?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,71,Abandoned Polish Wedding Chairs,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,72,"My campaign finished the last quarter reporting the most cash on hand of any Republican in the field  $13.8 million in the bank, $3.5 million more than the Jeb Bush campaign.",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,73,June 11 2004 Terrorist Rumor,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,74,Says the 2011-13 state budget eliminates the structural deficit for the first time in decades.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,75,Did President Trump Sign an Executive Order Giving Veterans Free Care at Any Hospital?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,77,Is the Equifax Data Breach Settlement Email Legit?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,80,"In the past year, Floridians, not government, created almost 135,000 new private sector jobs. We netted more than 120,000 total jobs in the first 11 months of 2011; the third most of any state in the nation.",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,79,Is the email concerning the Equifax Data Breach Settlement authentic?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,83,[E]xcise tax increases drive commerce across state lines.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,82,Wisconsin is below the national average in wage growth and job growth.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,86,Special education categorical aid from the state hasnt been raised in over a decade.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,84,Was Michael Moore Accused of Sexual Harassment?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,85,Did Kevin Sorbo of 'Hercules' Fame Die in 2020?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,88,Does Photo Show Trump Arriving in New York for His Arraignment?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,89,Missing Child: Ember Graham,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,91,Will Cars with Full Gas Tanks Explode on Hot Days?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,90,Is this Really an Electric Car From 1905?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,92,Were Most Jobs Added in February 2021 'Waiters and Bartenders'?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,93,Did most of the new jobs in February 2021 consist of waiters and bartenders?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,95,Joanna Gaines Never Endorsed Keto Gummies for Weight Loss,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,94,Did the greatest number of jobs in February 2021 come from the 'Waiters and Bartenders' sector?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,96,Ford Motors Funds Black Lives Matter,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,97,Did Alex Smith Die at Age 26 Because He Couldn't Afford Insulin?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,98,Could Polar Bears Be Extinct by 2100?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,99,"This budget also reflects the smallest state government workforce per 1,000 residents in Florida in this century.",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,100,"The average family (is) now bringing home $4,000 less than they did just five years ago.",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,76,Mixed Case Street Name Signs,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,78,Is the Equifax Data Breach Settlement Email Genuine?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,81,Did President Obama Order More Than 500 Drone Strikes?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+expert_panel_scoring,87,The Inland Empire is the second fastest growing region for jobs in California.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,1,Oprah's advice regarding a ten percent tip.,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,7,The average faculty member at UW-Madison brings in close to a quarter million dollars a year in grant money.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,4,If Texas were a country our economy would rank # 10...in the WORLD.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,6,Juval Aviv Terrorist Predictions,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,3,Did Joe Biden Use the N-Word in a Recorded Speech?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,8,Procter and Gamble and Satanism Rumor,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,2,Poll to Legalize Marijuana,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,5,Is This a Real Photo of Obama Shaking Hands with Iranian President Rouhani?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,9,SCAM ALERT: Texas Roadhouse Vouchers on Facebook,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,11,The addition of a 1 percent sales tax would cost a typical household in Hillsborough County approximately $12 a month.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,12,Says the United States has the highest corporate tax rate in the world.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,10,Is McDonald's the World's Largest Purchaser of Cow Eyeballs?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,13,"Says that under Rick Perrys plan, Texas has cut funding for public schools by 25%.",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,14,Customer Liability for Chipped Card (EMV) Fraud,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,15,Was This 'Health Bulletin' an Accurate Coronavirus Warning?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,16,Can the 'FireChat' App Send Messages Without an Internet Connection?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,17,Betty White on 'Grow Some Balls',False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,20,The Stolen Biscuits,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,19,Ronda Rousey Death Hoax,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,23,Fraudulent activity targeting refrigerators and ovens at Target and Walmart gains traction on Facebook.,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,21,Scam for Target and Walmart Refrigerators and Ovens Hits Facebook,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,22,Fraudulent scheme regarding refrigerators and ovens at Target and Walmart gains traction on Facebook.,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,18,Amelia Bassano: The True Shakespeare?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,24,Is the 'Inventor of Autocorrect Died' Sign Real?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,31,Is Biden's Logo a Reference to China's 'Three Red Banners'?,False,False,True,false,"attempt 3 failed: Error code: 400 - {'error': {'message': 'Input data may contain inappropriate content. For details, see: https://help.aliyun.com/zh/model-studio/error-code#inappropriate-content', 'type': 'data_inspection_failed', 'param': None, 'code': 'data_inspection_failed'}, 'id': 'chatcmpl-f882df1f-8fb2-9ee7-8f50-14d9c5b8f53d', 'request_id': 'f882df1f-8fb2-9ee7-8f50-14d9c5b8f53d'} | fallback->False"
+committee_cross_reference,26,Is This a Picture of Christine Blasey Ford in 1982?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,25,The top one-tenth of 1 percent of Americans own almost as much wealth as the bottom 90 percent.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,28,Legislation on Immigration Offering Complimentary Vehicles,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,29,Did Adele Endorse Keto Weight Loss Gummies on 'Ellen'?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,30,The House of Delegates budget bill cuts $50 million from education.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,27,Immigration Bill Free Cars,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,33,Was Barack Obama Arrested in a Japanese Drug Bust?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,34,Has the Legal Drinking Age Been Raised to 23?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,35,"Tax rates were significantly higher in the '40s, the '50s, and the '60s.",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,32,"Although California has the sixth largest economy in the world, we also have one of the highest poverty rates in the nation.",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,39,Russian forces will be responsible for ensuring the safety at events held in the United States.,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,36,Is There a Unique Tip for Cars with Automatic Headlights?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,37,The largest U.S. companies would owe $620 billion in U.S. taxes on the cash they store in tax havens.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,38,Three in four low-income workers dont have any paid sick days available.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,41,The recently passed transportation funding bill is a billion-dollar tax increase for Georgians.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,42,Is Safyre Terry's Christmas Wish a Scam?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,40,"California's Attorney General, Xavier Becerra is putting together plans to raise property tax revenue by eliminating the only thing keeping some people's property tax from sky rocketing, Prop 13.",False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,43,Is the White House Gift Shop Selling a 'Trump Defeats COVID-19' Coin?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,44,"Does This Photograph Show Pipe-Bombing Suspect Cesar Sayoc With a 'Known Democrat,' Proving a Hoax Conspiracy?",False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,47,Free Dunkin' Donuts Coupon Scam,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,46,Gun Con-Troll,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,45,"Pepper ... kicked off a jock tax, imposing a levy on the sports and entertainment industry.",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,48,Fraudulent Free Dunkin' Donuts Coupon Offer,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,49,Deceptive offer of complimentary Dunkin' Donuts voucher,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,50,Fraudulent offer for complimentary Dunkin' Donuts voucher,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,51,Did Biden Say Poor Kids Are 'Just as Talented as White Kids'?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,53,Is it true that Biden's Climate Plan proposes reducing red meat consumption by 90%?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,55,Is there a provision in Biden's climate plan that involves reducing our red meat consumption by 90%?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,52,Does Biden's Climate Plan Include Cutting 90% of Red Meat From Our Diets?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,54,Is there a provision in Biden's climate plan to reduce red meat consumption by 90%?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,56,"At the beginning of the last decade ... America had a budget surplus of over $200 billion. By the time I took office, we had a one-year deficit of over $1 trillion and projected deficits of $8 trillion over the next decade.",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,57,Is Starbucks Opening a Roasting Facility in China?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,58,"Did Deutsche Bank Fund Auschwitz, Trump, Jeffrey Epstein, and ISIS?",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,59,"Was Deutsche Bank a source of funding for Auschwitz, Trump, Jeffrey Epstein, and ISIS?",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,60,"Was Deutsche Bank the source of funding for Auschwitz, Trump, Jeffrey Epstein, and ISIS?",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,63,Does Walmart Sell Insulin for $25 a Vial Without a Prescription?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,62,Are the Trumps Looting the White House?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,61,"Did Deutsche Bank provide funding for Auschwitz, Trump, Jeffrey Epstein, and ISIS?",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,65,Cautionary notice regarding the Affordable Care Act,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,64,Warning Concerning Obamacare,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,66,The Last of the Kennedy Dynasty,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,68,Can You Text to 83361 to Receive a Free Target Gift Card?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,67,Passing the Starbucks,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,70,Rhode Island's legislature is the strongest in the country.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,72,"My campaign finished the last quarter reporting the most cash on hand of any Republican in the field  $13.8 million in the bank, $3.5 million more than the Jeb Bush campaign.",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,69,Sinking of Titanic Was Orchestrated to Kill Businessmen Who Opposed Formation of Federal Reserve?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,71,Abandoned Polish Wedding Chairs,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,73,June 11 2004 Terrorist Rumor,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,74,Says the 2011-13 state budget eliminates the structural deficit for the first time in decades.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,76,Mixed Case Street Name Signs,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,75,Did President Trump Sign an Executive Order Giving Veterans Free Care at Any Hospital?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,78,Is the Equifax Data Breach Settlement Email Genuine?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,77,Is the Equifax Data Breach Settlement Email Legit?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,79,Is the email concerning the Equifax Data Breach Settlement authentic?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,80,"In the past year, Floridians, not government, created almost 135,000 new private sector jobs. We netted more than 120,000 total jobs in the first 11 months of 2011; the third most of any state in the nation.",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,81,Did President Obama Order More Than 500 Drone Strikes?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,83,[E]xcise tax increases drive commerce across state lines.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,82,Wisconsin is below the national average in wage growth and job growth.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,87,The Inland Empire is the second fastest growing region for jobs in California.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,86,Special education categorical aid from the state hasnt been raised in over a decade.,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,88,Does Photo Show Trump Arriving in New York for His Arraignment?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,85,Did Kevin Sorbo of 'Hercules' Fame Die in 2020?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,84,Was Michael Moore Accused of Sexual Harassment?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,91,Will Cars with Full Gas Tanks Explode on Hot Days?,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,93,Did most of the new jobs in February 2021 consist of waiters and bartenders?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,90,Is this Really an Electric Car From 1905?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,92,Were Most Jobs Added in February 2021 'Waiters and Bartenders'?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,95,Joanna Gaines Never Endorsed Keto Gummies for Weight Loss,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,94,Did the greatest number of jobs in February 2021 come from the 'Waiters and Bartenders' sector?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,96,Ford Motors Funds Black Lives Matter,False,False,True,false,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,99,"This budget also reflects the smallest state government workforce per 1,000 residents in Florida in this century.",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,100,"The average family (is) now bringing home $4,000 less than they did just five years ago.",True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,98,Could Polar Bears Be Extinct by 2100?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,97,Did Alex Smith Die at Age 26 Because He Couldn't Afford Insulin?,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False
+committee_cross_reference,89,Missing Child: Ember Graham,True,False,False,true,attempt 3 failed: 'sci_digest' | fallback->False

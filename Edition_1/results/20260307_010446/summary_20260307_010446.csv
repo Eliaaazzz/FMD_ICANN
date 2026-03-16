@@ -1,0 +1,5 @@
+﻿prompt_name,accuracy,precision,recall,f1,total_samples,correct,unknown_count,tp,fp,fn,tn
+committee_cross_reference,0.8519,0.9160,0.7816,0.8435,574,489,0,229,21,64,260
+cross_check_simulator,0.8606,0.8790,0.8430,0.8606,574,494,0,247,34,46,247
+dual_track_verifier,0.8258,0.7847,0.9078,0.8418,574,474,0,266,73,27,208
+weighted_evidence_scorer,0.7909,0.7370,0.9181,0.8176,574,454,0,269,96,24,185

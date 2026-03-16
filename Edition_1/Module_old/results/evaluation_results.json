@@ -1,0 +1,324 @@
+[
+  {
+    "source": "FinFact",
+    "text": "Oprah's advice regarding a ten percent tip....",
+    "true_label": 1,
+    "pred_label": 2,
+    "is_correct": false,
+    "raw_output": {
+      "final_label": "Unverified",
+      "confidence_score": 0.644,
+      "risk_level": "Medium",
+      "explanation_path": "SCP found the source to be anonymous with a low credibility score -> PID detected no manipulation tactics and low emotional intensity -> FCV verified the fact that Oprah's recommendation is to leave a ten percent tip without contradictions -> CPE concluded the text remains unverified due to the lack of a reliable source, despite the consistency of the verified facts.",
+      "key_contradictions": [],
+      "suggestion": "Seek additional sources to confirm the information, as the current source is anonymous and has a low credibility score.",
+      "ds_metrics": {
+        "mass_real": 0.644,
+        "mass_fake": 0.2,
+        "uncertainty": 0.156,
+        "conflict_level": 0.2
+      }
+    }
+  },
+  {
+    "source": "FinFact",
+    "text": "Poll to Legalize Marijuana...",
+    "true_label": 1,
+    "pred_label": 2,
+    "is_correct": false,
+    "raw_output": {
+      "final_label": "Unverified",
+      "confidence_score": 0.644,
+      "risk_level": "Medium",
+      "explanation_path": "SCP found the source to be anonymous with a low credibility score -> FCV verified multiple facts without contradictions and had a high consistency score -> PID did not detect significant emotional intensity or manipulation tactics -> The anonymity of the source prevents full verification, but the lack of direct contradictions and presence of verified supporting facts do not classify it as fake",
+      "key_contradictions": [],
+      "suggestion": "Seek additional sources to confirm the information, especially from credible and non-anonymous sources.",
+      "ds_metrics": {
+        "mass_real": 0.644,
+        "mass_fake": 0.2,
+        "uncertainty": 0.156,
+        "conflict_level": 0.2
+      }
+    }
+  },
+  {
+    "source": "FinFact",
+    "text": "Did Joe Biden Use the N-Word in a Recorded Speech?...",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true,
+    "raw_output": {
+      "final_label": "Fake News",
+      "confidence_score": 0.9,
+      "risk_level": "High",
+      "explanation_path": "SCP flagged the source as anonymous and risky -> CGT found the evidence completely misaligned with the target text -> FCV identified the claim as unsubstantiated and provided verified facts on unrelated topics -> CPE concluded the final verdict as Fake based on the weight of the evidence",
+      "key_contradictions": [
+        "The claim 'Joe Biden used the N-word in a recorded speech' is not supported by any of the provided evidence, which instead focuses on unrelated topics such as his support for women's rights, confrontation with Bill Ackman, and foreign policy views."
+      ],
+      "suggestion": "The claim is likely false. The provided evidence does not support the use of a racial slur by Joe Biden in a recorded speech. Be cautious of sources that do not provide credible or relevant information.",
+      "ds_metrics": {
+        "mass_real": 0.3,
+        "mass_fake": 0.38,
+        "uncertainty": 0.32,
+        "conflict_level": 0.3
+      }
+    }
+  },
+  {
+    "source": "FinFact",
+    "text": "If Texas were a country our economy would rank # 1...",
+    "true_label": 0,
+    "pred_label": 1,
+    "is_correct": false,
+    "raw_output": {
+      "final_label": "Fake News",
+      "confidence_score": 0.8,
+      "risk_level": "High",
+      "explanation_path": "SCP flagged the source as anonymous and risky -> FCV found the claim to be unsubstantiated with no supporting evidence for the economic ranking of Texas if it were a country -> CPE concluded the statement is likely fake based on the lack of substantiation and the anonymity of the source -> Dempster-Shafer Fusion metrics show a higher mass for fake (0.618) compared to real (0.2) -> Final verdict: Fake News",
+      "key_contradictions": [
+        "The provided evidence does not contain any information about the economic ranking of Texas if it were a country. The text instead discusses various unrelated topics, including Hillary Clinton, Saudi Arabia, and California's economy."
+      ],
+      "suggestion": "Seek out credible sources or official economic reports to verify the economic ranking of Texas. Be cautious of claims from anonymous or unverified sources.",
+      "ds_metrics": {
+        "mass_real": 0.2,
+        "mass_fake": 0.618,
+        "uncertainty": 0.182,
+        "conflict_level": 0.2
+      }
+    }
+  },
+  {
+    "source": "FinFact",
+    "text": "Is This a Real Photo of Obama Shaking Hands with I...",
+    "true_label": 1,
+    "pred_label": 2,
+    "is_correct": false,
+    "raw_output": {
+      "final_label": "Misleading",
+      "confidence_score": 0.8,
+      "risk_level": "Medium",
+      "explanation_path": "PID identified the intent as Informative with low emotional intensity and no manipulation tactics -> FCV verified several facts but also found overgeneralizations and unsubstantiated claims -> CPE concluded the text is misleading due to these inaccuracies -> Dempster-Shafer Fusion showed a mass_real of 0.6 and uncertainty of 0.4, supporting the misleading label",
+      "key_contradictions": [
+        "Every time President Obama does something good, Republicans call it the biggest disaster imaginable. Do they think we re not watching? (Overgeneralization)",
+        "The idea of citizen rights being the first priority for a newly elected government is astounding, considering they were viewed by most of the world as a terrorist state for decades. (Unsubstantiated Claim)"
+      ],
+      "suggestion": "While the text contains some factual information, be cautious of overgeneralizations and unsubstantiated claims. Verify specific claims from multiple reliable sources.",
+      "ds_metrics": {
+        "mass_real": 0.6,
+        "mass_fake": 0.0,
+        "uncertainty": 0.4,
+        "conflict_level": 0.0
+      }
+    }
+  },
+  {
+    "source": "FinGuard_FAKE",
+    "text": "Waking Times \n“How could one person like myself be...",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true,
+    "raw_output": {
+      "final_label": "Misleading",
+      "confidence_score": 0.8,
+      "risk_level": "High",
+      "explanation_path": "FCV found direct factual contradictions and unsubstantiated claims -> SCP identified the source as anonymous with a low credibility score -> PID detected significant manipulation tactics -> Conclusion: The text is designed to mislead rather than inform accurately.",
+      "key_contradictions": [
+        "The primary defensive play of the Democrats was to blame Russia without ever providing specific evidence of Russia’s involvement in the leaks, yet some analysts indicated that the NSA was the source of the leaks, and that a silent coup had been initiated by the U.S. intelligence community covertly working to prevent a Clinton win.",
+        "Recent revelations made public by Wikileaks impacted the result of the 2016 election. The timing of the releases and the overtly partisan nature of their contents, targeting only the Democrat campaign, revealed a clear bias, opening the door to speculation of a connection between Julian Assange and deeper state actors in both the Russian and the American intelligence communities."
+      ],
+      "suggestion": "Be cautious of sources that lack transparency and use emotionally charged language or historical analogies to make speculative claims. Verify information from multiple, credible sources before drawing conclusions.",
+      "ds_metrics": {
+        "mass_real": 0.0,
+        "mass_fake": 0.22,
+        "uncertainty": 0.78,
+        "conflict_level": 0.0
+      }
+    }
+  },
+  {
+    "source": "FinGuard_FAKE",
+    "text": "We Are Change \nAccording to the Code of Ethics for...",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true,
+    "raw_output": {
+      "final_label": "Misleading",
+      "confidence_score": 0.8,
+      "risk_level": "High",
+      "explanation_path": "SCP found the source to be anonymous with a low credibility score (0.2) and a risk flag -> PID identified manipulative tactics including authority bias, credibility appeal, selective information, and FUD -> SCA noted contradictions in the text, leading to a coherence score of 0.5 -> FCV verified some facts but did not find direct factual contradictions, leading to a consistency score of 1.0 -> CPE concluded that the text is misleading due to the combination of low source credibility, manipulative intent, and questionable coherence -> Dempster-Shafer Fusion metrics show a higher mass for real (0.5) than fake (0.22), but with significant uncertainty (0.28) and conflict (0.22) -> The high conflict level is due to the mix of verified and unverified claims, and the overall manipulative nature of the text.",
+      "key_contradictions": [
+        "A journalist should not take part in activities that endanger his/her professional integrity and should avoid conflicts of interest vs. Arianna Huffington sought a ‘useful’ role in the Democratic party, and pledged to use HuffPost to ‘Echo [the DNC’s] Message’.",
+        "Arianna Huffington praised WikiLeaks for promoting transparency and challenging the press to break its addiction to faux objectivity vs. Huffington was involved in censoring content on The Huffington Post, as reported by David Seamen."
+      ],
+      "suggestion": "Be cautious of the source and the manipulative tactics used in the text. Verify the claims independently from more credible sources before drawing conclusions.",
+      "ds_metrics": {
+        "mass_real": 0.5,
+        "mass_fake": 0.22,
+        "uncertainty": 0.28,
+        "conflict_level": 0.22
+      }
+    }
+  },
+  {
+    "source": "FinGuard_FAKE",
+    "text": " Histories...",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true,
+    "raw_output": {
+      "final_label": "Error",
+      "risk_level": "Unknown"
+    }
+  },
+  {
+    "source": "FinGuard_FAKE",
+    "text": "Monsanto Behind 4-Years-in-the-Making, Failed Peac...",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true,
+    "raw_output": {
+      "final_label": "Misleading",
+      "confidence_score": 0.75,
+      "risk_level": "High",
+      "explanation_path": "SCP found the source to be anonymous with a low credibility score (0.2) and a risk flag -> FCV identified a number mismatch in the estimated number of active FARC members, but also verified several factual claims -> PID detected high emotional and manipulative tactics -> CPE concluded the text is misleading due to the combination of these factors -> Dempster-Shafer Fusion showed higher mass for fake (0.24) than real (0.35), with significant uncertainty (0.41) and conflict (0.24)",
+      "key_contradictions": [
+        "The estimated number of active FARC members hardly exceeds 5-6 thousand people."
+      ],
+      "suggestion": "Be cautious of the source and cross-verify the information with credible and official sources. The text contains a mix of verified facts and misleading information, and it employs strong emotional and manipulative tactics.",
+      "ds_metrics": {
+        "mass_real": 0.35,
+        "mass_fake": 0.24,
+        "uncertainty": 0.41,
+        "conflict_level": 0.24
+      }
+    }
+  },
+  {
+    "source": "FinGuard_FAKE",
+    "text": "Subscribe \nThe Obama administration recently annou...",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true,
+    "raw_output": {
+      "final_label": "Unverified",
+      "confidence_score": 0.556,
+      "risk_level": "Medium",
+      "explanation_path": "SCP found the source to be social/anonymous with a low credibility score (0.3) -> PID identified emotional manipulation tactics and an informative/persuasive intent -> FCV verified several key facts without finding any contradictions -> CPE concluded that the text cannot be conclusively labeled as fake or real, hence it is marked as 'Unverified' -> Dempster-Shafer Fusion metrics show a higher mass for real (0.556) but significant uncertainty (0.267) and conflict (0.178)",
+      "key_contradictions": [],
+      "suggestion": "Given the mixed findings and the medium risk level, it is advisable to seek additional sources to corroborate the information presented in this text, especially from more credible and authoritative sources.",
+      "ds_metrics": {
+        "mass_real": 0.556,
+        "mass_fake": 0.178,
+        "uncertainty": 0.267,
+        "conflict_level": 0.178
+      }
+    }
+  },
+  {
+    "source": "FinGuard_TRUE",
+    "text": "South African Deputy President Cyril Ramaphosa was...",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true,
+    "raw_output": {
+      "final_label": "Real News",
+      "confidence_score": 0.9,
+      "risk_level": "Low",
+      "explanation_path": "FCV verified multiple key facts without finding any contradictions -> SCP did not raise significant concerns and the source was not flagged as risky -> SCA confirmed the text is coherent and logically structured -> PID identified no manipulative tactics that would suggest misinformation -> Conclusion: The text is deemed to be real and accurate.",
+      "key_contradictions": [],
+      "suggestion": "The information provided appears to be reliable, but it's always a good practice to cross-verify with other reputable sources.",
+      "ds_metrics": {
+        "mass_real": 0.5,
+        "mass_fake": 0.0,
+        "uncertainty": 0.5,
+        "conflict_level": 0.0
+      }
+    }
+  },
+  {
+    "source": "FinGuard_TRUE",
+    "text": "Palestinian billionaire Sabih al-Masri, Jordan s m...",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true,
+    "raw_output": {
+      "final_label": "Real News",
+      "confidence_score": 0.625,
+      "risk_level": "Medium",
+      "explanation_path": "FCV verified all key facts without finding any contradictions, and the consistency score is 1.0 -> SCP flagged a risk and provided a moderate credibility score, but this does not outweigh the strong verification from FCV -> Dempster-Shafer Fusion shows a higher mass for real (0.625) than fake (0.0) with some uncertainty (0.375) -> Conclusion: The news is real.",
+      "key_contradictions": [],
+      "suggestion": "The news appears to be accurate based on the verification of key facts. However, given the moderate credibility score from the source, it may be prudent to cross-verify with additional sources.",
+      "ds_metrics": {
+        "mass_real": 0.625,
+        "mass_fake": 0.0,
+        "uncertainty": 0.375,
+        "conflict_level": 0.0
+      }
+    }
+  },
+  {
+    "source": "FinGuard_TRUE",
+    "text": "In El Alto, a former shantytown high in the Andes ...",
+    "true_label": 0,
+    "pred_label": 1,
+    "is_correct": false,
+    "raw_output": {
+      "final_label": "Unverified",
+      "confidence_score": 0.583,
+      "risk_level": "Medium",
+      "explanation_path": "SCP found the source to be anonymous with a low credibility score (0.2) -> SCA confirmed the text is coherent and consistent, with no detected contradictions (coherence_score: 1.0) -> PID identified the intent as informative with low emotional intensity (0.3) and no manipulation tactics -> EVA found no violations of financial common sense or market norms -> FCV verified several facts that align with known historical events (consistency_score: 1.0) -> CPE concluded the text is unverified due to the anonymous source but no direct evidence of misinformation -> Dempster-Shafer Fusion metrics show a higher mass for real (0.583) than fake (0.15), with significant uncertainty (0.267) and a moderate conflict level (0.15)",
+      "key_contradictions": [],
+      "suggestion": "Given the medium risk level and the unverified status, it is advisable to seek additional sources to corroborate the information, especially regarding the funding issues at UPEA and the political context in Bolivia.",
+      "ds_metrics": {
+        "mass_real": 0.583,
+        "mass_fake": 0.15,
+        "uncertainty": 0.267,
+        "conflict_level": 0.15
+      }
+    }
+  },
+  {
+    "source": "FinGuard_TRUE",
+    "text": "The German government condemned Tuesday s firing o...",
+    "true_label": 0,
+    "pred_label": 1,
+    "is_correct": false,
+    "raw_output": {
+      "final_label": "Unverified",
+      "confidence_score": 0.556,
+      "risk_level": "Medium",
+      "explanation_path": "PID detected informative/persuasive intent with moderate emotional intensity and authority bias -> SCP flagged the source as unknown and raised a risk -> FCV verified key facts without contradictions, leading to high consistency -> CPE concluded 'Unverified' due to the unknown source despite factual consistency -> Dempster-Shafer Fusion showed higher mass for real (0.556) but significant uncertainty (0.444)",
+      "key_contradictions": [],
+      "suggestion": "Seek additional sources to confirm the information, especially from known and credible news outlets or official government statements.",
+      "ds_metrics": {
+        "mass_real": 0.556,
+        "mass_fake": 0.0,
+        "uncertainty": 0.444,
+        "conflict_level": 0.0
+      }
+    }
+  },
+  {
+    "source": "FinGuard_TRUE",
+    "text": "Germany s defense minister said on Tuesday she wan...",
+    "true_label": 0,
+    "pred_label": 1,
+    "is_correct": false,
+    "raw_output": {
+      "final_label": "Misleading",
+      "confidence_score": 0.6,
+      "risk_level": "Medium",
+      "explanation_path": "FCV found a direct factual contradiction -> CPE concluded the text is Misleading -> Final Adjudicator confirmed Misleading with medium risk",
+      "key_contradictions": [
+        "Germany increased the upper limit to its Afghanistan mandate to 980 soldiers from 850 in 2016, at a time when the United States and most other countries were reducing their forces."
+      ],
+      "suggestion": "The information provided contains a significant contradiction regarding the trend of troop deployments by NATO nations. While the overall context and many facts are accurate, this specific claim is misleading. It is advisable to cross-reference with additional sources for a more comprehensive understanding.",
+      "ds_metrics": {
+        "mass_real": 0.333,
+        "mass_fake": 0.0,
+        "uncertainty": 0.667,
+        "conflict_level": 0.0
+      }
+    }
+  }
+]

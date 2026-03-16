@@ -1,0 +1,179 @@
+{
+  "timestamp": "20260306_194112",
+  "model": "qwen-max",
+  "sample_size": 100,
+  "prompts": [
+    "dual_track_verifier",
+    "weighted_evidence_scorer",
+    "cross_check_simulator",
+    "tribunal_judgment",
+    "editorial_board_vote",
+    "systematic_cross_validator",
+    "detailed_scoring_validator",
+    "enhanced_weighted_scorer",
+    "expert_panel_scoring",
+    "committee_cross_reference"
+  ],
+  "results": [
+    {
+      "prompt_name": "dual_track_verifier",
+      "metrics": {
+        "accuracy": 0.86,
+        "precision": 0.7666666666666667,
+        "recall": 1.0,
+        "f1": 0.8679245283018869,
+        "total": 100,
+        "correct": 86,
+        "unknown_count": 0,
+        "tp": 46,
+        "fp": 14,
+        "fn": 0,
+        "tn": 40
+      }
+    },
+    {
+      "prompt_name": "weighted_evidence_scorer",
+      "metrics": {
+        "accuracy": 0.82,
+        "precision": 0.7258064516129032,
+        "recall": 0.9782608695652174,
+        "f1": 0.8333333333333333,
+        "total": 100,
+        "correct": 82,
+        "unknown_count": 0,
+        "tp": 45,
+        "fp": 17,
+        "fn": 1,
+        "tn": 37
+      }
+    },
+    {
+      "prompt_name": "cross_check_simulator",
+      "metrics": {
+        "accuracy": 0.9,
+        "precision": 0.9285714285714286,
+        "recall": 0.8478260869565217,
+        "f1": 0.8863636363636365,
+        "total": 100,
+        "correct": 90,
+        "unknown_count": 0,
+        "tp": 39,
+        "fp": 3,
+        "fn": 7,
+        "tn": 51
+      }
+    },
+    {
+      "prompt_name": "tribunal_judgment",
+      "metrics": {
+        "accuracy": 0.68,
+        "precision": 0.5921052631578947,
+        "recall": 0.9782608695652174,
+        "f1": 0.7377049180327868,
+        "total": 100,
+        "correct": 68,
+        "unknown_count": 0,
+        "tp": 45,
+        "fp": 31,
+        "fn": 1,
+        "tn": 23
+      }
+    },
+    {
+      "prompt_name": "editorial_board_vote",
+      "metrics": {
+        "accuracy": 0.78,
+        "precision": 0.74,
+        "recall": 0.8043478260869565,
+        "f1": 0.7708333333333333,
+        "total": 100,
+        "correct": 78,
+        "unknown_count": 0,
+        "tp": 37,
+        "fp": 13,
+        "fn": 9,
+        "tn": 41
+      }
+    },
+    {
+      "prompt_name": "systematic_cross_validator",
+      "metrics": {
+        "accuracy": 0.8,
+        "precision": 0.7708333333333334,
+        "recall": 0.8043478260869565,
+        "f1": 0.7872340425531915,
+        "total": 100,
+        "correct": 80,
+        "unknown_count": 0,
+        "tp": 37,
+        "fp": 11,
+        "fn": 9,
+        "tn": 43
+      }
+    },
+    {
+      "prompt_name": "detailed_scoring_validator",
+      "metrics": {
+        "accuracy": 0.78,
+        "precision": 0.6818181818181818,
+        "recall": 0.9782608695652174,
+        "f1": 0.8035714285714285,
+        "total": 100,
+        "correct": 78,
+        "unknown_count": 0,
+        "tp": 45,
+        "fp": 21,
+        "fn": 1,
+        "tn": 33
+      }
+    },
+    {
+      "prompt_name": "enhanced_weighted_scorer",
+      "metrics": {
+        "accuracy": 0.76,
+        "precision": 0.6617647058823529,
+        "recall": 0.9782608695652174,
+        "f1": 0.7894736842105263,
+        "total": 100,
+        "correct": 76,
+        "unknown_count": 0,
+        "tp": 45,
+        "fp": 23,
+        "fn": 1,
+        "tn": 31
+      }
+    },
+    {
+      "prompt_name": "expert_panel_scoring",
+      "metrics": {
+        "accuracy": 0.74,
+        "precision": 0.6388888888888888,
+        "recall": 1.0,
+        "f1": 0.7796610169491525,
+        "total": 100,
+        "correct": 74,
+        "unknown_count": 0,
+        "tp": 46,
+        "fp": 26,
+        "fn": 0,
+        "tn": 28
+      }
+    },
+    {
+      "prompt_name": "committee_cross_reference",
+      "metrics": {
+        "accuracy": 0.91,
+        "precision": 0.9111111111111111,
+        "recall": 0.8913043478260869,
+        "f1": 0.9010989010989011,
+        "total": 100,
+        "correct": 91,
+        "unknown_count": 0,
+        "tp": 41,
+        "fp": 4,
+        "fn": 5,
+        "tn": 50
+      }
+    }
+  ]
+}

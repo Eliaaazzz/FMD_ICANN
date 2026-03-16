@@ -1,0 +1,11 @@
+﻿prompt_name,accuracy,precision,recall,f1,total_samples,correct,unknown_count,tp,fp,fn,tn
+dual_track_verifier,0.8600,0.7667,1.0000,0.8679,100,86,0,46,14,0,40
+weighted_evidence_scorer,0.8200,0.7258,0.9783,0.8333,100,82,0,45,17,1,37
+cross_check_simulator,0.9000,0.9286,0.8478,0.8864,100,90,0,39,3,7,51
+tribunal_judgment,0.6800,0.5921,0.9783,0.7377,100,68,0,45,31,1,23
+editorial_board_vote,0.7800,0.7400,0.8043,0.7708,100,78,0,37,13,9,41
+systematic_cross_validator,0.8000,0.7708,0.8043,0.7872,100,80,0,37,11,9,43
+detailed_scoring_validator,0.7800,0.6818,0.9783,0.8036,100,78,0,45,21,1,33
+enhanced_weighted_scorer,0.7600,0.6618,0.9783,0.7895,100,76,0,45,23,1,31
+expert_panel_scoring,0.7400,0.6389,1.0000,0.7797,100,74,0,46,26,0,28
+committee_cross_reference,0.9100,0.9111,0.8913,0.9011,100,91,0,41,4,5,50

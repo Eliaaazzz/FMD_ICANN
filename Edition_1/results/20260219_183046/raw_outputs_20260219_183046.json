@@ -1,0 +1,602 @@
+[
+  {
+    "prompt_name": "dual_track_verifier",
+    "index": 5,
+    "claim": "Is This a Real Photo of Obama Shaking Hands with Iranian President Rouhani?",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "### TRACK A: QUANTITATIVE SCORING\n**A1. Factual Accuracy (0-10): 2/10**\n- The claim is about a photo of Obama shaking hands with Iranian President Rouhani.\n- None of the provided evidence directly confirms or denies the existence of such a photo.\n- The evidence primarily discusses the Iran nuclear deal and its aftermath, which does not provide direct support for the claim.\n\n**A2. Evidence Alignment (0-10): 3/10**\n- The evidence discusses the Iran nuclear deal, its impact, and the political context.\n- There is no specific mention or evidence of a photo of Obama and Rouhani shaking hands.\n- The evidence is not aligned with the core claim.\n\n**A3. Logical Consistency (0-10): 4/10**\n- The provided evidence is logically consistent in discussing the Iran nuclear deal and its outcomes.\n- However, it does not address the specific claim about the photo, making it difficult to assess logical consistency with the claim.\n\n**Track A Total: 9/30**\n\n### TRACK B: QUALITATIVE CROSS-REFERENCE\n**B1. Core claim exists in evidence? □ PASS □ FAIL**\n- **FAIL**: The core claim about a photo of Obama and Rouhani shaking hands is not addressed in the provided evidence.\n\n**B2. No contradictions detected? □ PASS □ FAIL**\n- **PASS**: There are no contradictions in the provided evidence regarding the Iran nuclear deal and its outcomes.\n\n**B3. Context preserved correctly? □ PASS □ FAIL**\n- **PASS**: The context of the Iran nuclear deal and its political implications is preserved correctly in the evidence.\n\n**Track B Result: 2 of 3 PASS**\n\n### SYNTHESIS DECISION MATRIX\n| Track A Score | Track B Passes | Final Decision |\n|---------------|----------------|----------------|\n| 9             | 2              | False          |\n\n**Final Output: Prediction: False**",
+      "compressed_evidence": "1. 奥巴马与伊朗达成核协议。\n2. 共和党批评未应验，伊朗改革派获议会控制权。\n3. 核协议后美国囚犯获释，经济活动增加。\n4. 有关协议失败的声明被直接反驳。"
+    }
+  },
+  {
+    "prompt_name": "dual_track_verifier",
+    "index": 3,
+    "claim": "Did Joe Biden Use the N-Word in a Recorded Speech?",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "### TRACK A: QUANTITATIVE SCORING\n**A1. Factual Accuracy (0-10): 0**\n- The provided evidence does not contain any information about Joe Biden using the N-word in a recorded speech. The evidence discusses other topics, such as his stance on women's rights and an incident at a conference.\n\n**A2. Evidence Alignment (0-10): 0**\n- The evidence provided is not aligned with the claim. It does not mention or provide any support for the claim that Joe Biden used the N-word in a recorded speech.\n\n**A3. Logical Consistency (0-10): 0**\n- The evidence is not logically consistent with the claim. The content of the evidence does not support or even address the claim in question.\n\n**Track A Total: 0/30**\n\n### TRACK B: QUALITATIVE CROSS-REFERENCE\n**B1. Core claim exists in evidence? □ PASS □ FAIL**\n- **FAIL**: The core claim (Joe Biden using the N-word in a recorded speech) does not exist in the provided evidence.\n\n**B2. No contradictions detected? □ PASS □ FAIL**\n- **PASS**: There are no contradictions within the provided evidence, but this is irrelevant since the evidence does not address the claim.\n\n**B3. Context preserved correctly? □ PASS □ FAIL**\n- **FAIL**: The context of the claim is not preserved in the provided evidence. The evidence discusses unrelated topics and does not address the use of the N-word by Joe Biden.\n\n**Track B Result: 1 of 3 PASS**\n\n### SYNTHESIS DECISION MATRIX\n| Track A Score | Track B Passes | Final Decision |\n|---------------|----------------|----------------|\n| 0             | 1              | False          |\n\n### Final Output: Prediction: False\n\nThe claim that \"Joe Biden used the N-word in a recorded speech\" is not supported by the provided evidence. Both the quantitative and qualitative assessments indicate that the claim is false.",
+      "compressed_evidence": "1. 来源匿名，风险高。\n2. 无证据支持拜登使用种族歧视词汇。\n3. 情感煽动，夸大事实。\n4. 提供信息与问题无关。"
+    }
+  },
+  {
+    "prompt_name": "dual_track_verifier",
+    "index": 7,
+    "claim": "The average faculty member at UW-Madison brings in close to a quarter million dollars a year in grant money.",
+    "ground_truth": "True",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "══════════════════════════════════════════\n[TRACK A: QUANTITATIVE SCORING]\nA1. Factual Accuracy (0-10): 0\n- The provided evidence does not support the claim that the average faculty member at UW-Madison brings in close to a quarter million dollars a year in grant money. The evidence is about political donations and financial misappropriations, which are unrelated to the claim.\n\nA2. Evidence Alignment (0-10): 0\n- The evidence provided does not align with the claim. It discusses political donations and financial issues in Michigan, not grant money at UW-Madison.\n\nA3. Logical Consistency (0-10): 0\n- There is no logical connection between the claim and the provided evidence. The evidence does not provide any information about grant money or faculty at UW-Madison.\n\nTrack A Total: 0/30\n\n══════════════════════════════════════════\n[TRACK B: QUALITATIVE CROSS-REFERENCE]\nB1. Core claim exists in evidence? □ PASS □ FAIL\n- The core claim does not exist in the provided evidence. The evidence is about political donations and financial issues in Michigan, not about grant money at UW-Madison.\n\nB2. No contradictions detected? □ PASS □ FAIL\n- There are no contradictions detected, but this is because the evidence is entirely irrelevant to the claim.\n\nB3. Context preserved correctly? □ PASS □ FAIL\n- The context is not preserved correctly. The evidence provided does not relate to the context of the claim, which is about grant money at UW-Madison.\n\nTrack B Result: 0 of 3 PASS\n\n══════════════════════════════════════════\n[SYNTHESIS DECISION MATRIX]\n| Track A Score | Track B Passes | Final Decision |\n|---------------|----------------|----------------|\n| 0             | 0              | False          |\n\nFinal Output: Prediction: False",
+      "compressed_evidence": "1. 来源匿名，可信度低。\n2. 关于UW-Madison教师平均每年获得的资助金额无证据支持。\n3. 证据与文本内容不相关，缺乏上下文。\n4. 声称未被验证，虚假可能性高。"
+    }
+  },
+  {
+    "prompt_name": "dual_track_verifier",
+    "index": 4,
+    "claim": "If Texas were a country our economy would rank # 10...in the WORLD.",
+    "ground_truth": "True",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "### TRACK A: QUANTITATIVE SCORING\n**A1. Factual Accuracy (0-10): 2**\n- The claim states that if Texas were a country, its economy would rank #10 in the world. This is a specific and factual claim, but it is not supported by any reliable data or sources in the provided reference materials. The reference materials indicate that the claim lacks evidence and is marked as unreliable.\n\n**A2. Evidence Alignment (0-10): 3**\n- The reference materials do not provide any supporting evidence for the claim. They instead highlight that the claim is from an unverified source and lacks credible backing. Therefore, there is a significant misalignment between the claim and the available evidence.\n\n**A3. Logical Consistency (0-10): 4**\n- The claim is logically consistent in the sense that it makes a straightforward statement about economic ranking. However, without supporting data, the logical consistency is undermined. The lack of evidence and the unreliability of the source make it difficult to assess the logical consistency fully.\n\n**Track A Total: 9/30**\n\n### TRACK B: QUALITATIVE CROSS-REFERENCE\n**B1. Core claim exists in evidence? □ PASS □ FAIL**\n- **FAIL**: The core claim that Texas's economy would rank #10 in the world is not substantiated by any of the provided reference materials. The summary explicitly states that the information is unreliable and lacks evidence.\n\n**B2. No contradictions detected? □ PASS □ FAIL**\n- **PASS**: There are no direct contradictions within the provided reference materials. The materials consistently point out the lack of evidence and the unreliability of the claim.\n\n**B3. Context preserved correctly? □ PASS □ FAIL**\n- **FAIL**: The context of the claim is not preserved correctly. The reference materials indicate that the claim is from an anonymous and unverified source, which undermines the context and reliability of the statement.\n\n**Track B Result: 1 of 3 PASS**\n\n### SYNTHESIS DECISION MATRIX\n| Track A Score | Track B Passes | Final Decision |\n|---------------|----------------|----------------|\n| 9             | 1              | False          |\n\n**Final Output: Prediction: False**",
+      "compressed_evidence": "1. 来源为匿名自媒体，无官方背书。\n2. 关于德州经济排名的声明缺乏证据支持。\n3. 信息被标记为不可靠且存在未证实的主张。\n4. 综合评估认为该新闻内容为假。"
+    }
+  },
+  {
+    "prompt_name": "dual_track_verifier",
+    "index": 8,
+    "claim": "Procter and Gamble and Satanism Rumor",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "══════════════════════════════════════════\n[TRACK A: QUANTITATIVE SCORING]\nA1. Factual Accuracy (0-10): 2\n- The reference materials do not provide any factual support for the claim that Procter and Gamble is involved in Satanism. The provided evidence is unrelated to the core claim.\n\nA2. Evidence Alignment (0-10): 0\n- The evidence provided does not align with the claim at all. It discusses unrelated topics such as Robert McDonald's service, a VA hospital project, and a satanic event at Cal Poly. There is no mention of Procter and Gamble or Satanism in the context of the company.\n\nA3. Logical Consistency (0-10): 0\n- The claim is not logically consistent with the provided evidence. The evidence does not support or even address the claim about Procter and Gamble and Satanism.\n\nTrack A Total: 2/30\n\n══════════════════════════════════════════\n[TRACK B: QUALITATIVE CROSS-REFERENCE]\nB1. Core claim exists in evidence? □ PASS □ FAIL\n- FAIL: The core claim about Procter and Gamble and Satanism is not present in the provided evidence.\n\nB2. No contradictions detected? □ PASS □ FAIL\n- PASS: There are no contradictions in the provided evidence, but this is irrelevant since the evidence does not address the claim.\n\nB3. Context preserved correctly? □ PASS □ FAIL\n- FAIL: The context of the claim is not preserved in the provided evidence. The evidence is about different topics and does not relate to the claim.\n\nTrack B Result: 1 of 3 PASS\n\n══════════════════════════════════════════\n[SYNTHESIS DECISION MATRIX]\n| Track A Score | Track B Passes | Final Decision |\n|---------------|----------------|----------------|\n| < 22          | 1              | False          |\n\nFinal Output: Prediction: False",
+      "compressed_evidence": "1. 来源匿名，可信度低。\n2. 无证据支持宝洁涉撒旦主义。\n3. 存在未证实的谣言。\n4. 工具综合判断为假消息。"
+    }
+  },
+  {
+    "prompt_name": "dual_track_verifier",
+    "index": 6,
+    "claim": "Juval Aviv Terrorist Predictions",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "### TRACK A: QUANTITATIVE SCORING\n**A1. Factual Accuracy (0-10): 7**\n- The provided evidence discusses specific terrorist attacks and their contexts, which are factually accurate. However, the claim about \"Juval Aviv Terrorist Predictions\" is not directly supported by the evidence. The evidence does not mention Juval Aviv or any predictions made by him.\n\n**A2. Evidence Alignment (0-10): 5**\n- The evidence provided discusses terrorist attacks in Jerusalem and related political contexts. While these are relevant to the broader topic of terrorism, they do not specifically align with the claim about Juval Aviv's predictions. The evidence is more focused on the aftermath and context of specific attacks rather than predictive analysis.\n\n**A3. Logical Consistency (0-10): 6**\n- The evidence is logically consistent within itself, discussing the timing and context of terrorist attacks. However, it does not provide a logical link to the claim about Juval Aviv's predictions. There is a gap in the logical connection between the evidence and the claim.\n\n**Track A Total: 18/30**\n\n### TRACK B: QUALITATIVE CROSS-REFERENCE\n**B1. Core claim exists in evidence? □ PASS □ FAIL**\n- **FAIL**: The core claim about \"Juval Aviv Terrorist Predictions\" is not explicitly mentioned in the provided evidence.\n\n**B2. No contradictions detected? □ PASS □ FAIL**\n- **PASS**: There are no direct contradictions in the provided evidence. The evidence consistently discusses the context and details of terrorist attacks without conflicting information.\n\n**B3. Context preserved correctly? □ PASS □ FAIL**\n- **FAIL**: The context of the claim about \"Juval Aviv Terrorist Predictions\" is not preserved in the provided evidence. The evidence focuses on the aftermath and context of specific terrorist attacks rather than predictive analysis.\n\n**Track B Result: 1 of 3 PASS**\n\n### SYNTHESIS DECISION MATRIX\n| Track A Score | Track B Passes | Final Decision |\n|---------------|----------------|----------------|\n| 18            | 1              | False          |\n\n**Final Output: Prediction: False**",
+      "compressed_evidence": "1. 来源匿名，可信度低。\n2. 使用权威偏见和恐惧、不确定、怀疑策略。\n3. 无直接事实矛盾，但信息可能误导。\n4. 情感强度较高，意图推测。"
+    }
+  },
+  {
+    "prompt_name": "dual_track_verifier",
+    "index": 1,
+    "claim": "Oprah's advice regarding a ten percent tip.",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "══════════════════════════════════════════\n[TRACK A: QUANTITATIVE SCORING]\nA1. Factual Accuracy (0-10): 0\n- The claim states that Oprah's advice is to leave a ten percent tip. However, the evidence provided clearly shows that this is a false rumor. According to the sources, Oprah and her show have consistently advised tipping at least 15% or more. Therefore, the factual accuracy score is 0.\n\nA2. Evidence Alignment (0-10): 0\n- The evidence provided does not align with the claim. The sources indicate that the \"Oprah said not to tip more than 10%\" claim is false and that she has never given such advice. Instead, she and her show have recommended tipping at least 15%. Thus, the evidence alignment score is 0.\n\nA3. Logical Consistency (0-10): 0\n- The claim is logically inconsistent with the provided evidence. The evidence shows that the claim is a false rumor and that Oprah has advocated for higher tipping rates. Therefore, the logical consistency score is 0.\n\nTrack A Total: 0/30\n\n══════════════════════════════════════════\n[TRACK B: QUALITATIVE CROSS-REFERENCE]\nB1. Core claim exists in evidence? □ PASS □ FAIL\n- The core claim that \"Oprah's advice is to leave a ten percent tip\" does not exist in the evidence. The evidence shows that this is a false rumor.\n  - **FAIL**\n\nB2. No contradictions detected? □ PASS □ FAIL\n- There are no contradictions within the evidence itself. The evidence consistently shows that the claim is false and that Oprah has advised tipping at least 15%.\n  - **PASS**\n\nB3. Context preserved correctly? □ PASS □ FAIL\n- The context of the claim is not preserved correctly. The evidence shows that the context in which the claim was made is a false rumor, and the actual context is that Oprah has advised higher tipping rates.\n  - **FAIL**\n\nTrack B Result: 1 of 3 PASS\n\n══════════════════════════════════════════\n[SYNTHESIS DECISION MATRIX]\n| Track A Score | Track B Passes | Final Decision |\n|---------------|----------------|----------------|\n| >= 22         | >= 2           | True           |\n| >= 25         | >= 1           | True           |\n| < 22          | 3              | True           |\n| Otherwise     | -              | False          |\n\nFinal Output: Prediction: False",
+      "compressed_evidence": "1. 来源匿名，可信度低。\n2. 无事实矛盾或常识违反。\n3. 意图信息传递，无情感操控。\n4. 最终结论为未验证。"
+    }
+  },
+  {
+    "prompt_name": "dual_track_verifier",
+    "index": 2,
+    "claim": "Poll to Legalize Marijuana",
+    "ground_truth": "False",
+    "prediction": "True",
+    "raw_output": {
+      "final_label": "Real",
+      "explanation_path": "### TRACK A: QUANTITATIVE SCORING\n**A1. Factual Accuracy (0-10): 8**\n- The claim that there is a poll to legalize marijuana is supported by the evidence, which discusses the legalization of marijuana in various states and the potential tax benefits.\n- However, the specific term \"poll\" is not explicitly mentioned in the reference materials, but the context of public support and votes for legalization is clear.\n\n**A2. Evidence Alignment (0-10): 9**\n- The evidence provided aligns well with the claim, as it discusses the legalization of marijuana in multiple states and the financial benefits associated with it.\n- The evidence also mentions the public support for legalization, which can be interpreted as a form of polling or public opinion.\n\n**A3. Logical Consistency (0-10): 9**\n- The claim is logically consistent with the evidence, as the evidence supports the idea of public support and legislative action towards marijuana legalization.\n- There are no logical inconsistencies or contradictions in the evidence provided.\n\n**Track A Total: 26/30**\n\n### TRACK B: QUALITATIVE CROSS-REFERENCE\n**B1. Core claim exists in evidence? □ PASS**\n- The core claim of a \"poll to legalize marijuana\" is supported by the evidence, which discusses public support and legislative actions towards marijuana legalization.\n\n**B2. No contradictions detected? □ PASS**\n- There are no contradictions detected in the evidence. The evidence consistently supports the idea of marijuana legalization and its benefits.\n\n**B3. Context preserved correctly? □ PASS**\n- The context of the claim is preserved correctly. The evidence discusses the broader context of marijuana legalization, including public support, tax benefits, and legislative actions.\n\n**Track B Result: 3 of 3 PASS**\n\n### SYNTHESIS DECISION MATRIX\n| Track A Score | Track B Passes | Final Decision |\n|---------------|----------------|----------------|\n| >= 22         | >= 2           | True           |\n| >= 25         | >= 1           | True           |\n| < 22          | 3              | True           |\n| Otherwise     | -              | False          |\n\n**Final Output: Prediction: True**",
+      "compressed_evidence": "1. 来源匿名，可信度低。\n2. 无事实矛盾，内容连贯。\n3. 未检测到情感操纵或误导意图。\n4. 多个州因大麻合法化增加税收被证实。"
+    }
+  },
+  {
+    "prompt_name": "dual_track_verifier",
+    "index": 9,
+    "claim": "SCAM ALERT: Texas Roadhouse Vouchers on Facebook",
+    "ground_truth": "False",
+    "prediction": "True",
+    "raw_output": {
+      "final_label": "Real",
+      "explanation_path": "### TRACK A: QUANTITATIVE SCORING\n**A1. Factual Accuracy (0-10): 8**\n- The claim that Texas Roadhouse vouchers on Facebook are a scam is supported by the evidence, which includes similar scams for other restaurants like Chick-fil-A and Olive Garden.\n- The evidence snippets provide detailed information about how these scams work, including the use of fake profiles and misleading posts.\n\n**A2. Evidence Alignment (0-10): 9**\n- The reference materials clearly indicate that there have been multiple instances of similar scams involving restaurant vouchers on Facebook.\n- The evidence specifically mentions Texas Roadhouse as one of the targets in these scams, aligning well with the claim.\n\n**A3. Logical Consistency (0-10): 9**\n- The claim is logically consistent with the provided evidence, which shows a pattern of similar scams targeting various restaurants.\n- The evidence supports the conclusion that the Texas Roadhouse voucher offer is likely a scam, following the same modus operandi as other verified scams.\n\n**Track A Total: 26/30**\n\n### TRACK B: QUALITATIVE CROSS-REFERENCE\n**B1. Core claim exists in evidence? □ PASS**\n- The core claim that Texas Roadhouse vouchers on Facebook are a scam is directly supported by the evidence, which mentions Texas Roadhouse as one of the targets in the scams.\n\n**B2. No contradictions detected? □ PASS**\n- There are no contradictions in the evidence. All the provided references support the idea that the voucher offers are part of a larger scam pattern.\n\n**B3. Context preserved correctly? □ PASS**\n- The context of the scam, including the methods used (fake profiles, misleading posts, and links to phishing sites), is accurately preserved in the evidence.\n\n**Track B Result: 3 of 3 PASS**\n\n### SYNTHESIS DECISION MATRIX\n| Track A Score | Track B Passes | Final Decision |\n|---------------|----------------|----------------|\n| 26            | 3              | True           |\n\n**Final Output: Prediction: True**",
+      "compressed_evidence": "1. 来源匿名，可信度低。\n2. 与已知骗局模式一致。\n3. 无确凿证据支持其真实性。\n4. 多工具综合判断为假信息。"
+    }
+  },
+  {
+    "prompt_name": "dual_track_verifier",
+    "index": 10,
+    "claim": "Is McDonald's the World's Largest Purchaser of Cow Eyeballs?",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "══════════════════════════════════════════\n[TRACK A: QUANTITATIVE SCORING]\nA1. Factual Accuracy (0-10): 2\n- The provided reference materials do not contain any information about McDonald's purchasing cow eyeballs, and the summary indicates that there is no direct evidence to support or refute the claim. Therefore, the factual accuracy score is low.\n\nA2. Evidence Alignment (0-10): 2\n- There is no evidence in the provided reference materials that aligns with the claim. The reference materials discuss various facts about Russia, a Twitter hack of McDonald's, and the meat export industry in India, but none of these are relevant to the claim about McDonald's and cow eyeballs.\n\nA3. Logical Consistency (0-10): 2\n- The claim lacks logical consistency because it is not supported by any of the provided evidence. The reference materials do not provide any context or information that would make the claim logically consistent.\n\nTrack A Total: 6/30\n\n══════════════════════════════════════════\n[TRACK B: QUALITATIVE CROSS-REFERENCE]\nB1. Core claim exists in evidence? □ PASS □ FAIL\n- The core claim does not exist in the provided evidence. FAIL\n\nB2. No contradictions detected? □ PASS □ FAIL\n- Since the claim is not present in the evidence, there are no contradictions to detect. PASS\n\nB3. Context preserved correctly? □ PASS □ FAIL\n- The context of the claim (McDonald's and cow eyeballs) is not preserved in the provided evidence, which discusses unrelated topics. FAIL\n\nTrack B Result: 1 of 3 PASS\n\n══════════════════════════════════════════\n[SYNTHESIS DECISION MATRIX]\n| Track A Score | Track B Passes | Final Decision |\n|---------------|----------------|----------------|\n| >= 22         | >= 2           | True           |\n| >= 25         | >= 1           | True           |\n| < 22          | 3              | True           |\n| Otherwise     | -              | False          |\n\nFinal Output: Prediction: False",
+      "compressed_evidence": "1. 来源匿名，可信度低。\n2. 无直接证据支持或反驳麦当劳购买牛眼的声明。\n3. 声明未违反金融常识或市场规范。\n4. 最终结论为未经验证。"
+    }
+  },
+  {
+    "prompt_name": "weighted_evidence_scorer",
+    "index": 1,
+    "claim": "Oprah's advice regarding a ten percent tip.",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "根据提供的证据材料，我们可以对声明进行如下评分：\n\nA. 证据覆盖度 (0-10): 从提供的材料来看，存在关于Oprah对于小费建议的详细讨论，并且这些信息直接涉及到声明中的内容。但是，所有证据都指向Oprah并没有推荐给10%的小费，而是支持至少15%或更多的小费。因此，在这方面证据是充分的，但它们并不支持原声明。评分为8。\n\nB. 一致性 (0-10): 声明说Oprah建议给10%的小费，而证据明确指出Oprah从未说过这样的话，并且她的节目和杂志提倡的是更高的小费比例（至少15%）。这表明声明与现有证据之间存在矛盾。评分为2。\n\nC. 语境准确性 (0-10): 由于声明错误地引用了Oprah的观点，导致其在传达信息时出现了误导。尽管有关于Oprah实际观点的准确信息可用，但声明本身未能忠实反映这一点。评分为3。\n\n总分 = A + B + C = 8 + 2 + 3 = 13\n\n因为总分小于20分，所以最终决定为：\nPrediction: False",
+      "compressed_evidence": "1. 来源匿名，无官方背书。\n2. 事实核查未发现矛盾。\n3. 经济合理性评估通过。\n4. 多工具综合判断为真。"
+    }
+  },
+  {
+    "prompt_name": "weighted_evidence_scorer",
+    "index": 6,
+    "claim": "Juval Aviv Terrorist Predictions",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "根据提供的证据材料，我们来评估声明“Juval Aviv Terrorist Predictions”：\n\nA. 证据覆盖度 (0-10): 给定的证据材料主要集中在描述特定的恐怖袭击事件及其背景，并没有直接提到Juval Aviv或他的任何预测。因此，在这种情况下，证据对声明的支持非常有限。\n评分：2\n\nB. 一致性 (0-10): 由于证据材料并没有涉及Juval Aviv或者任何关于未来恐怖活动的具体预测，因此无法判断声明与证据之间的一致性如何。\n评分：3\n\nC. 语境准确性 (0-10): 同样地，因为缺乏直接相关的上下文信息来验证该声明是否准确反映了其原始意图或内容，所以很难给出高分。\n评分：4\n\n总分 = A + B + C = 2 + 3 + 4 = 9\n\n根据决策规则（总分小于20标记为False），最终得分为9。\n\nPrediction: False",
+      "compressed_evidence": "1. 来源匿名，可靠性低。\n2. 意图推测性，使用权威偏见。\n3. 事实核查未发现矛盾。\n4. 综合判断信息误导。"
+    }
+  },
+  {
+    "prompt_name": "weighted_evidence_scorer",
+    "index": 5,
+    "claim": "Is This a Real Photo of Obama Shaking Hands with Iranian President Rouhani?",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "【声明】\nIs This a Real Photo of Obama Shaking Hands with Iranian President Rouhani?\n\n【证据材料分析】\n提供的证据材料主要讨论了奥巴马与伊朗核协议相关的政治背景和影响，但没有直接提到或提供关于奥巴马与鲁哈尼握手照片的具体信息。因此，我们无法从这些材料中得出有关该照片真实性的结论。\n\n【评分项】\nA. 证据覆盖度 (0-10): 0 - 提供的材料没有直接涉及声明中的具体事件（即奥巴马与鲁哈尼握手的照片）。\nB. 一致性 (0-10): 由于缺乏直接相关的信息，无法评估声明与证据之间的一致性。此项目不适用。\nC. 语境准确性 (0-10): 同样地，由于缺少直接提及声明内容的证据，无法判断是否有断章取义的情况发生。此项目也不适用。\n\n总分：0 + 不适用 + 不适用 = 0\n\n根据决策规则，当总分低于20时，标记为False。\n\nPrediction: False",
+      "compressed_evidence": "1. 来源匿名，无官方背书。\n2. 存在对共和党批评的过度概括。\n3. 夸大了伊朗协议的结果。\n4. 情感煽动性语言。"
+    }
+  },
+  {
+    "prompt_name": "weighted_evidence_scorer",
+    "index": 8,
+    "claim": "Procter and Gamble and Satanism Rumor",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "根据提供的证据材料，我们来评估声明“宝洁公司与撒旦主义谣言”的可信度。\n\n【评分项】\nA. 证据覆盖度 (0-10): 根据提供的信息，没有任何直接证据支持宝洁公司与撒旦主义有联系。因此，这方面的得分应该是0。\nB. 一致性 (0-10): 由于没有证据表明宝洁公司与撒旦主义有关联，并且内容被明确判定为假信息，故声明与证据间存在矛盾，得分为0。\nC. 语境准确性 (0-10): 提供的材料中提到了使用恐惧、不确定性和怀疑策略来传播此类消息，这意味着原始声明可能是在特定背景下被故意误导或曲解了，从而影响了其准确性。鉴于此，给定的信息并不支持原声明的真实意图，得分为0。\n\n总分 = A + B + C = 0 + 0 + 0 = 0\n\n根据决策规则，当总分<20时，标记为False。\n\nPrediction: False",
+      "compressed_evidence": "1. 来源匿名，可信度低。\n2. 无证据支持宝洁与撒旦主义关联。\n3. 使用恐惧、不确定性和怀疑策略。\n4. 内容被判定为假信息。"
+    }
+  },
+  {
+    "prompt_name": "weighted_evidence_scorer",
+    "index": 7,
+    "claim": "The average faculty member at UW-Madison brings in close to a quarter million dollars a year in grant money.",
+    "ground_truth": "True",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "根据提供的证据材料，我们可以对声明进行如下评分：\n\nA. 证据覆盖度 (0-10): 从提供的证据来看，并没有直接提到UW-Madison教师平均每年获得的研究资金数额。因此，在这一点上，所提供的证据对于声明的覆盖度为0。\n\nB. 一致性 (0-10): 声明中提到的是UW-Madison教师平均每年通过研究项目获得的资金数额，但提供的证据主要讨论了政治捐款以及城市资助的问题，与原声明无关甚至可以说是完全偏离主题。因此，在一致性方面得分为0。\n\nC. 语境准确性 (0-10): 由于证据材料并未涉及到关于UW-Madison教师研究资金的具体信息，而是谈论了其他不相关的话题，这表明该声明在给定上下文中被严重断章取义或误解了。故此部分评分为0。\n\n总分 = A + B + C = 0 + 0 + 0 = 0\n\n根据决策规则，当总分小于20时，标记为False。\nPrediction: False",
+      "compressed_evidence": "1. 来源匿名，无官方背书。\n2. 声称与证据不符，缺乏相关背景。\n3. 关于UW-Madison教师平均研究资金的声明未得到证实。\n4. 证据讨论政治捐款和城市资助，而非UW-Madison教师的研究资金。"
+    }
+  },
+  {
+    "prompt_name": "weighted_evidence_scorer",
+    "index": 2,
+    "claim": "Poll to Legalize Marijuana",
+    "ground_truth": "False",
+    "prediction": "True",
+    "raw_output": {
+      "final_label": "Real",
+      "explanation_path": "【声明】\nPoll to Legalize Marijuana\n\n根据提供的证据材料，我们来评估该声明的可信度。\n\nA. 证据覆盖度 (0-10): 提供的信息主要集中在已有的大麻合法化案例及其带来的财政收益上，并没有直接提及关于“Poll to Legalize Marijuana”（大麻合法化的投票）的具体信息。然而，第二条证据提到了加州、马萨诸塞州和内华达州在选举中通过了大麻合法化的提案，这间接支持了存在这样一种投票行为的存在。因此，虽然没有直接提到具体的投票活动，但可以认为部分覆盖了声明内容。评分：6/10\n\nB. 一致性 (0-10): 证据显示确实有多个州进行了关于大麻合法化的投票并且通过了相关法律。这与声明中提到的大麻合法化投票是一致的。评分：9/10\n\nC. 语境准确性 (0-10): 声明简短且明确指出了一种现象——有关大麻合法化的投票发生过。证据材料不仅确认了这一点还提供了更多背景信息如税收影响等，没有出现断章取义的情况。评分：8/10\n\n总分 = A + B + C = 6 + 9 + 8 = 23\n\n由于总分为23分，大于或等于20分的标准线，因此判定为True。\n\nPrediction: True",
+      "compressed_evidence": "1. 来源匿名，标记为风险。\n2. 无情感煽动词汇，低误导风险。\n3. 多个州大麻合法化税收数据一致。\n4. 综合评估信息未验证。"
+    }
+  },
+  {
+    "prompt_name": "weighted_evidence_scorer",
+    "index": 4,
+    "claim": "If Texas were a country our economy would rank # 10...in the WORLD.",
+    "ground_truth": "True",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "根据提供的证据材料，我们可以对声明进行如下评分：\n\nA. 证据覆盖度 (0-10): 从给定的证据来看，并没有提供任何直接的数据或官方报告来支持德州经济在全球范围内的具体排名。因此，这项得分为0。\n\nB. 一致性 (0-10): 声明称如果德州是一个国家，它的经济将排在全球第十位。然而，提供的证据中并没有任何信息可以验证这一点，既不支持也不反驳这个说法。基于缺乏相关证据的情况，我们不能说声明与证据一致或不一致，但考虑到声明未被证实的事实，这里给予一个较低的一致性分数2分。\n\nC. 语境准确性 (0-10): 虽然声明本身没有明显的断章取义问题，但由于缺乏背景信息和数据支持，难以判断其是否准确反映了实际情况。同样地，由于缺少具体证据，这方面的得分也会相对较低，给出3分。\n\n总分 = A + B + C = 0 + 2 + 3 = 5\n\n根据决策规则，总分<20 -> False。\n\nPrediction: False",
+      "compressed_evidence": "1. 来源匿名，无官方背书。\n2. 缺乏德州经济排名的具体数据和背景。\n3. 声称德州经济全球第十未被证实。\n4. 信息缺失导致误导。"
+    }
+  },
+  {
+    "prompt_name": "weighted_evidence_scorer",
+    "index": 3,
+    "claim": "Did Joe Biden Use the N-Word in a Recorded Speech?",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "根据提供的证据材料，我们可以对声明进行如下评分：\n\nA. 证据覆盖度 (0-10): 该声明询问的是关于乔·拜登是否在录音讲话中使用了N词（种族歧视词汇）。然而，所提供的证据并没有直接提及任何关于拜登使用种族歧视词汇的信息。因此，在这个问题上，证据是缺失的。评分为0。\n\nB. 一致性 (0-10): 因为没有直接证据表明拜登使用了种族歧视词汇，所以也无法说声明与证据之间存在矛盾或一致的关系。但考虑到证据明确指出“关于种族歧视的指控无实据支撑”，这实际上暗示了声明内容与现有信息不相符。基于这一点，一致性得分较低，评分为2。\n\nC. 语境准确性 (0-10): 从给定的背景来看，讨论主要集中在拜登支持女性权益及其与特朗普言论上的对立，并未涉及到种族问题或使用特定种族歧视词汇的情况。因此，将此声明放在这样的上下文中显得不合适，评分为3。\n\n总分 = A + B + C = 0 + 2 + 3 = 5\n\n由于总分低于20分，按照决策规则，我们得出结论：\nPrediction: False",
+      "compressed_evidence": "1. 来源匿名，无官方背书。\n2. 证据未提及拜登使用种族歧视词汇。\n3. 拜登支持女性权益，与特朗普言论对立。\n4. 关于种族歧视的指控无实据支撑。"
+    }
+  },
+  {
+    "prompt_name": "weighted_evidence_scorer",
+    "index": 9,
+    "claim": "SCAM ALERT: Texas Roadhouse Vouchers on Facebook",
+    "ground_truth": "False",
+    "prediction": "True",
+    "raw_output": {
+      "final_label": "Real",
+      "explanation_path": "根据提供的证据材料，我们可以对声明进行如下评分：\n\nA. 证据覆盖度 (0-10): 虽然没有直接提到Texas Roadhouse的具体案例，但给定的证据材料详细描述了类似的Facebook骗局模式，包括假的优惠券、要求用户分享和评论等手段。这些信息与声明中的情况高度相关。因此，在缺乏针对Texas Roadhouse的确切案例的同时，可以认为证据较为全面地支持了声明中提到的现象的存在。评分为8。\n\nB. 一致性 (0-10): 声明指出存在一种特定类型的诈骗活动，即通过Facebook传播虚假的Texas Roadhouse优惠券。这与证据材料中描述的各种餐厅（如Chick-fil-A, Olive Garden）遇到的诈骗手法完全一致，都涉及虚假优惠券和要求社交平台上的互动行为。因此，声明与证据之间的一致性非常高。评分为9。\n\nC. 语境准确性 (0-10): 声明简短且直接指出了一个具体的警告，即有关Texas Roadhouse优惠券的信息可能是欺诈性的。虽然证据更广泛地讨论了其他品牌遭遇的类似问题，并未特别强调Texas Roadhouse，但并未改变声明的核心含义或意图。因此，声明在语境上是准确的。评分为7。\n\n总分 = A + B + C = 8 + 9 + 7 = 24\n\n由于总分24大于等于20，因此根据决策规则：\nPrediction: True",
+      "compressed_evidence": "1. 来源匿名且高风险。\n2. 使用恐惧、不确定性和怀疑操纵情绪。\n3. 声称与已知骗局模式相似。\n4. 无任何事实支持该主张。"
+    }
+  },
+  {
+    "prompt_name": "weighted_evidence_scorer",
+    "index": 10,
+    "claim": "Is McDonald's the World's Largest Purchaser of Cow Eyeballs?",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "根据提供的证据材料，我们可以对声明进行如下评分：\n\nA. 证据覆盖度 (0-10): 由于没有直接证据支持或反驳麦当劳购买牛眼的声明，因此得分为0。\nB. 一致性 (0-10): 同样因为缺乏直接相关证据来证明或否定该声明，无法判断一致性，故同样给0分。\nC. 语境准确性 (0-10): 声明未违反市场常识，并且风险检测显示低风险，但考虑到来源匿名且可信度低的问题，这里给予3分。\n\n总分：0 + 0 + 3 = 3\n\n根据决策规则，Total Score < 20 -> False。\n\nPrediction: False",
+      "compressed_evidence": "1. 来源匿名，可信度低。\n2. 无直接证据支持或反驳麦当劳购买牛眼的声明。\n3. 声明未违反市场常识。\n4. 风险检测显示低风险。"
+    }
+  },
+  {
+    "prompt_name": "cross_check_simulator",
+    "index": 4,
+    "claim": "If Texas were a country our economy would rank # 10...in the WORLD.",
+    "ground_truth": "True",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "- **Initial Check: Does the claim exist in the Knowledge Base?**\n  - The specific claim \"If Texas were a country, our economy would rank #10 in the WORLD\" is not directly stated in the provided ground truth knowledge base. However, there is a relevant piece of information that addresses the economic ranking of Texas.\n\n- **Detail Verification: Do specific numbers, dates, and entities match exactly?**\n  - The ground truth mentions that the claim about Texas's economy ranking in the top 10 globally is not supported by evidence and is judged to be false. This directly relates to the claim but does not provide the exact number or detailed data.\n\n- **Conflict Detection: Is there any statement in the Knowledge Base that directly contradicts the claim?**\n  - The ground truth explicitly states: \"德州经济排名前十的主张无证据支持。信息被判定为假。\" (The claim that Texas's economy ranks in the top ten is not supported by evidence. The information is judged to be false.)\n\n**Verdict:**\n- **Prediction: False**\n\nThe ground truth knowledge base clearly indicates that the claim about Texas's economy ranking in the top 10 globally is not supported by evidence and is considered false. Therefore, the target claim is also false.",
+      "compressed_evidence": "1. 来源匿名，可信度低。\n2. 德州经济排名前十的主张无证据支持。\n3. 信息被判定为假。"
+    }
+  },
+  {
+    "prompt_name": "cross_check_simulator",
+    "index": 1,
+    "claim": "Oprah's advice regarding a ten percent tip.",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "- **Initial Check: Does the claim exist in the Knowledge Base?**\n  - The claim \"Oprah's advice regarding a ten percent tip\" is addressed in the knowledge base. Specifically, there are entries that discuss whether Oprah Winfrey recommended leaving a 10% tip.\n\n- **Detail Verification: Do specific numbers, dates, and entities match exactly?**\n  - The content of the evidence snippets indicates that the claim being discussed is that Oprah Winfrey said that restaurant customers need not tip their servers more than 10%. This matches the target claim.\n\n- **Conflict Detection: Is there any statement in the Knowledge Base that directly contradicts the claim?**\n  - The evidence snippets and justifications provided clearly state that the claim is false. There is no evidence to support the assertion that Oprah Winfrey recommended her audience to tip waitstaff 10%. Instead, material from both her show and her magazine state that restaurant goers should tip at least 15%.\n\n**Verdict:**\n- **Prediction: False**\n\nThe claim that Oprah advised a ten percent tip is false according to the provided ground truth.",
+      "compressed_evidence": "1. 来源匿名，可信度低。\n2. 无事实矛盾，一致性高。\n3. 未检测到情感煽动词汇。\n4. 建议内容合理，不违反常识。"
+    }
+  },
+  {
+    "prompt_name": "cross_check_simulator",
+    "index": 7,
+    "claim": "The average faculty member at UW-Madison brings in close to a quarter million dollars a year in grant money.",
+    "ground_truth": "True",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "- **Initial Check**: The claim about the average faculty member at UW-Madison bringing in close to a quarter million dollars a year in grant money is mentioned in the ground truth, but it is noted that there is no evidence to support this claim.\n- **Detail Verification**: There are no specific numbers, dates, or entities provided in the ground truth that match the claim. The ground truth states that the claim of \"UW-Madison教师年均获25万美元研究经费\" (UW-Madison faculty members bringing in an average of $250,000 in research funding per year) lacks supporting evidence.\n- **Conflict Detection**: The ground truth explicitly states that the claim is not supported by any evidence and is judged to be false information.\n\n**Verdict:**\nPrediction: False\n\nThe claim is not supported by any evidence in the provided ground truth and is therefore considered false.",
+      "compressed_evidence": "1. 来源匿名，无官方背书。\n2. 声称UW-Madison教师年均获25万美元研究经费，但无证据支持。\n3. 证据集中于政治捐款及密歇根州财政问题，与原声明无关。\n4. 综合判断为虚假信息。"
+    }
+  },
+  {
+    "prompt_name": "cross_check_simulator",
+    "index": 2,
+    "claim": "Poll to Legalize Marijuana",
+    "ground_truth": "False",
+    "prediction": "True",
+    "raw_output": {
+      "final_label": "Real",
+      "explanation_path": "### Initial Check: Does the claim exist in the Knowledge Base?\n\nThe claim \"Poll to Legalize Marijuana\" is a bit vague, but it can be interpreted as a reference to a vote or poll on the legalization of marijuana. The ground truth knowledge base contains information about the legalization of marijuana in various states, including California, Massachusetts, and Nevada. \n\n### Detail Verification: Do specific numbers, dates, and entities match exactly?\n\n- **Entities**: The knowledge base mentions several states that have legalized marijuana, including California, Massachusetts, and Nevada. It also discusses other states like Oregon, Colorado, and Washington.\n- **Events**: The knowledge base includes events such as the legalization of marijuana and the potential tax revenue increase.\n- **Dates**: The knowledge base does not provide a specific date for a \"poll,\" but it does mention the November election where these states voted to legalize marijuana.\n\n### Conflict Detection: Is there any statement in the Knowledge Base that directly contradicts the claim?\n\n- There is no direct contradiction in the knowledge base regarding the claim. The ground truth confirms that there was indeed a vote (which can be considered a poll) on the legalization of marijuana in several states, including California, Massachusetts, and Nevada.\n\n### Verdict:\n\nBased on the information provided in the ground truth knowledge base, the claim \"Poll to Legalize Marijuana\" is supported by the evidence. The knowledge base indicates that there were votes (or polls) in several states to legalize marijuana, and these votes were successful in some cases.\n\n**Prediction: True**",
+      "compressed_evidence": "1. 来源匿名，低可信度。\n2. 无直接事实矛盾。\n3. 不违反财经常识。\n4. 预期税收增加。"
+    }
+  },
+  {
+    "prompt_name": "cross_check_simulator",
+    "index": 3,
+    "claim": "Did Joe Biden Use the N-Word in a Recorded Speech?",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "- **Initial Check:** The claim \"Did Joe Biden Use the N-Word in a Recorded Speech?\" is not directly mentioned in any of the provided evidence snippets. However, we can use the justification and evidence to infer information relevant to the claim.\n\n- **Detail Verification:** There are no specific numbers, dates, or entities within the provided content that directly address the use of the N-word by Joe Biden in a recorded speech. \n\n- **Conflict Detection:** The ground truth knowledge base includes the following points:\n  - No official endorsement (source anonymity).\n  - No evidence found of Biden using the N-word.\n  - Provided evidence does not match the claim.\n  - The claim is marked as unverified.\n\nGiven the points from the ground truth, particularly the lack of evidence and the marking of the claim as unverified, the claim that \"Joe Biden used the N-word in a recorded speech\" is not supported by the provided information.\n\n**Verdict: Prediction: False**",
+      "compressed_evidence": "1. 来源匿名，无官方背书。\n2. 未发现拜登使用N-word的证据。\n3. 提供的证据与指控不符。\n4. 指控被标记为未经证实。"
+    }
+  },
+  {
+    "prompt_name": "cross_check_simulator",
+    "index": 6,
+    "claim": "Juval Aviv Terrorist Predictions",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "### Verification Process\n\n#### Initial Check: Does the claim exist in the Knowledge Base?\n- The claim \"Juval Aviv Terrorist Predictions\" does not directly appear in the provided ground truth. There is no explicit mention of \"Juval Aviv\" or any predictions made by this individual.\n\n#### Detail Verification: Do specific numbers, dates, and entities match exactly?\n- Since the claim does not exist in the knowledge base, there are no specific numbers, dates, or entities to verify against the claim.\n\n#### Conflict Detection: Is there any statement in the Knowledge Base that directly contradicts the claim?\n- There is no direct contradiction to the claim because the claim itself is not addressed in the provided documents. The documents discuss various terrorist attacks and related events but do not mention Juval Aviv or any predictions made by him.\n\n### Verdict\n- **Prediction: False** - The claim \"Juval Aviv Terrorist Predictions\" is not supported or mentioned in the provided ground truth. Therefore, it cannot be verified as true based on the given information.",
+      "compressed_evidence": "1. 来源匿名，可信度低。\n2. 使用权威偏见和恐惧、不确定、怀疑策略。\n3. 事实内容无直接矛盾，一致性强。\n4. 整体评估为误导性信息。"
+    }
+  },
+  {
+    "prompt_name": "cross_check_simulator",
+    "index": 8,
+    "claim": "Procter and Gamble and Satanism Rumor",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "- **Initial Check: Does the claim exist in the Knowledge Base?**\n\n  The claim \"Procter and Gamble and Satanism Rumor\" is not directly mentioned in the provided content. However, the ground truth knowledge base does contain relevant information about Procter and Gamble (P&G) and a rumor related to it.\n\n- **Detail Verification: Do specific numbers, dates, and entities match exactly?**\n\n  The ground truth knowledge base includes the following key points:\n  1. The source of the claim is anonymous and lacks official endorsement.\n  2. There is no evidence supporting a connection between P&G and Satanism.\n  3. The claim has been marked as unfounded by fact-checking tools.\n  4. A comprehensive judgment has determined that the information is false.\n\n- **Conflict Detection: Is there any statement in the Knowledge Base that directly contradicts the claim?**\n\n  The ground truth knowledge base explicitly states that the claim linking P&G to Satanism is false and without evidence. This directly contradicts the implication of the claim.\n\n**Verdict:**\nPrediction: False\n\nThe claim that Procter and Gamble is associated with Satanism is false, as supported by the ground truth knowledge base.",
+      "compressed_evidence": "1. 来源匿名，无官方背书。\n2. 无证据支持宝洁与撒旦主义关联。\n3. 声称被事实核查工具标记为无根据。\n4. 综合判断认定信息为假。"
+    }
+  },
+  {
+    "prompt_name": "cross_check_simulator",
+    "index": 5,
+    "claim": "Is This a Real Photo of Obama Shaking Hands with Iranian President Rouhani?",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "- **Initial Check:** The claim \"Is This a Real Photo of Obama Shaking Hands with Iranian President Rouhani?\" is not directly addressed in the provided ground truth. However, the ground truth does discuss interactions and events related to Obama and Rouhani, particularly in the context of the Iran nuclear deal.\n  \n- **Detail Verification:** There are no specific mentions or details about a photo of Obama shaking hands with Rouhani in the provided ground truth.\n\n- **Conflict Detection:** The ground truth focuses on the political and economic impacts of the Iran nuclear deal, and it does not mention any specific photo of Obama and Rouhani shaking hands. The content is more about the broader implications and outcomes of the deal rather than a specific event or photo.\n\nGiven the lack of direct evidence in the ground truth regarding the existence of such a photo, and the absence of any contradictory information, we cannot confirm or deny the claim based on the provided ground truth.\n\n**Verdict:**\n- **Prediction: False** (The ground truth does not provide any evidence to support the claim, and there is no specific mention of a photo of Obama and Rouhani shaking hands.)",
+      "compressed_evidence": "1. 未提及核协议对伊朗政治的影响。\n2. 忽略了美国囚犯获释等具体成果。\n3. 缺少经济与社会影响的讨论。\n4. 内容狭窄，仅聚焦奥巴马和鲁哈尼的照片。"
+    }
+  },
+  {
+    "prompt_name": "cross_check_simulator",
+    "index": 9,
+    "claim": "SCAM ALERT: Texas Roadhouse Vouchers on Facebook",
+    "ground_truth": "False",
+    "prediction": "True",
+    "raw_output": {
+      "final_label": "Real",
+      "explanation_path": "### Initial Check: Does the claim exist in the Knowledge Base?\n- The claim \"SCAM ALERT: Texas Roadhouse Vouchers on Facebook\" is not explicitly mentioned in the provided evidence. However, there is a reference to Texas Roadhouse in the context of similar scams.\n\n### Detail Verification: Do specific numbers, dates, and entities match exactly?\n- The evidence mentions that scammers were also pushing fake voucher offers for Texas Roadhouse, among other businesses like Costco and KFC.\n- The evidence does not provide specific details about the Texas Roadhouse scam, but it does indicate that such scams are part of a broader pattern of fraudulent activity on Facebook.\n\n### Conflict Detection: Is there any statement in the Knowledge Base that directly contradicts the claim?\n- There is no statement in the knowledge base that directly contradicts the claim. In fact, the evidence supports the idea that Texas Roadhouse was one of the targets of these fake voucher scams.\n\n### Verdict:\n- **Prediction: True** - The claim that there is a scam alert for Texas Roadhouse vouchers on Facebook is supported by the evidence, which indicates that Texas Roadhouse was one of the targets of similar fake voucher scams on Facebook.",
+      "compressed_evidence": "1. 来源匿名，高风险。\n2. 声称与已知骗局相似。\n3. 使用恐惧、不确定性和紧迫感操纵。\n4. 综合判断为虚假信息。"
+    }
+  },
+  {
+    "prompt_name": "cross_check_simulator",
+    "index": 10,
+    "claim": "Is McDonald's the World's Largest Purchaser of Cow Eyeballs?",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "- **Initial Check**: The claim \"Is McDonald's the World's Largest Purchaser of Cow Eyeballs?\" is not directly mentioned in the provided ground truth knowledge base. There are no specific statements about McDonald's purchasing cow eyeballs or being the largest purchaser of any particular animal part.\n\n- **Detail Verification**: Since the claim is not present, there are no specific numbers, dates, or entities to match against the claim.\n\n- **Conflict Detection**: The ground truth knowledge base does not contain any direct evidence to support or refute the claim. It only mentions that the statement is from an anonymous source and is considered unverified. Specifically, it states: \n  - \"无直接证据支持或反驳麦当劳购买牛眼的声明。\" (There is no direct evidence to support or refute the claim that McDonald's purchases cow eyeballs.)\n  - \"声明被认定为未经证实。\" (The claim is deemed unverified.)\n\n**Verdict**:\nGiven the lack of direct evidence and the unverified nature of the claim, the prediction is:\n\n**Prediction: False**",
+      "compressed_evidence": "1. 来源为匿名自媒体，无官方背书。\n2. 无直接证据支持或反驳麦当劳购买牛眼的声明。\n3. 声明未违反金融常识或市场规范。\n4. 声明被认定为未经证实。"
+    }
+  },
+  {
+    "prompt_name": "tribunal_judgment",
+    "index": 6,
+    "claim": "Juval Aviv Terrorist Predictions",
+    "ground_truth": "False",
+    "prediction": "True",
+    "raw_output": {
+      "final_label": "Real",
+      "explanation_path": "### 阶段一：证据审查\n\n- **声明核心内容是否存在于证据中？** 是\n  - 证据中提到了耶路撒冷的恐怖袭击事件，以及联合国声明后不久发生的袭击。\n- **具体细节（数字/日期/名称）是否匹配？** 是\n  - 证据中提到的具体细节如袭击地点（Armon Hanatziv）、袭击者（Fadi Qanbar）、袭击方式（卡车冲撞）等与声明一致。\n- **是否发现矛盾信息？** 无矛盾\n  - 证据中的信息相互支持，没有发现明显的矛盾。\n\n### 阶段二：专家评分\n\n- **事实准确度: 8/10**\n  - 证据中提供的信息较为详细且一致，但部分信息来源匿名且低可信度。\n- **证据充分度: 7/10**\n  - 有多个证据片段支持声明，但缺乏直接的官方声明或更权威的第三方验证。\n- **逻辑严密度: 8/10**\n  - 逻辑上，袭击发生在联合国声明后不久，哈马斯军事翼赞扬了袭击，这些都支持了声明的逻辑性。\n\n**总分: 23/30**\n\n### 阶段三：陪审投票\n\n- **首席核查员:** 支持True\n- **证据分析师:** 支持True\n- **逻辑审计师:** 支持True\n\n### 最终裁决\n\n综合三阶段结果：\n- **阶段一无重大问题 + 阶段二总分>=20 + 阶段三多数支持True → Prediction: True**\n\n最终裁决：**Prediction: True**",
+      "compressed_evidence": "1. 来源匿名且低可信度。\n2. 无事实矛盾，袭击事件细节被验证。\n3. 袭击发生在联合国声明后不久。\n4. 哈马斯军事翼赞扬了袭击。"
+    }
+  },
+  {
+    "prompt_name": "tribunal_judgment",
+    "index": 1,
+    "claim": "Oprah's advice regarding a ten percent tip.",
+    "ground_truth": "False",
+    "prediction": "True",
+    "raw_output": {
+      "final_label": "Real",
+      "explanation_path": "### 阶段一：证据审查\n- **声明核心内容是否存在于证据中？** □是 □否\n  - 证据中确实提到了关于Oprah的建议，但主要是为了反驳“Oprah建议只给10%小费”的说法。因此，声明的核心内容在证据中存在，但其真实性被质疑。\n- **具体细节（数字/日期/名称）是否匹配？** □是 □否\n  - 证据中提到的日期和事件与声明中的细节基本一致，但声明中的“建议”内容与证据中的实际内容不符。\n- **是否发现矛盾信息？** □无矛盾 □有矛盾\n  - 证据中明确指出，“Oprah建议只给10%小费”的说法是不真实的，并且提供了多个来源来支持这一结论。\n\n### 阶段二：专家评分\n- **事实准确度: 2/10**\n  - 证据表明，Oprah从未建议只给10%的小费，反而多次强调应该给至少15%的小费。因此，声明的事实准确度很低。\n- **证据充分度: 8/10**\n  - 证据非常充分，包括多个来源（如《奥普拉·温弗瑞秀》、《O, The Oprah Magazine》等）都明确表示Oprah从未建议只给10%的小费。\n- **逻辑严密度: 6/10**\n  - 声明本身没有明显的逻辑错误，但其内容与实际情况不符。逻辑上，如果Oprah真的建议只给10%的小费，那么会有更多的直接证据支持这一点，但实际上并没有。\n\n**总分: 16/30**\n\n### 阶段三：陪审投票\n- **首席核查员: □支持True □支持False**\n  - 支持False\n- **证据分析师: □支持True □支持False**\n  - 支持False\n- **逻辑审计师: □支持True □支持False**\n  - 支持False\n\n### 最终裁决\n综合三阶段结果：\n- **阶段一无重大问题 + 阶段二总分>=20 + 阶段三多数支持True → Prediction: True**\n- **否则 → Prediction: False**\n\n**最终裁决: False**\n\n根据证据审查、专家评分和陪审投票的结果，可以确定“Oprah建议只给10%的小费”的声明是不真实的。",
+      "compressed_evidence": "1. 来源匿名且可信度低。\n2. 无直接事实矛盾或常识违反。\n3. 建议内容为常见小费比例。\n4. 最终结论未验证，存疑。"
+    }
+  },
+  {
+    "prompt_name": "tribunal_judgment",
+    "index": 4,
+    "claim": "If Texas were a country our economy would rank # 10...in the WORLD.",
+    "ground_truth": "True",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "### 阶段一：证据审查\n- **声明核心内容是否存在于证据中？** □是 □否\n  - 否。提供的案卷材料并未直接讨论德克萨斯州的经济排名，而是涉及了其他不相关的话题。\n- **具体细节（数字/日期/名称）是否匹配？** □是 □否\n  - 否。案卷材料中没有提到任何与德克萨斯州经济排名相关的具体数字或数据。\n- **是否发现矛盾信息？** □无矛盾 □有矛盾\n  - 无矛盾。虽然材料未直接支持或反驳该声明，但也没有提供相互矛盾的信息。\n\n### 阶段二：专家评分\n- **事实准确度:**\n  - 0/10。没有任何证据支持德克萨斯州的经济在全球排名第10的说法。\n- **证据充分度:**\n  - 0/10。提供的案卷材料完全不涉及德州经济排名的问题，无法提供任何支持或反驳该声明的证据。\n- **逻辑严密度:**\n  - 0/10。由于缺乏直接相关的证据，无法评估该声明的逻辑严密性。\n- **总分:**\n  - 0/30\n\n### 阶段三：陪审投票\n- **首席核查员:** □支持True □支持False\n  - 支持False。没有证据支持该声明，且来源为匿名自媒体，无官方背书。\n- **证据分析师:** □支持True □支持False\n  - 支持False。提供的证据材料与声明无关，且无直接证据支持德州经济排名前十的说法。\n- **逻辑审计师:** □支持True □支持False\n  - 支持False。缺乏直接证据支持该声明，且逻辑上无法验证其真实性。\n\n### 最终裁决\n综合三阶段结果：\n- 阶段一无重大问题 + 阶段二总分<20 + 阶段三多数支持False → Prediction: False\n\n**最终裁决：False**",
+      "compressed_evidence": "1. 来源为匿名自媒体，无官方背书。\n2. 德州经济排名前十的声明无证据支持。\n3. 文本内容与声明无关，涉及多个不相关话题。\n4. 综合判断该新闻为假。"
+    }
+  },
+  {
+    "prompt_name": "tribunal_judgment",
+    "index": 7,
+    "claim": "The average faculty member at UW-Madison brings in close to a quarter million dollars a year in grant money.",
+    "ground_truth": "True",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "### 阶段一：证据审查\n- **声明核心内容是否存在于证据中？** □是 □否\n  - **分析**：提供的证据主要集中在教授的政治捐款和个人观点上，没有直接提到UW-Madison的教职员工平均每年获得的研究资金数额。因此，声明的核心内容在提供的证据中不存在。\n  - **结论**：□否\n\n- **具体细节（数字/日期/名称）是否匹配？** □是 □否\n  - **分析**：证据中没有任何具体的数字或日期与声明中的“接近25万美元”相匹配。\n  - **结论**：□否\n\n- **是否发现矛盾信息？** □无矛盾 □有矛盾\n  - **分析**：虽然证据中没有直接支持或反驳声明的具体信息，但也没有提供任何矛盾的信息。\n  - **结论**：□无矛盾\n\n### 阶段二：专家评分\n- **事实准确度**: 1/10\n  - **理由**：没有直接证据支持声明中的具体数字。\n- **证据充分度**: 1/10\n  - **理由**：提供的证据与声明无关，无法验证声明的真实性。\n- **逻辑严密度**: 2/10\n  - **理由**：虽然经济合理性分析认为声明在特定背景下是合理的，但缺乏具体证据支撑。\n\n**总分**: 4/30\n\n### 阶段三：陪审投票\n- **首席核查员**: □支持True □支持False\n  - **理由**：缺乏直接证据支持声明中的具体数字。\n  - **结论**：□支持False\n\n- **证据分析师**: □支持True □支持False\n  - **理由**：提供的证据与声明无关，无法验证声明的真实性。\n  - **结论**：□支持False\n\n- **逻辑审计师**: □支持True □支持False\n  - **理由**：虽然经济合理性分析认为声明在特定背景下是合理的，但缺乏具体证据支撑。\n  - **结论**：□支持False\n\n### 最终裁决\n综合三阶段结果：\n- 阶段一无重大问题 + 阶段二总分<20 + 阶段三多数支持False → **Prediction: False**\n\n最终裁决：**False**",
+      "compressed_evidence": "1. 来源匿名，无官方背书。\n2. 证据未直接支持或反驳关于平均资助金额的声明。\n3. 声明缺乏具体证据支撑。\n4. 经济合理性分析认为声明在特定背景下是合理的。"
+    }
+  },
+  {
+    "prompt_name": "tribunal_judgment",
+    "index": 8,
+    "claim": "Procter and Gamble and Satanism Rumor",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "### 阶段一：证据审查\n- **声明核心内容是否存在于证据中？** □是 □否\n  - **分析**：被审声明的核心是“宝洁公司与撒旦主义的谣言”。提供的证据材料主要涉及退役军人事务部长Robert McDonald的言论和Cal Poly Students for Quality Education (SQE)俱乐部与撒旦教派有关的活动。这些材料并未直接提及或支持宝洁公司与撒旦主义之间的联系。\n  - **结论**：□否\n\n- **具体细节（数字/日期/名称）是否匹配？** □是 □否\n  - **分析**：被审声明中的具体细节（如宝洁公司与撒旦主义的关联）在证据中没有出现。\n  - **结论**：□否\n\n- **是否发现矛盾信息？** □无矛盾 □有矛盾\n  - **分析**：证据材料中没有直接提到宝洁公司与撒旦主义的关系，也没有任何矛盾的信息。\n  - **结论**：□无矛盾\n\n### 阶段二：专家评分\n- **事实准确度**: 1/10\n  - **理由**：提供的证据材料与被审声明的核心内容完全不相关，无法证明或反驳宝洁公司与撒旦主义的联系。\n\n- **证据充分度**: 1/10\n  - **理由**：证据材料中没有任何直接或间接的证据支持或反驳宝洁公司与撒敦主义的联系。\n\n- **逻辑严密度**: 1/10\n  - **理由**：证据材料与被审声明之间缺乏逻辑联系，无法形成有效的论证。\n\n**总分**: 3/30\n\n### 阶段三：陪审投票\n- **首席核查员**: □支持True □支持False\n  - **理由**：证据材料与被审声明无关，且没有直接证据支持或反驳宝洁公司与撒旦主义的联系。\n  - **结论**：□支持False\n\n- **证据分析师**: □支持True □支持False\n  - **理由**：证据材料中没有提供任何支持或反驳宝洁公司与撒旦主义关系的证据。\n  - **结论**：□支持False\n\n- **逻辑审计师**: □支持True □支持False\n  - **理由**：证据材料与被审声明之间缺乏逻辑联系，无法形成有效的论证。\n  - **结论**：□支持False\n\n### 最终裁决\n综合三阶段结果：\n- 阶段一无重大问题 + 阶段二总分<20 + 阶段三多数支持False → **Prediction: False**\n\n最终裁决：**False**",
+      "compressed_evidence": "1. 来源匿名，可信度低。\n2. 证据与宝洁涉及撒旦主义的主张无关。\n3. 提及内容涉及不相关事件。\n4. 综合判断为虚假信息。"
+    }
+  },
+  {
+    "prompt_name": "tribunal_judgment",
+    "index": 3,
+    "claim": "Did Joe Biden Use the N-Word in a Recorded Speech?",
+    "ground_truth": "False",
+    "prediction": "True",
+    "raw_output": {
+      "final_label": "Real",
+      "explanation_path": "### 阶段一：证据审查\n\n- **声明核心内容是否存在于证据中？** \n  - □是\n  - √否\n  - 证据中没有提到乔·拜登在录音讲话中使用了N词。\n\n- **具体细节（数字/日期/名称）是否匹配？**\n  - □是\n  - √否\n  - 没有具体的细节与声明中的核心问题相关。\n\n- **是否发现矛盾信息？**\n  - □无矛盾\n  - √有矛盾\n  - 证据中提供的信息与核心问题无关，并且存在直接的事实矛盾。例如，证据中提到了拜登对特朗普的批评、他在SALT会议上的发言以及他对伊朗的态度，但这些都与他是否在录音中使用N词无关。\n\n### 阶段二：专家评分\n\n- **事实准确度: 0/10**\n  - 证据中没有任何信息支持或反驳拜登在录音中使用N词的说法。\n\n- **证据充分度: 0/10**\n  - 提供的证据与声明的核心问题完全无关，无法提供任何相关信息。\n\n- **逻辑严密度: 0/10**\n  - 证据中没有逻辑链条来支持或反驳声明。\n\n总分: **0/30**\n\n### 阶段三：陪审投票\n\n- **首席核查员: □支持True √支持False**\n- **证据分析师: □支持True √支持False**\n- **逻辑审计师: □支持True √支持False**\n\n### 最终裁决\n\n综合三阶段结果：\n- **阶段一无重大问题 + 阶段二总分>=20 + 阶段三多数支持True → Prediction: True**\n- **否则 → Prediction: False**\n\n**最终裁决: False**\n\n根据提供的证据和分析，没有证据支持乔·拜登在录音讲话中使用了N词。因此，该声明被判定为虚假信息。",
+      "compressed_evidence": "1. 无证据显示拜登使用种族歧视语言。\n2. 提供的信息与核心问题无关。\n3. 存在直接事实矛盾。\n4. 被判定为虚假信息。"
+    }
+  },
+  {
+    "prompt_name": "tribunal_judgment",
+    "index": 5,
+    "claim": "Is This a Real Photo of Obama Shaking Hands with Iranian President Rouhani?",
+    "ground_truth": "False",
+    "prediction": "True",
+    "raw_output": {
+      "final_label": "Real",
+      "explanation_path": "### 阶段一：证据审查\n\n- **声明核心内容是否存在于证据中？** \n  - 声明的核心是“奥巴马与伊朗总统鲁哈尼握手的照片是否真实”。在提供的证据中，没有直接提到或展示奥巴马与鲁哈尼握手的照片。因此，**否**。\n  \n- **具体细节（数字/日期/名称）是否匹配？**\n  - 由于没有直接提到照片，无法验证具体细节是否匹配。因此，**否**。\n\n- **是否发现矛盾信息？**\n  - 证据中没有提到关于奥巴马与鲁哈尼握手的照片，因此没有发现矛盾信息。**无矛盾**。\n\n### 阶段二：专家评分\n\n- **事实准确度: 0/10**\n  - 证据中没有提供关于奥巴马与鲁哈尼握手照片的信息，无法验证其真实性。\n\n- **证据充分度: 0/10**\n  - 证据中没有直接或间接提到关于奥巴马与鲁哈尼握手的照片，因此证据不充分。\n\n- **逻辑严密度: 0/10**\n  - 由于缺乏相关证据，无法评估逻辑的严密性。\n\n总分: **0/30**\n\n### 阶段三：陪审投票\n\n- **首席核查员:** □支持True □支持False\n  - 支持False\n\n- **证据分析师:** □支持True □支持False\n  - 支持False\n\n- **逻辑审计师:** □支持True □支持False\n  - 支持False\n\n### 最终裁决\n\n综合三阶段结果：\n- **阶段一无重大问题 + 阶段二总分>=20 + 阶段三多数支持True → Prediction: True**\n- **否则 → Prediction: False**\n\n根据以上分析，最终裁决为：**Prediction: False**",
+      "compressed_evidence": "1. 奥巴马与伊朗达成核协议。\n2. 协议导致多名美国人获释，伊朗改革派取得议会控制权。\n3. 共和党批评未应验，称协议失败无实据。\n4. 美国已履行协议承诺。"
+    }
+  },
+  {
+    "prompt_name": "tribunal_judgment",
+    "index": 2,
+    "claim": "Poll to Legalize Marijuana",
+    "ground_truth": "False",
+    "prediction": "True",
+    "raw_output": {
+      "final_label": "Real",
+      "explanation_path": "### 【阶段一：证据审查】\n\n- **声明核心内容是否存在于证据中？** □是\n  - 核心内容，即“Poll to Legalize Marijuana”，确实存在于提供的案卷材料中。例如，第二条证据明确提到了加州、马萨诸塞州和内华达州在2016年通过投票合法化了大麻。\n\n- **具体细节（数字/日期/名称）是否匹配？** □是\n  - 提到的加州、马萨诸塞州和内华达州的合法化投票与时间线一致。例如，第二条证据提到这些州在2016年的选举中通过了合法化法案。\n  - 第一条证据中的税收数据也与实际情况相符，如俄勒冈州和科罗拉多州的大麻税收数据。\n\n- **是否发现矛盾信息？** □无矛盾\n  - 没有发现明显的矛盾信息。所有证据都支持大麻合法化的投票及其潜在的经济影响。\n\n### 【阶段二：专家评分】\n\n- **事实准确度:** 8/10\n  - 大部分事实都是准确的，特别是关于各州的合法化投票结果和税收数据。但是，有些数据来源不明确，且匿名来源的可信度较低。\n\n- **证据充分度:** 7/10\n  - 证据涵盖了多个州的情况，但有些证据的来源不够权威，缺乏官方背书。\n\n- **逻辑严密度:** 9/10\n  - 逻辑较为严密，论证了大麻合法化的经济和社会影响，但有些论点依赖于情感呼吁而非硬性数据。\n\n**总分:** 24/30\n\n### 【阶段三：陪审投票】\n\n- **首席核查员:** □支持True\n  - 证据显示多个州确实通过了大麻合法化的投票，且税收数据支持其经济收益。\n\n- **证据分析师:** □支持True\n  - 尽管一些证据来源不明确，但整体上支持大麻合法化的投票及其带来的经济利益。\n\n- **逻辑审计师:** □支持True\n  - 逻辑上较为严密，尽管有些论点依赖于情感呼吁，但整体论证合理。\n\n### 【最终裁决】\n\n综合三阶段结果：\n- 阶段一无重大问题 + 阶段二总分>=20 + 阶段三多数支持True → **Prediction: True**\n\n最终裁决：**True**",
+      "compressed_evidence": "1. 来源匿名，无官方背书。\n2. 事实核查未发现矛盾。\n3. 内容意图信息传达，情感强度低。\n4. 时间线验证无误。"
+    }
+  },
+  {
+    "prompt_name": "tribunal_judgment",
+    "index": 9,
+    "claim": "SCAM ALERT: Texas Roadhouse Vouchers on Facebook",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "### 阶段一：证据审查\n\n- **声明核心内容是否存在于证据中？** □是\n  - 证据中提到类似的骗局，包括Texas Roadhouse在内的多个品牌被冒用进行虚假优惠券诈骗。\n- **具体细节（数字/日期/名称）是否匹配？** □是\n  - 证据中的案例涉及多个品牌（如Chick-fil-A, Olive Garden, Walmart, Tim Hortons等），并且提到Texas Roadhouse也是其中一个被冒用的品牌。\n- **是否发现矛盾信息？** □无矛盾\n  - 证据一致地指出这些优惠券活动是骗局，并且没有提供任何已验证的事实支持这些优惠券的真实性。\n\n### 阶段二：专家评分\n\n- **事实准确度: 9/10**\n  - 证据中明确指出这些优惠券活动是骗局，并且提供了多个类似案例的支持。\n- **证据充分度: 8/10**\n  - 提供了多个案例和详细的描述，但缺乏直接针对Texas Roadhouse的详细证据。\n- **逻辑严密度: 9/10**\n  - 证据中的逻辑清晰，指出了这些骗局的共同特征和操作手法。\n\n**总分: 26/30**\n\n### 阶段三：陪审投票\n\n- **首席核查员: □支持False**\n  - 基于提供的证据，这些优惠券活动确实是骗局。\n- **证据分析师: □支持False**\n  - 证据充分表明这些优惠券活动是不真实的。\n- **逻辑审计师: □支持False**\n  - 逻辑上，这些优惠券活动符合常见的骗局模式。\n\n### 最终裁决\n\n综合三阶段结果：\n- **阶段一无重大问题 + 阶段二总分>=20 + 阶段三多数支持False → Prediction: False**\n\n最终裁决：**Prediction: False**",
+      "compressed_evidence": "1. 来源匿名且高风险。\n2. 与其他品牌骗局模式一致。\n3. 使用恐惧和紧迫感操纵手段。\n4. 无任何已验证事实支持。"
+    }
+  },
+  {
+    "prompt_name": "tribunal_judgment",
+    "index": 10,
+    "claim": "Is McDonald's the World's Largest Purchaser of Cow Eyeballs?",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "### 阶段一：证据审查\n- **声明核心内容是否存在于证据中？** □是 □否\n  - 否。提供的证据材料并没有直接提到麦当劳是否是世界上最大的牛眼购买者。\n- **具体细节（数字/日期/名称）是否匹配？** □是 □否\n  - 否。没有具体的细节与该声明相匹配。\n- **是否发现矛盾信息？** □无矛盾 □有矛盾\n  - 无矛盾。虽然没有直接支持或反驳的信息，但也没有矛盾的证据。\n\n### 阶段二：专家评分\n- **事实准确度:** 1/10\n  - 没有直接证据支持该声明，且事实核查确认为虚假信息。\n- **证据充分度:** 1/10\n  - 提供的证据与声称无关，涉及俄罗斯等不相关话题。\n- **逻辑严密度:** 1/10\n  - 声明缺乏逻辑支持，没有提供任何相关的证据或数据。\n\n总分: 3/30\n\n### 阶段三：陪审投票\n- **首席核查员:** □支持True □支持False\n  - 支持False\n- **证据分析师:** □支持True □支持False\n  - 支持False\n- **逻辑审计师:** □支持True □支持False\n  - 支持False\n\n### 最终裁决\n综合三阶段结果：\n- 阶段一无重大问题 + 阶段二总分<20 + 阶段三多数支持False → Prediction: False\n\n**最终裁决：False**\n\n该声明“麦当劳是世界上最大的牛眼购买者”被判定为虚假信息。",
+      "compressed_evidence": "1. 来源匿名，无官方背书。\n2. 声称麦当劳是全球最大牛眼购买者，但无证据支持。\n3. 提供的证据与声称无关，涉及俄罗斯等不相关话题。\n4. 事实核查确认为虚假信息。"
+    }
+  },
+  {
+    "prompt_name": "editorial_board_vote",
+    "index": 1,
+    "claim": "Oprah's advice regarding a ten percent tip.",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "【委员会讨论】\n\n- 首席核查员意见：从提供的证据来看，声明“Oprah建议给10%的小费”没有直接的支持材料。实际上，多个来源指出这是一个错误的传言，并且有明确的证据表明Oprah Winfrey及其节目提倡至少给15%的小费。这些证据包括了Oprah网站上的内容以及她在节目中的表态。因此，我倾向于认为该声明是不属实的。\n\n- 领域专家意见：在服务行业中，小费标准通常是基于行业惯例和地区习惯来确定的。根据美国的文化背景，15%-20%被认为是合理的小费范围。而根据案卷材料中提到的内容，Oprah Winfrey和她的节目多次强调了这个标准。因此，将Oprah与仅给10%小费的建议联系起来显然是不准确的。这与行业内广为接受的做法相悖。我的观点也是认为该声明不成立。\n\n- 逻辑分析师意见：分析此案例时，我们需要考虑信息传播过程中的潜在偏差。尽管存在关于Oprah提出10%小费建议的说法，但所有可靠的证据都指向了一个相反的方向——即她支持更高的小费比例。此外，还应该注意到，这种谣言可能是由于误解或故意误导造成的。鉴于现有证据链的完整性及一致性，我认为该声明缺乏事实依据，应当被视为虚假信息。\n\n【最终投票结果】\n- 首席核查员: False\n- 领域专家: False\n- 逻辑分析师: False\n\nPrediction: False",
+      "compressed_evidence": "1. 来源匿名，无官方背书。\n2. 未发现情感煽动词汇。\n3. 内容与常识一致。\n4. 无直接事实矛盾。"
+    }
+  },
+  {
+    "prompt_name": "editorial_board_vote",
+    "index": 4,
+    "claim": "If Texas were a country our economy would rank # 10...in the WORLD.",
+    "ground_truth": "True",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "【委员会讨论】\n- 首席核查员意见：根据提供的案卷材料，我们并没有找到任何直接支持该声明的证据。虽然德州是美国的一个经济大州，但没有具体的、可验证的数据来支撑它如果作为独立国家能在世界经济体中排名第10的说法。因此，从证据链完整性的角度来看，这个声明缺乏必要的支持。\n- 领域专家意见：考虑到全球各国GDP排名情况，以及德克萨斯州实际贡献给美国的GDP比例，将德州单独列出并假设其为一个独立国家时，它的经济规模确实可能位于世界前列。然而，具体排位需要精确数据支持，而目前提供的信息不足以证明它可以达到第10位。此外，这种比较忽略了货币价值波动、汇率变化等因素的影响。\n- 逻辑分析师意见：即使德州作为一个独立实体拥有强劲的经济实力，但从给出的信息来看，并没有足够的依据来支持它能够在全球范围内排名如此之高。更重要的是，这样的排名通常基于复杂的宏观经济指标计算得出，而不仅仅是简单的比较。因此，在缺乏具体分析和数据支持的情况下，此陈述显得过于绝对且缺乏严谨性。\n\n【最终投票结果】\n鉴于以上分析，三位委员均认为该声明未得到充分证实。\n输出格式：Prediction: False",
+      "compressed_evidence": "1. 来源匿名，无官方背书。\n2. 关于德州经济排名的声明无证据支持。\n3. 未检测到违反金融常识或市场规范。\n4. 声明被认定为未经证实。"
+    }
+  },
+  {
+    "prompt_name": "editorial_board_vote",
+    "index": 8,
+    "claim": "Procter and Gamble and Satanism Rumor",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "【委员会讨论】\n\n- 首席核查员意见：根据提供的证据来看，没有直接的材料支持宝洁公司与撒旦主义之间存在任何关联。提到的案例主要集中在关于Robert McDonald个人的争议上，以及Cal Poly SQE俱乐部组织的一个与撒旦主义相关的活动，但这些信息都无法证明宝洁公司本身有任何参与撒旦主义的行为或意图。因此，从证据链的角度出发，该声明缺乏足够的证据支撑。\n\n- 领域专家意见：就术语和概念准确性而言，“撒旦主义”是一个非常具体且敏感的文化现象，通常涉及特定宗教或哲学体系中的信仰和实践。然而，在所提供的资料中，并没有任何专业或权威来源表明宝洁公司作为一个商业实体与这类信仰有所关联。此外，所谓的“恐惧、不确定性和怀疑策略”（FUD）确实是一种常见的谣言传播手段，这进一步削弱了该声明的可信度。\n\n- 逻辑分析师意见：分析整个推理过程，我们可以看到这个说法是基于一些未经证实的信息甚至是错误信息之上建立起来的。首先，消息来源被描述为匿名且风险高，这意味着其可靠性值得怀疑；其次，已经明确指出这一指控被判定为假新闻；最后，使用FUD策略来散播此类信息本身就是一种逻辑谬误的表现形式。综上所述，没有合理的逻辑基础可以支持这种联系的存在。\n\n【最终投票结果】\n首席核查员: False\n领域专家: False\n逻辑分析师: False\n\nPrediction: False",
+      "compressed_evidence": "1. 来源匿名且风险高。\n2. 无证据支持宝洁与撒旦主义关联。\n3. 使用恐惧、不确定性和怀疑策略。\n4. 声称被判定为假消息。"
+    }
+  },
+  {
+    "prompt_name": "editorial_board_vote",
+    "index": 7,
+    "claim": "The average faculty member at UW-Madison brings in close to a quarter million dollars a year in grant money.",
+    "ground_truth": "True",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "【委员会讨论】\n- 首席核查员意见：根据提供的案卷材料，该声明没有直接相关的证据支持。虽然材料中提到了一些关于教授政治捐款的信息，但这些与UW-Madison教师年均科研经费达25万美元的声明无关。此外，原始声明的来源匿名且缺乏具体数据支持。因此，从证据链的角度来看，我们无法确认这个声明的真实性。\n- 领域专家意见：考虑到大学教授的研究资金通常由多种渠道获得，包括但不限于联邦政府、州政府、私人基金会等，并且不同学科领域之间存在巨大差异（如生物医学研究可能比人文社科更容易获得高额资助），一个平均值达到25万美元的说法需要非常具体的数据支撑。目前提供的信息不足以证明或反驳这一点。\n- 逻辑分析师意见：即使假设某些教授确实能够每年带来大量外部资金，这并不意味着所有教职员工都能达到同样的水平。声明中使用了“平均”一词，这意味着我们需要考虑整个教职工群体的情况，而不仅仅是少数表现突出者。由于缺乏详细的数据分析来支持这一结论，该陈述显得过于宽泛和不准确。\n\n【最终投票结果】\n- 首席核查员：False\n- 领域专家：False\n- 逻辑分析师：False\n\nPrediction: False",
+      "compressed_evidence": "1. 来源匿名，可信度低。\n2. 声称UW-Madison教师年均科研经费达25万美元，无证据支持。\n3. 未违反财务常识，但缺乏证实。"
+    }
+  },
+  {
+    "prompt_name": "editorial_board_vote",
+    "index": 3,
+    "claim": "Did Joe Biden Use the N-Word in a Recorded Speech?",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "【委员会讨论】\n\n- 首席核查员意见：从提供的案卷材料来看，没有直接的证据表明乔·拜登在任何公开演讲中使用了种族歧视词汇。所有给出的材料都指向其他事件或言论，并且被标记为“假消息”。因此，基于现有证据链的完整性，我倾向于认为该声明是不属实的。\n\n- 领域专家意见：就术语和概念准确性而言，“N-word”是一个非常敏感且具有高度争议性的词语，在美国社会文化中尤其如此。如果真有此类事件发生，将会引起广泛的社会反响及媒体报道。然而，所提供的材料中并没有找到与此相关的直接证据。因此，根据专业领域的知识背景，我也支持该声明并不属实的观点。\n\n- 逻辑分析师意见：从推理角度来看，首先需要确认是否有确凿的视频、音频或者其他形式的记录能够证明拜登确实说了这样的话。其次要考虑消息来源的可信度以及传播过程中是否存在夸大其词的情况。目前看来，既无直接证据也无可靠的第二手信息来支撑这个说法。因此，按照严格的逻辑分析原则，我认为该声明缺乏足够的依据来认定为真实。\n\n【最终投票结果】\nPrediction: False",
+      "compressed_evidence": "1. 来源匿名，可信度低。\n2. 无证据支持拜登使用种族歧视词汇。\n3. 使用耸人听闻手法。\n4. 多工具综合判断为假消息。"
+    }
+  },
+  {
+    "prompt_name": "editorial_board_vote",
+    "index": 6,
+    "claim": "Juval Aviv Terrorist Predictions",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "【委员会讨论】\n\n- **首席核查员意见**：从提供的材料来看，我们没有直接看到Juval Aviv关于恐怖主义预测的具体内容或背景信息。案卷材料主要描述了耶路撒冷发生的卡车袭击事件，并未提及Juval Aviv的任何观点或预测。因此，根据现有证据链，我们无法确认该声明的真实性。此外，信息来源是匿名渠道，这进一步削弱了其可信度。\n\n- **领域专家意见**：在中东地区，特别是以色列和巴勒斯坦之间的冲突背景下，确实存在一些安全分析师和情报专家会对未来的暴力活动进行预测。然而，在这份材料中并没有提供足够的信息来验证Juval Aviv是否进行了这样的预测，也没有详细说明他的预测是什么以及基于什么依据作出的。因此，就目前提供的资料而言，我们缺乏足够的专业知识依据来支持这一声明。\n\n- **逻辑分析师意见**：从逻辑角度来看，声明提到了“Juval Aviv Terrorist Predictions”，但提供的材料并未直接涉及这一点。材料重点在于描述一起具体的恐怖袭击事件及其可能的政治背景，而没有展示Juval Aviv如何预测这些事件的发生。即使假设Juval Aviv确实做出了某些预测，我们也需要更具体的证据来证明这些预测与实际发生的事件之间存在联系。因此，从逻辑上讲，现有的证据不足以支持这个声明。\n\n【最终投票结果】\n- 首席核查员：False\n- 领域专家：False\n- 逻辑分析师：False\n\nPrediction: False",
+      "compressed_evidence": "1. 信息源自匿名渠道。\n2. 缺少关于Juval Aviv及其预测的具体背景。\n3. 重点描述了耶路撒冷发生的卡车袭击事件。\n4. 没有直接讨论Juval Aviv的观点。"
+    }
+  },
+  {
+    "prompt_name": "editorial_board_vote",
+    "index": 2,
+    "claim": "Poll to Legalize Marijuana",
+    "ground_truth": "False",
+    "prediction": "True",
+    "raw_output": {
+      "final_label": "Real",
+      "explanation_path": "【委员会讨论】\n\n- 首席核查员意见：虽然部分证据来源匿名且可信度较低，但是关于加州及其他州合法化大麻后税收增加的信息是可以通过公开数据验证的。比如，确实有报道指出科罗拉多州、华盛顿州和俄勒冈州在合法化之后经历了显著的税收增长。此外，根据案卷材料中的第二条证据，可以确认加州的确通过了大麻合法化的提案，并预计会带来额外的税收收入。因此，我认为该声明是有事实依据支持的。\n\n- 领域专家意见：从专业角度来看，大麻合法化对财政收入的影响是一个复杂的问题，涉及到税收结构设计、市场供需关系等多个因素。然而，已有多个案例表明，在实施合理的监管框架下，大麻合法化确实能够为政府带来可观的新税源。特别是对于那些已经存在成熟医用大麻产业基础的地方（如加州），向成人使用市场开放可能会更加容易实现经济上的收益。因此，我倾向于认为这份声明中提到的“加州合法化大麻后税收增加”这一论点是成立的。\n\n- 逻辑分析师意见：我们需要考虑的是声明是否合理地反映了因果关系——即大麻合法化直接导致了税收增加。从提供的资料来看，确实存在这种正相关性，但需要注意的是，这并不意味着所有情况下都会如此。例如，如果税率设置不合理或者市场需求不足，则可能不会达到预期效果。不过，基于现有信息，我们可以看到至少有几个州在采取类似政策后实现了财政收入的增长，这支持了原命题的有效性。\n\n【最终投票结果】\n首席核查员：True\n领域专家：True\n逻辑分析师：True\n\n输出格式：Prediction: True",
+      "compressed_evidence": "1. 来源匿名，低可信度。\n2. 无事实矛盾，多条信息被验证。\n3. 预计加州合法化大麻后税收增加。\n4. 其他州合法化后税收显著增长。"
+    }
+  },
+  {
+    "prompt_name": "editorial_board_vote",
+    "index": 5,
+    "claim": "Is This a Real Photo of Obama Shaking Hands with Iranian President Rouhani?",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "【委员会讨论】\n\n- **首席核查员意见**：在提供的材料中，并没有直接提到奥巴马与鲁哈尼握手的照片。所有证据都集中在讨论奥巴马政府与伊朗达成的核协议以及相关的政治影响，但没有提供关于声明中具体照片存在与否的信息。因此，从证据链的角度来看，我们无法确认该声明的真实性。\n\n- **领域专家意见**：根据我的专业知识，奥巴马确实与伊朗就核问题进行了谈判并达成了协议，这促进了两国之间某种程度的关系改善。然而，关于奥巴马与鲁哈尼总统是否真的有过握手会面，特别是是否存在这样一张具体的照片，这些材料并没有给出明确的答案或相关图片作为支持。因此，在没有更多直接证据的情况下，我倾向于认为现有信息不足以证明声明所述内容的真实性。\n\n- **逻辑分析师意见**：从逻辑上讲，即使奥巴马和鲁哈尼之间确实有过面对面交流甚至握手，也不能单凭这一点来断定存在一张广泛流传且被特定声明引用的照片。此外，所提供的背景资料主要围绕着美伊关系及核协议展开，并未提及任何有关两人实际会面的具体细节。基于此，我认为当前缺乏足够有力的论据来支撑原声明所表达的内容。\n\n【最终投票结果】\n- 首席核查员：False\n- 领域专家：False\n- 逻辑分析师：False\n\n**Prediction: False**",
+      "compressed_evidence": "1. 未提及奥巴马与鲁哈尼握手照片。\n2. 核协议相关事实被验证。\n3. 共和党批评被泛化处理。\n4. 缺少具体会面背景信息。"
+    }
+  },
+  {
+    "prompt_name": "editorial_board_vote",
+    "index": 9,
+    "claim": "SCAM ALERT: Texas Roadhouse Vouchers on Facebook",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "【委员会讨论】\n\n- 首席核查员意见：从提供的证据来看，这份声明与之前已知的一些诈骗模式非常相似。特别是关于Texas Roadhouse的虚假优惠券信息，它符合之前案例中提到的通过社交媒体传播、要求用户分享和评论以获取奖励的手法。此外，该声明缺乏可验证的具体来源，并且使用了恐惧、不确定性和怀疑（FUD）策略来吸引注意。因此，基于现有证据链的完整性考虑，我倾向于认为这是一条不实信息。\n\n- 领域专家意见：在社交媒体上出现的这种类型的信息通常都是为了收集个人信息或引导受害者访问恶意网站。这些行为符合典型的网络钓鱼或欺诈活动特征。尤其是当涉及到特定品牌如Texas Roadhouse时，官方渠道很少会通过非正式途径发布此类促销信息。考虑到这些因素以及给出的例子中提到的其他餐馆（如Chick-fil-A, Olive Garden等）也遭遇过类似的骗局，我认为该声明很可能也是假的。\n\n- 逻辑分析师意见：分析整个论证过程可以看出，该声明并未提供任何直接支持其真实性的事实依据。相反，它依赖于一些未被证实的说法及情绪化语言来促使人们采取行动。这与过去发生的多起类似事件中的逻辑结构相吻合——即先制造紧迫感，然后引导用户执行特定步骤（如点赞、转发）。根据这种推理模式，我们可以合理地推断出这是一个潜在的骗局。\n\n【最终投票结果】\nPrediction: False\n\n所有成员都同意该声明是不真实的，因此最终决定为False。",
+      "compressed_evidence": "1. 来源匿名，可信度低。\n2. 无确凿事实支持，存在未证实的主张。\n3. 使用恐惧、不确定性和怀疑策略。\n4. 与已知诈骗模式相似。"
+    }
+  },
+  {
+    "prompt_name": "editorial_board_vote",
+    "index": 10,
+    "claim": "Is McDonald's the World's Largest Purchaser of Cow Eyeballs?",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "【委员会讨论】\n- 首席核查员意见：根据提供的材料，没有直接证据支持麦当劳是世界上最大的牛眼购买者这一说法。材料中提到的与麦当劳相关的事实（如莫斯科普希金广场上的麦当劳开业时的盛况）并不涉及其食材采购的具体细节。因此，从证据链完整性的角度来看，该声明缺乏必要的支撑。\n- 领域专家意见：在食品工业领域，确实存在使用动物副产品作为某些食品成分的情况，但具体到牛眼这样特殊的部位，并不常见于大众快餐连锁店的产品中。麦当劳官方也没有发布过任何关于大量采购牛眼的信息或相关声明。基于行业知识，这个声明听起来非常不可信。\n- 逻辑分析师意见：即使假设麦当劳确实需要大量特定类型的肉类副产品，这也不必然意味着它会成为“世界最大”的买家。此外，没有任何数据比较其他可能同样对这类产品有需求的企业或组织。因此，即便麦当劳确实购买了牛眼，也不能仅凭此就断定它是全球最大的买家。该论点缺乏合理的推理基础。\n\n【最终投票结果】\n- 首席核查员：False\n- 领域专家：False\n- 逻辑分析师：False\n\nPrediction: False",
+      "compressed_evidence": "1. 来源匿名，无官方背书。\n2. 无证据支持麦当劳购买牛眼。\n3. 提供的证据与问题无关。\n4. 声明被认定为无根据。"
+    }
+  }
+]

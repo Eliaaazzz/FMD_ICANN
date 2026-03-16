@@ -1,0 +1,11 @@
+﻿prompt_name,accuracy,precision,recall,f1,total_samples,correct,unknown_count,tp,fp,fn,tn
+dual_track_verifier,0.8,0.5,1,0.6667,10,8,0,2,2,0,6
+weighted_evidence_scorer,0.9,0.6667,1,0.8,10,9,0,2,1,0,7
+cross_check_simulator,0.9,0.6667,1,0.8,10,9,0,2,1,0,7
+tribunal_judgment,0.6,0.3333,1,0.5,10,6,0,2,4,0,4
+editorial_board_vote,0.9,0.6667,1,0.8,10,9,0,2,1,0,7
+systematic_cross_validator,0.8,0.5,1,0.6667,10,8,0,2,2,0,6
+detailed_scoring_validator,0.8,0.5,1,0.6667,10,8,0,2,2,0,6
+enhanced_weighted_scorer,0.7,0.4,1,0.5714,10,7,0,2,3,0,5
+expert_panel_scoring,0.7,0.4,1,0.5714,10,7,0,2,3,0,5
+committee_cross_reference,0.9,0.6667,1,0.8,10,9,0,2,1,0,7

@@ -1,0 +1,16 @@
+# 核心计算
+numpy>=1.25,<2.0
+pandas
+scikit-learn
+
+# 向量检索与NLP
+faiss-cpu
+sentence-transformers
+rank_bm25
+
+# 大模型交互openai
+openai
+
+# 辅助工具
+tqdm
+requests

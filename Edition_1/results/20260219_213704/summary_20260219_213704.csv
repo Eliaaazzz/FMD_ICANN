@@ -1,0 +1,11 @@
+﻿prompt_name,accuracy,precision,recall,f1,total_samples,correct,unknown_count,tp,fp,fn,tn
+dual_track_verifier,0.5000,0.0000,0.0000,0.0000,2,1,0,0,1,0,1
+weighted_evidence_scorer,1.0000,0.0000,0.0000,0.0000,2,2,0,0,0,0,2
+cross_check_simulator,0.5000,0.0000,0.0000,0.0000,2,1,0,0,1,0,1
+tribunal_judgment,0.5000,0.0000,0.0000,0.0000,2,1,0,0,1,0,1
+editorial_board_vote,0.5000,0.0000,0.0000,0.0000,2,1,0,0,1,0,1
+systematic_cross_validator,1.0000,0.0000,0.0000,0.0000,2,2,0,0,0,0,2
+detailed_scoring_validator,1.0000,0.0000,0.0000,0.0000,2,2,0,0,0,0,2
+enhanced_weighted_scorer,1.0000,0.0000,0.0000,0.0000,2,2,0,0,0,0,2
+expert_panel_scoring,1.0000,0.0000,0.0000,0.0000,2,2,0,0,0,0,2
+committee_cross_reference,1.0000,0.0000,0.0000,0.0000,2,2,0,0,0,0,2

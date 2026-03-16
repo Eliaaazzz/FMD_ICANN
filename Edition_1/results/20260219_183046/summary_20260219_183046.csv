@@ -1,0 +1,6 @@
+﻿prompt_name,accuracy,precision,recall,f1,total_samples,correct,unknown_count,tp,fp,fn,tn
+dual_track_verifier,0.6,0,0,0,10,6,0,0,2,2,6
+weighted_evidence_scorer,0.6,0,0,0,10,6,0,0,2,2,6
+cross_check_simulator,0.6,0,0,0,10,6,0,0,2,2,6
+tribunal_judgment,0.3,0,0,0,10,3,0,0,5,2,3
+editorial_board_vote,0.7,0,0,0,10,7,0,0,1,2,7

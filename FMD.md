@@ -136,10 +136,10 @@ multi_perspective             50.00%     50.00%     50.00%     50.00%
 
 ##### 【最终性能比较】
 ##### Prompt名称                    Accuracy  Precision     Recall         F1
-cot_stepwise                  66.67%     62.50%     71.43%     66.67%
+**cot_stepwise**                  66.67%     62.50%     71.43%     66.67%
 multi_perspective             63.83%     60.71%     73.91%     66.67%
 detailed_criteria             62.00%     61.54%     64.00%     62.75%
-binary_classifier_en          66.00%     70.00%     56.00%     62.22%
+**binary_classifier_en**          66.00%     70.00%     56.00%     62.22%
 concise                       62.00%     62.50%     60.00%     61.22%
 simple                        60.00%     60.00%     60.00%     60.00%
 financial_expert              54.00%     53.57%     60.00%     56.60%
@@ -300,9 +300,7 @@ RUN_TAG = "exp_v1"
 - `dag_db_exp_v1.jsonl` 永远对应这一套实验
 - 断点也会写在 `checkpoint_exp_v1.json`
 
----
 
-如果你愿意，我可以再加一行输出提示（比如“当前断点=xxx”）或在运行结束时打印断点文件路径，方便你直接复制 RUN_TAG。
 
 
 

@@ -1,0 +1,1112 @@
+[
+  {
+    "prompt_name": "dual_track_verifier",
+    "index": 5,
+    "claim": "Is This a Real Photo of Obama Shaking Hands with Iranian President Rouhani?",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "### TRACK A: QUANTITATIVE SCORING\n**A1. Factual Accuracy (0-10): 2**\n- The provided evidence does not directly confirm the existence of a photo of Obama shaking hands with Iranian President Rouhani. The evidence primarily discusses the Iran nuclear deal and its implications, but there is no specific mention or verification of the photo in question.\n\n**A2. Evidence Alignment (0-10): 3**\n- The evidence aligns with the broader context of interactions between the U.S. and Iran during the Obama administration, particularly regarding the nuclear deal. However, it does not provide any direct evidence about the specific photo claim.\n\n**A3. Logical Consistency (0-10): 5**\n- The evidence is logically consistent in discussing the Iran nuclear deal and its outcomes, but it does not address the specific claim about the photo. The logical consistency is maintained within the context of the provided information, but it is not relevant to the photo claim.\n\n**Track A Total: 10/30**\n\n### TRACK B: QUALITATIVE CROSS-REFERENCE\n**B1. Core claim exists in evidence? □ FAIL**\n- The core claim about the photo of Obama shaking hands with Rouhani is not mentioned or verified in the provided evidence.\n\n**B2. No contradictions detected? □ PASS**\n- There are no contradictions in the provided evidence, as it consistently discusses the Iran nuclear deal and its outcomes without addressing the photo claim.\n\n**B3. Context preserved correctly? □ PASS**\n- The context of the Iran nuclear deal and its implications is preserved correctly in the provided evidence, even though it does not address the photo claim.\n\n**Track B Result: 2 of 3 PASS**\n\n### SYNTHESIS DECISION MATRIX\n| Track A Score | Track B Passes | Final Decision |\n|---------------|----------------|----------------|\n| 10            | 2              | False          |\n\n**Final Output: Prediction: False**",
+      "compressed_evidence": "1. 核实的事实与历史记录一致。\n2. 无直接矛盾或操纵策略。\n3. 缺乏照片真实性证据。\n4. 总体信息未被确认。"
+    }
+  },
+  {
+    "prompt_name": "dual_track_verifier",
+    "index": 7,
+    "claim": "The average faculty member at UW-Madison brings in close to a quarter million dollars a year in grant money.",
+    "ground_truth": "True",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "══════════════════════════════════════════\n[TRACK A: QUANTITATIVE SCORING]\nA1. Factual Accuracy (0-10): 2\n- The reference materials do not provide any direct evidence or data to support the claim that the average faculty member at UW-Madison brings in close to a quarter million dollars a year in grant money. The provided evidence is unrelated to the claim and discusses political donations and federal funding, which are not relevant to the grant money brought in by faculty members.\n\nA2. Evidence Alignment (0-10): 0\n- The evidence provided does not align with the claim at all. It talks about political donations and federal funding for Detroit and Flint, Michigan, which are completely unrelated to the grant money brought in by faculty members at UW-Madison.\n\nA3. Logical Consistency (0-10): 3\n- While the claim itself might be logically consistent (it is possible for faculty members to bring in such amounts of grant money), the lack of supporting evidence and the presence of unrelated information make it difficult to assess the logical consistency of the claim. The claim is not supported or contradicted by the given evidence, but the context is not preserved correctly.\n\nTrack A Total: 5/30\n\n══════════════════════════════════════════\n[TRACK B: QUALITATIVE CROSS-REFERENCE]\nB1. Core claim exists in evidence? □ PASS □ FAIL\n- The core claim about the average faculty member at UW-Madison bringing in close to a quarter million dollars a year in grant money does not exist in the provided evidence. FAIL\n\nB2. No contradictions detected? □ PASS □ FAIL\n- There are no direct contradictions to the claim in the provided evidence, as the evidence is entirely unrelated. PASS\n\nB3. Context preserved correctly? □ PASS □ FAIL\n- The context is not preserved correctly, as the evidence provided is about political donations and federal funding, which are unrelated to the claim about grant money. FAIL\n\nTrack B Result: 1 of 3 PASS\n\n══════════════════════════════════════════\n[SYNTHESIS DECISION MATRIX]\n| Track A Score | Track B Passes | Final Decision |\n|---------------|----------------|----------------|\n| 5             | 1              | False          |\n\nFinal Output: Prediction: False",
+      "compressed_evidence": "1. 来源匿名且可信度低。\n2. 无直接证据支持或反驳平均资助金额的声明。\n3. 声明在经济上是合理的，但缺乏具体数据支持。\n4. 提供的证据与声明无关。"
+    }
+  },
+  {
+    "prompt_name": "dual_track_verifier",
+    "index": 3,
+    "claim": "Did Joe Biden Use the N-Word in a Recorded Speech?",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "══════════════════════════════════════════\n[TRACK A: QUANTITATIVE SCORING]\nA1. Factual Accuracy (0-10): 0\n- The provided evidence does not support the claim that Joe Biden used the N-word in a recorded speech. The evidence focuses on other topics such as women's rights, foreign policy, and interactions with hecklers.\n\nA2. Evidence Alignment (0-10): 0\n- The evidence provided does not align with the core claim. It discusses various unrelated incidents and statements by Joe Biden, but none of them involve the use of the N-word.\n\nA3. Logical Consistency (0-10): 0\n- The claim is not logically consistent with the provided evidence. The evidence does not mention or imply any use of the N-word by Joe Biden.\n\nTrack A Total: 0/30\n\n══════════════════════════════════════════\n[TRACK B: QUALITATIVE CROSS-REFERENCE]\nB1. Core claim exists in evidence? □ PASS □ FAIL\n- FAIL: The core claim that Joe Biden used the N-word in a recorded speech is not supported by the provided evidence.\n\nB2. No contradictions detected? □ PASS □ FAIL\n- PASS: There are no contradictions within the provided evidence, but this is irrelevant since the evidence does not address the core claim.\n\nB3. Context preserved correctly? □ PASS □ FAIL\n- FAIL: The context of the provided evidence does not match the context of the claim. The evidence discusses different topics and incidents.\n\nTrack B Result: 1 of 3 PASS\n\n══════════════════════════════════════════\n[SYNTHESIS DECISION MATRIX]\n| Track A Score | Track B Passes | Final Decision |\n|---------------|----------------|----------------|\n| 0             | 1              | False          |\n\nFinal Output: Prediction: False",
+      "compressed_evidence": "1. 来源匿名，无官方背书。\n2. 证据未提及拜登使用N-word。\n3. 证据集中于女性权利和外交政策。\n4. 声称与事实直接矛盾。"
+    }
+  },
+  {
+    "prompt_name": "dual_track_verifier",
+    "index": 8,
+    "claim": "Procter and Gamble and Satanism Rumor",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "### TRACK A: QUANTITATIVE SCORING\n**A1. Factual Accuracy (0-10): 0**\n- The provided evidence does not contain any information about Procter and Gamble (P&G) and Satanism. The evidence is about Robert McDonald, the former CEO of P&G, and his role as the Veterans Affairs Secretary. There is no factual content in the evidence that supports or refutes the claim about P&G and Satanism.\n\n**A2. Evidence Alignment (0-10): 0**\n- The evidence provided does not align with the claim at all. The evidence discusses unrelated topics such as Robert McDonald's misstatements and a student event at Cal Poly. There is no mention of P&G or Satanism in the evidence.\n\n**A3. Logical Consistency (0-10): 0**\n- Since the evidence does not address the claim, there is no logical consistency to evaluate. The claim and the evidence are completely unrelated.\n\n**Track A Total: 0/30**\n\n### TRACK B: QUALITATIVE CROSS-REFERENCE\n**B1. Core claim exists in evidence? □ PASS □ FAIL**\n- **FAIL**: The core claim about P&G and Satanism does not exist in the provided evidence.\n\n**B2. No contradictions detected? □ PASS □ FAIL**\n- **PASS**: There are no contradictions within the provided evidence, but this is irrelevant since the evidence does not address the claim.\n\n**B3. Context preserved correctly? □ PASS □ FAIL**\n- **FAIL**: The context of the claim (P&G and Satanism) is not preserved in the evidence, which focuses on unrelated topics.\n\n**Track B Result: 1 of 3 PASS**\n\n### SYNTHESIS DECISION MATRIX\n| Track A Score | Track B Passes | Final Decision |\n|---------------|----------------|----------------|\n| 0             | 1              | False          |\n\n### Final Output: Prediction: False\n\nThe claim about Procter and Gamble and Satanism is not supported by the provided evidence, and the evidence does not address the claim at all. Therefore, the final decision is that the claim is false.",
+      "compressed_evidence": "1. 来源匿名且风险高。\n2. 无证据支持宝洁涉撒旦主义。\n3. 存在直接事实矛盾。\n4. 多工具综合判断为假。"
+    }
+  },
+  {
+    "prompt_name": "dual_track_verifier",
+    "index": 4,
+    "claim": "If Texas were a country our economy would rank # 10...in the WORLD.",
+    "ground_truth": "True",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "### TRACK A: QUANTITATIVE SCORING\n**A1. Factual Accuracy (0-10): 3**\n- The claim states that if Texas were a country, its economy would rank #10 in the world. This is a factual statement, but the provided reference materials do not contain any specific data or evidence to support this claim. The summary indicates that the claim lacks official endorsement and supporting evidence.\n\n**A2. Evidence Alignment (0-10): 2**\n- The reference materials do not provide any direct evidence or data to support the claim. The summary mentions that the claim is unverified and lacks supporting evidence.\n\n**A3. Logical Consistency (0-10): 4**\n- The claim is logically consistent in the sense that it is possible for a state's economy to be large enough to rank highly if it were considered as a country. However, without specific data, the logical consistency is weakened.\n\n**Track A Total: 9/30**\n\n### TRACK B: QUALITATIVE CROSS-REFERENCE\n**B1. Core claim exists in evidence? □ PASS □ FAIL**\n- **FAIL**: The core claim about Texas's economy ranking #10 in the world does not exist in the provided evidence.\n\n**B2. No contradictions detected? □ PASS □ FAIL**\n- **PASS**: There are no contradictions within the provided evidence regarding the claim, as the evidence does not address the claim directly.\n\n**B3. Context preserved correctly? □ PASS □ FAIL**\n- **FAIL**: The context of the claim is not preserved correctly because the reference materials do not provide the necessary background information or data to support the claim.\n\n**Track B Result: 1 of 3 PASS**\n\n### SYNTHESIS DECISION MATRIX\n| Track A Score | Track B Passes | Final Decision |\n|---------------|----------------|----------------|\n| 9             | 1              | False          |\n\n### Final Output: Prediction: False\n\nThe claim that \"If Texas were a country, our economy would rank #10...in the WORLD\" is not supported by the provided reference materials, and the evidence does not align with the claim. Therefore, the final decision is **False**.",
+      "compressed_evidence": "1. 来源匿名，无官方背书。\n2. 缺乏经济排名的具体数据和方法。\n3. 声称未经证实，缺乏支持证据。\n4. 文本误导，忽略关键背景信息。"
+    }
+  },
+  {
+    "prompt_name": "dual_track_verifier",
+    "index": 6,
+    "claim": "Juval Aviv Terrorist Predictions",
+    "ground_truth": "False",
+    "prediction": "True",
+    "raw_output": {
+      "final_label": "Real",
+      "explanation_path": "### TRACK A: QUANTITATIVE SCORING\n**A1. Factual Accuracy (0-10): 8**\n- The provided evidence discusses a terrorist attack in Jerusalem and its context, including the involvement of the UN Security Council, Secretary of State John Kerry, and Prime Minister Benjamin Netanyahu. The factual details are consistent with the claim about Juval Aviv's predictions regarding terrorist activities.\n- However, the evidence does not explicitly mention Juval Aviv or his specific predictions, which slightly reduces the score.\n\n**A2. Evidence Alignment (0-10): 7**\n- The evidence aligns with the general context of the claim, discussing a terrorist attack and the political and social environment that may have influenced it.\n- The alignment is strong but not perfect, as the evidence does not directly reference Juval Aviv's predictions.\n\n**A3. Logical Consistency (0-10): 9**\n- The evidence is logically consistent within itself, providing a coherent narrative about the terrorist attack and its potential motivations.\n- The logical flow of the information supports the broader context of the claim, even if it does not directly address Juval Aviv's predictions.\n\n**Track A Total: 24/30**\n\n### TRACK B: QUALITATIVE CROSS-REFERENCE\n**B1. Core claim exists in evidence? □ PASS □ FAIL**\n- **FAIL**: The core claim about Juval Aviv's specific predictions is not directly mentioned in the evidence.\n\n**B2. No contradictions detected? □ PASS □ FAIL**\n- **PASS**: There are no contradictions in the evidence provided. The information is consistent and logically aligned.\n\n**B3. Context preserved correctly? □ PASS □ FAIL**\n- **PASS**: The context of the terrorist attack and the political environment is preserved correctly in the evidence.\n\n**Track B Result: 2 of 3 PASS**\n\n### SYNTHESIS DECISION MATRIX\n| Track A Score | Track B Passes | Final Decision |\n|---------------|----------------|----------------|\n| >= 15         | >= 2           | True           |\n| >= 18         | >= 1           | True           |\n| < 15          | 3              | True           |\n| Otherwise     | -              | False          |\n\n**Final Output: Prediction: True**\n\nDespite the core claim not being explicitly mentioned in the evidence, the high quantitative score and the majority of qualitative checks passing support the overall validity of the claim.",
+      "compressed_evidence": "1. 来源匿名且有风险。\n2. 内容无矛盾，逻辑一致。\n3. 事实核查确认袭击事件细节。\n4. 最终结论为未验证。"
+    }
+  },
+  {
+    "prompt_name": "dual_track_verifier",
+    "index": 1,
+    "claim": "Oprah's advice regarding a ten percent tip.",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "══════════════════════════════════════════\n[TRACK A: QUANTITATIVE SCORING]\nA1. Factual Accuracy (0-10): 2\n- The claim that Oprah advised a ten percent tip is not supported by the evidence. In fact, the evidence shows that this is a false rumor and that Oprah has never made such a recommendation. Instead, her show and magazine have consistently recommended tipping at least 15%.\n\nA2. Evidence Alignment (0-10): 2\n- The provided evidence does not align with the claim. The sources clearly state that the claim is false and provide multiple instances where Oprah's platforms have recommended a higher tip.\n\nA3. Logical Consistency (0-10): 2\n- The claim is logically inconsistent with the available evidence. The evidence shows that the 10% tip advice was a misinterpretation or a false rumor, and Oprah's platforms have consistently recommended a 15% or more tip.\n\nTrack A Total: 6/30\n\n══════════════════════════════════════════\n[TRACK B: QUALITATIVE CROSS-REFERENCE]\nB1. Core claim exists in evidence? □ PASS □ FAIL\n- FAIL: The core claim that Oprah advised a ten percent tip is not supported by the evidence. The evidence indicates that this is a false rumor.\n\nB2. No contradictions detected? □ PASS □ FAIL\n- PASS: There are no contradictions within the evidence. All sources consistently state that the 10% tip advice is false and that Oprah's platforms recommend a 15% or more tip.\n\nB3. Context preserved correctly? □ PASS □ FAIL\n- FAIL: The context of the claim is not preserved correctly. The evidence shows that the 10% tip advice was a misinterpretation or a false rumor, and the actual context is that Oprah's platforms recommend a higher tip.\n\nTrack B Result: 1 of 3 PASS\n\n══════════════════════════════════════════\n[SYNTHESIS DECISION MATRIX]\n| Track A Score | Track B Passes | Final Decision |\n|---------------|----------------|----------------|\n| >= 15         | >= 2           | True           |\n| >= 18         | >= 1           | True           |\n| < 15          | 3              | True           |\n| Otherwise     | -              | False          |\n\nFinal Output: Prediction: False\n\nThe claim that \"Oprah's advice regarding a ten percent tip\" is false based on the provided evidence and the synthesis of the quantitative and qualitative tracks.",
+      "compressed_evidence": "1. 来源匿名，存在风险。\n2. 事实核查未发现矛盾。\n3. 建议十 percent 小费被验证。\n4. 无炒作或诱导词汇。"
+    }
+  },
+  {
+    "prompt_name": "dual_track_verifier",
+    "index": 2,
+    "claim": "Poll to Legalize Marijuana",
+    "ground_truth": "False",
+    "prediction": "True",
+    "raw_output": {
+      "final_label": "Real",
+      "explanation_path": "### TRACK A: QUANTITATIVE SCORING\n**A1. Factual Accuracy (0-10): 8**\n- The evidence provided is largely factual, with specific data and historical context about the legalization of marijuana in various states.\n- There are no significant factual inaccuracies, but some details are not fully verified (e.g., exact tax revenue figures).\n\n**A2. Evidence Alignment (0-10): 7**\n- The evidence aligns well with the claim that there is a poll to legalize marijuana.\n- The evidence discusses the legalization efforts, public support, and financial benefits, which are relevant to the claim.\n\n**A3. Logical Consistency (0-10): 9**\n- The evidence is logically consistent, showing a clear trend of increasing support for marijuana legalization and the potential financial benefits.\n- The arguments presented are coherent and follow a logical flow.\n\n**Track A Total: 24/30**\n\n### TRACK B: QUALITATIVE CROSS-REFERENCE\n**B1. Core claim exists in evidence? □ PASS**\n- The core claim that there is a poll to legalize marijuana is supported by the evidence, which discusses the legalization efforts and public support.\n\n**B2. No contradictions detected? □ PASS**\n- There are no contradictions in the evidence. The information provided is consistent and does not conflict with itself.\n\n**B3. Context preserved correctly? □ PASS**\n- The context of the claim is preserved correctly. The evidence provides a comprehensive view of the legalization efforts, including financial implications and public opinion.\n\n**Track B Result: 3 of 3 PASS**\n\n### SYNTHESIS DECISION MATRIX\n| Track A Score | Track B Passes | Final Decision |\n|---------------|----------------|----------------|\n| >= 15         | >= 2           | True           |\n| >= 18         | >= 1           | True           |\n| < 15          | 3              | True           |\n| Otherwise     | -              | False          |\n\n**Final Output: Prediction: True**",
+      "compressed_evidence": "1. 来源匿名，存在风险。\n2. 无显著事实矛盾，一致性高。\n3. 支持与反对合法化数据详实。\n4. 全国支持合法化比例达历史高点。"
+    }
+  },
+  {
+    "prompt_name": "dual_track_verifier",
+    "index": 9,
+    "claim": "SCAM ALERT: Texas Roadhouse Vouchers on Facebook",
+    "ground_truth": "False",
+    "prediction": "True",
+    "raw_output": {
+      "final_label": "Real",
+      "explanation_path": "### TRACK A: QUANTITATIVE SCORING\n**A1. Factual Accuracy (0-10): 8**\n- The claim states that there is a scam involving Texas Roadhouse vouchers on Facebook.\n- The reference materials provide evidence of similar scams involving other restaurants like Chick-fil-A and Olive Garden, and mention Texas Roadhouse in the context of these scams.\n- The factual accuracy is high, but not perfect because the specific details about the Texas Roadhouse scam are not as detailed as for other restaurants.\n\n**A2. Evidence Alignment (0-10): 7**\n- The evidence provided aligns with the claim, showing that similar voucher scams have been circulating on Facebook.\n- The reference materials specifically mention Texas Roadhouse in the list of businesses targeted by scammers, though it is not the primary focus.\n- The alignment is strong, but not entirely direct, as the primary focus is on other restaurants.\n\n**A3. Logical Consistency (0-10): 9**\n- The logical consistency is high because the pattern of the scam (fake vouchers, requiring shares and comments) is consistent across multiple instances.\n- The inclusion of Texas Roadhouse in the list of targeted businesses makes the claim logically consistent with the broader pattern of scams.\n\n**Track A Total: 24/30**\n\n### TRACK B: QUALITATIVE CROSS-REFERENCE\n**B1. Core claim exists in evidence? □ PASS**\n- The core claim that there is a scam involving Texas Roadhouse vouchers on Facebook is supported by the evidence, which mentions Texas Roadhouse in the context of similar scams.\n\n**B2. No contradictions detected? □ PASS**\n- There are no contradictions in the evidence. The reference materials consistently describe the same type of scam involving fake vouchers and social media engagement.\n\n**B3. Context preserved correctly? □ PASS**\n- The context of the scam is preserved correctly. The evidence describes the method of the scam (fake vouchers, requiring shares and comments), and the involvement of multiple restaurant brands, including Texas Roadhouse.\n\n**Track B Result: 3 of 3 PASS**\n\n### SYNTHESIS DECISION MATRIX\n| Track A Score | Track B Passes | Final Decision |\n|---------------|----------------|----------------|\n| 24            | 3              | True           |\n\n### Final Output: Prediction: True\n\nThe dual-track verification process indicates that the claim is likely true based on the high quantitative score and the full pass in the qualitative cross-reference.",
+      "compressed_evidence": "1. 来源为匿名自媒体，无官方背书。\n2. 与其他已知骗局有相似性，但无具体证据支持。\n3. 缺乏关于Texas Roadhouse骗局的具体细节和背景信息。\n4. 无任何经验证的事实支持该新闻。"
+    }
+  },
+  {
+    "prompt_name": "dual_track_verifier",
+    "index": 10,
+    "claim": "Is McDonald's the World's Largest Purchaser of Cow Eyeballs?",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Fake",
+      "explanation_path": "Prediction: False",
+      "compressed_evidence": "1. 来源为匿名，无官方背书。\n2. 无直接证据支持或反驳该说法。\n3. 未违反金融常识或市场规范。\n4. 声明未经证实。"
+    }
+  },
+  {
+    "prompt_name": "weighted_evidence_scorer",
+    "index": 2,
+    "claim": "Poll to Legalize Marijuana",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "weighted_evidence_scorer",
+    "index": 8,
+    "claim": "Procter and Gamble and Satanism Rumor",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "weighted_evidence_scorer",
+    "index": 3,
+    "claim": "Did Joe Biden Use the N-Word in a Recorded Speech?",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "weighted_evidence_scorer",
+    "index": 6,
+    "claim": "Juval Aviv Terrorist Predictions",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "weighted_evidence_scorer",
+    "index": 7,
+    "claim": "The average faculty member at UW-Madison brings in close to a quarter million dollars a year in grant money.",
+    "ground_truth": "True",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "weighted_evidence_scorer",
+    "index": 5,
+    "claim": "Is This a Real Photo of Obama Shaking Hands with Iranian President Rouhani?",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "weighted_evidence_scorer",
+    "index": 1,
+    "claim": "Oprah's advice regarding a ten percent tip.",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "weighted_evidence_scorer",
+    "index": 4,
+    "claim": "If Texas were a country our economy would rank # 10...in the WORLD.",
+    "ground_truth": "True",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "weighted_evidence_scorer",
+    "index": 10,
+    "claim": "Is McDonald's the World's Largest Purchaser of Cow Eyeballs?",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "weighted_evidence_scorer",
+    "index": 9,
+    "claim": "SCAM ALERT: Texas Roadhouse Vouchers on Facebook",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "cross_check_simulator",
+    "index": 6,
+    "claim": "Juval Aviv Terrorist Predictions",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "cross_check_simulator",
+    "index": 2,
+    "claim": "Poll to Legalize Marijuana",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "cross_check_simulator",
+    "index": 4,
+    "claim": "If Texas were a country our economy would rank # 10...in the WORLD.",
+    "ground_truth": "True",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "cross_check_simulator",
+    "index": 3,
+    "claim": "Did Joe Biden Use the N-Word in a Recorded Speech?",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "cross_check_simulator",
+    "index": 7,
+    "claim": "The average faculty member at UW-Madison brings in close to a quarter million dollars a year in grant money.",
+    "ground_truth": "True",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "cross_check_simulator",
+    "index": 8,
+    "claim": "Procter and Gamble and Satanism Rumor",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "cross_check_simulator",
+    "index": 1,
+    "claim": "Oprah's advice regarding a ten percent tip.",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "cross_check_simulator",
+    "index": 5,
+    "claim": "Is This a Real Photo of Obama Shaking Hands with Iranian President Rouhani?",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "cross_check_simulator",
+    "index": 9,
+    "claim": "SCAM ALERT: Texas Roadhouse Vouchers on Facebook",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "cross_check_simulator",
+    "index": 10,
+    "claim": "Is McDonald's the World's Largest Purchaser of Cow Eyeballs?",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "tribunal_judgment",
+    "index": 1,
+    "claim": "Oprah's advice regarding a ten percent tip.",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "tribunal_judgment",
+    "index": 8,
+    "claim": "Procter and Gamble and Satanism Rumor",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "tribunal_judgment",
+    "index": 3,
+    "claim": "Did Joe Biden Use the N-Word in a Recorded Speech?",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "tribunal_judgment",
+    "index": 2,
+    "claim": "Poll to Legalize Marijuana",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "tribunal_judgment",
+    "index": 6,
+    "claim": "Juval Aviv Terrorist Predictions",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "tribunal_judgment",
+    "index": 4,
+    "claim": "If Texas were a country our economy would rank # 10...in the WORLD.",
+    "ground_truth": "True",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "tribunal_judgment",
+    "index": 5,
+    "claim": "Is This a Real Photo of Obama Shaking Hands with Iranian President Rouhani?",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "tribunal_judgment",
+    "index": 7,
+    "claim": "The average faculty member at UW-Madison brings in close to a quarter million dollars a year in grant money.",
+    "ground_truth": "True",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "tribunal_judgment",
+    "index": 9,
+    "claim": "SCAM ALERT: Texas Roadhouse Vouchers on Facebook",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "tribunal_judgment",
+    "index": 10,
+    "claim": "Is McDonald's the World's Largest Purchaser of Cow Eyeballs?",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "editorial_board_vote",
+    "index": 2,
+    "claim": "Poll to Legalize Marijuana",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "editorial_board_vote",
+    "index": 1,
+    "claim": "Oprah's advice regarding a ten percent tip.",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "editorial_board_vote",
+    "index": 6,
+    "claim": "Juval Aviv Terrorist Predictions",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "editorial_board_vote",
+    "index": 8,
+    "claim": "Procter and Gamble and Satanism Rumor",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "editorial_board_vote",
+    "index": 4,
+    "claim": "If Texas were a country our economy would rank # 10...in the WORLD.",
+    "ground_truth": "True",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "editorial_board_vote",
+    "index": 3,
+    "claim": "Did Joe Biden Use the N-Word in a Recorded Speech?",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "editorial_board_vote",
+    "index": 5,
+    "claim": "Is This a Real Photo of Obama Shaking Hands with Iranian President Rouhani?",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "editorial_board_vote",
+    "index": 7,
+    "claim": "The average faculty member at UW-Madison brings in close to a quarter million dollars a year in grant money.",
+    "ground_truth": "True",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "editorial_board_vote",
+    "index": 9,
+    "claim": "SCAM ALERT: Texas Roadhouse Vouchers on Facebook",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "editorial_board_vote",
+    "index": 10,
+    "claim": "Is McDonald's the World's Largest Purchaser of Cow Eyeballs?",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "systematic_cross_validator",
+    "index": 2,
+    "claim": "Poll to Legalize Marijuana",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "systematic_cross_validator",
+    "index": 8,
+    "claim": "Procter and Gamble and Satanism Rumor",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "systematic_cross_validator",
+    "index": 6,
+    "claim": "Juval Aviv Terrorist Predictions",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "systematic_cross_validator",
+    "index": 1,
+    "claim": "Oprah's advice regarding a ten percent tip.",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "systematic_cross_validator",
+    "index": 7,
+    "claim": "The average faculty member at UW-Madison brings in close to a quarter million dollars a year in grant money.",
+    "ground_truth": "True",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "systematic_cross_validator",
+    "index": 4,
+    "claim": "If Texas were a country our economy would rank # 10...in the WORLD.",
+    "ground_truth": "True",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "systematic_cross_validator",
+    "index": 5,
+    "claim": "Is This a Real Photo of Obama Shaking Hands with Iranian President Rouhani?",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "systematic_cross_validator",
+    "index": 3,
+    "claim": "Did Joe Biden Use the N-Word in a Recorded Speech?",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "systematic_cross_validator",
+    "index": 9,
+    "claim": "SCAM ALERT: Texas Roadhouse Vouchers on Facebook",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "systematic_cross_validator",
+    "index": 10,
+    "claim": "Is McDonald's the World's Largest Purchaser of Cow Eyeballs?",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "detailed_scoring_validator",
+    "index": 2,
+    "claim": "Poll to Legalize Marijuana",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "detailed_scoring_validator",
+    "index": 6,
+    "claim": "Juval Aviv Terrorist Predictions",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "detailed_scoring_validator",
+    "index": 1,
+    "claim": "Oprah's advice regarding a ten percent tip.",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "detailed_scoring_validator",
+    "index": 8,
+    "claim": "Procter and Gamble and Satanism Rumor",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "detailed_scoring_validator",
+    "index": 3,
+    "claim": "Did Joe Biden Use the N-Word in a Recorded Speech?",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "detailed_scoring_validator",
+    "index": 4,
+    "claim": "If Texas were a country our economy would rank # 10...in the WORLD.",
+    "ground_truth": "True",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "detailed_scoring_validator",
+    "index": 5,
+    "claim": "Is This a Real Photo of Obama Shaking Hands with Iranian President Rouhani?",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "detailed_scoring_validator",
+    "index": 7,
+    "claim": "The average faculty member at UW-Madison brings in close to a quarter million dollars a year in grant money.",
+    "ground_truth": "True",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "detailed_scoring_validator",
+    "index": 9,
+    "claim": "SCAM ALERT: Texas Roadhouse Vouchers on Facebook",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "detailed_scoring_validator",
+    "index": 10,
+    "claim": "Is McDonald's the World's Largest Purchaser of Cow Eyeballs?",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "enhanced_weighted_scorer",
+    "index": 8,
+    "claim": "Procter and Gamble and Satanism Rumor",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "enhanced_weighted_scorer",
+    "index": 6,
+    "claim": "Juval Aviv Terrorist Predictions",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "enhanced_weighted_scorer",
+    "index": 2,
+    "claim": "Poll to Legalize Marijuana",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "enhanced_weighted_scorer",
+    "index": 1,
+    "claim": "Oprah's advice regarding a ten percent tip.",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "enhanced_weighted_scorer",
+    "index": 3,
+    "claim": "Did Joe Biden Use the N-Word in a Recorded Speech?",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "enhanced_weighted_scorer",
+    "index": 4,
+    "claim": "If Texas were a country our economy would rank # 10...in the WORLD.",
+    "ground_truth": "True",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "enhanced_weighted_scorer",
+    "index": 5,
+    "claim": "Is This a Real Photo of Obama Shaking Hands with Iranian President Rouhani?",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "enhanced_weighted_scorer",
+    "index": 7,
+    "claim": "The average faculty member at UW-Madison brings in close to a quarter million dollars a year in grant money.",
+    "ground_truth": "True",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "enhanced_weighted_scorer",
+    "index": 9,
+    "claim": "SCAM ALERT: Texas Roadhouse Vouchers on Facebook",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "enhanced_weighted_scorer",
+    "index": 10,
+    "claim": "Is McDonald's the World's Largest Purchaser of Cow Eyeballs?",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "expert_panel_scoring",
+    "index": 6,
+    "claim": "Juval Aviv Terrorist Predictions",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "expert_panel_scoring",
+    "index": 2,
+    "claim": "Poll to Legalize Marijuana",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "expert_panel_scoring",
+    "index": 5,
+    "claim": "Is This a Real Photo of Obama Shaking Hands with Iranian President Rouhani?",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "expert_panel_scoring",
+    "index": 8,
+    "claim": "Procter and Gamble and Satanism Rumor",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "expert_panel_scoring",
+    "index": 4,
+    "claim": "If Texas were a country our economy would rank # 10...in the WORLD.",
+    "ground_truth": "True",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "expert_panel_scoring",
+    "index": 7,
+    "claim": "The average faculty member at UW-Madison brings in close to a quarter million dollars a year in grant money.",
+    "ground_truth": "True",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "expert_panel_scoring",
+    "index": 3,
+    "claim": "Did Joe Biden Use the N-Word in a Recorded Speech?",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "expert_panel_scoring",
+    "index": 1,
+    "claim": "Oprah's advice regarding a ten percent tip.",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "expert_panel_scoring",
+    "index": 9,
+    "claim": "SCAM ALERT: Texas Roadhouse Vouchers on Facebook",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "expert_panel_scoring",
+    "index": 10,
+    "claim": "Is McDonald's the World's Largest Purchaser of Cow Eyeballs?",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "committee_cross_reference",
+    "index": 1,
+    "claim": "Oprah's advice regarding a ten percent tip.",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "committee_cross_reference",
+    "index": 2,
+    "claim": "Poll to Legalize Marijuana",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "committee_cross_reference",
+    "index": 5,
+    "claim": "Is This a Real Photo of Obama Shaking Hands with Iranian President Rouhani?",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "committee_cross_reference",
+    "index": 6,
+    "claim": "Juval Aviv Terrorist Predictions",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "committee_cross_reference",
+    "index": 8,
+    "claim": "Procter and Gamble and Satanism Rumor",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "committee_cross_reference",
+    "index": 3,
+    "claim": "Did Joe Biden Use the N-Word in a Recorded Speech?",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "committee_cross_reference",
+    "index": 4,
+    "claim": "If Texas were a country our economy would rank # 10...in the WORLD.",
+    "ground_truth": "True",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "committee_cross_reference",
+    "index": 7,
+    "claim": "The average faculty member at UW-Madison brings in close to a quarter million dollars a year in grant money.",
+    "ground_truth": "True",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "committee_cross_reference",
+    "index": 10,
+    "claim": "Is McDonald's the World's Largest Purchaser of Cow Eyeballs?",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  },
+  {
+    "prompt_name": "committee_cross_reference",
+    "index": 9,
+    "claim": "SCAM ALERT: Texas Roadhouse Vouchers on Facebook",
+    "ground_truth": "False",
+    "prediction": "False",
+    "raw_output": {
+      "final_label": "Error",
+      "explanation_path": "Connection error."
+    }
+  }
+]

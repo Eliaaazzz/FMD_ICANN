@@ -1,0 +1,179 @@
+{
+  "timestamp": "20260219_213704",
+  "model": "qwen-max",
+  "sample_size": 2,
+  "prompts": [
+    "dual_track_verifier",
+    "weighted_evidence_scorer",
+    "cross_check_simulator",
+    "tribunal_judgment",
+    "editorial_board_vote",
+    "systematic_cross_validator",
+    "detailed_scoring_validator",
+    "enhanced_weighted_scorer",
+    "expert_panel_scoring",
+    "committee_cross_reference"
+  ],
+  "results": [
+    {
+      "prompt_name": "dual_track_verifier",
+      "metrics": {
+        "accuracy": 0.5,
+        "precision": 0.0,
+        "recall": 0,
+        "f1": 0,
+        "total": 2,
+        "correct": 1,
+        "unknown_count": 0,
+        "tp": 0,
+        "fp": 1,
+        "fn": 0,
+        "tn": 1
+      }
+    },
+    {
+      "prompt_name": "weighted_evidence_scorer",
+      "metrics": {
+        "accuracy": 1.0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "total": 2,
+        "correct": 2,
+        "unknown_count": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tn": 2
+      }
+    },
+    {
+      "prompt_name": "cross_check_simulator",
+      "metrics": {
+        "accuracy": 0.5,
+        "precision": 0.0,
+        "recall": 0,
+        "f1": 0,
+        "total": 2,
+        "correct": 1,
+        "unknown_count": 0,
+        "tp": 0,
+        "fp": 1,
+        "fn": 0,
+        "tn": 1
+      }
+    },
+    {
+      "prompt_name": "tribunal_judgment",
+      "metrics": {
+        "accuracy": 0.5,
+        "precision": 0.0,
+        "recall": 0,
+        "f1": 0,
+        "total": 2,
+        "correct": 1,
+        "unknown_count": 0,
+        "tp": 0,
+        "fp": 1,
+        "fn": 0,
+        "tn": 1
+      }
+    },
+    {
+      "prompt_name": "editorial_board_vote",
+      "metrics": {
+        "accuracy": 0.5,
+        "precision": 0.0,
+        "recall": 0,
+        "f1": 0,
+        "total": 2,
+        "correct": 1,
+        "unknown_count": 0,
+        "tp": 0,
+        "fp": 1,
+        "fn": 0,
+        "tn": 1
+      }
+    },
+    {
+      "prompt_name": "systematic_cross_validator",
+      "metrics": {
+        "accuracy": 1.0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "total": 2,
+        "correct": 2,
+        "unknown_count": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tn": 2
+      }
+    },
+    {
+      "prompt_name": "detailed_scoring_validator",
+      "metrics": {
+        "accuracy": 1.0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "total": 2,
+        "correct": 2,
+        "unknown_count": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tn": 2
+      }
+    },
+    {
+      "prompt_name": "enhanced_weighted_scorer",
+      "metrics": {
+        "accuracy": 1.0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "total": 2,
+        "correct": 2,
+        "unknown_count": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tn": 2
+      }
+    },
+    {
+      "prompt_name": "expert_panel_scoring",
+      "metrics": {
+        "accuracy": 1.0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "total": 2,
+        "correct": 2,
+        "unknown_count": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tn": 2
+      }
+    },
+    {
+      "prompt_name": "committee_cross_reference",
+      "metrics": {
+        "accuracy": 1.0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "total": 2,
+        "correct": 2,
+        "unknown_count": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tn": 2
+      }
+    }
+  ]
+}
