@@ -1,0 +1,20 @@
+{
+  "split": "dev",
+  "model": "deepseek-v4-flash",
+  "tag": "dev199_v2",
+  "k": 4,
+  "conf_thresh": 0.7,
+  "n_agree": 2,
+  "always_arbitrate": false,
+  "arb_max_tokens": 2500,
+  "nei_gate": true,
+  "nei_gate_min": 2,
+  "explanation_mode": "extractive",
+  "extractive_words": 400,
+  "max_ctx_words": 1000,
+  "limit": 0,
+  "offset": 0,
+  "workers": 12,
+  "budget_usd": 1.15,
+  "mock": false
+}

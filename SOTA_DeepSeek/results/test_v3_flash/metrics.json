@@ -1,0 +1,69 @@
+{
+  "n": 1304,
+  "unparseable_pred": 0,
+  "accuracy": 0.7722,
+  "macro_precision": 0.7458,
+  "macro_recall": 0.7493,
+  "macro_f1": 0.7454,
+  "micro_f1": 0.7722,
+  "per_class": {
+    "False": {
+      "precision": 0.875,
+      "recall": 0.7778,
+      "f1": 0.8235,
+      "support": 594
+    },
+    "True": {
+      "precision": 0.7428,
+      "recall": 0.8505,
+      "f1": 0.793,
+      "support": 455
+    },
+    "NEI": {
+      "precision": 0.6196,
+      "recall": 0.6196,
+      "f1": 0.6196,
+      "support": 255
+    }
+  },
+  "confusion_matrix_rows_gold_cols_pred": {
+    "labels": [
+      "False",
+      "True",
+      "NEI"
+    ],
+    "matrix": [
+      [
+        462,
+        90,
+        42
+      ],
+      [
+        13,
+        387,
+        55
+      ],
+      [
+        53,
+        44,
+        158
+      ]
+    ]
+  },
+  "usage": {
+    "prompt": 2983465,
+    "completion": 178698,
+    "cache_hit": 569728,
+    "calls": 1322
+  },
+  "est_cost_usd": 0.3896,
+  "errors": 0,
+  "budget_stop": false,
+  "minutes": 3.7,
+  "paths": {
+    "single": 1294,
+    "escalated": 7,
+    "escalated+nei_gate": 2,
+    "single+rating_map": 1
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "n": 199,
+  "unparseable_pred": 0,
+  "accuracy": 0.7889,
+  "macro_precision": 0.7526,
+  "macro_recall": 0.756,
+  "macro_f1": 0.7502,
+  "micro_f1": 0.7889,
+  "per_class": {
+    "False": {
+      "precision": 0.8469,
+      "recall": 0.9121,
+      "f1": 0.8783,
+      "support": 91
+    },
+    "True": {
+      "precision": 0.85,
+      "recall": 0.6986,
+      "f1": 0.7669,
+      "support": 73
+    },
+    "NEI": {
+      "precision": 0.561,
+      "recall": 0.6571,
+      "f1": 0.6053,
+      "support": 35
+    }
+  },
+  "confusion_matrix_rows_gold_cols_pred": {
+    "labels": [
+      "False",
+      "True",
+      "NEI"
+    ],
+    "matrix": [
+      [
+        83,
+        4,
+        4
+      ],
+      [
+        8,
+        51,
+        14
+      ],
+      [
+        7,
+        5,
+        23
+      ]
+    ]
+  },
+  "usage": {
+    "prompt": 444432,
+    "completion": 27949,
+    "cache_hit": 83328,
+    "calls": 205
+  },
+  "est_cost_usd": 0.0586,
+  "errors": 0,
+  "budget_stop": false,
+  "minutes": 0.6,
+  "paths": {
+    "single": 196,
+    "escalated": 3
+  }
+}

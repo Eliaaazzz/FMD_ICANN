@@ -1,0 +1,7 @@
+{
+  "n": 1304,
+  "bertscore_f1_raw": 0.8922,
+  "bertscore_f1_rescaled": 0.361,
+  "fmdllama3_reported": 0.6756,
+  "note": "FMDLlama BERTScore setting unspecified; both variants given"
+}
